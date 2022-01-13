@@ -16,7 +16,7 @@ jobs:
     - name: Install libcurl
       run: sudo apt-get install libcurl4-openssl-dev   
     - name: build application
-      run: make build
+      run: make run
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
