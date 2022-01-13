@@ -1,0 +1,22 @@
+name: Build website
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v2
+    - name: build application
+      run: make build
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Build website (github-workflow)
+        file_pattern: read/*
