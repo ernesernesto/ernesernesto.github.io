@@ -5,7 +5,7 @@
 
 #include <vector>
 
-#include "curl/curl.h"
+#include <curl/curl.h>
 #include "pugixml/pugixml.cpp"
 
 #define STB_DS_IMPLEMENTATION
