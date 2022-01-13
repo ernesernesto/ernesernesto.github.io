@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: checkout repo
       uses: actions/checkout@v2
+    - name: Install libcurl
+      run: sudo apt-get install libcurl4-openssl-dev   
     - name: build application
       run: make build
     - name: Commit changes
