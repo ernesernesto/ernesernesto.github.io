@@ -137,7 +137,7 @@ char* htmlPrefix =
 "       }\n"
 "       li { padding-bottom: 16px; }\n"
 "       </style>\n"
-"       <title>Feed</title>\n"
+"       <title>Simple RSS dump page</title>\n"
 "   </head>\n"
 "   <body>\n"
 "       <h1>Read</h1>\n"
