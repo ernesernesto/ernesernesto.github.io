@@ -103,6 +103,7 @@ static char* urls[] =
     "https://devblogs.microsoft.com/oldnewthing/feed",
     "https://www.realtimerendering.com/blog/feed/",
     "https://interplayoflight.wordpress.com/feed/",
+    "https://preshing.com/feed",
 #endif
 };
 
@@ -307,11 +308,32 @@ void ParseBufferToRSS(pugi::xml_document* doc, Buffer* buffer, long currentTime)
                 }
             }
 
+            if(!domain)
+            {
+                //! Note: iterate one more, find any link on the feed for domain link
+                for(pugi::xml_node link = root.child("link"); link; link = link.next_sibling("link"))
+                {
+                    if(strcmp(link.attribute("rel").value(), "self") != 0)
+                    {
+                        domain = link.attribute("href").value();
+                        break;
+                    }
+                }
+            }
+
+            LOG("domain %s\n", domain);
+
             //printf("%s\n", root.child_value("title"));
             for(pugi::xml_node entry = root.child("entry"); entry; entry = entry.next_sibling("entry"))
             {
                 const char* title = entry.child_value("title");
                 const char* pubDate = entry.child_value("published");
+
+                if(strlen(pubDate) == 0)
+                {
+                    pubDate = entry.child_value("updated");
+                    LOG("published %s\n", pubDate);
+                }
 
                 pugi::xml_node findLink;
                 for(pugi::xml_node link = entry.child("link"); link; link = link.next_sibling("link"))
@@ -327,6 +349,10 @@ void ParseBufferToRSS(pugi::xml_document* doc, Buffer* buffer, long currentTime)
                 if(findLink)
                 {
                     link = findLink.attribute("href").value();
+                }
+                else
+                {
+                    link = entry.child("link").attribute("href").value();
                 }
 
                 LOG("%s %s %s\n", title, link, pubDate);
