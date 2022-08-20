@@ -104,6 +104,7 @@ static char* urls[] =
     "https://www.realtimerendering.com/blog/feed/",
     "https://interplayoflight.wordpress.com/feed/",
     "https://preshing.com/feed",
+    "https://howtomarketagame.com/blog/feed/",
 #endif
 };
 
