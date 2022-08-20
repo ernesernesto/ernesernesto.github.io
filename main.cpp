@@ -100,7 +100,6 @@ static char* urls[] =
     "http://www.sebastiansylvan.com/index.xml",
     "https://agraphicsguynotes.com/posts/index.xml",
     "http://accidentallyquadratic.tumblr.com/rss",
-    "https://devblogs.microsoft.com/oldnewthing/feed",
     "https://www.realtimerendering.com/blog/feed/",
     "https://interplayoflight.wordpress.com/feed/",
     "https://preshing.com/feed",
