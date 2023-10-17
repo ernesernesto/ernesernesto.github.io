@@ -1,7 +1,6 @@
 +++
 title = 'Debugging Memory Allocation'
 date = 2018-04-16T12:00:00+07:00
-draft = true
 toc = false 
 +++
 
