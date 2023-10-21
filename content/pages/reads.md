@@ -75,7 +75,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 298 - July 30th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-298/) -- https://www.jendrikillner.com/
 - [Korean edition of RTR4 available](https://www.realtimerendering.com/blog/korean-edition-of-rtr4-available/) -- https://www.realtimerendering.com/blog
 - [Float to int casts for data compression](http://cbloomrants.blogspot.com/2023/07/float-to-int-casts-for-data-compression.html) -- http://cbloomrants.blogspot.com/
-- [Graphics Programming weekly - Issue 297 - July 23rd 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-297/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
