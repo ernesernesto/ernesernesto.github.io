@@ -76,7 +76,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Raytraced Order Independent Transparency part 2](https://interplayoflight.wordpress.com/2023/07/30/raytraced-order-independent-transparency-part-2/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 298 - July 30th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-298/) -- https://www.jendrikillner.com/
 - [Korean edition of RTR4 available](https://www.realtimerendering.com/blog/korean-edition-of-rtr4-available/) -- https://www.realtimerendering.com/blog
-- [Float to int casts for data compression](http://cbloomrants.blogspot.com/2023/07/float-to-int-casts-for-data-compression.html) -- http://cbloomrants.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
