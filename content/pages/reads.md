@@ -76,7 +76,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 300 - August 13th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-300/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 299 - August 6th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-299/) -- https://www.jendrikillner.com/
 - [Raytraced Order Independent Transparency part 2](https://interplayoflight.wordpress.com/2023/07/30/raytraced-order-independent-transparency-part-2/) -- https://interplayoflight.wordpress.com
-- [Graphics Programming weekly - Issue 298 - July 30th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-298/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
