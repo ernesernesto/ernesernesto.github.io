@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Entropy decoding in Oodle Data: x86-64 6-stream Huffman decoders](https://fgiesen.wordpress.com/2023/10/29/entropy-decoding-in-oodle-data-x86-64-6-stream-huffman-decoders/) -- https://fgiesen.wordpress.com
 - [How Many Reports For Engineering Managers & Other Bedtime Stories](https://codecapsule.com/2023/10/24/how-many-reports-for-engineering-managers-other-bedtime-stories/) -- https://codecapsule.com
 - [The other game that succeeded during the Starfield launch](https://howtomarketagame.com/2023/10/23/the-other-game-that-succeeded-during-the-starfield-launch/?utm_source=rss&utm_medium=rss&utm_campaign=the-other-game-that-succeeded-during-the-starfield-launch) -- https://howtomarketagame.com
 - [How To Make Your Own Spooky Magic Eye Pictures (Autostereograms)](https://blog.demofox.org/2023/10/22/how-to-make-your-own-spooky-magic-eye-pictures-autostereograms/) -- https://blog.demofox.org
