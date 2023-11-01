@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
 - [Entropy decoding in Oodle Data: x86-64 6-stream Huffman decoders](https://fgiesen.wordpress.com/2023/10/29/entropy-decoding-in-oodle-data-x86-64-6-stream-huffman-decoders/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 311  -  October 29nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-311/) -- https://www.jendrikillner.com/
 - [How Many Reports For Engineering Managers & Other Bedtime Stories](https://codecapsule.com/2023/10/24/how-many-reports-for-engineering-managers-other-bedtime-stories/) -- https://codecapsule.com
@@ -73,7 +74,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Solution-Oriented Coaching, or the Lost Art of Effective Conversations](https://codecapsule.com/2023/08/23/solution-oriented-coaching-or-the-lost-art-of-effective-conversations/) -- https://codecapsule.com
 - [Permutation Iteration and Random Access](https://blog.demofox.org/2023/08/22/permutation-iteration-and-random-access/) -- https://blog.demofox.org
 - [Inverting Gauss’ Formula](https://blog.demofox.org/2023/08/21/inverting-gauss-formula/) -- https://blog.demofox.org
-- [Estimating Early Access success](https://howtomarketagame.com/2023/08/21/estimating-early-access-success/?utm_source=rss&utm_medium=rss&utm_campaign=estimating-early-access-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 301 - August 20th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-301/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 300 - August 13th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-300/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 299 - August 6th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-299/) -- https://www.jendrikillner.com/
