@@ -77,7 +77,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Inverting Gauss’ Formula](https://blog.demofox.org/2023/08/21/inverting-gauss-formula/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 301 - August 20th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-301/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 300 - August 13th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-300/) -- https://www.jendrikillner.com/
-- [Graphics Programming weekly - Issue 299 - August 6th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-299/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
