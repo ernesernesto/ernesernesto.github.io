@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [My advice to AAA-developers trying to make indie games](https://howtomarketagame.com/2023/11/06/my-advice-to-aaa-developers-trying-to-make-indie-games/?utm_source=rss&utm_medium=rss&utm_campaign=my-advice-to-aaa-developers-trying-to-make-indie-games) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 312  -  November 5th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-312/) -- https://www.jendrikillner.com/
 - [Why Do Peephole Optimizations Work?](https://blog.regehr.org/archives/2485) -- https://blog.regehr.org
 - [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
@@ -70,7 +71,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 303 - September 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-303/) -- https://www.jendrikillner.com/
 - [Sparse Pairwise Voting or Tournaments (Implementing SoME3 Voting)](https://blog.demofox.org/2023/09/01/sparse-pairwise-voting-or-tournaments-implementing-some3-voting/) -- https://blog.demofox.org
 - [ A new Blog: Reinventing the wheel.](http://c0de517e.blogspot.com/2023/08/a-new-blog-reinventing-wheel.html) -- http://c0de517e.blogspot.com/
-- [What is the Discovery Queue?](https://howtomarketagame.com/2023/08/28/what-is-the-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-discovery-queue) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 302 - August 27th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-302/) -- https://www.jendrikillner.com/
 - [Fiber in C++: Understanding the Basics](https://agraphicsguynotes.com/posts/fiber_in_cpp_understanding_the_basics/) -- https://agraphicsguynotes.com/posts/
 - [Solution-Oriented Coaching, or the Lost Art of Effective Conversations](https://codecapsule.com/2023/08/23/solution-oriented-coaching-or-the-lost-art-of-effective-conversations/) -- https://codecapsule.com
