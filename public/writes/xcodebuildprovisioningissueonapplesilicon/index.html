@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Categories | ernesernesto io</title>
-<meta property="og:title" content="Categories | ernesernesto io" />
-<meta name="twitter:title" content="Categories | ernesernesto io" />
-<meta itemprop="name" content="Categories | ernesernesto io" />
-<meta name="application-name" content="Categories | ernesernesto io" />
+<title itemprop="name">xcodebuild Provisioning Issue On Apple Silicon | ernesernesto io</title>
+<meta property="og:title" content="xcodebuild Provisioning Issue On Apple Silicon | ernesernesto io" />
+<meta name="twitter:title" content="xcodebuild Provisioning Issue On Apple Silicon | ernesernesto io" />
+<meta itemprop="name" content="xcodebuild Provisioning Issue On Apple Silicon | ernesernesto io" />
+<meta name="application-name" content="xcodebuild Provisioning Issue On Apple Silicon | ernesernesto io" />
 <meta property="og:site_name" content="ernesernesto.github.io" />
 
 <meta name="description" content="ernesernesto dev blog">
@@ -33,9 +33,7 @@
 
     
 
-    <link rel="canonical" href="https://ernesernesto.github.io/categories/">
-    <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="ernesernesto io">
-    <link href="/categories/index.xml" rel="feed" type="application/rss+xml" title="ernesernesto io">
+    <link rel="canonical" href="https://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/">
     <link href="/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -101,7 +99,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/writes/">
+                    <a class="menu-link active" href="/writes/">
                         Writes
                     </a>
                     
@@ -129,15 +127,50 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Categories</h1>
-    </header>
-    <main class="page-content" aria-label="Content">
-         
 
-    </main>
-</div><footer class="footer">
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">xcodebuild Provisioning Issue On Apple Silicon</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2023-11-12T15:29:18&#43;07:00" itemprop="datePublished"> Nov 12, 2023 </time>
+                </div>
+                
+            </header><div class="page-content">
+                <p>The company I worked on recently bought a new Mac Mini M2 to replace the old Mbp that is used as a jenkins driver to build all of our games on ios.
+At that time around 3-years ago, we don&rsquo;t have a dedicated mac mini that is used for building ios / android game and pandemic has just started, so we figured out we need to have a dedicated machine in order to unblock our programmers that need to have a working build on a device. We then opted to using our old mbp to use, one for android and one for ios.</p>
+<p>The setup was quite simple, it&rsquo;s just a jenkins build that run our python build script that runs and package our build data, build the unity project into an xcode / android studio project, generate .ipa or apk and then finally upload it into app center.</p>
+<p>The jenkins work are triggered via webhooks, which is triggered when a particular branch of the git project is pushed to origin.
+Every game project has it&rsquo;s own jenkins workspace and this is quite a simple setup that could be configured on an 30mins work.</p>
+<p>Fast forward 3 years later, we need to replace the old jenkins machine for ios with a brand new Mac Mini M2. The migration to the new machine is quite easy with the help of Mac Migration Assistant, took about half a day migration and I was quite surprised that most of the old tooling on the old mbp was working. Knowing that the old mbp is Intel-based chip and the Mac Mini is the new and shiny Apple-silicon based I was expecting a lot of tools that is installed is not working, but the issue was quite few and could be fixed with a couple of brew install and reinstall.</p>
+<p>Apparently when we try to build .ipa again with the new M2, it fails when we try to archive the xcode project with this error
+<code>&quot;Provisioning profile XX doesn't include the currently selected device 'Mac' (identifier xx)&quot;</code></p>
+<p>We are running the archiving and exporting to ipa via xcodebuild tools like this.</p>
+<pre tabindex="0"><code>&#34;xcodebuild \
+    -quiet \
+    -workspace Unity-iPhone.xcworkspace \
+    -scheme Unity-iPhone archive \
+    -archivePath ./ \
+    -allowProvisioningUpdates&#34;
+</code></pre><p>Weirdly enough when we try to archive it by opening it via XCode, the archiving succeeds. Surely there&rsquo;s something new that is introduced when we use the new M2 machine that makes xcodebuild fails. After reading through some issues on the apple developer forum, the most recommended answer is to add the new Mac UDID into the provisioning that we use.</p>
+<p>That is surely non-optimal since firstly we don&rsquo;t want to build a mac desktop application, and secondly the archive actually works when we do it via XCode, we just don&rsquo;t want to open XCode manually when we want to create a build, that would defeat the purpose of making a CI/CD autobuild.</p>
+<p>Upon further inspection and wasted hours reading through xcodebuild man pages. The solution is to just add <code>-destination ‘generic/platform=iOS’</code> to the xcodebuild parameters, thanks to this info <a href="https://keith.github.io/xcode-man-pages/xcodebuild.1.html">here</a></p>
+<p>The complete working command for xcodebuild on mac apple silicon is this</p>
+<pre tabindex="0"><code>&#34;xcodebuild \
+    -quiet \
+    -workspace Unity-iPhone.xcworkspace \
+    -scheme Unity-iPhone archive \
+    -archivePath ./ \
+    -allowProvisioningUpdates \
+    -destination &#39;generic/platform=iOS&#39;&#34;
+</code></pre>
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

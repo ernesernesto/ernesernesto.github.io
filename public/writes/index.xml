@@ -1,3 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Writes on ernesernesto io</title><link>http://ernesernesto.github.io/writes/</link><description>Recent content in Writes on ernesernesto io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Apr 2018 12:00:00 +0700</lastBuildDate><atom:link href="http://ernesernesto.github.io/writes/index.xml" rel="self" type="application/rss+xml"/><item><title>Debugging Memory Allocation</title><link>http://ernesernesto.github.io/writes/debuggingmemoryallocations/</link><pubDate>Mon, 16 Apr 2018 12:00:00 +0700</pubDate><guid>http://ernesernesto.github.io/writes/debuggingmemoryallocations/</guid><description>Recently I was debugging some particular nasty bugs that happens on memory allocations, the intricate part is, it happens infrequently My app was crashing on a release build more frequently than in debug builds.
-I was doing some manual memory allocations, at the start of the app it will load a saved data from a file into that memory. The app was doing fine until I started to write something to the saved data, then on the next launch it will start to crash intermittently on release build.</description></item><item><title>Symbolicate ios Submission Crash Report</title><link>http://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</link><pubDate>Sat, 20 Jan 2018 10:00:00 +0700</pubDate><guid>http://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</guid><description>Often times we get crash from ios submission report that goes like this
-Thread 0 name: Dispatch queue: com.apple.main-thread Thread 0 Crashed: 0 cong2 0x0000000101e78060 0x100bbc000 + 19644512 1 cong2 0x0000000100bcfb84 0x100bbc000 + 80772 2 cong2 0x0000000100bcff28 0x100bbc000 + 81704 3 CoreFoundation 0x00000001854e113c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 20 (CFNotificationCenter.c:661) 4 CoreFoundation 0x00000001854e06dc _CFXRegistrationPost + 420 (CFNotificationCenter.c:163) 5 CoreFoundation 0x00000001854e0440 ___CFXNotificationPost_block_invoke + 60 (CFNotificationCenter.c:1060) 6 CoreFoundation 0x000000018555de24 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1408 (CFXNotificationRegistrar.m:163) 7 CoreFoundation 0x0000000185416d60 _CFXNotificationPost + 380 (CFNotificationCenter.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writes on ernesernesto io</title>
+    <link>https://ernesernesto.github.io/writes/</link>
+    <description>Recent content in Writes on ernesernesto io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2023 15:29:18 +0700</lastBuildDate><atom:link href="https://ernesernesto.github.io/writes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>xcodebuild Provisioning Issue On Apple Silicon</title>
+      <link>https://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/</link>
+      <pubDate>Sun, 12 Nov 2023 15:29:18 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/</guid>
+      
+      <description>The company I worked on recently bought a new Mac Mini M2 to replace the old Mbp that is used as a jenkins driver to build all of our games on ios. At that time around 3-years ago, we don&amp;rsquo;t have a dedicated mac mini that is used for building ios / android game and pandemic has just started, so we figured out we need to have a dedicated machine in order to unblock our programmers that need to have a working build on a device.</description>
+      
+    </item>
+    
+    <item>
+      <title>Building Simple Audio Visualization with Unity ECS Part III — ECS</title>
+      <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</link>
+      <pubDate>Mon, 06 Aug 2018 12:40:06 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</guid>
+      
+      <description>This is the last part from the three part series of creating a simple audio visualizer to learn ECS. The first part we talked about how to make things work with MonoBehavior way. The second part we change the MonoBehavior into a Jobified Unity Job System. Today we’re going to walk to our end goal, transforming our Audio Visualization into ECS form.
+The promise of the new ECS system is the performance gain.</description>
+      
+    </item>
+    
+    <item>
+      <title>Building Simple Audio Visualization with Unity ECS Part II — Job System</title>
+      <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecspartii/</link>
+      <pubDate>Mon, 30 Jul 2018 12:39:57 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecspartii/</guid>
+      
+      <description>This is the second part of our journey to learn ECS on unity. If you haven’t read the previous post I recommend you to take a while to read that in order to know how the audio visualizer work with the old MonoBehavior way.
+Today we’re going to take what’s written on the first part and change it into a Jobified Unity Job System.
+The Job System, as explained on the Unity pages, take advantages of multiple cores that our machine have.</description>
+      
+    </item>
+    
+    <item>
+      <title>Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior</title>
+      <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/</link>
+      <pubDate>Mon, 23 Jul 2018 12:25:50 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/</guid>
+      
+      <description>Currently, I’m learning to learn the new ECS and Job system introduced in Unity 2018. Usually the quickest way to learn a new concept quickly is by creating something that could give you an instant gratification, in this case we’re going to build a simple audio visualization.
+The new ECS and Job system now promise to give performance boost and a new way to approach problem, letting you focus on the actual problems you are solving which is the data and behavior of your game.</description>
+      
+    </item>
+    
+    <item>
+      <title>Debugging Memory Allocation</title>
+      <link>https://ernesernesto.github.io/writes/debuggingmemoryallocations/</link>
+      <pubDate>Mon, 16 Apr 2018 12:00:00 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/debuggingmemoryallocations/</guid>
+      
+      <description>Recently I was debugging some particular nasty bugs that happens on memory allocations, the intricate part is, it happens infrequently My app was crashing on a release build more frequently than in debug builds.
+I was doing some manual memory allocations, at the start of the app it will load a saved data from a file into that memory. The app was doing fine until I started to write something to the saved data, then on the next launch it will start to crash intermittently on release build.</description>
+      
+    </item>
+    
+    <item>
+      <title>Symbolicate ios Submission Crash Report</title>
+      <link>https://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</link>
+      <pubDate>Sat, 20 Jan 2018 10:00:00 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</guid>
+      
+      <description>Often times we get crash from ios submission report that goes like this
+Thread 0 name: Dispatch queue: com.apple.main-thread Thread 0 Crashed: 0 cong2 0x0000000101e78060 0x100bbc000 + 19644512 1 cong2 0x0000000100bcfb84 0x100bbc000 + 80772 2 cong2 0x0000000100bcff28 0x100bbc000 + 81704 3 CoreFoundation 0x00000001854e113c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 20 (CFNotificationCenter.c:661) 4 CoreFoundation 0x00000001854e06dc _CFXRegistrationPost + 420 (CFNotificationCenter.c:163) 5 CoreFoundation 0x00000001854e0440 ___CFXNotificationPost_block_invoke + 60 (CFNotificationCenter.c:1060) 6 CoreFoundation 0x000000018555de24 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1408 (CFXNotificationRegistrar.m:163) 7 CoreFoundation 0x0000000185416d60 _CFXNotificationPost + 380 (CFNotificationCenter.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
