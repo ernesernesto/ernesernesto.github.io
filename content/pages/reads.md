@@ -7,6 +7,19 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [WASM Debugging with Emscripten and VSCode](https://floooh.github.io/2023/11/11/emscripten-ide.html) -- https://floooh.github.io/
+- [My advice to AAA-developers trying to make indie games](https://howtomarketagame.com/2023/11/06/my-advice-to-aaa-developers-trying-to-make-indie-games/?utm_source=rss&utm_medium=rss&utm_campaign=my-advice-to-aaa-developers-trying-to-make-indie-games) -- https://howtomarketagame.com
+- [Graphics Programming weekly  -  Issue 312  -  November 5th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-312/) -- https://www.jendrikillner.com/
+- [Why Do Peephole Optimizations Work?](https://blog.regehr.org/archives/2485) -- https://blog.regehr.org
+- [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
+- [Entropy decoding in Oodle Data: x86-64 6-stream Huffman decoders](https://fgiesen.wordpress.com/2023/10/29/entropy-decoding-in-oodle-data-x86-64-6-stream-huffman-decoders/) -- https://fgiesen.wordpress.com
+- [Graphics Programming weekly  -  Issue 311  -  October 29nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-311/) -- https://www.jendrikillner.com/
+- [How Many Reports For Engineering Managers & Other Bedtime Stories](https://codecapsule.com/2023/10/24/how-many-reports-for-engineering-managers-other-bedtime-stories/) -- https://codecapsule.com
+- [The other game that succeeded during the Starfield launch](https://howtomarketagame.com/2023/10/23/the-other-game-that-succeeded-during-the-starfield-launch/?utm_source=rss&utm_medium=rss&utm_campaign=the-other-game-that-succeeded-during-the-starfield-launch) -- https://howtomarketagame.com
+- [How To Make Your Own Spooky Magic Eye Pictures (Autostereograms)](https://blog.demofox.org/2023/10/22/how-to-make-your-own-spooky-magic-eye-pictures-autostereograms/) -- https://blog.demofox.org
+- [Graphics Programming weekly  -  Issue 310  -  October 22nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-310/) -- https://www.jendrikillner.com/
+- [Angular, Caddy, Gunicorn and Django](https://anteru.net/blog/2023/angular-caddy-and-django) -- https://anteru.net
+- [When There Are Too Many Experiments (Tests) To Do! Part 2: Orthogonal Arrays](https://blog.demofox.org/2023/10/20/when-there-are-too-many-experiments-tests-to-do-part-2-orthogonal-arrays/) -- https://blog.demofox.org
 - [Fractional Factorial Experiment Design: When There Are Too Many Experiments To Do](https://blog.demofox.org/2023/10/17/fractional-factorial-experiment-design-when-there-are-too-many-experiments-to-do/) -- https://blog.demofox.org
 - [Localization Failure: Temperature is Hard](https://randomascii.wordpress.com/2023/10/17/localization-failure-temperature-is-hard/) -- https://randomascii.wordpress.com
 - [10 years of this blog](http://www.forwardscattering.org/post/61) -- http://www.forwardscattering.org/
@@ -59,23 +72,12 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 303 - September 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-303/) -- https://www.jendrikillner.com/
 - [Sparse Pairwise Voting or Tournaments (Implementing SoME3 Voting)](https://blog.demofox.org/2023/09/01/sparse-pairwise-voting-or-tournaments-implementing-some3-voting/) -- https://blog.demofox.org
 - [ A new Blog: Reinventing the wheel.](http://c0de517e.blogspot.com/2023/08/a-new-blog-reinventing-wheel.html) -- http://c0de517e.blogspot.com/
-- [What is the Discovery Queue?](https://howtomarketagame.com/2023/08/28/what-is-the-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-discovery-queue) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 302 - August 27th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-302/) -- https://www.jendrikillner.com/
 - [Fiber in C++: Understanding the Basics](https://agraphicsguynotes.com/posts/fiber_in_cpp_understanding_the_basics/) -- https://agraphicsguynotes.com/posts/
 - [Solution-Oriented Coaching, or the Lost Art of Effective Conversations](https://codecapsule.com/2023/08/23/solution-oriented-coaching-or-the-lost-art-of-effective-conversations/) -- https://codecapsule.com
 - [Permutation Iteration and Random Access](https://blog.demofox.org/2023/08/22/permutation-iteration-and-random-access/) -- https://blog.demofox.org
 - [Inverting Gauss’ Formula](https://blog.demofox.org/2023/08/21/inverting-gauss-formula/) -- https://blog.demofox.org
-- [Estimating Early Access success](https://howtomarketagame.com/2023/08/21/estimating-early-access-success/?utm_source=rss&utm_medium=rss&utm_campaign=estimating-early-access-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 301 - August 20th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-301/) -- https://www.jendrikillner.com/
-- [Frequently asked questions about Steam Next Fest](https://howtomarketagame.com/2023/08/16/frequently-asked-questions-about-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=frequently-asked-questions-about-steam-next-fest) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 300 - August 13th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-300/) -- https://www.jendrikillner.com/
-- [Graphics Programming weekly - Issue 299 - August 6th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-299/) -- https://www.jendrikillner.com/
-- [Raytraced Order Independent Transparency part 2](https://interplayoflight.wordpress.com/2023/07/30/raytraced-order-independent-transparency-part-2/) -- https://interplayoflight.wordpress.com
-- [Graphics Programming weekly - Issue 298 - July 30th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-298/) -- https://www.jendrikillner.com/
-- [Korean edition of RTR4 available](https://www.realtimerendering.com/blog/korean-edition-of-rtr4-available/) -- https://www.realtimerendering.com/blog
-- [Float to int casts for data compression](http://cbloomrants.blogspot.com/2023/07/float-to-int-casts-for-data-compression.html) -- http://cbloomrants.blogspot.com/
-- [Graphics Programming weekly - Issue 297 - July 23rd 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-297/) -- https://www.jendrikillner.com/
-- [Computational complexity of texture encoding](https://fgiesen.wordpress.com/2023/07/21/computational-complexity-of-texture-encoding/) -- https://fgiesen.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
