@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Part 2: What games should former AAA developers make when they go indie](https://howtomarketagame.com/2023/11/14/what-games-should-former-aaa-developers-make-when-they-go-indie/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-should-former-aaa-developers-make-when-they-go-indie) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 313  -  November 12th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-313/) -- https://www.jendrikillner.com/
 - [WASM Debugging with Emscripten and VSCode](https://floooh.github.io/2023/11/11/emscripten-ide.html) -- https://floooh.github.io/
 - [My advice to AAA-developers trying to make indie games](https://howtomarketagame.com/2023/11/06/my-advice-to-aaa-developers-trying-to-make-indie-games/?utm_source=rss&utm_medium=rss&utm_campaign=my-advice-to-aaa-developers-trying-to-make-indie-games) -- https://howtomarketagame.com
@@ -68,7 +69,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Notes: Reversing Revopoint Scanner.](http://c0de517e.blogspot.com/2023/09/notes-reversing-revopoint-scanner.html) -- http://c0de517e.blogspot.com/
 - [Gaussian Splatting is pretty cool!](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/) -- https://aras-p.info/
 - [I left Silicon Valley for NYC 2.5y ago – a retrospective](https://bartwronski.com/2023/09/04/i-left-silicon-valley-for-nyc-2-5y-ago-a-retrospective/) -- https://bartwronski.com
-- [Killing the myths behind Steam’s visibility](https://howtomarketagame.com/2023/09/04/killing-the-myths-behind-steams-visibility/?utm_source=rss&utm_medium=rss&utm_campaign=killing-the-myths-behind-steams-visibility) -- https://howtomarketagame.com
 - [How does this work? txt2web.py](http://c0de517e.blogspot.com/2023/09/how-does-this-work-txt2webpy.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly - Issue 303 - September 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-303/) -- https://www.jendrikillner.com/
 - [Sparse Pairwise Voting or Tournaments (Implementing SoME3 Voting)](https://blog.demofox.org/2023/09/01/sparse-pairwise-voting-or-tournaments-implementing-some3-voting/) -- https://blog.demofox.org
