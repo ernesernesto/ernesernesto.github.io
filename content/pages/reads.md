@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 314  -  November 19th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-314/) -- https://www.jendrikillner.com/
 - [Part 2: What games should former AAA developers make when they go indie](https://howtomarketagame.com/2023/11/14/what-games-should-former-aaa-developers-make-when-they-go-indie/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-should-former-aaa-developers-make-when-they-go-indie) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 313  -  November 12th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-313/) -- https://www.jendrikillner.com/
 - [WASM Debugging with Emscripten and VSCode](https://floooh.github.io/2023/11/11/emscripten-ide.html) -- https://floooh.github.io/
@@ -77,7 +78,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Fiber in C++: Understanding the Basics](https://agraphicsguynotes.com/posts/fiber_in_cpp_understanding_the_basics/) -- https://agraphicsguynotes.com/posts/
 - [Solution-Oriented Coaching, or the Lost Art of Effective Conversations](https://codecapsule.com/2023/08/23/solution-oriented-coaching-or-the-lost-art-of-effective-conversations/) -- https://codecapsule.com
 - [Permutation Iteration and Random Access](https://blog.demofox.org/2023/08/22/permutation-iteration-and-random-access/) -- https://blog.demofox.org
-- [Inverting Gauss’ Formula](https://blog.demofox.org/2023/08/21/inverting-gauss-formula/) -- https://blog.demofox.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
