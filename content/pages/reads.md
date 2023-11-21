@@ -76,7 +76,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [ A new Blog: Reinventing the wheel.](http://c0de517e.blogspot.com/2023/08/a-new-blog-reinventing-wheel.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly - Issue 302 - August 27th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-302/) -- https://www.jendrikillner.com/
 - [Fiber in C++: Understanding the Basics](https://agraphicsguynotes.com/posts/fiber_in_cpp_understanding_the_basics/) -- https://agraphicsguynotes.com/posts/
-- [Solution-Oriented Coaching, or the Lost Art of Effective Conversations](https://codecapsule.com/2023/08/23/solution-oriented-coaching-or-the-lost-art-of-effective-conversations/) -- https://codecapsule.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
