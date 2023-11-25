@@ -74,7 +74,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 303 - September 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-303/) -- https://www.jendrikillner.com/
 - [Sparse Pairwise Voting or Tournaments (Implementing SoME3 Voting)](https://blog.demofox.org/2023/09/01/sparse-pairwise-voting-or-tournaments-implementing-some3-voting/) -- https://blog.demofox.org
 - [ A new Blog: Reinventing the wheel.](http://c0de517e.blogspot.com/2023/08/a-new-blog-reinventing-wheel.html) -- http://c0de517e.blogspot.com/
-- [Graphics Programming weekly - Issue 302 - August 27th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-302/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
