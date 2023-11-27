@@ -7,7 +7,9 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 315  -  November 26th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-315/) -- https://www.jendrikillner.com/
 - [Interpolating Color Image Histograms Using Sliced Optimal Transport](https://blog.demofox.org/2023/11/25/interpolating-color-image-histograms-using-sliced-optimal-transport/) -- https://blog.demofox.org
+- [(Graphics) Programming Resource List](https://www.jendrikillner.com/post/reading-list/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 314  -  November 19th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-314/) -- https://www.jendrikillner.com/
 - [Part 2: What games should former AAA developers make when they go indie](https://howtomarketagame.com/2023/11/14/what-games-should-former-aaa-developers-make-when-they-go-indie/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-should-former-aaa-developers-make-when-they-go-indie) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 313  -  November 12th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-313/) -- https://www.jendrikillner.com/
