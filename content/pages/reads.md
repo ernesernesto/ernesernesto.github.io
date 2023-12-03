@@ -74,7 +74,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Notes: Reversing Revopoint Scanner.](http://c0de517e.blogspot.com/2023/09/notes-reversing-revopoint-scanner.html) -- http://c0de517e.blogspot.com/
 - [Gaussian Splatting is pretty cool!](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/) -- https://aras-p.info/
 - [I left Silicon Valley for NYC 2.5y ago – a retrospective](https://bartwronski.com/2023/09/04/i-left-silicon-valley-for-nyc-2-5y-ago-a-retrospective/) -- https://bartwronski.com
-- [How does this work? txt2web.py](http://c0de517e.blogspot.com/2023/09/how-does-this-work-txt2webpy.html) -- http://c0de517e.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
