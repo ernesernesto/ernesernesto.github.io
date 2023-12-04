@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 316  -  December 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-316/) -- https://www.jendrikillner.com/
 - [I Fight For The Users](https://blog.codinghorror.com/i-fight-for-the-users/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly  -  Issue 315  -  November 26th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-315/) -- https://www.jendrikillner.com/
 - [Interpolating Color Image Histograms Using Sliced Optimal Transport](https://blog.demofox.org/2023/11/25/interpolating-color-image-histograms-using-sliced-optimal-transport/) -- https://blog.demofox.org
@@ -73,7 +74,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html) -- https://bitbashing.io/
 - [Notes: Reversing Revopoint Scanner.](http://c0de517e.blogspot.com/2023/09/notes-reversing-revopoint-scanner.html) -- http://c0de517e.blogspot.com/
 - [Gaussian Splatting is pretty cool!](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/) -- https://aras-p.info/
-- [I left Silicon Valley for NYC 2.5y ago – a retrospective](https://bartwronski.com/2023/09/04/i-left-silicon-valley-for-nyc-2-5y-ago-a-retrospective/) -- https://bartwronski.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
