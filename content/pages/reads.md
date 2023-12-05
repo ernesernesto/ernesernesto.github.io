@@ -73,7 +73,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [20x1000 Use(r)net Archive.](http://c0de517e.blogspot.com/2023/09/20x1000-usernet-archive.html) -- http://c0de517e.blogspot.com/
 - [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html) -- https://bitbashing.io/
 - [Notes: Reversing Revopoint Scanner.](http://c0de517e.blogspot.com/2023/09/notes-reversing-revopoint-scanner.html) -- http://c0de517e.blogspot.com/
-- [Gaussian Splatting is pretty cool!](https://aras-p.info/blog/2023/09/05/Gaussian-Splatting-is-pretty-cool/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
