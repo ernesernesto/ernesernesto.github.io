@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Why am I not getting wishlists? A step by step solution](https://howtomarketagame.com/2023/12/05/why-am-i-not-getting-wishlists-a-step-by-step-solution/?utm_source=rss&utm_medium=rss&utm_campaign=why-am-i-not-getting-wishlists-a-step-by-step-solution) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 316  -  December 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-316/) -- https://www.jendrikillner.com/
 - [I Fight For The Users](https://blog.codinghorror.com/i-fight-for-the-users/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly  -  Issue 315  -  November 26th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-315/) -- https://www.jendrikillner.com/
@@ -68,7 +69,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Patcher Part 2 : Some Rolling Hashes](http://cbloomrants.blogspot.com/2023/09/patcher-part-2-some-rolling-hashes.html) -- http://cbloomrants.blogspot.com/
 - [Patcher Part 1](http://cbloomrants.blogspot.com/2023/09/patcher-part-1.html) -- http://cbloomrants.blogspot.com/
 - [Generating Hamiltonian Cycles on Graphs with Prime Numbers of Nodes, Without Repeating Edges](https://blog.demofox.org/2023/09/11/generating-hamiltonian-cycles-on-graphs-with-prime-numbers-of-nodes-without-repeating-edges/) -- https://blog.demofox.org
-- [Three inspiring marketing success stories](https://howtomarketagame.com/2023/09/11/three-inspiring-marketing-success-stories/?utm_source=rss&utm_medium=rss&utm_campaign=three-inspiring-marketing-success-stories) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 304 - September 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-304/) -- https://www.jendrikillner.com/
 - [20x1000 Use(r)net Archive.](http://c0de517e.blogspot.com/2023/09/20x1000-usernet-archive.html) -- http://c0de517e.blogspot.com/
 - [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html) -- https://bitbashing.io/
