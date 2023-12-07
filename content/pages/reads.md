@@ -71,7 +71,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Generating Hamiltonian Cycles on Graphs with Prime Numbers of Nodes, Without Repeating Edges](https://blog.demofox.org/2023/09/11/generating-hamiltonian-cycles-on-graphs-with-prime-numbers-of-nodes-without-repeating-edges/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 304 - September 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-304/) -- https://www.jendrikillner.com/
 - [20x1000 Use(r)net Archive.](http://c0de517e.blogspot.com/2023/09/20x1000-usernet-archive.html) -- http://c0de517e.blogspot.com/
-- [Async Rust Is A Bad Language](https://bitbashing.io/async-rust.html) -- https://bitbashing.io/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
