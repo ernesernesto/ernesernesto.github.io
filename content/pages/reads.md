@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Gaussian explosion](https://aras-p.info/blog/2023/12/08/Gaussian-explosion/) -- https://aras-p.info/
 - [Why am I not getting wishlists? A step by step solution](https://howtomarketagame.com/2023/12/05/why-am-i-not-getting-wishlists-a-step-by-step-solution/?utm_source=rss&utm_medium=rss&utm_campaign=why-am-i-not-getting-wishlists-a-step-by-step-solution) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 316  -  December 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-316/) -- https://www.jendrikillner.com/
 - [I Fight For The Users](https://blog.codinghorror.com/i-fight-for-the-users/) -- https://blog.codinghorror.com/
