@@ -71,7 +71,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Patcher Part 2 : Some Rolling Hashes](http://cbloomrants.blogspot.com/2023/09/patcher-part-2-some-rolling-hashes.html) -- http://cbloomrants.blogspot.com/
 - [Patcher Part 1](http://cbloomrants.blogspot.com/2023/09/patcher-part-1.html) -- http://cbloomrants.blogspot.com/
 - [Generating Hamiltonian Cycles on Graphs with Prime Numbers of Nodes, Without Repeating Edges](https://blog.demofox.org/2023/09/11/generating-hamiltonian-cycles-on-graphs-with-prime-numbers-of-nodes-without-repeating-edges/) -- https://blog.demofox.org
-- [Graphics Programming weekly - Issue 304 - September 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-304/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
