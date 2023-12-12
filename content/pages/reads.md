@@ -68,9 +68,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Patcher Part 4 : Content-Defined Chunking](http://cbloomrants.blogspot.com/2023/09/patcher-part-4-content-defined-chunking.html) -- http://cbloomrants.blogspot.com/
 - [WASMtoy](http://c0de517e.blogspot.com/2023/09/wasmtoy.html) -- http://c0de517e.blogspot.com/
 - [Making Gaussian Splats smaller](https://aras-p.info/blog/2023/09/13/Making-Gaussian-Splats-smaller/) -- https://aras-p.info/
-- [Patcher Part 3 : How rsync works](http://cbloomrants.blogspot.com/2023/09/patcher-part-3-how-rsync-works.html) -- http://cbloomrants.blogspot.com/
-- [Patcher Part 2 : Some Rolling Hashes](http://cbloomrants.blogspot.com/2023/09/patcher-part-2-some-rolling-hashes.html) -- http://cbloomrants.blogspot.com/
-- [Patcher Part 1](http://cbloomrants.blogspot.com/2023/09/patcher-part-1.html) -- http://cbloomrants.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
