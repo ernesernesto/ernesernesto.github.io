@@ -66,7 +66,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Praising hacking and low-tech solutions. ChatGPT wrote me a personal Javascript browser “plugin.”](https://bartwronski.com/2023/09/17/praising-hacking-and-low-tech-solutions-chatgpt-wrote-me-a-personal-javascript-browser-plugin/) -- https://bartwronski.com
 - [Graphics Programming weekly - Issue 305 - September 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-305/) -- https://www.jendrikillner.com/
 - [Patcher Part 4 : Content-Defined Chunking](http://cbloomrants.blogspot.com/2023/09/patcher-part-4-content-defined-chunking.html) -- http://cbloomrants.blogspot.com/
-- [WASMtoy](http://c0de517e.blogspot.com/2023/09/wasmtoy.html) -- http://c0de517e.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
