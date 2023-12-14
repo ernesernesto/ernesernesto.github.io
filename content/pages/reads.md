@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Why Educational Games Don’t Work on Steam](https://howtomarketagame.com/2023/12/13/why-educational-games-dont-work-on-steam/?utm_source=rss&utm_medium=rss&utm_campaign=why-educational-games-dont-work-on-steam) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 317  -  December 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-317/) -- https://www.jendrikillner.com/
 - [Exploring the design space of "remote scene approximation"](http://c0de517e.blogspot.com/2023/12/exploring-design-space-of-remote-scene.html) -- http://c0de517e.blogspot.com/
 - [Gaussian explosion](https://aras-p.info/blog/2023/12/08/Gaussian-explosion/) -- https://aras-p.info/
@@ -55,13 +56,11 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The missing middle in game development](https://howtomarketagame.com/2023/09/28/the-missing-middle-in-game-development/?utm_source=rss&utm_medium=rss&utm_campaign=the-missing-middle-in-game-development) -- https://howtomarketagame.com
 - [The History of a Future Platform, Part 1: Why](https://donw.io/post/future-platform-1/) -- https://donw.io/
 - [Making Gaussian Splats more smaller](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/) -- https://aras-p.info/
-- [Garbage Collection for Systems Programmers](https://bitbashing.io/gc-for-systems-programmers.html) -- https://bitbashing.io/
 - [Performative Leadership: From Cargo Cults to OKRs](https://codecapsule.com/2023/09/25/performative-leadership-from-cargo-cults-to-okrs/) -- https://codecapsule.com
 - [John Romero on his book Doom Guy and developing games at a small scale](https://howtomarketagame.com/2023/09/25/john-romero-on-his-book-doom-guy-and-developing-games-at-a-small-scale/?utm_source=rss&utm_medium=rss&utm_campaign=john-romero-on-his-book-doom-guy-and-developing-games-at-a-small-scale) -- https://howtomarketagame.com
 - [Writing to stimulate the brain, and to quiet it.](http://c0de517e.blogspot.com/2023/09/writing-to-stimulate-brain-and-to-quiet.html) -- http://c0de517e.blogspot.com/
 - [Patcher Part 5 : Aside for some proofs ](http://cbloomrants.blogspot.com/2023/09/patcher-part-5-aside-for-some-proofs.html) -- http://cbloomrants.blogspot.com/
 - [Graphics Programming weekly  -  Issue 306  -  September 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-306/) -- https://www.jendrikillner.com/
-- [Early Access Tips Part 3](https://howtomarketagame.com/2023/09/19/early-access-tips-part-3/?utm_source=rss&utm_medium=rss&utm_campaign=early-access-tips-part-3) -- https://howtomarketagame.com
 - [Alan Wolfe (Atrix256/Demofox) Banned (?) From X (Twitter)](https://blog.demofox.org/2023/09/18/alan-wolfe-atrix256-demofox-banned-from-x-twitter/) -- https://blog.demofox.org
 - [Praising hacking and low-tech solutions. ChatGPT wrote me a personal Javascript browser “plugin.”](https://bartwronski.com/2023/09/17/praising-hacking-and-low-tech-solutions-chatgpt-wrote-me-a-personal-javascript-browser-plugin/) -- https://bartwronski.com
 - [Graphics Programming weekly - Issue 305 - September 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-305/) -- https://www.jendrikillner.com/
