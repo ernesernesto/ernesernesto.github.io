@@ -56,6 +56,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The missing middle in game development](https://howtomarketagame.com/2023/09/28/the-missing-middle-in-game-development/?utm_source=rss&utm_medium=rss&utm_campaign=the-missing-middle-in-game-development) -- https://howtomarketagame.com
 - [The History of a Future Platform, Part 1: Why](https://donw.io/post/future-platform-1/) -- https://donw.io/
 - [Making Gaussian Splats more smaller](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/) -- https://aras-p.info/
+- [Garbage Collection for Systems Programmers](https://bitbashing.io/gc-for-systems-programmers.html) -- https://bitbashing.io/
 - [Performative Leadership: From Cargo Cults to OKRs](https://codecapsule.com/2023/09/25/performative-leadership-from-cargo-cults-to-okrs/) -- https://codecapsule.com
 - [John Romero on his book Doom Guy and developing games at a small scale](https://howtomarketagame.com/2023/09/25/john-romero-on-his-book-doom-guy-and-developing-games-at-a-small-scale/?utm_source=rss&utm_medium=rss&utm_campaign=john-romero-on-his-book-doom-guy-and-developing-games-at-a-small-scale) -- https://howtomarketagame.com
 - [Writing to stimulate the brain, and to quiet it.](http://c0de517e.blogspot.com/2023/09/writing-to-stimulate-brain-and-to-quiet.html) -- http://c0de517e.blogspot.com/
