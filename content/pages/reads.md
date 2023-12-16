@@ -65,7 +65,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 306  -  September 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-306/) -- https://www.jendrikillner.com/
 - [Alan Wolfe (Atrix256/Demofox) Banned (?) From X (Twitter)](https://blog.demofox.org/2023/09/18/alan-wolfe-atrix256-demofox-banned-from-x-twitter/) -- https://blog.demofox.org
 - [Praising hacking and low-tech solutions. ChatGPT wrote me a personal Javascript browser “plugin.”](https://bartwronski.com/2023/09/17/praising-hacking-and-low-tech-solutions-chatgpt-wrote-me-a-personal-javascript-browser-plugin/) -- https://bartwronski.com
-- [Graphics Programming weekly - Issue 305 - September 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-305/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
