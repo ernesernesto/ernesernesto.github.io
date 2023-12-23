@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What I respect about PlayWay](https://howtomarketagame.com/2023/12/22/what-i-respect-about-playway/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-respect-about-playway) -- https://howtomarketagame.com
 - [A gentler introduction to ReSTIR](https://interplayoflight.wordpress.com/2023/12/17/a-gentler-introduction-to-restir/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly  -  Issue 318  -  December 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-318/) -- https://www.jendrikillner.com/
 - [EGSR 2024 dates and Call for Papers is up](https://www.realtimerendering.com/blog/egsr-2024-dates-and-call-for-papers-is-up/) -- https://www.realtimerendering.com/blog
@@ -61,7 +62,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Making Gaussian Splats more smaller](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/) -- https://aras-p.info/
 - [Garbage Collection for Systems Programmers](https://bitbashing.io/gc-for-systems-programmers.html) -- https://bitbashing.io/
 - [Performative Leadership: From Cargo Cults to OKRs](https://codecapsule.com/2023/09/25/performative-leadership-from-cargo-cults-to-okrs/) -- https://codecapsule.com
-- [John Romero on his book Doom Guy and developing games at a small scale](https://howtomarketagame.com/2023/09/25/john-romero-on-his-book-doom-guy-and-developing-games-at-a-small-scale/?utm_source=rss&utm_medium=rss&utm_campaign=john-romero-on-his-book-doom-guy-and-developing-games-at-a-small-scale) -- https://howtomarketagame.com
 - [Writing to stimulate the brain, and to quiet it.](http://c0de517e.blogspot.com/2023/09/writing-to-stimulate-brain-and-to-quiet.html) -- http://c0de517e.blogspot.com/
 - [Patcher Part 5 : Aside for some proofs ](http://cbloomrants.blogspot.com/2023/09/patcher-part-5-aside-for-some-proofs.html) -- http://cbloomrants.blogspot.com/
 - [Graphics Programming weekly  -  Issue 306  -  September 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-306/) -- https://www.jendrikillner.com/
