@@ -63,7 +63,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Garbage Collection for Systems Programmers](https://bitbashing.io/gc-for-systems-programmers.html) -- https://bitbashing.io/
 - [Performative Leadership: From Cargo Cults to OKRs](https://codecapsule.com/2023/09/25/performative-leadership-from-cargo-cults-to-okrs/) -- https://codecapsule.com
 - [Writing to stimulate the brain, and to quiet it.](http://c0de517e.blogspot.com/2023/09/writing-to-stimulate-brain-and-to-quiet.html) -- http://c0de517e.blogspot.com/
-- [Patcher Part 5 : Aside for some proofs ](http://cbloomrants.blogspot.com/2023/09/patcher-part-5-aside-for-some-proofs.html) -- http://cbloomrants.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
