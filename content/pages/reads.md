@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Making Blue Noise Point Sets With Sliced Optimal Transport](https://blog.demofox.org/2023/12/24/making-blue-noise-point-sets-with-sliced-optimal-transport/) -- https://blog.demofox.org
+- [Deriving the Inverse CDF of a Rotated Square Projected onto a Line](https://blog.demofox.org/2023/12/24/deriving-the-inverse-cdf-of-a-rotated-square-projected-onto-a-line/) -- https://blog.demofox.org
 - [What I respect about PlayWay](https://howtomarketagame.com/2023/12/22/what-i-respect-about-playway/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-respect-about-playway) -- https://howtomarketagame.com
 - [A gentler introduction to ReSTIR](https://interplayoflight.wordpress.com/2023/12/17/a-gentler-introduction-to-restir/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly  -  Issue 318  -  December 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-318/) -- https://www.jendrikillner.com/
@@ -62,7 +64,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Making Gaussian Splats more smaller](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/) -- https://aras-p.info/
 - [Garbage Collection for Systems Programmers](https://bitbashing.io/gc-for-systems-programmers.html) -- https://bitbashing.io/
 - [Performative Leadership: From Cargo Cults to OKRs](https://codecapsule.com/2023/09/25/performative-leadership-from-cargo-cults-to-okrs/) -- https://codecapsule.com
-- [Writing to stimulate the brain, and to quiet it.](http://c0de517e.blogspot.com/2023/09/writing-to-stimulate-brain-and-to-quiet.html) -- http://c0de517e.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
