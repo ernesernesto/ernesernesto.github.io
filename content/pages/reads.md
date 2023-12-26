@@ -62,7 +62,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The missing middle in game development](https://howtomarketagame.com/2023/09/28/the-missing-middle-in-game-development/?utm_source=rss&utm_medium=rss&utm_campaign=the-missing-middle-in-game-development) -- https://howtomarketagame.com
 - [The History of a Future Platform, Part 1: Why](https://donw.io/post/future-platform-1/) -- https://donw.io/
 - [Making Gaussian Splats more smaller](https://aras-p.info/blog/2023/09/27/Making-Gaussian-Splats-more-smaller/) -- https://aras-p.info/
-- [Garbage Collection for Systems Programmers](https://bitbashing.io/gc-for-systems-programmers.html) -- https://bitbashing.io/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
