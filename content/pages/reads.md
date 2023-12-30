@@ -7,8 +7,10 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Low-level thinking in high-level shading languages 2023](https://interplayoflight.wordpress.com/2023/12/29/low-level-thinking-in-high-level-shading-languages-2023/) -- https://interplayoflight.wordpress.com
 - [Making Blue Noise Point Sets With Sliced Optimal Transport](https://blog.demofox.org/2023/12/24/making-blue-noise-point-sets-with-sliced-optimal-transport/) -- https://blog.demofox.org
 - [Deriving the Inverse CDF of a Rotated Square Projected onto a Line](https://blog.demofox.org/2023/12/24/deriving-the-inverse-cdf-of-a-rotated-square-projected-onto-a-line/) -- https://blog.demofox.org
+- [Graphics Programming weekly  -  Issue 319  -  December 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-319/) -- https://www.jendrikillner.com/
 - [What I respect about PlayWay](https://howtomarketagame.com/2023/12/22/what-i-respect-about-playway/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-respect-about-playway) -- https://howtomarketagame.com
 - [A gentler introduction to ReSTIR](https://interplayoflight.wordpress.com/2023/12/17/a-gentler-introduction-to-restir/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly  -  Issue 318  -  December 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-318/) -- https://www.jendrikillner.com/
