@@ -60,7 +60,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [14 Reasons why every indie game developer should make at least one horror game](https://howtomarketagame.com/2023/10/02/every-indie-game-developer-should-make-a-horror-game/?utm_source=rss&utm_medium=rss&utm_campaign=every-indie-game-developer-should-make-a-horror-game) -- https://howtomarketagame.com
 - [32 MiB Working Sets on a 64 GiB machine](https://randomascii.wordpress.com/2023/10/01/32-mib-working-sets-on-a-64-gib-machine/) -- https://randomascii.wordpress.com
 - [A poor entropy coding result in Zstandard](http://www.forwardscattering.org/post/60) -- http://www.forwardscattering.org/
-- [Graphics Programming weekly  -  Issue 307  -  October 1st, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-307/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
