@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [VSCode, WASM, WASI](https://floooh.github.io/2023/12/31/vscode-wasm-wasi.html) -- https://floooh.github.io/
 - [Low-level thinking in high-level shading languages 2023](https://interplayoflight.wordpress.com/2023/12/29/low-level-thinking-in-high-level-shading-languages-2023/) -- https://interplayoflight.wordpress.com
 - [Making Blue Noise Point Sets With Sliced Optimal Transport](https://blog.demofox.org/2023/12/24/making-blue-noise-point-sets-with-sliced-optimal-transport/) -- https://blog.demofox.org
 - [Deriving the Inverse CDF of a Rotated Square Projected onto a Line](https://blog.demofox.org/2023/12/24/deriving-the-inverse-cdf-of-a-rotated-square-projected-onto-a-line/) -- https://blog.demofox.org
@@ -57,7 +58,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [USD and glTF Resources Page](https://www.realtimerendering.com/blog/usd-and-gltf-resources-page/) -- https://www.realtimerendering.com/blog
 - [Lights on, no one quite home](https://www.realtimerendering.com/blog/lights-on-no-one-quite-home/) -- https://www.realtimerendering.com/blog
 - [From the archive: Notes on environment lighting occlusion.](http://c0de517e.blogspot.com/2023/10/from-archive-notes-on-environment.html) -- http://c0de517e.blogspot.com/
-- [14 Reasons why every indie game developer should make at least one horror game](https://howtomarketagame.com/2023/10/02/every-indie-game-developer-should-make-a-horror-game/?utm_source=rss&utm_medium=rss&utm_campaign=every-indie-game-developer-should-make-a-horror-game) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
