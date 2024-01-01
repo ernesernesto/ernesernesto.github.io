@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Seven Things for January 1, 2024](https://www.realtimerendering.com/blog/seven-things-for-january-1-2024/) -- https://www.realtimerendering.com/blog
 - [VSCode, WASM, WASI](https://floooh.github.io/2023/12/31/vscode-wasm-wasi.html) -- https://floooh.github.io/
 - [Low-level thinking in high-level shading languages 2023](https://interplayoflight.wordpress.com/2023/12/29/low-level-thinking-in-high-level-shading-languages-2023/) -- https://interplayoflight.wordpress.com
 - [Making Blue Noise Point Sets With Sliced Optimal Transport](https://blog.demofox.org/2023/12/24/making-blue-noise-point-sets-with-sliced-optimal-transport/) -- https://blog.demofox.org
@@ -56,8 +57,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The History of a Future Platform, Part 2: Stunt Island](https://donw.io/post/future-platform-2/) -- https://donw.io/
 - [Patcher Part 6 : Making a patcher from CDC](http://cbloomrants.blogspot.com/2023/10/patcher-part-6-making-patcher-from-cdc.html) -- http://cbloomrants.blogspot.com/
 - [USD and glTF Resources Page](https://www.realtimerendering.com/blog/usd-and-gltf-resources-page/) -- https://www.realtimerendering.com/blog
-- [Lights on, no one quite home](https://www.realtimerendering.com/blog/lights-on-no-one-quite-home/) -- https://www.realtimerendering.com/blog
-- [From the archive: Notes on environment lighting occlusion.](http://c0de517e.blogspot.com/2023/10/from-archive-notes-on-environment.html) -- http://c0de517e.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
