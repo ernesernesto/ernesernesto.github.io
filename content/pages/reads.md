@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What I learned in 2023](https://howtomarketagame.com/2024/01/01/what-i-learned-in-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-learned-in-2023) -- https://howtomarketagame.com
 - [Seven Things for January 1, 2024](https://www.realtimerendering.com/blog/seven-things-for-january-1-2024/) -- https://www.realtimerendering.com/blog
 - [VSCode, WASM, WASI](https://floooh.github.io/2023/12/31/vscode-wasm-wasi.html) -- https://floooh.github.io/
 - [Low-level thinking in high-level shading languages 2023](https://interplayoflight.wordpress.com/2023/12/29/low-level-thinking-in-high-level-shading-languages-2023/) -- https://interplayoflight.wordpress.com
@@ -56,7 +57,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 308  -  October 8th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-308/) -- https://www.jendrikillner.com/
 - [The History of a Future Platform, Part 2: Stunt Island](https://donw.io/post/future-platform-2/) -- https://donw.io/
 - [Patcher Part 6 : Making a patcher from CDC](http://cbloomrants.blogspot.com/2023/10/patcher-part-6-making-patcher-from-cdc.html) -- http://cbloomrants.blogspot.com/
-- [USD and glTF Resources Page](https://www.realtimerendering.com/blog/usd-and-gltf-resources-page/) -- https://www.realtimerendering.com/blog
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
