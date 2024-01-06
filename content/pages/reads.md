@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
 - [Entropy decoding in Oodle Data: x86-64 6-stream Huffman decoders](https://fgiesen.wordpress.com/2023/10/29/entropy-decoding-in-oodle-data-x86-64-6-stream-huffman-decoders/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 311  -  October 29nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-311/) -- https://www.jendrikillner.com/
-- [How Many Reports For Engineering Managers & Other Bedtime Stories](https://codecapsule.com/2023/10/24/how-many-reports-for-engineering-managers-other-bedtime-stories/) -- https://codecapsule.com
 - [The other game that succeeded during the Starfield launch](https://howtomarketagame.com/2023/10/23/the-other-game-that-succeeded-during-the-starfield-launch/?utm_source=rss&utm_medium=rss&utm_campaign=the-other-game-that-succeeded-during-the-starfield-launch) -- https://howtomarketagame.com
 - [How To Make Your Own Spooky Magic Eye Pictures (Autostereograms)](https://blog.demofox.org/2023/10/22/how-to-make-your-own-spooky-magic-eye-pictures-autostereograms/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 310  -  October 22nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-310/) -- https://www.jendrikillner.com/
@@ -57,7 +56,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 309  -  October 15th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-309/) -- https://www.jendrikillner.com/
 - [OBJ lives on](https://www.realtimerendering.com/blog/obj-lives-on/) -- https://www.realtimerendering.com/blog
 - [Patcher Part 8 : Summary](http://cbloomrants.blogspot.com/2023/10/patcher-part-8-summary.html) -- http://cbloomrants.blogspot.com/
-- [Patcher Part 7 : Patcher File IO and Parallelism](http://cbloomrants.blogspot.com/2023/10/patcher-part-7-patcher-file-io-and.html) -- http://cbloomrants.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
