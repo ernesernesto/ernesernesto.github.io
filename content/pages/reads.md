@@ -58,7 +58,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [OBJ lives on](https://www.realtimerendering.com/blog/obj-lives-on/) -- https://www.realtimerendering.com/blog
 - [Patcher Part 8 : Summary](http://cbloomrants.blogspot.com/2023/10/patcher-part-8-summary.html) -- http://cbloomrants.blogspot.com/
 - [Patcher Part 7 : Patcher File IO and Parallelism](http://cbloomrants.blogspot.com/2023/10/patcher-part-7-patcher-file-io-and.html) -- http://cbloomrants.blogspot.com/
-- [Graphics Programming weekly  -  Issue 308  -  October 8th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-308/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
