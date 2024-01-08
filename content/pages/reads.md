@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 321  -  January 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-321/) -- https://www.jendrikillner.com/
 - [Two classic radiosity books now free](https://www.realtimerendering.com/blog/two-classic-radiosity-books-now-free/) -- https://www.realtimerendering.com/blog
 - [Two years ago: left Unity](https://aras-p.info/blog/2024/01/02/Two-years-ago-left-Unity/) -- https://aras-p.info/
 - [What I learned in 2023](https://howtomarketagame.com/2024/01/01/what-i-learned-in-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-learned-in-2023) -- https://howtomarketagame.com
