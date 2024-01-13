@@ -56,7 +56,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [An Equation True in Every Universe](https://www.realtimerendering.com/blog/an-equation-true-in-every-universe/) -- https://www.realtimerendering.com/blog
 - [What does it take to get in the Discovery Queue?](https://howtomarketagame.com/2023/10/16/what-does-it-take-to-get-in-the-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-does-it-take-to-get-in-the-discovery-queue) -- https://howtomarketagame.com
 - [The new sokol-gfx WebGPU backend](https://floooh.github.io/2023/10/16/sokol-webgpu.html) -- https://floooh.github.io/
-- [Graphics Programming weekly  -  Issue 309  -  October 15th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-309/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
