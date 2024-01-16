@@ -51,7 +51,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Angular, Caddy, Gunicorn and Django](https://anteru.net/blog/2023/angular-caddy-and-django) -- https://anteru.net
 - [When There Are Too Many Experiments (Tests) To Do! Part 2: Orthogonal Arrays](https://blog.demofox.org/2023/10/20/when-there-are-too-many-experiments-tests-to-do-part-2-orthogonal-arrays/) -- https://blog.demofox.org
 - [Fractional Factorial Experiment Design: When There Are Too Many Experiments To Do](https://blog.demofox.org/2023/10/17/fractional-factorial-experiment-design-when-there-are-too-many-experiments-to-do/) -- https://blog.demofox.org
-- [Localization Failure: Temperature is Hard](https://randomascii.wordpress.com/2023/10/17/localization-failure-temperature-is-hard/) -- https://randomascii.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
