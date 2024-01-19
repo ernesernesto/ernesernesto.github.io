@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The other game that succeeded during the Starfield launch](https://howtomarketagame.com/2023/10/23/the-other-game-that-succeeded-during-the-starfield-launch/?utm_source=rss&utm_medium=rss&utm_campaign=the-other-game-that-succeeded-during-the-starfield-launch) -- https://howtomarketagame.com
 - [How To Make Your Own Spooky Magic Eye Pictures (Autostereograms)](https://blog.demofox.org/2023/10/22/how-to-make-your-own-spooky-magic-eye-pictures-autostereograms/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 310  -  October 22nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-310/) -- https://www.jendrikillner.com/
-- [Angular, Caddy, Gunicorn and Django](https://anteru.net/blog/2023/angular-caddy-and-django) -- https://anteru.net
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
