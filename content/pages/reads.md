@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [How I use ChatGPT daily (scientist/coder perspective)](https://bartwronski.com/2024/01/22/how-i-use-chatgpt-daily-scientist-coder-perspective/) -- https://bartwronski.com
+- [Graphics Programming weekly  -  Issue 323  -  January 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-323/) -- https://www.jendrikillner.com/
 - [The art and joy of well-architected "bad code".](http://c0de517e.blogspot.com/2024/01/the-art-and-joy-of-well-architected-bad.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 322  -  January 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-322/) -- https://www.jendrikillner.com/
 - [Why 14,000 games released on Steam in 2023 isn’t that bad](https://howtomarketagame.com/2024/01/11/why-14000-games-released-on-steam-2023-isnt-that-bad/?utm_source=rss&utm_medium=rss&utm_campaign=why-14000-games-released-on-steam-2023-isnt-that-bad) -- https://howtomarketagame.com
@@ -47,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
 - [Entropy decoding in Oodle Data: x86-64 6-stream Huffman decoders](https://fgiesen.wordpress.com/2023/10/29/entropy-decoding-in-oodle-data-x86-64-6-stream-huffman-decoders/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 311  -  October 29nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-311/) -- https://www.jendrikillner.com/
-- [How Many Reports For Engineering Managers & Other Bedtime Stories](https://codecapsule.com/2023/10/24/how-many-reports-for-engineering-managers-other-bedtime-stories/) -- https://codecapsule.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
