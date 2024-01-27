@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Portals are misunderstood.](http://c0de517e.blogspot.com/2024/01/portals-are-misunderstood.html) -- http://c0de517e.blogspot.com/
 - [What are the top selling indie games of 2023?](https://howtomarketagame.com/2024/01/25/what-are-the-top-selling-indie-games-of-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-the-top-selling-indie-games-of-2023) -- https://howtomarketagame.com
 - [Unsafe at Any Speed: Tradeoffs and values in the Rust ecosystem](https://bitbashing.io/rust-http.html) -- https://bitbashing.io/
 - [How I use ChatGPT daily (scientist/coder perspective)](https://bartwronski.com/2024/01/22/how-i-use-chatgpt-daily-scientist-coder-perspective/) -- https://bartwronski.com
@@ -49,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Why Do Peephole Optimizations Work?](https://blog.regehr.org/archives/2485) -- https://blog.regehr.org
 - [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
 - [Entropy decoding in Oodle Data: x86-64 6-stream Huffman decoders](https://fgiesen.wordpress.com/2023/10/29/entropy-decoding-in-oodle-data-x86-64-6-stream-huffman-decoders/) -- https://fgiesen.wordpress.com
-- [Graphics Programming weekly  -  Issue 311  -  October 29nd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-311/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
