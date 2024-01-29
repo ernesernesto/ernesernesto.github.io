@@ -8,17 +8,14 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Portals are misunderstood.](http://c0de517e.blogspot.com/2024/01/portals-are-misunderstood.html) -- http://c0de517e.blogspot.com/
-- [What are the top selling indie games of 2023?](https://howtomarketagame.com/2024/01/25/what-are-the-top-selling-indie-games-of-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-the-top-selling-indie-games-of-2023) -- https://howtomarketagame.com
 - [Unsafe at Any Speed: Tradeoffs and values in the Rust ecosystem](https://bitbashing.io/rust-http.html) -- https://bitbashing.io/
 - [How I use ChatGPT daily (scientist/coder perspective)](https://bartwronski.com/2024/01/22/how-i-use-chatgpt-daily-scientist-coder-perspective/) -- https://bartwronski.com
 - [Graphics Programming weekly  -  Issue 323  -  January 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-323/) -- https://www.jendrikillner.com/
 - [The art and joy of well-architected "bad code".](http://c0de517e.blogspot.com/2024/01/the-art-and-joy-of-well-architected-bad.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 322  -  January 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-322/) -- https://www.jendrikillner.com/
-- [Why 14,000 games released on Steam in 2023 isn’t that bad](https://howtomarketagame.com/2024/01/11/why-14000-games-released-on-steam-2023-isnt-that-bad/?utm_source=rss&utm_medium=rss&utm_campaign=why-14000-games-released-on-steam-2023-isnt-that-bad) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 321  -  January 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-321/) -- https://www.jendrikillner.com/
 - [Two classic radiosity books now free](https://www.realtimerendering.com/blog/two-classic-radiosity-books-now-free/) -- https://www.realtimerendering.com/blog
 - [Two years ago: left Unity](https://aras-p.info/blog/2024/01/02/Two-years-ago-left-Unity/) -- https://aras-p.info/
-- [What I learned in 2023](https://howtomarketagame.com/2024/01/01/what-i-learned-in-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-learned-in-2023) -- https://howtomarketagame.com
 - [Seven Things for January 1, 2024](https://www.realtimerendering.com/blog/seven-things-for-january-1-2024/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 320  -  December 31st, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-320/) -- https://www.jendrikillner.com/
 - [VSCode, WASM, WASI](https://floooh.github.io/2023/12/31/vscode-wasm-wasi.html) -- https://floooh.github.io/
@@ -27,28 +24,22 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Making Blue Noise Point Sets With Sliced Optimal Transport](https://blog.demofox.org/2023/12/24/making-blue-noise-point-sets-with-sliced-optimal-transport/) -- https://blog.demofox.org
 - [Deriving the Inverse CDF of a Rotated Square Projected onto a Line](https://blog.demofox.org/2023/12/24/deriving-the-inverse-cdf-of-a-rotated-square-projected-onto-a-line/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 319  -  December 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-319/) -- https://www.jendrikillner.com/
-- [What I respect about PlayWay](https://howtomarketagame.com/2023/12/22/what-i-respect-about-playway/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-respect-about-playway) -- https://howtomarketagame.com
 - [A gentler introduction to ReSTIR](https://interplayoflight.wordpress.com/2023/12/17/a-gentler-introduction-to-restir/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly  -  Issue 318  -  December 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-318/) -- https://www.jendrikillner.com/
 - [EGSR 2024 dates and Call for Papers is up](https://www.realtimerendering.com/blog/egsr-2024-dates-and-call-for-papers-is-up/) -- https://www.realtimerendering.com/blog
-- [Why Educational Games Don’t Work on Steam](https://howtomarketagame.com/2023/12/13/why-educational-games-dont-work-on-steam/?utm_source=rss&utm_medium=rss&utm_campaign=why-educational-games-dont-work-on-steam) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 317  -  December 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-317/) -- https://www.jendrikillner.com/
 - [Exploring the design space of "remote scene approximation"](http://c0de517e.blogspot.com/2023/12/exploring-design-space-of-remote-scene.html) -- http://c0de517e.blogspot.com/
 - [Gaussian explosion](https://aras-p.info/blog/2023/12/08/Gaussian-explosion/) -- https://aras-p.info/
-- [Why am I not getting wishlists? A step by step solution](https://howtomarketagame.com/2023/12/05/why-am-i-not-getting-wishlists-a-step-by-step-solution/?utm_source=rss&utm_medium=rss&utm_campaign=why-am-i-not-getting-wishlists-a-step-by-step-solution) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 316  -  December 3rd, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-316/) -- https://www.jendrikillner.com/
 - [I Fight For The Users](https://blog.codinghorror.com/i-fight-for-the-users/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly  -  Issue 315  -  November 26th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-315/) -- https://www.jendrikillner.com/
 - [Interpolating Color Image Histograms Using Sliced Optimal Transport](https://blog.demofox.org/2023/11/25/interpolating-color-image-histograms-using-sliced-optimal-transport/) -- https://blog.demofox.org
 - [(Graphics) Programming Resource List](https://www.jendrikillner.com/post/reading-list/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 314  -  November 19th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-314/) -- https://www.jendrikillner.com/
-- [Part 2: What games should former AAA developers make when they go indie](https://howtomarketagame.com/2023/11/14/what-games-should-former-aaa-developers-make-when-they-go-indie/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-should-former-aaa-developers-make-when-they-go-indie) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 313  -  November 12th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-313/) -- https://www.jendrikillner.com/
 - [WASM Debugging with Emscripten and VSCode](https://floooh.github.io/2023/11/11/emscripten-ide.html) -- https://floooh.github.io/
-- [My advice to AAA-developers trying to make indie games](https://howtomarketagame.com/2023/11/06/my-advice-to-aaa-developers-trying-to-make-indie-games/?utm_source=rss&utm_medium=rss&utm_campaign=my-advice-to-aaa-developers-trying-to-make-indie-games) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 312  -  November 5th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-312/) -- https://www.jendrikillner.com/
 - [Why Do Peephole Optimizations Work?](https://blog.regehr.org/archives/2485) -- https://blog.regehr.org
-- [Deconstructing the underwhelming launch of a automation builder game](https://howtomarketagame.com/2023/10/31/deconstructing-the-underwhelming-launch-of-a-automation-builder-game/?utm_source=rss&utm_medium=rss&utm_campaign=deconstructing-the-underwhelming-launch-of-a-automation-builder-game) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
