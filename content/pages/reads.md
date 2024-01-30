@@ -11,7 +11,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 324  -  January 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-324/) -- https://www.jendrikillner.com/
 - [Portals are misunderstood.](http://c0de517e.blogspot.com/2024/01/portals-are-misunderstood.html) -- http://c0de517e.blogspot.com/
 - [What are the top selling indie games of 2023?](https://howtomarketagame.com/2024/01/25/what-are-the-top-selling-indie-games-of-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-the-top-selling-indie-games-of-2023) -- https://howtomarketagame.com
-- [Why do people post on [bad platform] instead of [good platform]?](https://danluu.com/why-video/) -- https://danluu.com/atom/index.xml
 - [Unsafe at Any Speed: Tradeoffs and values in the Rust ecosystem](https://bitbashing.io/rust-http.html) -- https://bitbashing.io/
 - [How I use ChatGPT daily (scientist/coder perspective)](https://bartwronski.com/2024/01/22/how-i-use-chatgpt-daily-scientist-coder-perspective/) -- https://bartwronski.com
 - [Graphics Programming weekly  -  Issue 323  -  January 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-323/) -- https://www.jendrikillner.com/
