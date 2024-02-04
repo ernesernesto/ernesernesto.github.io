@@ -49,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Part 2: What games should former AAA developers make when they go indie](https://howtomarketagame.com/2023/11/14/what-games-should-former-aaa-developers-make-when-they-go-indie/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-should-former-aaa-developers-make-when-they-go-indie) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 313  -  November 12th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-313/) -- https://www.jendrikillner.com/
 - [WASM Debugging with Emscripten and VSCode](https://floooh.github.io/2023/11/11/emscripten-ide.html) -- https://floooh.github.io/
-- [My advice to AAA-developers trying to make indie games](https://howtomarketagame.com/2023/11/06/my-advice-to-aaa-developers-trying-to-make-indie-games/?utm_source=rss&utm_medium=rss&utm_campaign=my-advice-to-aaa-developers-trying-to-make-indie-games) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
