@@ -9,9 +9,10 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [Peaked technologies.](http://c0de517e.blogspot.com/2024/02/peaked-technologies.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 327  -  February 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-327/) -- https://www.jendrikillner.com/
+- [Diseconomies of scale in fraud, spam, support, and moderation](https://danluu.com/diseconomies-scale/) -- https://danluu.com/atom/index.xml
 - [Palworld: What other Nintendo games can we add guns to?](https://howtomarketagame.com/2024/02/13/palworld-what-other-nintendo-games-can-we-add-guns-to/?utm_source=rss&utm_medium=rss&utm_campaign=palworld-what-other-nintendo-games-can-we-add-guns-to) -- https://howtomarketagame.com
 - [Gradient Descent With Adam in Plain C++](https://blog.demofox.org/2024/02/11/gradient-descent-with-adam-in-plain-c/) -- https://blog.demofox.org
-- [Graphics Programming weekly  -  Issue 326  -  February 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-326/) -- https://www.jendrikillner.com/
+- [Graphics Programming weekly  --  Issue 326  --  February 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-326/) -- https://www.jendrikillner.com/
 - [How to get TikTok Influencers to cover your game and earn millions of impressions](https://howtomarketagame.com/2024/02/07/how-to-get-tiktok-influencers-to-cover-your-game-and-earn-millions-of-impressions/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-get-tiktok-influencers-to-cover-your-game-and-earn-millions-of-impressions) -- https://howtomarketagame.com
 - [Why it's impossible to agree on what's allowed](https://danluu.com/impossible-agree/) -- https://danluu.com/atom/index.xml
 - [I accidentally Blender VSE](https://aras-p.info/blog/2024/02/06/I-accidentally-Blender-VSE/) -- https://aras-p.info/
