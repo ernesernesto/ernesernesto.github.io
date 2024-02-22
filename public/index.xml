@@ -19,6 +19,17 @@
     </item>
     
     <item>
+      <title>Speeding Up Asset Bundle Load Time</title>
+      <link>https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/</link>
+      <pubDate>Wed, 18 Oct 2023 09:00:23 +0700</pubDate>
+      
+      <guid>https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/</guid>
+      
+      <description>TLDR Use Async API AssetBundle.LoadFromFileAsync Change AssetBundle BuildAssetBundleOptions into ChunkBasedCompression, optionally use DisableLoadAssetByFileName and DisableLoadAssetByFileNameWithExtension. Adjust Unity Quality Settings QualitySettings.asyncUploadTimeSlice and QualitySettings.asyncUploadBufferSize Checking how things done In out recent games, we have some issues when loading a lot of Unity Asset Bundles at runtime on the loading screen. It took a couple of seconds for all bundles to finish loading. A bit weird since it&amp;rsquo;s just 10~ish bundle with total contents of ~100mb, it should be done instantly with an iPhone 11 device (Hexa-core 2x2.</description>
+      
+    </item>
+    
+    <item>
       <title>Building Simple Audio Visualization with Unity ECS Part III — ECS</title>
       <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</link>
       <pubDate>Mon, 06 Aug 2018 12:40:06 +0700</pubDate>
@@ -88,7 +99,7 @@ Thread 0 name: Dispatch queue: com.apple.main-thread Thread 0 Crashed: 0 cong2 0
       
       <description>Hi! My name is Ernes Budiman and I&amp;rsquo;ve been a game developer since 2010. I started in the industry working on J2ME phones, early Android, and the discontinued Windows Phone.
 Currently working as a Studio Lead Developer at Alegrium working on mobile games for ios and android.
-I&amp;rsquo;ve worked, on some mobile stuffs.
+I&amp;rsquo;ve worked, on some mobile game stuffs.
 Get in touch</description>
       
     </item>

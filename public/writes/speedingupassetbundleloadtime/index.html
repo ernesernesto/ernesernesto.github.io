@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Info | ernesernesto io</title>
-<meta property="og:title" content="Info | ernesernesto io" />
-<meta name="twitter:title" content="Info | ernesernesto io" />
-<meta itemprop="name" content="Info | ernesernesto io" />
-<meta name="application-name" content="Info | ernesernesto io" />
+<title itemprop="name">Speeding Up Asset Bundle Load Time | ernesernesto io</title>
+<meta property="og:title" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
+<meta name="twitter:title" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
+<meta itemprop="name" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
+<meta name="application-name" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
 <meta property="og:site_name" content="ernesernesto.github.io" />
 
 <meta name="description" content="ernesernesto dev blog">
@@ -33,7 +33,7 @@
 
     
 
-    <link rel="canonical" href="https://ernesernesto.github.io/pages/info/">
+    <link rel="canonical" href="https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/">
     <link href="/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -99,14 +99,14 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/writes/">
+                    <a class="menu-link active" href="/writes/">
                         Writes
                     </a>
                     
                 </li>
                 
                 <li>
-                    <a class="menu-link active" href="/pages/info/">
+                    <a class="menu-link " href="/pages/info/">
                         Info
                     </a>
                     
@@ -132,13 +132,49 @@ stroke-linejoin="round" class="feather feather-home">
     <main class="page-content" aria-label="Content">
         <article>
             <header class="header">
-                <h1 class="header-title">Info</h1>
+                <h1 class="header-title">Speeding Up Asset Bundle Load Time</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2023-10-18T09:00:23&#43;07:00" itemprop="datePublished"> Oct 18, 2023 </time>
+                </div>
                 
             </header><div class="page-content">
-                <p>Hi! My name is Ernes Budiman and I&rsquo;ve been a game developer since 2010. I started in the industry working on J2ME phones, early Android, and the discontinued Windows Phone.</p>
-<p>Currently working as a Studio Lead Developer at <a href="https://www.alegrium.com/">Alegrium</a> working on mobile games for ios and android.</p>
-<p>I&rsquo;ve <a href="http://www.gameloft.com/mobile-games/batman-the-dark-knight-rises/">worked</a>, <a href="http://apps.microsoft.com/windows/en-us/app/cars-fast-as-lightning/f9ddd872-1ff2-4dc9-8684-d62513d7fecb">on</a> <a href="http://www.windowsphone.com/s?appid=f9d4703c-60fb-409d-80a6-423329322544">some</a> <a href="https://apps.apple.com/us/app/cash-inc-fame-fortune-game/id1270598321#?platform=iphone">mobile</a> <a href="https://apps.apple.com/us/app/serenitys-spa-happy-retreat/id6446709410">game</a> <a href="https://apps.apple.com/us/app/space-inc/id1479456312">stuffs</a>.</p>
-<p><a href="mailto:ernesernesto@gmail.com">Get in touch</a></p>
+                <h2 id="tldr">TLDR</h2>
+<ul>
+<li>Use Async API <code>AssetBundle.LoadFromFileAsync</code></li>
+<li>Change AssetBundle <code>BuildAssetBundleOptions</code> into <code>ChunkBasedCompression</code>, optionally use <code>DisableLoadAssetByFileName</code> and <code>DisableLoadAssetByFileNameWithExtension</code>.</li>
+<li>Adjust Unity Quality Settings <code>QualitySettings.asyncUploadTimeSlice</code> and <code>QualitySettings.asyncUploadBufferSize</code></li>
+</ul>
+<h2 id="checking-how-things-done">Checking how things done</h2>
+<p>In out recent games, we have some issues when loading a lot of Unity Asset Bundles at runtime on the loading screen. It took a couple of seconds for all bundles to finish loading. A bit weird since it&rsquo;s just 10~ish bundle with total contents of ~100mb, it should be done instantly with an iPhone 11 device (Hexa-core 2x2.65 GHz, 4GB Ram, NVME storage).</p>
+<p>Asset bundle loading code generally looks like this</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">AssetBundle</span> <span class="n">bundle</span> <span class="p">=</span> <span class="n">AssetBundle</span><span class="p">.</span><span class="n">LoadFromFile</span><span class="p">(</span><span class="n">path</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span><span class="p">(</span><span class="n">bundle</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Do things related to bundle contents</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>At first I tried changing it into the async version of Loading API</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">AssetBundleCreateRequest</span> <span class="n">request</span> <span class="p">=</span> <span class="n">AssetBundle</span><span class="p">.</span><span class="n">LoadFromFileAsync</span><span class="p">(</span><span class="n">path</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="k">yield</span> <span class="k">return</span> <span class="n">request</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">AssetBundle</span> <span class="n">bundle</span> <span class="p">=</span> <span class="n">request</span><span class="p">.</span><span class="n">assetBundle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span><span class="p">(</span><span class="n">bundle</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Do things related to bundle contents</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>But from my timings, there are nothing that significantly changed timing wise for loading time.</p>
+<p>After digging deeper into Unity docs, there are some flags that might be useful to increase the asset bundle load time, related to how the asset bundles s being <a href="https://docs.unity3d.com/ScriptReference/BuildAssetBundleOptions.html">build</a>. I&rsquo;ve been using <code>BuildAssetBundleOptions.None</code> and according to docs it build with LZMA compression and requires entire bundle to be decompressed before being used, making load times slower. Changing the build options into <code>ChunkBasedCompression</code> LZ4 results in larger bundle files, but the loading speed is twice faster!. This options is the best tradeoff for speed and size of asset bundles.</p>
+<h2 id="jobs-done">Jobs done</h2>
+<p>Now at this point, we could pat our back and say that the jobs done, but is there anything else that could be improved?</p>
+<p>Looking at the build options again, there are some options that could potentially help reducing the load time more, <code>DisableLoadAssetByFileName</code> and <code>DisableLoadAssetByFileNameWithExtension</code>.</p>
+<p>Whenever an asset bundles is build, there are three ways to look up asset, full asset path, asset file name, and asset file name with extension, for example &ldquo;Assets/Prefabs/Player.prefab&rdquo;, &ldquo;Player&rdquo;, and &ldquo;Player.prefab&rdquo;. Those options will disable the asset name lookup table, saving runtime memory and loading performance.</p>
+<p>Since all call that goes to load the assets through the asset bundle is using</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">Sprite</span> <span class="n">sprite</span> <span class="p">=</span> <span class="n">bundle</span><span class="p">.</span><span class="n">LoadAsset</span><span class="p">&lt;</span><span class="n">Sprite</span><span class="p">&gt;(</span><span class="s">&#34;Player.prefab&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><p>I can only use DisableLoadAssetByFileName, using DisableLoadAssetByFileNameWithExtension means I must go into each load asset call and fix the loading code into using the full path, which means a lot more work to do. Will take this in mind for the next game, but need to justify whether the effort and results beats the easiness of the API.</p>
+<h2 id="but-wait-theres-more">But wait there&rsquo;s more!</h2>
+<p>Before we can change a few more knobs and buttons on unity to speed up things, we need to understand how Unity package things and load those data at runtime, those things are explained in detail <a href="https://blog.unity.com/engine-platform/understanding-the-async-upload-pipeline">here</a>, but basically, you need to change the buffer size and time slice of when unity does the texture/mesh upload to GPU, if you have a lot of textures and meshes on the asset bundles, this will surely help out. You need to tweak <code>QualitySettings.asyncUploadTimeSlice</code> and <code>QualitySettings.asyncUploadBufferSize</code>, both are in Unity Quality Settings window. The former will adjust the time spent when uploading texture/mesh data on each frme, while the later would adjust the temporary ring buffer size used to upload those data. Generally for larger textures you need larger buffer, tweak and test those values in order to maximize your game loading time.</p>
 
             </div>
         </article></main>
