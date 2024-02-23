@@ -54,7 +54,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [I Fight For The Users](https://blog.codinghorror.com/i-fight-for-the-users/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly  -  Issue 315  -  November 26th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-315/) -- https://www.jendrikillner.com/
 - [Interpolating Color Image Histograms Using Sliced Optimal Transport](https://blog.demofox.org/2023/11/25/interpolating-color-image-histograms-using-sliced-optimal-transport/) -- https://blog.demofox.org
-- [(Graphics) Programming Resource List](https://www.jendrikillner.com/post/reading-list/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
