@@ -54,7 +54,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 317  -  December 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-317/) -- https://www.jendrikillner.com/
 - [Exploring the design space of "remote scene approximation"](http://c0de517e.blogspot.com/2023/12/exploring-design-space-of-remote-scene.html) -- http://c0de517e.blogspot.com/
 - [Gaussian explosion](https://aras-p.info/blog/2023/12/08/Gaussian-explosion/) -- https://aras-p.info/
-- [Why am I not getting wishlists? A step by step solution](https://howtomarketagame.com/2023/12/05/why-am-i-not-getting-wishlists-a-step-by-step-solution/?utm_source=rss&utm_medium=rss&utm_campaign=why-am-i-not-getting-wishlists-a-step-by-step-solution) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
