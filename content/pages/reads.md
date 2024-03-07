@@ -54,8 +54,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [EGSR 2024 dates and Call for Papers is up](https://www.realtimerendering.com/blog/egsr-2024-dates-and-call-for-papers-is-up/) -- https://www.realtimerendering.com/blog
 - [Why Educational Games Don’t Work on Steam](https://howtomarketagame.com/2023/12/13/why-educational-games-dont-work-on-steam/?utm_source=rss&utm_medium=rss&utm_campaign=why-educational-games-dont-work-on-steam) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 317  -  December 10th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-317/) -- https://www.jendrikillner.com/
-- [Exploring the design space of "remote scene approximation"](http://c0de517e.blogspot.com/2023/12/exploring-design-space-of-remote-scene.html) -- http://c0de517e.blogspot.com/
-- [Gaussian explosion](https://aras-p.info/blog/2023/12/08/Gaussian-explosion/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
