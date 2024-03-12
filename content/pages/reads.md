@@ -53,7 +53,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [A gentler introduction to ReSTIR](https://interplayoflight.wordpress.com/2023/12/17/a-gentler-introduction-to-restir/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly  -  Issue 318  -  December 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-318/) -- https://www.jendrikillner.com/
 - [EGSR 2024 dates and Call for Papers is up](https://www.realtimerendering.com/blog/egsr-2024-dates-and-call-for-papers-is-up/) -- https://www.realtimerendering.com/blog
-- [Why Educational Games Don’t Work on Steam](https://howtomarketagame.com/2023/12/13/why-educational-games-dont-work-on-steam/?utm_source=rss&utm_medium=rss&utm_campaign=why-educational-games-dont-work-on-steam) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
