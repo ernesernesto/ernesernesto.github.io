@@ -52,7 +52,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 319  -  December 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-319/) -- https://www.jendrikillner.com/
 - [What I respect about PlayWay](https://howtomarketagame.com/2023/12/22/what-i-respect-about-playway/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-respect-about-playway) -- https://howtomarketagame.com
 - [A gentler introduction to ReSTIR](https://interplayoflight.wordpress.com/2023/12/17/a-gentler-introduction-to-restir/) -- https://interplayoflight.wordpress.com
-- [Graphics Programming weekly  -  Issue 318  -  December 17th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-318/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
