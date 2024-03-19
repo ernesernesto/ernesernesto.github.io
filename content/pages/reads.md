@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [GDC 2024](https://howtomarketagame.com/2024/03/18/gdc-2024/?utm_source=rss&utm_medium=rss&utm_campaign=gdc-2024) -- https://howtomarketagame.com
 - [What I wish I knew about ESPP and RSUs sooner (company stock benefits. 2024, USA, California)](https://blog.demofox.org/2024/03/17/what-i-wish-i-knew-about-espp-and-rsus-sooner-company-stock-benefits-2024-usa-california/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 331  -  March 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-331/) -- https://www.jendrikillner.com/
 - [How web bloat impacts users with slow devices](https://danluu.com/slow-device/) -- https://danluu.com/atom/index.xml
