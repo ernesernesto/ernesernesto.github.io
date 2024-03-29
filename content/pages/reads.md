@@ -51,8 +51,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Seven Things for January 1, 2024](https://www.realtimerendering.com/blog/seven-things-for-january-1-2024/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 320  -  December 31st, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-320/) -- https://www.jendrikillner.com/
 - [VSCode, WASM, WASI](https://floooh.github.io/2023/12/31/vscode-wasm-wasi.html) -- https://floooh.github.io/
-- [How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT](https://danluu.com/seo-spam/) -- https://danluu.com/atom/index.xml
-- [Low-level thinking in high-level shading languages 2023](https://interplayoflight.wordpress.com/2023/12/29/low-level-thinking-in-high-level-shading-languages-2023/) -- https://interplayoflight.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
