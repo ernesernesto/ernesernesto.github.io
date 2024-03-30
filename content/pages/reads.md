@@ -12,7 +12,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [GDC 2024](https://howtomarketagame.com/2024/03/18/gdc-2024/?utm_source=rss&utm_medium=rss&utm_campaign=gdc-2024) -- https://howtomarketagame.com
 - [What I wish I knew about ESPP and RSUs sooner (company stock benefits. 2024, USA, California)](https://blog.demofox.org/2024/03/17/what-i-wish-i-knew-about-espp-and-rsus-sooner-company-stock-benefits-2024-usa-california/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 331  -  March 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-331/) -- https://www.jendrikillner.com/
-- [How web bloat impacts users with slow devices](https://danluu.com/slow-device/) -- https://danluu.com/atom/index.xml
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
 - [EGSR, HPG, and I3D](https://www.realtimerendering.com/blog/egsr-hpg-and-i3d/) -- https://www.realtimerendering.com/blog
@@ -49,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Two years ago: left Unity](https://aras-p.info/blog/2024/01/02/Two-years-ago-left-Unity/) -- https://aras-p.info/
 - [What I learned in 2023](https://howtomarketagame.com/2024/01/01/what-i-learned-in-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-learned-in-2023) -- https://howtomarketagame.com
 - [Seven Things for January 1, 2024](https://www.realtimerendering.com/blog/seven-things-for-january-1-2024/) -- https://www.realtimerendering.com/blog
-- [Graphics Programming weekly  -  Issue 320  -  December 31st, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-320/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
