@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
 - [Is the AI flood here yet? How many games have released in 2024](https://howtomarketagame.com/2024/04/01/is-the-ai-flood-here-yet-how-many-games-have-released-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=is-the-ai-flood-here-yet-how-many-games-have-released-in-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
 - [](http://c0de517e.blogspot.com/2024/03/read-article-here-httpsc0de517e.html) -- http://c0de517e.blogspot.com/
