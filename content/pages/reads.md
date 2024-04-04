@@ -7,9 +7,15 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
+- [Is the AI flood here yet? How many games have released in 2024](https://howtomarketagame.com/2024/04/01/is-the-ai-flood-here-yet-how-many-games-have-released-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=is-the-ai-flood-here-yet-how-many-games-have-released-in-2024) -- https://howtomarketagame.com
+- [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
+- [](http://c0de517e.blogspot.com/2024/03/read-article-here-httpsc0de517e.html) -- http://c0de517e.blogspot.com/
+- [Graphics Programming weekly  -  Issue 332  -  March 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-332/) -- https://www.jendrikillner.com/
 - [GDC 2024](https://howtomarketagame.com/2024/03/18/gdc-2024/?utm_source=rss&utm_medium=rss&utm_campaign=gdc-2024) -- https://howtomarketagame.com
 - [What I wish I knew about ESPP and RSUs sooner (company stock benefits. 2024, USA, California)](https://blog.demofox.org/2024/03/17/what-i-wish-i-knew-about-espp-and-rsus-sooner-company-stock-benefits-2024-usa-california/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 331  -  March 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-331/) -- https://www.jendrikillner.com/
+- [How web bloat impacts users with slow devices](https://danluu.com/slow-device/) -- https://danluu.com/atom/index.xml
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
 - [EGSR, HPG, and I3D](https://www.realtimerendering.com/blog/egsr-hpg-and-i3d/) -- https://www.realtimerendering.com/blog
@@ -43,17 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Why 14,000 games released on Steam in 2023 isn’t that bad](https://howtomarketagame.com/2024/01/11/why-14000-games-released-on-steam-2023-isnt-that-bad/?utm_source=rss&utm_medium=rss&utm_campaign=why-14000-games-released-on-steam-2023-isnt-that-bad) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 321  -  January 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-321/) -- https://www.jendrikillner.com/
 - [Two classic radiosity books now free](https://www.realtimerendering.com/blog/two-classic-radiosity-books-now-free/) -- https://www.realtimerendering.com/blog
-- [Two years ago: left Unity](https://aras-p.info/blog/2024/01/02/Two-years-ago-left-Unity/) -- https://aras-p.info/
-- [What I learned in 2023](https://howtomarketagame.com/2024/01/01/what-i-learned-in-2023/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-learned-in-2023) -- https://howtomarketagame.com
-- [Seven Things for January 1, 2024](https://www.realtimerendering.com/blog/seven-things-for-january-1-2024/) -- https://www.realtimerendering.com/blog
-- [Graphics Programming weekly  -  Issue 320  -  December 31st, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-320/) -- https://www.jendrikillner.com/
-- [VSCode, WASM, WASI](https://floooh.github.io/2023/12/31/vscode-wasm-wasi.html) -- https://floooh.github.io/
-- [How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT](https://danluu.com/seo-spam/) -- https://danluu.com/atom/index.xml
-- [Low-level thinking in high-level shading languages 2023](https://interplayoflight.wordpress.com/2023/12/29/low-level-thinking-in-high-level-shading-languages-2023/) -- https://interplayoflight.wordpress.com
-- [Making Blue Noise Point Sets With Sliced Optimal Transport](https://blog.demofox.org/2023/12/24/making-blue-noise-point-sets-with-sliced-optimal-transport/) -- https://blog.demofox.org
-- [Deriving the Inverse CDF of a Rotated Square Projected onto a Line](https://blog.demofox.org/2023/12/24/deriving-the-inverse-cdf-of-a-rotated-square-projected-onto-a-line/) -- https://blog.demofox.org
-- [Graphics Programming weekly  -  Issue 319  -  December 24th, 2023](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-319/) -- https://www.jendrikillner.com/
-- [What I respect about PlayWay](https://howtomarketagame.com/2023/12/22/what-i-respect-about-playway/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-respect-about-playway) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
