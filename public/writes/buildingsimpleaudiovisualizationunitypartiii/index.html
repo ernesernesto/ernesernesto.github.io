@@ -1,280 +1,520 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=content-type content="text/html"><meta name=viewport content="width=device-width,initial-scale=1"><title itemprop=name>Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io</title><meta property="og:title" content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io"><meta name=twitter:title content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io"><meta itemprop=name content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io"><meta name=application-name content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io"><meta property="og:site_name" content="ernesernesto.github.io"><meta name=description content="ernesernesto dev blog"><meta itemprop=description content="ernesernesto dev blog"><meta property="og:description" content="ernesernesto dev blog"><meta name=twitter:description content="ernesernesto dev blog"><meta property="og:locale" content="en-us"><meta name=language content="en-us"><meta itemprop=image content="http://ernesernesto.github.io/"><meta property="og:image" content="http://ernesernesto.github.io/"><meta name=twitter:image content="http://ernesernesto.github.io/"><meta name=twitter:image:src content="http://ernesernesto.github.io/"><meta name=generator content="Hugo 0.119.0"><link rel=canonical href=http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/><link href=/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css rel=stylesheet><link href=/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css rel=stylesheet><link rel=apple-touch-icon sizes=180x180 href=/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/icons/favicon-16x16.png><link rel=mask-icon href=/icons/safari-pinned-tab.svg><link rel="shortcut icon" href=/favicon.ico><link rel=manifest href=http://ernesernesto.github.io/site.webmanifest><meta name=msapplication-config content="/browserconfig.xml"><meta name=msapplication-TileColor content="#2d89ef"><meta name=theme-color content="#434648"><link rel=icon type=image/svg+xml href=/icons/favicon.svg></head><body data-theme=dark class=notransition><script src=/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script><div class=navbar role=navigation><nav class=menu aria-label="Main Navigation"><a href=http://ernesernesto.github.io/ class=logo><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><title>Home</title><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a><input type=checkbox id=menu-trigger class=menu-trigger>
-<label for=menu-trigger><span class=menu-icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentcolor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7H3.40726"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488H3.49301"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"/><path stroke-linecap="round" stroke-linejoin="round" d="M.5 12.5V1.5c0-.552285.447715-1 1-1h11C13.0523.5 13.5.947715 13.5 1.5v11C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C.947715 13.5.5 13.0523.5 12.5z"/></svg></span></label><div class=trigger><ul class=trigger-container><li><a class=menu-link href=/>Home</a></li><li><a class=menu-link href=/pages/reads/>Reads</a></li><li><a class="menu-link active" href=/writes/>Writes</a></li><li><a class=menu-link href=/pages/info/>Info</a></li><li class=menu-separator><span>|</span></li></ul><a id=mode href=#><svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1"><title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1=".5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1=".5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg><svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1"><title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1=".5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1=".5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg></a></div></nav></div><div class="wrapper post"><main class=page-content aria-label=Content><article><header class=header><h1 class=header-title>Building Simple Audio Visualization with Unity ECS Part III — ECS</h1><div class=post-meta><time datetime=2018-08-06T12:40:06+07:00 itemprop=datePublished>Aug 6, 2018</time></div></header><div class=page-content><p>This is the last part from the three part series of creating a simple audio visualizer to learn ECS. The <a href=/writes/buildingsimpleaudiovisualizationunityecsparti/>first part</a> we talked about how to make things work with MonoBehavior way. The <a href=/writes/buildingsimpleaudiovisualizationunityecspartii/>second part</a> we change the MonoBehavior into a Jobified Unity Job System. Today we’re going to walk to our end goal, transforming our Audio Visualization into ECS form.</p><p>The promise of the new ECS system is the performance gain. Usually before moving from one coding principles to another, we have to list all the problems that we could get when changing into the new paradigm. Is the performance gain worth the hassle? Is it worth the time investing things to change the codebase into this new ECS things? But in games, almost always we must pursue the performance gain, because the experience of playing a games smoothly would always beat codework.</p><p>The ECS guarantees linear data layout when iterating entities in chunks, this is the critical performance gains that is promised by ECS, before delving deeply into ECS we need to clear out few things.</p><p>ECS have three core concept, Entity, Component and the System. Entity is basically an ID, you can add component or remove component into it. The component itself is classes which contains data with no behavior, it is used purely for data. Then come the system which told to do a specific things. Sounds confused? If you’re creating a system to scale all cube entities then all you’ve to do is query all entities in the world that have “cube” id, then for each entity, we’re going to scale the object like we used to do.</p><p>There are a couple of changes that we need to do in our code, but first we must identify which one is entity, our component data, and the systems that are going to work on them.</p><p>Our entity in this case is the cube, component data is the origin, then for the systems we need a system to spawn all the cube, process the audio data, then change the scale of the cubes, at least three system.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>BootupECSJob</span>
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=kd>static</span> <span class=n>MeshInstanceRenderer</span> <span class=n>cubeLook</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=kd>static</span> <span class=n>Settings</span> <span class=n>settings</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na>
-</span></span></span><span class=line><span class=cl><span class=na>    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=kd>static</span> <span class=k>void</span> <span class=n>Init</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>EntityManager</span> <span class=n>entityManager</span> <span class=p>=</span> <span class=n>World</span><span class=p>.</span><span class=n>Active</span><span class=p>.</span><span class=n>GetOrCreateManager</span><span class=p>&lt;</span><span class=n>EntityManager</span><span class=p>&gt;();</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=n>GameObject</span> <span class=n>proto</span> <span class=p>=</span> <span class=n>GameObject</span><span class=p>.</span><span class=n>Find</span><span class=p>(</span><span class=s>&#34;CubePrototype&#34;</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>        <span class=k>if</span><span class=p>(</span><span class=n>proto</span> <span class=p>!=</span> <span class=kc>null</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>cubeLook</span> <span class=p>=</span> <span class=n>proto</span><span class=p>.</span><span class=n>GetComponent</span><span class=p>&lt;</span><span class=n>MeshInstanceRendererComponent</span><span class=p>&gt;().</span><span class=n>Value</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>Object</span><span class=p>.</span><span class=n>Destroy</span><span class=p>(</span><span class=n>proto</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>GameObject</span> <span class=n>go</span> <span class=p>=</span> <span class=n>GameObject</span><span class=p>.</span><span class=n>Find</span><span class=p>(</span><span class=s>&#34;Settings&#34;</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=n>settings</span> <span class=p>=</span> <span class=n>go</span><span class=p>.</span><span class=n>GetComponent</span><span class=p>&lt;</span><span class=n>Settings</span><span class=p>&gt;();</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=kt>int</span> <span class=n>channelCount</span> <span class=p>=</span> <span class=n>World</span><span class=p>.</span><span class=n>Active</span><span class=p>.</span><span class=n>GetOrCreateManager</span><span class=p>&lt;</span><span class=n>SpectrumSystem</span><span class=p>&gt;().</span><span class=n>Init</span><span class=p>(</span><span class=n>settings</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=n>World</span><span class=p>.</span><span class=n>Active</span><span class=p>.</span><span class=n>GetOrCreateManager</span><span class=p>&lt;</span><span class=n>SpawnCubeSystem</span><span class=p>&gt;().</span><span class=n>Init</span><span class=p>(</span><span class=n>settings</span><span class=p>,</span> 
-</span></span><span class=line><span class=cl>                                                                    <span class=n>channelCount</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>                                                                    <span class=n>entityManager</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>                                                                    <span class=n>cubeLook</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>World</span><span class=p>.</span><span class=n>Active</span><span class=p>.</span><span class=n>GetExistingManager</span><span class=p>&lt;</span><span class=n>TransformSystem</span><span class=p>&gt;().</span><span class=n>Enabled</span> <span class=p>=</span> <span class=kc>false</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>struct</span> <span class=nc>Cube</span> <span class=p>:</span> <span class=n>IComponentData</span> <span class=p>{}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>struct</span> <span class=nc>Origin</span> <span class=p>:</span> <span class=n>IComponentData</span> 
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=n>float3</span> <span class=n>Value</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span></code></pre></div><p>Our MonoBehavior is now gone, changed into a static <code>Init</code> which sole purpose is to initialize our world with the <code>entityManager</code>, get the <code>Settings</code>, and initialize our systems. <code>CubePrototype</code> is used to spawn our cubes that is now added to Unity hierarchy view. <code>CubePrototype</code> have <code>MeshInstanceRenderer</code> that defines it’s look and Unity built-in <code>Game Object Entity Script</code>, this is used so that Unity ECS know that this is an <code>Game Object Entity</code> and could be processed on ECS system.</p><p><code>Cube</code> is used as an id, every entity that is created with this <code>Cube</code> component data is considered a <code>Cube</code>. For the <code>Origin</code> component data, it is used to store the cube origin value before we offset it.</p><p>The process of spawning and arranging the cube spirally has now moved into <code>SpawnCubeSystem</code>. Also we disabled the built-in <code>TransformSystem</code> on Unity, we will talk about this later.</p><p>Here are the <code>SpawnCubeSystem</code></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>SpawnCubeSystem</span> <span class=p>:</span> <span class=n>ComponentSystem</span> 
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=n>Settings</span> <span class=n>settings</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=kt>int</span> <span class=n>totalCubeCount</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=kt>bool</span> <span class=n>isFirstTime</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=k>void</span> <span class=n>Init</span><span class=p>(</span><span class=n>Settings</span> <span class=n>inSettings</span><span class=p>,</span> <span class=n>EntityManager</span> <span class=n>entityManager</span><span class=p>,</span> <span class=n>MeshInstanceRenderer</span> <span class=n>look</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>isFirstTime</span> <span class=p>=</span> <span class=kc>true</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=n>settings</span> <span class=p>=</span> <span class=n>inSettings</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>totalCubeCount</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>spectrumSize</span><span class=p>*</span><span class=m>2</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>for</span><span class=p>(</span><span class=kt>int</span> <span class=n>index</span> <span class=p>=</span> <span class=m>0</span><span class=p>;</span> 
-</span></span><span class=line><span class=cl>            <span class=n>index</span> <span class=p>&lt;</span> <span class=n>totalCubeCount</span><span class=p>;</span> 
-</span></span><span class=line><span class=cl>            <span class=p>++</span><span class=n>index</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>EntityArchetype</span> <span class=n>archetype</span> <span class=p>=</span> <span class=n>entityManager</span><span class=p>.</span><span class=n>CreateArchetype</span><span class=p>(</span><span class=k>typeof</span><span class=p>(</span><span class=n>Cube</span><span class=p>),</span> 
-</span></span><span class=line><span class=cl>                                                                      <span class=k>typeof</span><span class=p>(</span><span class=n>Origin</span><span class=p>),</span>
-</span></span><span class=line><span class=cl>                                                                      <span class=k>typeof</span><span class=p>(</span><span class=n>TransformMatrix</span><span class=p>),</span> 
-</span></span><span class=line><span class=cl>                                                                      <span class=k>typeof</span><span class=p>(</span><span class=n>Position</span><span class=p>),</span> 
-</span></span><span class=line><span class=cl>                                                                      <span class=k>typeof</span><span class=p>(</span><span class=n>LocalRotation</span><span class=p>),</span>
-</span></span><span class=line><span class=cl>                                                                      <span class=k>typeof</span><span class=p>(</span><span class=n>Scale</span><span class=p>));</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>Entity</span> <span class=n>cube</span> <span class=p>=</span> <span class=n>entityManager</span><span class=p>.</span><span class=n>CreateEntity</span><span class=p>(</span><span class=n>archetype</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=n>entityManager</span><span class=p>.</span><span class=n>AddSharedComponentData</span><span class=p>(</span><span class=n>cube</span><span class=p>,</span> <span class=n>look</span><span class=p>);</span> 
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=k>struct</span> <span class=nc>CubesGroup</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=kt>int</span> <span class=n>Length</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Cube</span><span class=p>&gt;</span> <span class=n>cubes</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Position</span><span class=p>&gt;</span> <span class=n>positions</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Origin</span><span class=p>&gt;</span> <span class=n>origins</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=na>
-</span></span></span><span class=line><span class=cl><span class=na>    [Inject]</span> 
-</span></span><span class=line><span class=cl>    <span class=n>CubesGroup</span> <span class=k>group</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=kd>protected</span> <span class=kd>override</span> <span class=k>void</span> <span class=n>OnUpdate</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=k>if</span><span class=p>(</span><span class=n>isFirstTime</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=kt>int</span> <span class=n>spectrumSize</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>spectrumSize</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=k>for</span><span class=p>(</span><span class=kt>int</span> <span class=n>index</span> <span class=p>=</span> <span class=m>0</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>                <span class=n>index</span> <span class=p>&lt;</span> <span class=n>totalCubeCount</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>                <span class=p>++</span><span class=n>index</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>            <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=kt>int</span> <span class=n>groupIndex</span> <span class=p>=</span> <span class=n>index</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>                <span class=n>SpiralPos</span> <span class=n>pos</span> <span class=p>=</span> <span class=n>Utils</span><span class=p>.</span><span class=n>GetSpiralPos</span><span class=p>(</span><span class=n>groupIndex</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>                <span class=n>Position</span> <span class=n>position</span> <span class=p>=</span> <span class=k>group</span><span class=p>.</span><span class=n>positions</span><span class=p>[</span><span class=n>groupIndex</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>                <span class=n>position</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=k>new</span> <span class=n>float3</span><span class=p>(</span><span class=n>pos</span><span class=p>.</span><span class=n>x</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=n>pos</span><span class=p>.</span><span class=n>z</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>                <span class=k>group</span><span class=p>.</span><span class=n>positions</span><span class=p>[</span><span class=n>groupIndex</span><span class=p>]</span> <span class=p>=</span> <span class=n>position</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>                <span class=n>Origin</span> <span class=n>origin</span> <span class=p>=</span> <span class=k>group</span><span class=p>.</span><span class=n>origins</span><span class=p>[</span><span class=n>groupIndex</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>                <span class=n>origin</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=n>position</span><span class=p>.</span><span class=n>Value</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>                <span class=k>group</span><span class=p>.</span><span class=n>origins</span><span class=p>[</span><span class=n>groupIndex</span><span class=p>]</span> <span class=p>=</span> <span class=n>origin</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=p>}</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=n>isFirstTime</span> <span class=p>=</span> <span class=kc>false</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io</title>
+<meta property="og:title" content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io" />
+<meta name="twitter:title" content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io" />
+<meta itemprop="name" content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io" />
+<meta name="application-name" content="Building Simple Audio Visualization with Unity ECS Part III — ECS | ernesernesto io" />
+<meta property="og:site_name" content="ernesernesto.github.io" />
+
+<meta name="description" content="ernesernesto dev blog">
+<meta itemprop="description" content="ernesernesto dev blog" />
+<meta property="og:description" content="ernesernesto dev blog" />
+<meta name="twitter:description" content="ernesernesto dev blog" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/writes/buildingsimpleaudiovisualizationunitypartiii/" title="English" />
+
+
+
+  <meta itemprop="image" content="http://localhost:1313/" />
+  <meta property="og:image" content="http://localhost:1313/" />
+  <meta name="twitter:image" content="http://localhost:1313/" />
+  <meta name="twitter:image:src" content="http://localhost:1313/" />
+
+
+
+
+
+<meta name="generator" content="Hugo 0.124.0">
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/writes/buildingsimpleaudiovisualizationunitypartiii/">
+    <link href="/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    </head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/reads/">
+                        Reads
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/writes/">
+                        Writes
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/info/">
+                        Info
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Building Simple Audio Visualization with Unity ECS Part III — ECS</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2018-08-06T12:40:06&#43;07:00" itemprop="datePublished"> Aug 6, 2018 </time>
+                </div>
+                
+            </header><div class="page-content">
+                <p>This is the last part from the three part series of creating a simple audio visualizer to learn ECS. The <a href="/writes/buildingsimpleaudiovisualizationunityecsparti/">first part</a> we talked about how to make things work with MonoBehavior way. The <a href="/writes/buildingsimpleaudiovisualizationunityecspartii/">second part</a> we change the MonoBehavior into a Jobified Unity Job System. Today we’re going to walk to our end goal, transforming our Audio Visualization into ECS form.</p>
+<p>The promise of the new ECS system is the performance gain. Usually before moving from one coding principles to another, we have to list all the problems that we could get when changing into the new paradigm. Is the performance gain worth the hassle? Is it worth the time investing things to change the codebase into this new ECS things? But in games, almost always we must pursue the performance gain, because the experience of playing a games smoothly would always beat codework.</p>
+<p>The ECS guarantees linear data layout when iterating entities in chunks, this is the critical performance gains that is promised by ECS, before delving deeply into ECS we need to clear out few things.</p>
+<p>ECS have three core concept, Entity, Component and the System. Entity is basically an ID, you can add component or remove component into it. The component itself is classes which contains data with no behavior, it is used purely for data. Then come the system which told to do a specific things. Sounds confused? If you’re creating a system to scale all cube entities then all you’ve to do is query all entities in the world that have “cube” id, then for each entity, we’re going to scale the object like we used to do.</p>
+<p>There are a couple of changes that we need to do in our code, but first we must identify which one is entity, our component data, and the systems that are going to work on them.</p>
+<p>Our entity in this case is the cube, component data is the origin, then for the systems we need a system to spawn all the cube, process the audio data, then change the scale of the cubes, at least three system.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">BootupECSJob</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">MeshInstanceRenderer</span> <span class="n">cubeLook</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">Settings</span> <span class="n">settings</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">
+</span></span></span><span class="line"><span class="cl"><span class="na">    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">Init</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">EntityManager</span> <span class="n">entityManager</span> <span class="p">=</span> <span class="n">World</span><span class="p">.</span><span class="n">Active</span><span class="p">.</span><span class="n">GetOrCreateManager</span><span class="p">&lt;</span><span class="n">EntityManager</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">GameObject</span> <span class="n">proto</span> <span class="p">=</span> <span class="n">GameObject</span><span class="p">.</span><span class="n">Find</span><span class="p">(</span><span class="s">&#34;CubePrototype&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">proto</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">cubeLook</span> <span class="p">=</span> <span class="n">proto</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">MeshInstanceRendererComponent</span><span class="p">&gt;().</span><span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Object</span><span class="p">.</span><span class="n">Destroy</span><span class="p">(</span><span class="n">proto</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">GameObject</span> <span class="n">go</span> <span class="p">=</span> <span class="n">GameObject</span><span class="p">.</span><span class="n">Find</span><span class="p">(</span><span class="s">&#34;Settings&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">settings</span> <span class="p">=</span> <span class="n">go</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Settings</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">channelCount</span> <span class="p">=</span> <span class="n">World</span><span class="p">.</span><span class="n">Active</span><span class="p">.</span><span class="n">GetOrCreateManager</span><span class="p">&lt;</span><span class="n">SpectrumSystem</span><span class="p">&gt;().</span><span class="n">Init</span><span class="p">(</span><span class="n">settings</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">World</span><span class="p">.</span><span class="n">Active</span><span class="p">.</span><span class="n">GetOrCreateManager</span><span class="p">&lt;</span><span class="n">SpawnCubeSystem</span><span class="p">&gt;().</span><span class="n">Init</span><span class="p">(</span><span class="n">settings</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                                                                    <span class="n">channelCount</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                                                    <span class="n">entityManager</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                                                    <span class="n">cubeLook</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">World</span><span class="p">.</span><span class="n">Active</span><span class="p">.</span><span class="n">GetExistingManager</span><span class="p">&lt;</span><span class="n">TransformSystem</span><span class="p">&gt;().</span><span class="n">Enabled</span> <span class="p">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">struct</span> <span class="nc">Cube</span> <span class="p">:</span> <span class="n">IComponentData</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">struct</span> <span class="nc">Origin</span> <span class="p">:</span> <span class="n">IComponentData</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">float3</span> <span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Our MonoBehavior is now gone, changed into a static <code>Init</code> which sole purpose is to initialize our world with the <code>entityManager</code>, get the <code>Settings</code>, and initialize our systems. <code>CubePrototype</code> is used to spawn our cubes that is now added to Unity hierarchy view. <code>CubePrototype</code> have <code>MeshInstanceRenderer</code> that defines it’s look and Unity built-in <code>Game Object Entity Script</code>, this is used so that Unity ECS know that this is an <code>Game Object Entity</code> and could be processed on ECS system.</p>
+<p><code>Cube</code> is used as an id, every entity that is created with this <code>Cube</code> component data is considered a <code>Cube</code>. For the <code>Origin</code> component data, it is used to store the cube origin value before we offset it.</p>
+<p>The process of spawning and arranging the cube spirally has now moved into <code>SpawnCubeSystem</code>. Also we disabled the built-in <code>TransformSystem</code> on Unity, we will talk about this later.</p>
+<p>Here are the <code>SpawnCubeSystem</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">SpawnCubeSystem</span> <span class="p">:</span> <span class="n">ComponentSystem</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Settings</span> <span class="n">settings</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">totalCubeCount</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">isFirstTime</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="k">void</span> <span class="n">Init</span><span class="p">(</span><span class="n">Settings</span> <span class="n">inSettings</span><span class="p">,</span> <span class="n">EntityManager</span> <span class="n">entityManager</span><span class="p">,</span> <span class="n">MeshInstanceRenderer</span> <span class="n">look</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">isFirstTime</span> <span class="p">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">settings</span> <span class="p">=</span> <span class="n">inSettings</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">totalCubeCount</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">spectrumSize</span><span class="p">*</span><span class="m">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">index</span> <span class="p">&lt;</span> <span class="n">totalCubeCount</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">            <span class="p">++</span><span class="n">index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">EntityArchetype</span> <span class="n">archetype</span> <span class="p">=</span> <span class="n">entityManager</span><span class="p">.</span><span class="n">CreateArchetype</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="n">Cube</span><span class="p">),</span> 
+</span></span><span class="line"><span class="cl">                                                                      <span class="k">typeof</span><span class="p">(</span><span class="n">Origin</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                                                                      <span class="k">typeof</span><span class="p">(</span><span class="n">TransformMatrix</span><span class="p">),</span> 
+</span></span><span class="line"><span class="cl">                                                                      <span class="k">typeof</span><span class="p">(</span><span class="n">Position</span><span class="p">),</span> 
+</span></span><span class="line"><span class="cl">                                                                      <span class="k">typeof</span><span class="p">(</span><span class="n">LocalRotation</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                                                                      <span class="k">typeof</span><span class="p">(</span><span class="n">Scale</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">Entity</span> <span class="n">cube</span> <span class="p">=</span> <span class="n">entityManager</span><span class="p">.</span><span class="n">CreateEntity</span><span class="p">(</span><span class="n">archetype</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">entityManager</span><span class="p">.</span><span class="n">AddSharedComponentData</span><span class="p">(</span><span class="n">cube</span><span class="p">,</span> <span class="n">look</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="k">struct</span> <span class="nc">CubesGroup</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">int</span> <span class="n">Length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Cube</span><span class="p">&gt;</span> <span class="n">cubes</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Position</span><span class="p">&gt;</span> <span class="n">positions</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Origin</span><span class="p">&gt;</span> <span class="n">origins</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="na">
+</span></span></span><span class="line"><span class="cl"><span class="na">    [Inject]</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">CubesGroup</span> <span class="k">group</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">protected</span> <span class="kd">override</span> <span class="k">void</span> <span class="n">OnUpdate</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">isFirstTime</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">spectrumSize</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">spectrumSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">index</span> <span class="p">&lt;</span> <span class="n">totalCubeCount</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="p">++</span><span class="n">index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="kt">int</span> <span class="n">groupIndex</span> <span class="p">=</span> <span class="n">index</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">SpiralPos</span> <span class="n">pos</span> <span class="p">=</span> <span class="n">Utils</span><span class="p">.</span><span class="n">GetSpiralPos</span><span class="p">(</span><span class="n">groupIndex</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Position</span> <span class="n">position</span> <span class="p">=</span> <span class="k">group</span><span class="p">.</span><span class="n">positions</span><span class="p">[</span><span class="n">groupIndex</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">                <span class="n">position</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">new</span> <span class="n">float3</span><span class="p">(</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="k">group</span><span class="p">.</span><span class="n">positions</span><span class="p">[</span><span class="n">groupIndex</span><span class="p">]</span> <span class="p">=</span> <span class="n">position</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                <span class="n">Origin</span> <span class="n">origin</span> <span class="p">=</span> <span class="k">group</span><span class="p">.</span><span class="n">origins</span><span class="p">[</span><span class="n">groupIndex</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">                <span class="n">origin</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="n">position</span><span class="p">.</span><span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">group</span><span class="p">.</span><span class="n">origins</span><span class="p">[</span><span class="n">groupIndex</span><span class="p">]</span> <span class="p">=</span> <span class="n">origin</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">isFirstTime</span> <span class="p">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>Our <code>Init</code> method is used to create the <code>entityArchetype</code> and spawning cubes entity from the archetype. As you can see that we create the archetype with the <code>Cube</code> component, <code>Origin</code>, <code>TransformMatrix</code>, <code>Position</code>, <code>LocalRotation</code> and <code>Scale</code>. This means that our <code>cube</code> entity that we are going to spawn has all those component data.
-A <code>CubesGroup</code> is a struct that is used inside <code>SpawnCubeSystem</code>, what it does is it’s collecting all Entity which has <code>Cube</code>, <code>Position</code>, and <code>Origin</code>. Then we laid out the cubes positions spirally on the <code>OnUpdate()</code> method. We do this one time only so we need to make sure that even though the <code>OnUpdate</code> is called each time the system update, it won’t change the position again.</p><p>If you want to change the <code>ComponentData</code> value, currently the code in the current Unity ECS needs to copy that into another variable first, change it, and then assigning it back. You’ll often see this kind of code in the ECS system.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=n>Position</span> <span class=n>position</span> <span class=p>=</span> <span class=k>group</span><span class=p>.</span><span class=n>positions</span><span class=p>[</span><span class=n>groupIndex</span><span class=p>];</span>
-</span></span><span class=line><span class=cl><span class=n>position</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=k>new</span> <span class=n>float3</span><span class=p>(</span><span class=n>pos</span><span class=p>.</span><span class=n>x</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=n>pos</span><span class=p>.</span><span class=n>z</span><span class=p>);</span>
-</span></span><span class=line><span class=cl><span class=k>group</span><span class=p>.</span><span class=n>positions</span><span class=p>[</span><span class=n>groupIndex</span><span class=p>]</span> <span class=p>=</span> <span class=n>position</span><span class=p>;</span>
-</span></span></code></pre></div><p>Unity said it would change it in the future so it’ll be less cumbersome than now. Anyway after we set each positions and origins, we now need create the system to update the scale of the cubes. Below you could see the <code>SpectrumSystem</code> snippet</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=k>class</span> <span class=nc>SpectrumSystem</span> <span class=p>:</span> <span class=n>JobComponentSystem</span>
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=n>Settings</span> <span class=n>settings</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>Channel</span><span class=p>[]</span> <span class=n>channels</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=kt>int</span> <span class=n>Init</span><span class=p>(</span><span class=n>Settings</span> <span class=n>inSettings</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>settings</span> <span class=p>=</span> <span class=n>inSettings</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>spectrumSize</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>spectrumSize</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=n>channels</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Channel</span><span class=p>[</span><span class=m>1</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>        <span class=n>channels</span><span class=p>[</span><span class=m>0</span><span class=p>]</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Channel</span><span class=p>();</span>
-</span></span><span class=line><span class=cl>        <span class=n>channels</span><span class=p>[</span><span class=m>0</span><span class=p>].</span><span class=n>Init</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=n>spectrumSize</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>result</span> <span class=p>=</span> <span class=n>channels</span><span class=p>.</span><span class=n>Length</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>result</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>struct</span> <span class=nc>SpectrumGroup</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=kt>int</span> <span class=n>Length</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Position</span><span class=p>&gt;</span> <span class=n>positions</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Origin</span><span class=p>&gt;</span> <span class=n>origins</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Scale</span><span class=p>&gt;</span> <span class=n>scales</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=na>
-</span></span></span><span class=line><span class=cl><span class=na>    [Inject]</span> 
-</span></span><span class=line><span class=cl>    <span class=n>SpectrumGroup</span> <span class=k>group</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na>
-</span></span></span><span class=line><span class=cl><span class=na>    [ComputeJobOptimization]</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=k>struct</span> <span class=nc>SpectrumJob</span> <span class=p>:</span> <span class=n>IJobParallelFor</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=kt>float</span> <span class=n>maxScale</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=kt>float</span> <span class=n>dynamics</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=kt>float</span> <span class=n>epsilon</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>NativeArray</span><span class=p>&lt;</span><span class=kt>float</span><span class=p>&gt;</span> <span class=n>currentSpectrums</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>NativeArray</span><span class=p>&lt;</span><span class=kt>float</span><span class=p>&gt;</span> <span class=n>prevSpectrums</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Position</span><span class=p>&gt;</span> <span class=n>positions</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Origin</span><span class=p>&gt;</span> <span class=n>origins</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Scale</span><span class=p>&gt;</span> <span class=n>scales</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=k>void</span> <span class=n>Execute</span><span class=p>(</span><span class=kt>int</span> <span class=n>index</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=kt>float</span> <span class=n>current</span> <span class=p>=</span> <span class=n>currentSpectrums</span><span class=p>[</span><span class=n>index</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>            <span class=kt>float</span> <span class=n>prev</span> <span class=p>=</span> <span class=n>prevSpectrums</span><span class=p>[</span><span class=n>index</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=kt>float</span> <span class=n>val</span> <span class=p>=</span> <span class=p>(</span><span class=n>dynamics</span><span class=p>*</span><span class=n>prev</span> <span class=p>+</span> <span class=p>(</span><span class=m>1</span> <span class=p>-</span> <span class=n>dynamics</span><span class=p>)*</span><span class=n>current</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=n>prevSpectrums</span><span class=p>[</span><span class=n>index</span><span class=p>]</span> <span class=p>=</span> <span class=n>val</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=kt>float</span> <span class=n>valAdjusted</span> <span class=p>=</span> <span class=n>val</span><span class=p>*</span><span class=n>maxScale</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=kt>float</span> <span class=n>halfHeight</span> <span class=p>=</span> <span class=n>valAdjusted</span><span class=p>*</span><span class=m>0.5f</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>Position</span> <span class=n>position</span> <span class=p>=</span> <span class=n>positions</span><span class=p>[</span><span class=n>index</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>            <span class=n>Origin</span> <span class=n>origin</span> <span class=p>=</span> <span class=n>origins</span><span class=p>[</span><span class=n>index</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>            <span class=n>Scale</span> <span class=n>scale</span> <span class=p>=</span> <span class=n>scales</span><span class=p>[</span><span class=n>index</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=k>if</span><span class=p>(</span><span class=n>val</span> <span class=p>&gt;=</span> <span class=n>epsilon</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>            <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=n>position</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=k>new</span> <span class=n>float3</span><span class=p>(</span><span class=n>origin</span><span class=p>.</span><span class=n>Value</span><span class=p>.</span><span class=n>x</span><span class=p>,</span> <span class=n>halfHeight</span><span class=p>,</span> <span class=n>origin</span><span class=p>.</span><span class=n>Value</span><span class=p>.</span><span class=n>z</span><span class=p>);</span> 
-</span></span><span class=line><span class=cl>                <span class=n>scale</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=k>new</span> <span class=n>float3</span><span class=p>(</span><span class=m>1</span><span class=p>,</span> <span class=n>valAdjusted</span><span class=p>,</span> <span class=m>1</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=p>}</span>
-</span></span><span class=line><span class=cl>            <span class=k>else</span>
-</span></span><span class=line><span class=cl>            <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=n>position</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=k>new</span> <span class=n>float3</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=m>0</span><span class=p>);</span> 
-</span></span><span class=line><span class=cl>                <span class=n>scale</span><span class=p>.</span><span class=n>Value</span> <span class=p>=</span> <span class=k>new</span> <span class=n>float3</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=m>0</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>scales</span><span class=p>[</span><span class=n>index</span><span class=p>]</span> <span class=p>=</span> <span class=n>scale</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>positions</span><span class=p>[</span><span class=n>index</span><span class=p>]</span> <span class=p>=</span> <span class=n>position</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=kd>protected</span> <span class=kd>override</span> <span class=n>JobHandle</span> <span class=n>OnUpdate</span><span class=p>(</span><span class=n>JobHandle</span> <span class=n>inputDeps</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>JobHandle</span> <span class=n>jobHandle</span> <span class=p>=</span> <span class=n>CreateJob</span><span class=p>(</span><span class=kc>true</span><span class=p>,</span> <span class=n>channel</span><span class=p>,</span> <span class=n>inputDeps</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>jobHandle</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>JobHandle</span> <span class=n>CreateJob</span><span class=p>(</span><span class=kt>bool</span> <span class=n>left</span><span class=p>,</span> <span class=n>Channel</span> <span class=n>channel</span><span class=p>,</span> <span class=n>JobHandle</span> <span class=n>inputDeps</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>AudioListener</span><span class=p>.</span><span class=n>GetSpectrumData</span><span class=p>(</span><span class=n>channel</span><span class=p>.</span><span class=n>spectrumBuff</span><span class=p>,</span> 
-</span></span><span class=line><span class=cl>                                      <span class=n>channel</span><span class=p>.</span><span class=n>channelNumber</span><span class=p>,</span> 
-</span></span><span class=line><span class=cl>                                      <span class=n>FFTWindow</span><span class=p>.</span><span class=n>BlackmanHarris</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>        <span class=n>channel</span><span class=p>.</span><span class=n>currentSpectrums</span><span class=p>.</span><span class=n>CopyFrom</span><span class=p>(</span><span class=n>channel</span><span class=p>.</span><span class=n>spectrumBuff</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=n>SpectrumJob</span> <span class=n>spectrumJob</span> <span class=p>=</span> <span class=k>new</span> <span class=n>SpectrumJob</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>maxScale</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>maxScale</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>dynamics</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>dynamics</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>epsilon</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>epsilon</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>currentSpectrums</span> <span class=p>=</span> <span class=n>channel</span><span class=p>.</span><span class=n>currentSpectrums</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>prevSpectrums</span> <span class=p>=</span> <span class=n>channel</span><span class=p>.</span><span class=n>prevSpectrums</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>positions</span> <span class=p>=</span> <span class=k>group</span><span class=p>.</span><span class=n>positions</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>origins</span> <span class=p>=</span> <span class=k>group</span><span class=p>.</span><span class=n>origins</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>scales</span> <span class=p>=</span> <span class=k>group</span><span class=p>.</span><span class=n>Length</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=p>};</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=n>JobHandle</span> <span class=n>handle</span> <span class=p>=</span> <span class=n>spectrumJob</span><span class=p>.</span><span class=n>Schedule</span><span class=p>(</span><span class=k>group</span><span class=p>.</span><span class=n>Length</span><span class=p>,</span> <span class=m>1</span><span class=p>,</span> <span class=n>inputDeps</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>handle</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span></code></pre></div><p>Different from the <code>SpawnCubeSystem</code> that is derived from <code>ComponentSystem</code>, our <code>SpectrumSystem</code> derived from the <code>JobComponentSystem</code> since we need to schedule the <code>SpectrumJob</code> here. As you notice that the content of the <code>SpectrumSystem</code> is not a big difference with the previous Job version. It only added the <code>SpectrumGroup</code> to read the component data, everything else is the same.</p><p>Now our ECS system is now ready except for one thing, the current unity version that I use don’t have a scale component, so in order to make the transform works, we need to disable the built-in <code>TransformSystem</code> and make our own version of <code>CustomTransformSystem</code> that take a scale changes into account. You would remember that we disable the <code>TransformSystem</code> with</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=n>World</span><span class=p>.</span><span class=n>Active</span><span class=p>.</span><span class=n>GetExistingManager</span><span class=p>&lt;</span><span class=n>TransformSystem</span><span class=p>&gt;().</span><span class=n>Enabled</span> <span class=p>=</span> <span class=kc>false</span><span class=p>;</span>
-</span></span></code></pre></div><p>The contents of the <code>CustomTransformSystem</code> is this</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=na>[System.Serializable]</span>
-</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>struct</span> <span class=nc>Scale</span> <span class=p>:</span> <span class=n>IComponentData</span>
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=n>float3</span> <span class=n>Value</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>[UnityEngine.ExecuteInEditMode]</span>
-</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>CustomTransformSystem</span> <span class=p>:</span> <span class=n>JobComponentSystem</span>
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=k>struct</span> <span class=nc>CustomTransformGroup</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=kt>int</span> <span class=n>Length</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na>
-</span></span></span><span class=line><span class=cl><span class=na>        [ReadOnly]</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Position</span><span class=p>&gt;</span> <span class=n>Positions</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>        [ReadOnly]</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>LocalRotation</span><span class=p>&gt;</span> <span class=n>Rotations</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>        [ReadOnly]</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Scale</span><span class=p>&gt;</span> <span class=n>Scales</span><span class=p>;</span>
-</span></span><span class=line><span class=cl> 
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>TransformMatrix</span><span class=p>&gt;</span> <span class=n>Transforms</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>    [Inject]</span>
-</span></span><span class=line><span class=cl>    <span class=n>CustomTransformGroup</span> <span class=n>transformGroup</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>    [ComputeJobOptimization]</span>
-</span></span><span class=line><span class=cl>    <span class=k>struct</span> <span class=nc>CustomTransformGroupJob</span> <span class=p>:</span> <span class=n>IJobParallelFor</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl><span class=na>        [ReadOnly]</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Position</span><span class=p>&gt;</span> <span class=n>Positions</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>        [ReadOnly]</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>LocalRotation</span><span class=p>&gt;</span> <span class=n>Rotations</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=na> 
-</span></span></span><span class=line><span class=cl><span class=na>        [ReadOnly]</span>
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>Scale</span><span class=p>&gt;</span> <span class=n>Scales</span><span class=p>;</span>
-</span></span><span class=line><span class=cl> 
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=n>ComponentDataArray</span><span class=p>&lt;</span><span class=n>TransformMatrix</span><span class=p>&gt;</span> <span class=n>Transforms</span><span class=p>;</span>
-</span></span><span class=line><span class=cl> 
-</span></span><span class=line><span class=cl>        <span class=kd>public</span> <span class=k>void</span> <span class=n>Execute</span><span class=p>(</span><span class=kt>int</span> <span class=n>i</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>Transforms</span><span class=p>[</span><span class=n>i</span><span class=p>]</span> <span class=p>=</span> <span class=k>new</span> <span class=n>TransformMatrix</span>
-</span></span><span class=line><span class=cl>            <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=n>Value</span> <span class=p>=</span> <span class=n>math</span><span class=p>.</span><span class=n>mul</span><span class=p>(</span><span class=n>math</span><span class=p>.</span><span class=n>rottrans</span><span class=p>(</span><span class=n>Quaternion</span><span class=p>.</span><span class=n>Euler</span><span class=p>(</span><span class=n>Rotations</span><span class=p>[</span><span class=n>i</span><span class=p>].</span><span class=n>Value</span><span class=p>.</span><span class=k>value</span><span class=p>.</span><span class=n>xyz</span><span class=p>),</span> <span class=n>Positions</span><span class=p>[</span><span class=n>i</span><span class=p>].</span><span class=n>Value</span><span class=p>),</span> <span class=n>math</span><span class=p>.</span><span class=n>scale</span><span class=p>(</span><span class=n>Scales</span><span class=p>[</span><span class=n>i</span><span class=p>].</span><span class=n>Value</span><span class=p>))</span>
-</span></span><span class=line><span class=cl>            <span class=p>};</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl> 
-</span></span><span class=line><span class=cl>    <span class=kd>protected</span> <span class=kd>override</span> <span class=n>JobHandle</span> <span class=n>OnUpdate</span><span class=p>(</span><span class=n>JobHandle</span> <span class=n>inputDeps</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=kt>var</span> <span class=n>transformJob</span> <span class=p>=</span> <span class=k>new</span> <span class=n>CustomTransformGroupJob</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>Transforms</span> <span class=p>=</span> <span class=n>transformGroup</span><span class=p>.</span><span class=n>Transforms</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>Positions</span> <span class=p>=</span> <span class=n>transformGroup</span><span class=p>.</span><span class=n>Positions</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>Rotations</span> <span class=p>=</span> <span class=n>transformGroup</span><span class=p>.</span><span class=n>Rotations</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>            <span class=n>Scales</span> <span class=p>=</span> <span class=n>transformGroup</span><span class=p>.</span><span class=n>Scales</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>        <span class=p>};</span>
-</span></span><span class=line><span class=cl> 
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>transformJob</span><span class=p>.</span><span class=n>Schedule</span><span class=p>(</span><span class=n>transformGroup</span><span class=p>.</span><span class=n>Length</span><span class=p>,</span> <span class=m>64</span><span class=p>,</span> <span class=n>inputDeps</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span></code></pre></div><p>It sole purpose is to add the scale changes of the component into the <code>TransformMatrix</code> ComponentData.</p><p>You could see the result video below</p><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe src=https://www.youtube.com/embed/S8u0nA8YDNQ style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe></div><p>Previously we could only do 4086 sample for two channels, now doing 8192 sample for two channels (16384 data) is no sweat.
-Here are the result comparison between MonoBehavior and ECS + Job. I’m testing this on MacBookPro Mid 2015 2.2 GHz Intel Core i7, 16 GB 1600 MHz DDR3.</p><pre tabindex=0><code>MBP Mid 2015 2.2 GHz Intel Core i7 
+A <code>CubesGroup</code> is a struct that is used inside <code>SpawnCubeSystem</code>, what it does is it’s collecting all Entity which has <code>Cube</code>, <code>Position</code>, and <code>Origin</code>. Then we laid out the cubes positions spirally on the <code>OnUpdate()</code> method. We do this one time only so we need to make sure that even though the <code>OnUpdate</code> is called each time the system update, it won’t change the position again.</p>
+<p>If you want to change the <code>ComponentData</code> value, currently the code in the current Unity ECS needs to copy that into another variable first, change it, and then assigning it back. You’ll often see this kind of code in the ECS system.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">Position</span> <span class="n">position</span> <span class="p">=</span> <span class="k">group</span><span class="p">.</span><span class="n">positions</span><span class="p">[</span><span class="n">groupIndex</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="n">position</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">new</span> <span class="n">float3</span><span class="p">(</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="k">group</span><span class="p">.</span><span class="n">positions</span><span class="p">[</span><span class="n">groupIndex</span><span class="p">]</span> <span class="p">=</span> <span class="n">position</span><span class="p">;</span>
+</span></span></code></pre></div><p>Unity said it would change it in the future so it’ll be less cumbersome than now. Anyway after we set each positions and origins, we now need create the system to update the scale of the cubes. Below you could see the <code>SpectrumSystem</code> snippet</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">SpectrumSystem</span> <span class="p">:</span> <span class="n">JobComponentSystem</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Settings</span> <span class="n">settings</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Channel</span><span class="p">[]</span> <span class="n">channels</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span> <span class="n">Init</span><span class="p">(</span><span class="n">Settings</span> <span class="n">inSettings</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">settings</span> <span class="p">=</span> <span class="n">inSettings</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">spectrumSize</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">spectrumSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">channels</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Channel</span><span class="p">[</span><span class="m">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">channels</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Channel</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">channels</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Init</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">spectrumSize</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">result</span> <span class="p">=</span> <span class="n">channels</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">SpectrumGroup</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">int</span> <span class="n">Length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Position</span><span class="p">&gt;</span> <span class="n">positions</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Origin</span><span class="p">&gt;</span> <span class="n">origins</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Scale</span><span class="p">&gt;</span> <span class="n">scales</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="na">
+</span></span></span><span class="line"><span class="cl"><span class="na">    [Inject]</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">SpectrumGroup</span> <span class="k">group</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">
+</span></span></span><span class="line"><span class="cl"><span class="na">    [ComputeJobOptimization]</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="k">struct</span> <span class="nc">SpectrumJob</span> <span class="p">:</span> <span class="n">IJobParallelFor</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">float</span> <span class="n">maxScale</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">float</span> <span class="n">dynamics</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">float</span> <span class="n">epsilon</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">NativeArray</span><span class="p">&lt;</span><span class="kt">float</span><span class="p">&gt;</span> <span class="n">currentSpectrums</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">NativeArray</span><span class="p">&lt;</span><span class="kt">float</span><span class="p">&gt;</span> <span class="n">prevSpectrums</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Position</span><span class="p">&gt;</span> <span class="n">positions</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Origin</span><span class="p">&gt;</span> <span class="n">origins</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Scale</span><span class="p">&gt;</span> <span class="n">scales</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="k">void</span> <span class="n">Execute</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">float</span> <span class="n">current</span> <span class="p">=</span> <span class="n">currentSpectrums</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">float</span> <span class="n">prev</span> <span class="p">=</span> <span class="n">prevSpectrums</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="kt">float</span> <span class="n">val</span> <span class="p">=</span> <span class="p">(</span><span class="n">dynamics</span><span class="p">*</span><span class="n">prev</span> <span class="p">+</span> <span class="p">(</span><span class="m">1</span> <span class="p">-</span> <span class="n">dynamics</span><span class="p">)*</span><span class="n">current</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">prevSpectrums</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="p">=</span> <span class="n">val</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="kt">float</span> <span class="n">valAdjusted</span> <span class="p">=</span> <span class="n">val</span><span class="p">*</span><span class="n">maxScale</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">float</span> <span class="n">halfHeight</span> <span class="p">=</span> <span class="n">valAdjusted</span><span class="p">*</span><span class="m">0.5f</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">Position</span> <span class="n">position</span> <span class="p">=</span> <span class="n">positions</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Origin</span> <span class="n">origin</span> <span class="p">=</span> <span class="n">origins</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Scale</span> <span class="n">scale</span> <span class="p">=</span> <span class="n">scales</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">val</span> <span class="p">&gt;=</span> <span class="n">epsilon</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">position</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">new</span> <span class="n">float3</span><span class="p">(</span><span class="n">origin</span><span class="p">.</span><span class="n">Value</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">halfHeight</span><span class="p">,</span> <span class="n">origin</span><span class="p">.</span><span class="n">Value</span><span class="p">.</span><span class="n">z</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">                <span class="n">scale</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">new</span> <span class="n">float3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">valAdjusted</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">position</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">new</span> <span class="n">float3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">                <span class="n">scale</span><span class="p">.</span><span class="n">Value</span> <span class="p">=</span> <span class="k">new</span> <span class="n">float3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">scales</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="p">=</span> <span class="n">scale</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">positions</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="p">=</span> <span class="n">position</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">protected</span> <span class="kd">override</span> <span class="n">JobHandle</span> <span class="n">OnUpdate</span><span class="p">(</span><span class="n">JobHandle</span> <span class="n">inputDeps</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">JobHandle</span> <span class="n">jobHandle</span> <span class="p">=</span> <span class="n">CreateJob</span><span class="p">(</span><span class="kc">true</span><span class="p">,</span> <span class="n">channel</span><span class="p">,</span> <span class="n">inputDeps</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">jobHandle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">JobHandle</span> <span class="n">CreateJob</span><span class="p">(</span><span class="kt">bool</span> <span class="n">left</span><span class="p">,</span> <span class="n">Channel</span> <span class="n">channel</span><span class="p">,</span> <span class="n">JobHandle</span> <span class="n">inputDeps</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">AudioListener</span><span class="p">.</span><span class="n">GetSpectrumData</span><span class="p">(</span><span class="n">channel</span><span class="p">.</span><span class="n">spectrumBuff</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                                      <span class="n">channel</span><span class="p">.</span><span class="n">channelNumber</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                                      <span class="n">FFTWindow</span><span class="p">.</span><span class="n">BlackmanHarris</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">channel</span><span class="p">.</span><span class="n">currentSpectrums</span><span class="p">.</span><span class="n">CopyFrom</span><span class="p">(</span><span class="n">channel</span><span class="p">.</span><span class="n">spectrumBuff</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">SpectrumJob</span> <span class="n">spectrumJob</span> <span class="p">=</span> <span class="k">new</span> <span class="n">SpectrumJob</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">maxScale</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">maxScale</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dynamics</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">dynamics</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">epsilon</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">epsilon</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">currentSpectrums</span> <span class="p">=</span> <span class="n">channel</span><span class="p">.</span><span class="n">currentSpectrums</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">prevSpectrums</span> <span class="p">=</span> <span class="n">channel</span><span class="p">.</span><span class="n">prevSpectrums</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">positions</span> <span class="p">=</span> <span class="k">group</span><span class="p">.</span><span class="n">positions</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">origins</span> <span class="p">=</span> <span class="k">group</span><span class="p">.</span><span class="n">origins</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">scales</span> <span class="p">=</span> <span class="k">group</span><span class="p">.</span><span class="n">Length</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">JobHandle</span> <span class="n">handle</span> <span class="p">=</span> <span class="n">spectrumJob</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="k">group</span><span class="p">.</span><span class="n">Length</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">inputDeps</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">handle</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Different from the <code>SpawnCubeSystem</code> that is derived from <code>ComponentSystem</code>, our <code>SpectrumSystem</code> derived from the <code>JobComponentSystem</code> since we need to schedule the <code>SpectrumJob</code> here. As you notice that the content of the <code>SpectrumSystem</code> is not a big difference with the previous Job version. It only added the <code>SpectrumGroup</code> to read the component data, everything else is the same.</p>
+<p>Now our ECS system is now ready except for one thing, the current unity version that I use don’t have a scale component, so in order to make the transform works, we need to disable the built-in <code>TransformSystem</code> and make our own version of <code>CustomTransformSystem</code> that take a scale changes into account. You would remember that we disable the <code>TransformSystem</code> with</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">World</span><span class="p">.</span><span class="n">Active</span><span class="p">.</span><span class="n">GetExistingManager</span><span class="p">&lt;</span><span class="n">TransformSystem</span><span class="p">&gt;().</span><span class="n">Enabled</span> <span class="p">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span></code></pre></div><p>The contents of the <code>CustomTransformSystem</code> is this</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="na">[System.Serializable]</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">struct</span> <span class="nc">Scale</span> <span class="p">:</span> <span class="n">IComponentData</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">float3</span> <span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">[UnityEngine.ExecuteInEditMode]</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">CustomTransformSystem</span> <span class="p">:</span> <span class="n">JobComponentSystem</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">CustomTransformGroup</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">int</span> <span class="n">Length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na">
+</span></span></span><span class="line"><span class="cl"><span class="na">        [ReadOnly]</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Position</span><span class="p">&gt;</span> <span class="n">Positions</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">        [ReadOnly]</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">LocalRotation</span><span class="p">&gt;</span> <span class="n">Rotations</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">        [ReadOnly]</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Scale</span><span class="p">&gt;</span> <span class="n">Scales</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">TransformMatrix</span><span class="p">&gt;</span> <span class="n">Transforms</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">    [Inject]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CustomTransformGroup</span> <span class="n">transformGroup</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">    [ComputeJobOptimization]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">struct</span> <span class="nc">CustomTransformGroupJob</span> <span class="p">:</span> <span class="n">IJobParallelFor</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="na">        [ReadOnly]</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Position</span><span class="p">&gt;</span> <span class="n">Positions</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">        [ReadOnly]</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">LocalRotation</span><span class="p">&gt;</span> <span class="n">Rotations</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="na"> 
+</span></span></span><span class="line"><span class="cl"><span class="na">        [ReadOnly]</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">Scale</span><span class="p">&gt;</span> <span class="n">Scales</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">ComponentDataArray</span><span class="p">&lt;</span><span class="n">TransformMatrix</span><span class="p">&gt;</span> <span class="n">Transforms</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="k">void</span> <span class="n">Execute</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Transforms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="k">new</span> <span class="n">TransformMatrix</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Value</span> <span class="p">=</span> <span class="n">math</span><span class="p">.</span><span class="n">mul</span><span class="p">(</span><span class="n">math</span><span class="p">.</span><span class="n">rottrans</span><span class="p">(</span><span class="n">Quaternion</span><span class="p">.</span><span class="n">Euler</span><span class="p">(</span><span class="n">Rotations</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Value</span><span class="p">.</span><span class="k">value</span><span class="p">.</span><span class="n">xyz</span><span class="p">),</span> <span class="n">Positions</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Value</span><span class="p">),</span> <span class="n">math</span><span class="p">.</span><span class="n">scale</span><span class="p">(</span><span class="n">Scales</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Value</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">            <span class="p">};</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="kd">protected</span> <span class="kd">override</span> <span class="n">JobHandle</span> <span class="n">OnUpdate</span><span class="p">(</span><span class="n">JobHandle</span> <span class="n">inputDeps</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">transformJob</span> <span class="p">=</span> <span class="k">new</span> <span class="n">CustomTransformGroupJob</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Transforms</span> <span class="p">=</span> <span class="n">transformGroup</span><span class="p">.</span><span class="n">Transforms</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Positions</span> <span class="p">=</span> <span class="n">transformGroup</span><span class="p">.</span><span class="n">Positions</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Rotations</span> <span class="p">=</span> <span class="n">transformGroup</span><span class="p">.</span><span class="n">Rotations</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Scales</span> <span class="p">=</span> <span class="n">transformGroup</span><span class="p">.</span><span class="n">Scales</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">transformJob</span><span class="p">.</span><span class="n">Schedule</span><span class="p">(</span><span class="n">transformGroup</span><span class="p">.</span><span class="n">Length</span><span class="p">,</span> <span class="m">64</span><span class="p">,</span> <span class="n">inputDeps</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>It sole purpose is to add the scale changes of the component into the <code>TransformMatrix</code> ComponentData.</p>
+<p>You could see the result video below</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/S8u0nA8YDNQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Previously we could only do 4086 sample for two channels, now doing 8192 sample for two channels (16384 data) is no sweat.
+Here are the result comparison between MonoBehavior and ECS + Job. I’m testing this on MacBookPro Mid 2015 2.2 GHz Intel Core i7, 16 GB 1600 MHz DDR3.</p>
+<pre tabindex="0"><code>MBP Mid 2015 2.2 GHz Intel Core i7 
 MonoBehavior: 8192 cubes = FPS Roughly 45 - 50ish
 ECS + Job : 8192 samples x 2 Channels ~ 16384 cubes = FPS 110++
-</code></pre><p>The ECS shown on the video is displaying two channels. Again, the code for making two channel displayed is omitted to make things shorter, but what you would do for two channels is making sure you create an Entity with a different component data that is used only for differentiating left and right spectrum. Because the way the <code>GetSpectrumSample</code> works that it returns the data linearly, 0 — sampleSize for left channel and 0 — sampleSize for right channel, but the way things processed on the spectrum job is operating things sequentially, ofsetting the index inside the Execute causes some Error on Unity. Or you could try merging the data from left channel and right channel into one contiguous array before it is processed by <code>SpectrumSystem</code>, I haven’t tried this approach yet.</p><p>And there you have it, the ECS version of a simple Audio Visualizer. We have walk through the process from making a simple MonoBehavior, changing into a JobSystem, and then moving to a ECS one. Full source code for references on <a href=https://github.com/ernesernesto/UnityAudioVisualizer>github</a>.</p><p>Thank you for reading! hope this shed some light on how to approach the new Unity ECS system.</p></div></article></main></div><footer class=footer><span class=footer_item></span>&nbsp;<div class=footer_social-icons><a href=https://github.com/ernesernesto target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a><a href=https://twitter.com/ernesernesto target=_blank rel="noopener noreferrer me" title=Twitter><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z"/></svg></a><a href=index.xml target=_blank rel="noopener noreferrer me" title=Rss><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></div><small class=footer_copyright>© 2024 .
-Powered by <a href=https://github.com/hugo-sid/hugo-blog-awesome target=_blank rel=noopener>Hugo blog awesome</a>.</small></footer><a href=# title="Go to top" id=totop><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentcolor" stroke="currentcolor" viewBox="0 96 960 960"><path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197z"/></svg></a><script src=http://ernesernesto.github.io/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30+lSNuSkl4QXuNyy8="></script></body></html>
+</code></pre><p>The ECS shown on the video is displaying two channels. Again, the code for making two channel displayed is omitted to make things shorter, but what you would do for two channels is making sure you create an Entity with a different component data that is used only for differentiating left and right spectrum. Because the way the <code>GetSpectrumSample</code> works that it returns the data linearly, 0 — sampleSize for left channel and 0 — sampleSize for right channel, but the way things processed on the spectrum job is operating things sequentially, ofsetting the index inside the Execute causes some Error on Unity. Or you could try merging the data from left channel and right channel into one contiguous array before it is processed by <code>SpectrumSystem</code>, I haven’t tried this approach yet.</p>
+<p>And there you have it, the ECS version of a simple Audio Visualizer. We have walk through the process from making a simple MonoBehavior, changing into a JobSystem, and then moving to a ECS one. Full source code for references on <a href="https://github.com/ernesernesto/UnityAudioVisualizer">github</a>.</p>
+<p>Thank you for reading! hope this shed some light on how to approach the new Unity ECS system.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/ernesernesto" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://twitter.com/ernesernesto" target="_blank" rel="noopener noreferrer me"
+    title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>
