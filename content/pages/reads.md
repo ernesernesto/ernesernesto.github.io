@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [How creating a spinoff for a hot genre lead to success for Deep Rock Galactic Survivor](https://howtomarketagame.com/2024/04/08/how-creating-a-spinoff-for-a-hot-genre-lead-to-success-for-deep-rock-galactic-survivor/?utm_source=rss&utm_medium=rss&utm_campaign=how-creating-a-spinoff-for-a-hot-genre-lead-to-success-for-deep-rock-galactic-survivor) -- https://howtomarketagame.com
+- [Graphics Programming weekly  -  Issue 334  -  April 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/) -- https://www.jendrikillner.com/
 - [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
 - [Is the AI flood here yet? How many games have released in 2024](https://howtomarketagame.com/2024/04/01/is-the-ai-flood-here-yet-how-many-games-have-released-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=is-the-ai-flood-here-yet-how-many-games-have-released-in-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
@@ -16,6 +17,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [GDC 2024](https://howtomarketagame.com/2024/03/18/gdc-2024/?utm_source=rss&utm_medium=rss&utm_campaign=gdc-2024) -- https://howtomarketagame.com
 - [What I wish I knew about ESPP and RSUs sooner (company stock benefits. 2024, USA, California)](https://blog.demofox.org/2024/03/17/what-i-wish-i-knew-about-espp-and-rsus-sooner-company-stock-benefits-2024-usa-california/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 331  -  March 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-331/) -- https://www.jendrikillner.com/
+- [How web bloat impacts users with slow devices](https://danluu.com/slow-device/) -- https://danluu.com/atom/index.xml
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
 - [EGSR, HPG, and I3D](https://www.realtimerendering.com/blog/egsr-hpg-and-i3d/) -- https://www.realtimerendering.com/blog
