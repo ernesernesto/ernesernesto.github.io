@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How I use ChatGPT daily (scientist/coder perspective)](https://bartwronski.com/2024/01/22/how-i-use-chatgpt-daily-scientist-coder-perspective/) -- https://bartwronski.com
 - [Graphics Programming weekly  -  Issue 323  -  January 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-323/) -- https://www.jendrikillner.com/
 - [The art and joy of well-architected "bad code".](http://c0de517e.blogspot.com/2024/01/the-art-and-joy-of-well-architected-bad.html) -- http://c0de517e.blogspot.com/
-- [Graphics Programming weekly  -  Issue 322  -  January 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-322/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
