@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Redirect everything](https://tobias-franke.eu/log/2024/04/13/redirect-everything.html) -- https://tobias-franke.eu/
 - [How creating a spinoff for a hot genre lead to success for Deep Rock Galactic Survivor](https://howtomarketagame.com/2024/04/08/how-creating-a-spinoff-for-a-hot-genre-lead-to-success-for-deep-rock-galactic-survivor/?utm_source=rss&utm_medium=rss&utm_campaign=how-creating-a-spinoff-for-a-hot-genre-lead-to-success-for-deep-rock-galactic-survivor) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 334  -  April 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/) -- https://www.jendrikillner.com/
 - [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
