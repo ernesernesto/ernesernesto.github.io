@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Why do people post on [bad platform] instead of [good platform]?](https://danluu.com/why-video/) -- https://danluu.com/atom/index.xml
 - [Unsafe at Any Speed: Tradeoffs and values in the Rust ecosystem](https://bitbashing.io/rust-http.html) -- https://bitbashing.io/
 - [How I use ChatGPT daily (scientist/coder perspective)](https://bartwronski.com/2024/01/22/how-i-use-chatgpt-daily-scientist-coder-perspective/) -- https://bartwronski.com
-- [Graphics Programming weekly  -  Issue 323  -  January 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-323/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
