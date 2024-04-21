@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Dataflow Analyses and Compiler Optimizations that Use Them, for Free](https://blog.regehr.org/archives/2578) -- https://blog.regehr.org
 - [Spirit City: Lofi Sessions. How shrinking down lead to huge success](https://howtomarketagame.com/2024/04/15/spirit-city-lofi-sessions-how-shrinking-down-lead-to-huge-success/?utm_source=rss&utm_medium=rss&utm_campaign=spirit-city-lofi-sessions-how-shrinking-down-lead-to-huge-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 335  -  April 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-335/) -- https://www.jendrikillner.com/
 - [Redirect everything](https://tobias-franke.eu/log/2024/04/13/redirect-everything.html) -- https://tobias-franke.eu/
