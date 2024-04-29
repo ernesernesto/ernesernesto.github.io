@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 337  -  April 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-337/) -- https://www.jendrikillner.com/
 - [What Deep Rock Galactic: Survivor can teach us about early access](https://howtomarketagame.com/2024/04/22/what-deep-rock-galactic-survivor-can-teach-us-about-early-access/?utm_source=rss&utm_medium=rss&utm_campaign=what-deep-rock-galactic-survivor-can-teach-us-about-early-access) -- https://howtomarketagame.com
 - [Replacing cron with systemd-timers](https://anteru.net/blog/2024/replacing-cron-with-systemd-timers) -- https://anteru.net
 - [Graphics Programming weekly  -  Issue 336  -  April 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-336/) -- https://www.jendrikillner.com/
