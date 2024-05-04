@@ -46,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How to get TikTok Influencers to cover your game and earn millions of impressions](https://howtomarketagame.com/2024/02/07/how-to-get-tiktok-influencers-to-cover-your-game-and-earn-millions-of-impressions/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-get-tiktok-influencers-to-cover-your-game-and-earn-millions-of-impressions) -- https://howtomarketagame.com
 - [Why it's impossible to agree on what's allowed](https://danluu.com/impossible-agree/) -- https://danluu.com/atom/index.xml
 - [I accidentally Blender VSE](https://aras-p.info/blog/2024/02/06/I-accidentally-Blender-VSE/) -- https://aras-p.info/
-- [Graphics Programming weekly  -  Issue 325  -  February 4th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-325/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
