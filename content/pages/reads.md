@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [How Weekend Deals Work](https://howtomarketagame.com/2024/05/06/how-weekend-deals-work/?utm_source=rss&utm_medium=rss&utm_campaign=how-weekend-deals-work) -- https://howtomarketagame.com
+- [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
 - [How to get special Daily Deal featuring on the Steam Front page](https://howtomarketagame.com/2024/04/29/how-to-get-special-daily-deal-featuring-on-the-steam-front-page/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-get-special-daily-deal-featuring-on-the-steam-front-page) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 337  -  April 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-337/) -- https://www.jendrikillner.com/
@@ -44,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Palworld: What other Nintendo games can we add guns to?](https://howtomarketagame.com/2024/02/13/palworld-what-other-nintendo-games-can-we-add-guns-to/?utm_source=rss&utm_medium=rss&utm_campaign=palworld-what-other-nintendo-games-can-we-add-guns-to) -- https://howtomarketagame.com
 - [Gradient Descent With Adam in Plain C++](https://blog.demofox.org/2024/02/11/gradient-descent-with-adam-in-plain-c/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 326  -  February 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-326/) -- https://www.jendrikillner.com/
-- [How to get TikTok Influencers to cover your game and earn millions of impressions](https://howtomarketagame.com/2024/02/07/how-to-get-tiktok-influencers-to-cover-your-game-and-earn-millions-of-impressions/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-get-tiktok-influencers-to-cover-your-game-and-earn-millions-of-impressions) -- https://howtomarketagame.com
 - [Why it's impossible to agree on what's allowed](https://danluu.com/impossible-agree/) -- https://danluu.com/atom/index.xml
 - [I accidentally Blender VSE](https://aras-p.info/blog/2024/02/06/I-accidentally-Blender-VSE/) -- https://aras-p.info/
 
