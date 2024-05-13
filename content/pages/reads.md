@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
 - [How Weekend Deals Work](https://howtomarketagame.com/2024/05/06/how-weekend-deals-work/?utm_source=rss&utm_medium=rss&utm_campaign=how-weekend-deals-work) -- https://howtomarketagame.com
 - [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
