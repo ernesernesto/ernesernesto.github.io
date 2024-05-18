@@ -44,7 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Retrospective Thoughts on BitC](https://danluu.com/bitc-retrospective/) -- https://danluu.com/atom/index.xml
 - [Peaked technologies.](http://c0de517e.blogspot.com/2024/02/peaked-technologies.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 327  -  February 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-327/) -- https://www.jendrikillner.com/
-- [Diseconomies of scale in fraud, spam, support, and moderation](https://danluu.com/diseconomies-scale/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
