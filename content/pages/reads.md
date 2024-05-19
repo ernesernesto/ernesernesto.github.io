@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Upcoming Sokol header API changes (Feb 2024)](https://floooh.github.io/2024/02/26/sokol-spring-cleaning-2024.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 328  -  February 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-328/) -- https://www.jendrikillner.com/
 - [Retrospective Thoughts on BitC](https://danluu.com/bitc-retrospective/) -- https://danluu.com/atom/index.xml
-- [Peaked technologies.](http://c0de517e.blogspot.com/2024/02/peaked-technologies.html) -- http://c0de517e.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
