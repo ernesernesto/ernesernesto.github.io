@@ -1,72 +1,314 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=content-type content="text/html"><meta name=viewport content="width=device-width,initial-scale=1"><title itemprop=name>Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io</title><meta property="og:title" content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io"><meta name=twitter:title content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io"><meta itemprop=name content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io"><meta name=application-name content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io"><meta property="og:site_name" content="ernesernesto.github.io"><meta name=description content="ernesernesto dev blog"><meta itemprop=description content="ernesernesto dev blog"><meta property="og:description" content="ernesernesto dev blog"><meta name=twitter:description content="ernesernesto dev blog"><meta property="og:locale" content="en-us"><meta name=language content="en-us"><meta itemprop=image content="http://ernesernesto.github.io/"><meta property="og:image" content="http://ernesernesto.github.io/"><meta name=twitter:image content="http://ernesernesto.github.io/"><meta name=twitter:image:src content="http://ernesernesto.github.io/"><meta name=generator content="Hugo 0.119.0"><link rel=canonical href=http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/><link href=/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css rel=stylesheet><link href=/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css rel=stylesheet><link rel=apple-touch-icon sizes=180x180 href=/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/icons/favicon-16x16.png><link rel=mask-icon href=/icons/safari-pinned-tab.svg><link rel="shortcut icon" href=/favicon.ico><link rel=manifest href=http://ernesernesto.github.io/site.webmanifest><meta name=msapplication-config content="/browserconfig.xml"><meta name=msapplication-TileColor content="#2d89ef"><meta name=theme-color content="#434648"><link rel=icon type=image/svg+xml href=/icons/favicon.svg></head><body data-theme=dark class=notransition><script src=/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script><div class=navbar role=navigation><nav class=menu aria-label="Main Navigation"><a href=http://ernesernesto.github.io/ class=logo><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><title>Home</title><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a><input type=checkbox id=menu-trigger class=menu-trigger>
-<label for=menu-trigger><span class=menu-icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentcolor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7H3.40726"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488H3.49301"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"/><path stroke-linecap="round" stroke-linejoin="round" d="M.5 12.5V1.5c0-.552285.447715-1 1-1h11C13.0523.5 13.5.947715 13.5 1.5v11C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C.947715 13.5.5 13.0523.5 12.5z"/></svg></span></label><div class=trigger><ul class=trigger-container><li><a class=menu-link href=/>Home</a></li><li><a class=menu-link href=/pages/reads/>Reads</a></li><li><a class="menu-link active" href=/writes/>Writes</a></li><li><a class=menu-link href=/pages/info/>Info</a></li><li class=menu-separator><span>|</span></li></ul><a id=mode href=#><svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1"><title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1=".5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1=".5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg><svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1"><title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1=".5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1=".5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></svg></a></div></nav></div><div class="wrapper post"><main class=page-content aria-label=Content><article><header class=header><h1 class=header-title>Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior</h1><div class=post-meta><time datetime=2018-07-23T12:25:50+07:00 itemprop=datePublished>Jul 23, 2018</time></div></header><div class=page-content><p>Currently, I’m learning to learn the new ECS and Job system introduced in Unity 2018. Usually the quickest way to learn a new concept quickly is by creating something that could give you an instant gratification, in this case we’re going to build a simple audio visualization.</p><p>The new ECS and Job system now promise to give performance boost and a new way to approach problem, letting you focus on the actual problems you are solving which is the data and behavior of your game. This also move things from object oriented design to a data oriented design.</p><p>Before you wrap your head around that, it’s always a good idea to make something that you know first, and then slowly transforming it into a new way, in this case the audio visualization will be build with MonoBehavior initially, before slowly transforming it into a job system and full ECS path.</p><p>In this post we will briefly make a working program first, let’s sketch out all the things that needs to be done in a simple audio visualization.</p><pre tabindex=0><code>1. Spawn some block objects, this objects is going to be transformed by the audio data
+<!DOCTYPE html>
+<html lang="en-us"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io</title>
+<meta property="og:title" content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io" />
+<meta name="twitter:title" content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io" />
+<meta itemprop="name" content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io" />
+<meta name="application-name" content="Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior | ernesernesto io" />
+<meta property="og:site_name" content="ernesernesto.github.io" />
+
+<meta name="description" content="ernesernesto dev blog">
+<meta itemprop="description" content="ernesernesto dev blog" />
+<meta property="og:description" content="ernesernesto dev blog" />
+<meta name="twitter:description" content="ernesernesto dev blog" />
+
+<meta property="og:locale" content="en-us" />
+<meta name="language" content="en-us" />
+
+  <link rel="alternate" hreflang="en-us" href="https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/" title="English" />
+
+
+
+  <meta itemprop="image" content="https://ernesernesto.github.io/" />
+  <meta property="og:image" content="https://ernesernesto.github.io/" />
+  <meta name="twitter:image" content="https://ernesernesto.github.io/" />
+  <meta name="twitter:image:src" content="https://ernesernesto.github.io/" />
+
+
+
+
+
+<meta name="generator" content="Hugo 0.124.0">
+
+    
+
+    <link rel="canonical" href="https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/">
+    <link href="/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://ernesernesto.github.io/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    </head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://ernesernesto.github.io/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/reads/">
+                        Reads
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/writes/">
+                        Writes
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/executes/">
+                        Executes
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/info/">
+                        Info
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2018-07-23T12:25:50&#43;07:00" itemprop="datePublished"> Jul 23, 2018 </time>
+                </div>
+                
+            </header><div class="page-content">
+                <p>Currently, I’m learning to learn the new ECS and Job system introduced in Unity 2018. Usually the quickest way to learn a new concept quickly is by creating something that could give you an instant gratification, in this case we’re going to build a simple audio visualization.</p>
+<p>The new ECS and Job system now promise to give performance boost and a new way to approach problem, letting you focus on the actual problems you are solving which is the data and behavior of your game. This also move things from object oriented design to a data oriented design.</p>
+<p>Before you wrap your head around that, it’s always a good idea to make something that you know first, and then slowly transforming it into a new way, in this case the audio visualization will be build with MonoBehavior initially, before slowly transforming it into a job system and full ECS path.</p>
+<p>In this post we will briefly make a working program first, let’s sketch out all the things that needs to be done in a simple audio visualization.</p>
+<pre tabindex="0"><code>1. Spawn some block objects, this objects is going to be transformed by the audio data
 2. Each update tick, get the spectrum data of the audio
 3. Applying audio data to the block objects, scaling them vertically
 4. Profit
-</code></pre><p>This is the normal MonoBehavior way of doing it in Unity. We’ll go through the code one by one.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-c# data-lang=c#><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>BootupMono</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
-</span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=n>GameObject</span> <span class=n>cubePrefab</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=n>Settings</span> <span class=n>settings</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=kt>float</span><span class=p>[]</span> <span class=n>spectrumBuff</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=kt>float</span><span class=p>[]</span> <span class=n>prevSpectrumBuff</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>GameObject</span><span class=p>[]</span> <span class=n>cubes</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>void</span> <span class=n>Start</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>spectrumSize</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>spectrumSize</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=n>spectrumBuff</span> <span class=p>=</span> <span class=k>new</span> <span class=kt>float</span><span class=p>[</span><span class=n>spectrumSize</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>        <span class=n>prevSpectrumBuff</span> <span class=p>=</span> <span class=k>new</span> <span class=kt>float</span><span class=p>[</span><span class=n>spectrumSize</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>        <span class=n>cubes</span> <span class=p>=</span> <span class=k>new</span> <span class=n>GameObject</span><span class=p>[</span><span class=n>spectrumSize</span><span class=p>];</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=k>for</span><span class=p>(</span><span class=kt>int</span> <span class=n>index</span> <span class=p>=</span> <span class=m>0</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>index</span> <span class=p>&lt;</span> <span class=n>spectrumSize</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=p>++</span><span class=n>index</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>GameObject</span> <span class=n>obj</span> <span class=p>=</span> <span class=n>Object</span><span class=p>.</span><span class=n>Instantiate</span><span class=p>(</span><span class=n>cubePrefab</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=n>SpiralPos</span> <span class=n>pos</span> <span class=p>=</span> <span class=n>Utils</span><span class=p>.</span><span class=n>GetSpiralPos</span><span class=p>(</span><span class=n>index</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=n>obj</span><span class=p>.</span><span class=n>transform</span><span class=p>.</span><span class=n>position</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Vector3</span><span class=p>(</span><span class=n>pos</span><span class=p>.</span><span class=n>x</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=n>pos</span><span class=p>.</span><span class=n>z</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=n>obj</span><span class=p>.</span><span class=n>transform</span><span class=p>.</span><span class=n>parent</span> <span class=p>=</span> <span class=k>this</span><span class=p>.</span><span class=n>transform</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>cubes</span><span class=p>[</span><span class=n>index</span><span class=p>]</span> <span class=p>=</span> <span class=n>obj</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>void</span> <span class=n>Update</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=n>AudioListener</span><span class=p>.</span><span class=n>GetSpectrumData</span><span class=p>(</span><span class=n>spectrumBuff</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=n>FFTWindow</span><span class=p>.</span><span class=n>BlackmanHarris</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kt>float</span> <span class=n>dynamics</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>dynamics</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>float</span> <span class=n>maxScale</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>maxScale</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>float</span> <span class=n>rotationSpeed</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>rotationSpeed</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>float</span> <span class=n>epsilon</span> <span class=p>=</span> <span class=n>settings</span><span class=p>.</span><span class=n>epsilon</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>spectrumLength</span> <span class=p>=</span> <span class=n>spectrumBuff</span><span class=p>.</span><span class=n>Length</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=k>for</span><span class=p>(</span><span class=kt>int</span> <span class=n>index</span> <span class=p>=</span> <span class=m>0</span><span class=p>;</span> 
-</span></span><span class=line><span class=cl>            <span class=n>index</span> <span class=p>&lt;</span> <span class=n>spectrumLength</span><span class=p>;</span> 
-</span></span><span class=line><span class=cl>            <span class=n>index</span><span class=p>++)</span>
-</span></span><span class=line><span class=cl>        <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=kt>float</span> <span class=n>val</span> <span class=p>=</span> <span class=p>(</span><span class=n>dynamics</span><span class=p>*</span><span class=n>prevSpectrumBuff</span><span class=p>[</span><span class=n>index</span><span class=p>]</span> <span class=p>+</span> <span class=p>(</span><span class=m>1</span> <span class=p>-</span> <span class=n>dynamics</span><span class=p>)*</span><span class=n>spectrumBuff</span><span class=p>[</span><span class=n>index</span><span class=p>]);</span>
-</span></span><span class=line><span class=cl>            <span class=n>prevSpectrumBuff</span><span class=p>[</span><span class=n>index</span><span class=p>]</span> <span class=p>=</span> <span class=n>val</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>            <span class=k>if</span><span class=p>(</span><span class=n>val</span> <span class=p>&gt;=</span> <span class=n>epsilon</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>            <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=n>cubes</span><span class=p>[</span><span class=n>index</span><span class=p>].</span><span class=n>transform</span><span class=p>.</span><span class=n>localScale</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Vector3</span><span class=p>(</span><span class=m>1</span><span class=p>,</span> <span class=n>val</span><span class=p>*</span><span class=n>maxScale</span><span class=p>,</span> <span class=m>1</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>                <span class=kt>float</span> <span class=n>halfHeight</span> <span class=p>=</span> <span class=n>cubes</span><span class=p>[</span><span class=n>index</span><span class=p>].</span><span class=n>transform</span><span class=p>.</span><span class=n>localScale</span><span class=p>.</span><span class=n>y</span><span class=p>*</span><span class=m>0.5f</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>                <span class=n>Vector3</span> <span class=n>origin</span> <span class=p>=</span> <span class=n>cubes</span><span class=p>[</span><span class=n>index</span><span class=p>].</span><span class=n>transform</span><span class=p>.</span><span class=n>position</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>                <span class=n>cubes</span><span class=p>[</span><span class=n>index</span><span class=p>].</span><span class=n>transform</span><span class=p>.</span><span class=n>position</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Vector3</span><span class=p>(</span><span class=n>origin</span><span class=p>.</span><span class=n>x</span><span class=p>,</span> <span class=n>halfHeight</span><span class=p>,</span> <span class=n>origin</span><span class=p>.</span><span class=n>z</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=p>}</span>
-</span></span><span class=line><span class=cl>            <span class=k>else</span>
-</span></span><span class=line><span class=cl>            <span class=p>{</span>
-</span></span><span class=line><span class=cl>                <span class=n>cubes</span><span class=p>[</span><span class=n>index</span><span class=p>].</span><span class=n>transform</span><span class=p>.</span><span class=n>localScale</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Vector3</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=m>0</span><span class=p>,</span> <span class=m>0</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=p>}</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=n>gameObject</span><span class=p>.</span><span class=n>transform</span><span class=p>.</span><span class=n>Rotate</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=n>Time</span><span class=p>.</span><span class=n>deltaTime</span><span class=p>*</span><span class=n>rotationSpeed</span><span class=p>,</span> <span class=m>0</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span></code></pre></div><p>As you can see on <code>Start()</code>, we are going to spawn the cube object, laid it out spirally and initialize the buffers for audio sample data based on the <code>spectrumSize</code> that we choose, the buffers and the number of the cube that we spawn needs to be the same since the spectrum data would be the one that change the cube vertical scale.</p><p>The meat of the code is on the <code>Update()</code> loop. The spectrum data is loaded with <code>AudioListener.GetSpectrumData()</code> into the <code>spectrumBuff</code> buffer, then we loop through all the spectrum data, each one we transform the scale of the cubes by the <code>spectrumBuff</code>.</p><p>We got the value of the change by interpolating it between the previous <code>prevSpectrumBuff</code> and current buffer <code>spectrumBuff</code>, giving it a nice slow changes and not a haphazard changes each update tick.</p><p>The keen reader would then ask why do we need to also change the position of the cube after we scale it. This is just a neat trick since the cube prefab that I use have the pivot of the cube in the center of the object. If we scale the cube, then it would scale upwards and downwards, we don’t want to have the cube wiggling up and down each update, so we need to offset the position of the cube upwards, making the cube looked like it only scale upwards, in reality we’re scaling it upwards and downwards, also offsetting it’s vertical position.</p><p>Of course you could also fire you favorite 3d modelling software and change the pivot of the cube to be on the ground. But in this case doing it this way is troublesome for me.</p><p>The <code>epsilon</code> value is used to check whether the audio data is higher than some threshold before scaling it, if not we’re just going to set the scale to (0, 0, 0), which result in “hiding” the cube. On a high frequency, the audio data changes are too small, if we apply the value to scale our cubes, our eyes would have a hard time detecting the changes. Hiding and showing the cube is easier for our eyes to detect it.</p><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe src=https://www.youtube.com/embed/2iVeMVICJ7c style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe></div><p>You can see how it looks in this video, bass / lower frequency starts from the center of the spiral, moving outwards to mid and higher frequency on the outer parts of the spiral.</p><p>Some quick stats below</p><pre tabindex=0><code>MBP Mid 2015 2.2 GHz Intel Core i7 
+</code></pre><p>This is the normal MonoBehavior way of doing it in Unity. We’ll go through the code one by one.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">BootupMono</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">GameObject</span> <span class="n">cubePrefab</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">Settings</span> <span class="n">settings</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">float</span><span class="p">[]</span> <span class="n">spectrumBuff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">float</span><span class="p">[]</span> <span class="n">prevSpectrumBuff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">GameObject</span><span class="p">[]</span> <span class="n">cubes</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">spectrumSize</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">spectrumSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">spectrumBuff</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">float</span><span class="p">[</span><span class="n">spectrumSize</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">prevSpectrumBuff</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">float</span><span class="p">[</span><span class="n">spectrumSize</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cubes</span> <span class="p">=</span> <span class="k">new</span> <span class="n">GameObject</span><span class="p">[</span><span class="n">spectrumSize</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">index</span> <span class="p">&lt;</span> <span class="n">spectrumSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">++</span><span class="n">index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">GameObject</span> <span class="n">obj</span> <span class="p">=</span> <span class="n">Object</span><span class="p">.</span><span class="n">Instantiate</span><span class="p">(</span><span class="n">cubePrefab</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">SpiralPos</span> <span class="n">pos</span> <span class="p">=</span> <span class="n">Utils</span><span class="p">.</span><span class="n">GetSpiralPos</span><span class="p">(</span><span class="n">index</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">obj</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">obj</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">parent</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="n">transform</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">cubes</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="p">=</span> <span class="n">obj</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">void</span> <span class="n">Update</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">AudioListener</span><span class="p">.</span><span class="n">GetSpectrumData</span><span class="p">(</span><span class="n">spectrumBuff</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">FFTWindow</span><span class="p">.</span><span class="n">BlackmanHarris</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">float</span> <span class="n">dynamics</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">dynamics</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">float</span> <span class="n">maxScale</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">maxScale</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">float</span> <span class="n">rotationSpeed</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">rotationSpeed</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">float</span> <span class="n">epsilon</span> <span class="p">=</span> <span class="n">settings</span><span class="p">.</span><span class="n">epsilon</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">spectrumLength</span> <span class="p">=</span> <span class="n">spectrumBuff</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">index</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">index</span> <span class="p">&lt;</span> <span class="n">spectrumLength</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">index</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">float</span> <span class="n">val</span> <span class="p">=</span> <span class="p">(</span><span class="n">dynamics</span><span class="p">*</span><span class="n">prevSpectrumBuff</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="p">+</span> <span class="p">(</span><span class="m">1</span> <span class="p">-</span> <span class="n">dynamics</span><span class="p">)*</span><span class="n">spectrumBuff</span><span class="p">[</span><span class="n">index</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">prevSpectrumBuff</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="p">=</span> <span class="n">val</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">val</span> <span class="p">&gt;=</span> <span class="n">epsilon</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">cubes</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">transform</span><span class="p">.</span><span class="n">localScale</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">val</span><span class="p">*</span><span class="n">maxScale</span><span class="p">,</span> <span class="m">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="kt">float</span> <span class="n">halfHeight</span> <span class="p">=</span> <span class="n">cubes</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">transform</span><span class="p">.</span><span class="n">localScale</span><span class="p">.</span><span class="n">y</span><span class="p">*</span><span class="m">0.5f</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Vector3</span> <span class="n">origin</span> <span class="p">=</span> <span class="n">cubes</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">cubes</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">transform</span><span class="p">.</span><span class="n">position</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">origin</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">halfHeight</span><span class="p">,</span> <span class="n">origin</span><span class="p">.</span><span class="n">z</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">cubes</span><span class="p">[</span><span class="n">index</span><span class="p">].</span><span class="n">transform</span><span class="p">.</span><span class="n">localScale</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">gameObject</span><span class="p">.</span><span class="n">transform</span><span class="p">.</span><span class="n">Rotate</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span><span class="p">*</span><span class="n">rotationSpeed</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>As you can see on <code>Start()</code>, we are going to spawn the cube object, laid it out spirally and initialize the buffers for audio sample data based on the <code>spectrumSize</code> that we choose, the buffers and the number of the cube that we spawn needs to be the same since the spectrum data would be the one that change the cube vertical scale.</p>
+<p>The meat of the code is on the <code>Update()</code> loop. The spectrum data is loaded with <code>AudioListener.GetSpectrumData()</code> into the <code>spectrumBuff</code> buffer, then we loop through all the spectrum data, each one we transform the scale of the cubes by the <code>spectrumBuff</code>.</p>
+<p>We got the value of the change by interpolating it between the previous <code>prevSpectrumBuff</code> and current buffer <code>spectrumBuff</code>, giving it a nice slow changes and not a haphazard changes each update tick.</p>
+<p>The keen reader would then ask why do we need to also change the position of the cube after we scale it. This is just a neat trick since the cube prefab that I use have the pivot of the cube in the center of the object. If we scale the cube, then it would scale upwards and downwards, we don’t want to have the cube wiggling up and down each update, so we need to offset the position of the cube upwards, making the cube looked like it only scale upwards, in reality we’re scaling it upwards and downwards, also offsetting it’s vertical position.</p>
+<p>Of course you could also fire you favorite 3d modelling software and change the pivot of the cube to be on the ground. But in this case doing it this way is troublesome for me.</p>
+<p>The <code>epsilon</code> value is used to check whether the audio data is higher than some threshold before scaling it, if not we’re just going to set the scale to (0, 0, 0), which result in “hiding” the cube. On a high frequency, the audio data changes are too small, if we apply the value to scale our cubes, our eyes would have a hard time detecting the changes. Hiding and showing the cube is easier for our eyes to detect it.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/2iVeMVICJ7c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>You can see how it looks in this video, bass / lower frequency starts from the center of the spiral, moving outwards to mid and higher frequency on the outer parts of the spiral.</p>
+<p>Some quick stats below</p>
+<pre tabindex="0"><code>MBP Mid 2015 2.2 GHz Intel Core i7 
 MonoBehavior: 8192 audio samples, FPS Roughly 45 - 50ish
-</code></pre><p>Some optimization tips, in order for the cube to have batching enabled, you need to create custom material with the “Enable GPU Instancing” box toggled, if you did that, then on the stats view from your unity main window, you’d see that the number in “Saved by batching” will go up.</p><p>We now have a simple working system to visualize audio, on the next chapter, we’ll talk about how to change the old MonoBehavior code into a Jobified system.</p><p>Until next time!</p></div></article></main></div><footer class=footer><span class=footer_item></span>&nbsp;<div class=footer_social-icons><a href=https://github.com/ernesernesto target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a><a href=https://twitter.com/ernesernesto target=_blank rel="noopener noreferrer me" title=Twitter><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z"/></svg></a><a href=index.xml target=_blank rel="noopener noreferrer me" title=Rss><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></div><small class=footer_copyright>© 2024 .
-Powered by <a href=https://github.com/hugo-sid/hugo-blog-awesome target=_blank rel=noopener>Hugo blog awesome</a>.</small></footer><a href=# title="Go to top" id=totop><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentcolor" stroke="currentcolor" viewBox="0 96 960 960"><path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197z"/></svg></a><script src=http://ernesernesto.github.io/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30+lSNuSkl4QXuNyy8="></script></body></html>
+</code></pre><p>Some optimization tips, in order for the cube to have batching enabled, you need to create custom material with the “Enable GPU Instancing” box toggled, if you did that, then on the stats view from your unity main window, you’d see that the number in “Saved by batching” will go up.</p>
+<p>We now have a simple working system to visualize audio, on the next chapter, we’ll talk about how to change the old MonoBehavior code into a Jobified system.</p>
+<p>Until next time!</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/ernesernesto" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://twitter.com/ernesernesto" target="_blank" rel="noopener noreferrer me"
+    title="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+</a>
+<a href="index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 .
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script src="https://ernesernesto.github.io/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>
