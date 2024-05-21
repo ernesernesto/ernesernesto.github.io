@@ -7,6 +7,10 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
+- [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
+- [Success via a game inspired by YouTube Content](https://howtomarketagame.com/2024/05/15/success-by-making-a-game-using-youtube-trending-content/?utm_source=rss&utm_medium=rss&utm_campaign=success-by-making-a-game-using-youtube-trending-content) -- https://howtomarketagame.com
+- [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
 - [How Weekend Deals Work](https://howtomarketagame.com/2024/05/06/how-weekend-deals-work/?utm_source=rss&utm_medium=rss&utm_campaign=how-weekend-deals-work) -- https://howtomarketagame.com
 - [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
@@ -40,10 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Upcoming Sokol header API changes (Feb 2024)](https://floooh.github.io/2024/02/26/sokol-spring-cleaning-2024.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 328  -  February 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-328/) -- https://www.jendrikillner.com/
 - [Retrospective Thoughts on BitC](https://danluu.com/bitc-retrospective/) -- https://danluu.com/atom/index.xml
-- [Peaked technologies.](http://c0de517e.blogspot.com/2024/02/peaked-technologies.html) -- http://c0de517e.blogspot.com/
-- [Graphics Programming weekly  -  Issue 327  -  February 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-327/) -- https://www.jendrikillner.com/
-- [Diseconomies of scale in fraud, spam, support, and moderation](https://danluu.com/diseconomies-scale/) -- https://danluu.com/atom/index.xml
-- [Palworld: What other Nintendo games can we add guns to?](https://howtomarketagame.com/2024/02/13/palworld-what-other-nintendo-games-can-we-add-guns-to/?utm_source=rss&utm_medium=rss&utm_campaign=palworld-what-other-nintendo-games-can-we-add-guns-to) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
