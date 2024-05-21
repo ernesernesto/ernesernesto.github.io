@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Success via a game inspired by YouTube Content](https://howtomarketagame.com/2024/05/15/success-by-making-a-game-using-youtube-trending-content/?utm_source=rss&utm_medium=rss&utm_campaign=success-by-making-a-game-using-youtube-trending-content) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
