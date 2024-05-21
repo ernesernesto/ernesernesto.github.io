@@ -49,10 +49,15 @@ disqusShortname = ''
     url = '/writes/'
     weight = 30
   [[Languages.en-us.menu.main]]
+    pageRef="executes"
+    name = 'Executes'
+    url = '/executes/'
+    weight = 40
+  [[Languages.en-us.menu.main]]
     pageRef="info"
     name = 'Info'
     url = '/info/'
-    weight = 40
+    weight = 50
 
 [Languages.en-us.params]
   sitename = "ernesernesto.github.io"
