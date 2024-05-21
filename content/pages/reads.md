@@ -9,6 +9,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
+- [Graphics Programming weekly  -  Issue 340  -  May 19th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-340/) -- https://www.jendrikillner.com/
 - [Success via a game inspired by YouTube Content](https://howtomarketagame.com/2024/05/15/success-by-making-a-game-using-youtube-trending-content/?utm_source=rss&utm_medium=rss&utm_campaign=success-by-making-a-game-using-youtube-trending-content) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
 - [How Weekend Deals Work](https://howtomarketagame.com/2024/05/06/how-weekend-deals-work/?utm_source=rss&utm_medium=rss&utm_campaign=how-weekend-deals-work) -- https://howtomarketagame.com
