@@ -7,7 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
-- [Do Steam Players Like Hard Games or Accessible Games?](https://howtomarketagame.com/2024/05/22/do-steam-players-like-hard-games-or-accessible-games/?utm_source=rss&utm_medium=rss&utm_campaign=do-steam-players-like-hard-games-or-accessible-games) -- https://howtomarketagame.com
+- [Do Steam Players Like Hard Games or Approachable Games?](https://howtomarketagame.com/2024/05/22/do-steam-players-like-hard-games-or-accessible-games/?utm_source=rss&utm_medium=rss&utm_campaign=do-steam-players-like-hard-games-or-accessible-games) -- https://howtomarketagame.com
 - [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 340  -  May 19th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-340/) -- https://www.jendrikillner.com/
@@ -44,7 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 329  -  March 3rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-329/) -- https://www.jendrikillner.com/
 - [Upcoming Sokol header API changes (Feb 2024)](https://floooh.github.io/2024/02/26/sokol-spring-cleaning-2024.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 328  -  February 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-328/) -- https://www.jendrikillner.com/
-- [Retrospective Thoughts on BitC](https://danluu.com/bitc-retrospective/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
