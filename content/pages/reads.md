@@ -43,7 +43,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How to add Steam Key codes to your business cards](https://howtomarketagame.com/2024/03/04/how-to-add-steam-key-codes-to-your-business-cards/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-add-steam-key-codes-to-your-business-cards) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 329  -  March 3rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-329/) -- https://www.jendrikillner.com/
 - [Upcoming Sokol header API changes (Feb 2024)](https://floooh.github.io/2024/02/26/sokol-spring-cleaning-2024.html) -- https://floooh.github.io/
-- [Graphics Programming weekly  -  Issue 328  -  February 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-328/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
