@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [How Screenbound is Building in Public](https://howtomarketagame.com/2024/05/27/how-screenbound-is-building-in-public/?utm_source=rss&utm_medium=rss&utm_campaign=how-screenbound-is-building-in-public) -- https://howtomarketagame.com
 - [Do Steam Players Like Hard Games or Approachable Games?](https://howtomarketagame.com/2024/05/22/do-steam-players-like-hard-games-or-accessible-games/?utm_source=rss&utm_medium=rss&utm_campaign=do-steam-players-like-hard-games-or-accessible-games) -- https://howtomarketagame.com
 - [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
@@ -40,7 +41,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
 - [EGSR, HPG, and I3D](https://www.realtimerendering.com/blog/egsr-hpg-and-i3d/) -- https://www.realtimerendering.com/blog
-- [How to add Steam Key codes to your business cards](https://howtomarketagame.com/2024/03/04/how-to-add-steam-key-codes-to-your-business-cards/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-add-steam-key-codes-to-your-business-cards) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 329  -  March 3rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-329/) -- https://www.jendrikillner.com/
 
 ## Talks
