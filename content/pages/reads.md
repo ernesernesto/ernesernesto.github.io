@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
 - [EGSR, HPG, and I3D](https://www.realtimerendering.com/blog/egsr-hpg-and-i3d/) -- https://www.realtimerendering.com/blog
-- [Graphics Programming weekly  -  Issue 329  -  March 3rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-329/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
