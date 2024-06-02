@@ -9,6 +9,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [How Screenbound is Building in Public](https://howtomarketagame.com/2024/05/27/how-screenbound-is-building-in-public/?utm_source=rss&utm_medium=rss&utm_campaign=how-screenbound-is-building-in-public) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
+- [Comments on the FTC antitrust investigation of Google](https://danluu.com/ftc-google-antitrust/) -- https://danluu.com/atom/index.xml
 - [Do Steam Players Like Hard Games or Approachable Games?](https://howtomarketagame.com/2024/05/22/do-steam-players-like-hard-games-or-accessible-games/?utm_source=rss&utm_medium=rss&utm_campaign=do-steam-players-like-hard-games-or-accessible-games) -- https://howtomarketagame.com
 - [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
