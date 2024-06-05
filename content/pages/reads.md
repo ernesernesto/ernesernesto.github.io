@@ -7,7 +7,9 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What is Wishlist Velocity and is it a better indicator of success?](https://howtomarketagame.com/2024/06/04/what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 342  -  June 2nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-342/) -- https://www.jendrikillner.com/
+- [Beware of Bioware](https://danluu.com/bioware/) -- https://danluu.com/atom/index.xml
 - [How Screenbound is Building in Public](https://howtomarketagame.com/2024/05/27/how-screenbound-is-building-in-public/?utm_source=rss&utm_medium=rss&utm_campaign=how-screenbound-is-building-in-public) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
 - [Comments on the FTC antitrust investigation of Google](https://danluu.com/ftc-google-antitrust/) -- https://danluu.com/atom/index.xml
@@ -37,13 +39,11 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
 - [](http://c0de517e.blogspot.com/2024/03/read-article-here-httpsc0de517e.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 332  -  March 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-332/) -- https://www.jendrikillner.com/
-- [GDC 2024](https://howtomarketagame.com/2024/03/18/gdc-2024/?utm_source=rss&utm_medium=rss&utm_campaign=gdc-2024) -- https://howtomarketagame.com
 - [What I wish I knew about ESPP and RSUs sooner (company stock benefits. 2024, USA, California)](https://blog.demofox.org/2024/03/17/what-i-wish-i-knew-about-espp-and-rsus-sooner-company-stock-benefits-2024-usa-california/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 331  -  March 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-331/) -- https://www.jendrikillner.com/
 - [How web bloat impacts users with slow devices](https://danluu.com/slow-device/) -- https://danluu.com/atom/index.xml
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
-- [EGSR, HPG, and I3D](https://www.realtimerendering.com/blog/egsr-hpg-and-i3d/) -- https://www.realtimerendering.com/blog
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
