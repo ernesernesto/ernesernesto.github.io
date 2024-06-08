@@ -44,7 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 331  -  March 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-331/) -- https://www.jendrikillner.com/
 - [How web bloat impacts users with slow devices](https://danluu.com/slow-device/) -- https://danluu.com/atom/index.xml
 - [Normals Gone Bad](https://www.realtimerendering.com/blog/normals-gone-bad/) -- https://www.realtimerendering.com/blog
-- [Graphics Programming weekly  -  Issue 330  -  March 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-330/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
