@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
 - [](http://c0de517e.blogspot.com/2024/03/read-article-here-httpsc0de517e.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 332  -  March 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-332/) -- https://www.jendrikillner.com/
-- [What I wish I knew about ESPP and RSUs sooner (company stock benefits. 2024, USA, California)](https://blog.demofox.org/2024/03/17/what-i-wish-i-knew-about-espp-and-rsus-sooner-company-stock-benefits-2024-usa-california/) -- https://blog.demofox.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
