@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The double jump trick to Steam Next Fest](https://howtomarketagame.com/2024/06/18/the-double-jump-trick-to-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=the-double-jump-trick-to-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
@@ -39,7 +40,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How creating a spinoff for a hot genre lead to success for Deep Rock Galactic Survivor](https://howtomarketagame.com/2024/04/08/how-creating-a-spinoff-for-a-hot-genre-lead-to-success-for-deep-rock-galactic-survivor/?utm_source=rss&utm_medium=rss&utm_campaign=how-creating-a-spinoff-for-a-hot-genre-lead-to-success-for-deep-rock-galactic-survivor) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 334  -  April 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/) -- https://www.jendrikillner.com/
 - [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
-- [Is the AI flood here yet? How many games have released in 2024](https://howtomarketagame.com/2024/04/01/is-the-ai-flood-here-yet-how-many-games-have-released-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=is-the-ai-flood-here-yet-how-many-games-have-released-in-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
 - [](http://c0de517e.blogspot.com/2024/03/read-article-here-httpsc0de517e.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 332  -  March 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-332/) -- https://www.jendrikillner.com/
