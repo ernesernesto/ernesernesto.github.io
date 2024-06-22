@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
 - [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
 - [](http://c0de517e.blogspot.com/2024/03/read-article-here-httpsc0de517e.html) -- http://c0de517e.blogspot.com/
-- [Graphics Programming weekly  -  Issue 332  -  March 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-332/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
