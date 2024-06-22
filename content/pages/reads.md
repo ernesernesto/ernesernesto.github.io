@@ -9,12 +9,12 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [The double jump trick to Steam Next Fest](https://howtomarketagame.com/2024/06/18/the-double-jump-trick-to-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=the-double-jump-trick-to-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
+- [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
 - [Porting Takua Renderer to Windows on Arm](https://blog.yiningkarlli.com/2024/06/takua-on-arm64-windows.html) -- https://blog.yiningkarlli.com/
 - [What is Wishlist Velocity and is it a better indicator of success?](https://howtomarketagame.com/2024/06/04/what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 342  -  June 2nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-342/) -- https://www.jendrikillner.com/
-- [Work-life balance at Bioware](https://danluu.com/bioware/) -- https://danluu.com/atom/index.xml
 - [How Screenbound is Building in Public](https://howtomarketagame.com/2024/05/27/how-screenbound-is-building-in-public/?utm_source=rss&utm_medium=rss&utm_campaign=how-screenbound-is-building-in-public) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
 - [Comments on the FTC antitrust investigation of Google](https://danluu.com/ftc-google-antitrust/) -- https://danluu.com/atom/index.xml
