@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 345  -  June 23rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-345/) -- https://www.jendrikillner.com/
 - [The double jump trick to Steam Next Fest](https://howtomarketagame.com/2024/06/18/the-double-jump-trick-to-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=the-double-jump-trick-to-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
 - [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
