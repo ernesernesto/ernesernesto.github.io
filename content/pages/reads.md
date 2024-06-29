@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Redirect everything](https://tobias-franke.eu/log/2024/04/13/redirect-everything.html) -- https://tobias-franke.eu/
 - [Graphics Programming weekly  -  Issue 334  -  April 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-334/) -- https://www.jendrikillner.com/
 - [Open Source Maintenance](https://anteru.net/blog/2024/open-source-maintenance) -- https://anteru.net
-- [Graphics Programming weekly  -  Issue 333  -  March 31st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-333/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
