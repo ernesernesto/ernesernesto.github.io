@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [A quick introduction to workgraphs](https://interplayoflight.wordpress.com/2024/06/29/a-quick-introduction-to-workgraphs/) -- https://interplayoflight.wordpress.com
 - [Simple, Lossless Video Editor](https://www.realtimerendering.com/blog/simple-lossless-video-editor/) -- https://www.realtimerendering.com/blog
 - [Steam Next Fest June 2024: Top demos and genre](https://howtomarketagame.com/2024/06/27/steam-next-fest-june-2024-top-demos-and-genre/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-june-2024-top-demos-and-genre) -- https://howtomarketagame.com
 - [Do demos help earn wishlists? Steam Next Fest June 2024](https://howtomarketagame.com/2024/06/24/do-demos-help-earn-wishlists-steam-next-fest-june-2024/?utm_source=rss&utm_medium=rss&utm_campaign=do-demos-help-earn-wishlists-steam-next-fest-june-2024) -- https://howtomarketagame.com
