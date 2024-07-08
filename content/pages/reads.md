@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 347  -  July 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-347/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
 - [A quick introduction to workgraphs](https://interplayoflight.wordpress.com/2024/06/29/a-quick-introduction-to-workgraphs/) -- https://interplayoflight.wordpress.com
 - [Simple, Lossless Video Editor](https://www.realtimerendering.com/blog/simple-lossless-video-editor/) -- https://www.realtimerendering.com/blog
