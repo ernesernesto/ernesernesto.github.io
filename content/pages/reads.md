@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 336  -  April 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-336/) -- https://www.jendrikillner.com/
 - [Dataflow Analyses and Compiler Optimizations that Use Them, for Free](https://blog.regehr.org/archives/2578) -- https://blog.regehr.org
 - [Graphics Programming weekly  -  Issue 335  -  April 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-335/) -- https://www.jendrikillner.com/
-- [Redirect everything](https://tobias-franke.eu/log/2024/04/13/redirect-everything.html) -- https://tobias-franke.eu/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
