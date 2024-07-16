@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What games are selling on Steam: The Q2 Report](https://howtomarketagame.com/2024/07/16/what-games-are-selling-q2-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-are-selling-q2-2024) -- https://howtomarketagame.com
 - [Should you launch your game immediately after you appear in Steam Next Fest?](https://howtomarketagame.com/2024/07/08/should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 347  -  July 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-347/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
@@ -35,7 +36,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How Weekend Deals Work](https://howtomarketagame.com/2024/05/06/how-weekend-deals-work/?utm_source=rss&utm_medium=rss&utm_campaign=how-weekend-deals-work) -- https://howtomarketagame.com
 - [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
-- [How to get special Daily Deal featuring on the Steam Front page](https://howtomarketagame.com/2024/04/29/how-to-get-special-daily-deal-featuring-on-the-steam-front-page/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-get-special-daily-deal-featuring-on-the-steam-front-page) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 337  -  April 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-337/) -- https://www.jendrikillner.com/
 - [A read-it-later service for RSS purists](https://tobias-franke.eu/log/2024/04/28/a-reader-service-for-rss-purists.html) -- https://tobias-franke.eu/
 - [Replacing cron with systemd-timers](https://anteru.net/blog/2024/replacing-cron-with-systemd-timers) -- https://anteru.net
