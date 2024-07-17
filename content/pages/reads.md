@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [What games are selling on Steam: The Q2 Report](https://howtomarketagame.com/2024/07/16/what-games-are-selling-q2-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-are-selling-q2-2024) -- https://howtomarketagame.com
+- [Graphics Programming weekly  -  Issue 348  -  July 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-348/) -- https://www.jendrikillner.com/
 - [Should you launch your game immediately after you appear in Steam Next Fest?](https://howtomarketagame.com/2024/07/08/should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 347  -  July 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-347/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
