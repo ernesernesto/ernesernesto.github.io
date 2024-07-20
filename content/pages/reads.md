@@ -41,7 +41,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 337  -  April 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-337/) -- https://www.jendrikillner.com/
 - [A read-it-later service for RSS purists](https://tobias-franke.eu/log/2024/04/28/a-reader-service-for-rss-purists.html) -- https://tobias-franke.eu/
 - [Replacing cron with systemd-timers](https://anteru.net/blog/2024/replacing-cron-with-systemd-timers) -- https://anteru.net
-- [Graphics Programming weekly  -  Issue 336  -  April 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-336/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
