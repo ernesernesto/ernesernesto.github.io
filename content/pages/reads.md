@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [When “Mostly Positive” games don’t sell](https://howtomarketagame.com/2024/07/23/when-mostly-positive-games-dont-sell/?utm_source=rss&utm_medium=rss&utm_campaign=when-mostly-positive-games-dont-sell) -- https://howtomarketagame.com
 - [More Blender VSE stuff for 4.2](https://aras-p.info/blog/2024/07/22/More-Blender-VSE-stuff-for-4.2/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 349  -  July 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-349/) -- https://www.jendrikillner.com/
 - [Kyrgyzstan Trip 2024](https://aras-p.info/blog/2024/07/16/Kyrgyzstan-Trip-2024/) -- https://aras-p.info/
@@ -37,7 +38,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 340  -  May 19th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-340/) -- https://www.jendrikillner.com/
 - [Success via a game inspired by YouTube Content](https://howtomarketagame.com/2024/05/15/success-by-making-a-game-using-youtube-trending-content/?utm_source=rss&utm_medium=rss&utm_campaign=success-by-making-a-game-using-youtube-trending-content) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
-- [How Weekend Deals Work](https://howtomarketagame.com/2024/05/06/how-weekend-deals-work/?utm_source=rss&utm_medium=rss&utm_campaign=how-weekend-deals-work) -- https://howtomarketagame.com
 - [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 337  -  April 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-337/) -- https://www.jendrikillner.com/
