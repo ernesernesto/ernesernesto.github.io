@@ -7,36 +7,26 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
-- [When “Mostly Positive” games don’t sell](https://howtomarketagame.com/2024/07/23/when-mostly-positive-games-dont-sell/?utm_source=rss&utm_medium=rss&utm_campaign=when-mostly-positive-games-dont-sell) -- https://howtomarketagame.com
 - [More Blender VSE stuff for 4.2](https://aras-p.info/blog/2024/07/22/More-Blender-VSE-stuff-for-4.2/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 349  -  July 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-349/) -- https://www.jendrikillner.com/
 - [Kyrgyzstan Trip 2024](https://aras-p.info/blog/2024/07/16/Kyrgyzstan-Trip-2024/) -- https://aras-p.info/
-- [What games are selling on Steam: The Q2 Report](https://howtomarketagame.com/2024/07/16/what-games-are-selling-q2-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-are-selling-q2-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 348  -  July 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-348/) -- https://www.jendrikillner.com/
-- [Should you launch your game immediately after you appear in Steam Next Fest?](https://howtomarketagame.com/2024/07/08/should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 347  -  July 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-347/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
 - [A quick introduction to workgraphs](https://interplayoflight.wordpress.com/2024/06/29/a-quick-introduction-to-workgraphs/) -- https://interplayoflight.wordpress.com
 - [Simple, Lossless Video Editor](https://www.realtimerendering.com/blog/simple-lossless-video-editor/) -- https://www.realtimerendering.com/blog
-- [Steam Next Fest June 2024: Top demos and genre](https://howtomarketagame.com/2024/06/27/steam-next-fest-june-2024-top-demos-and-genre/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-june-2024-top-demos-and-genre) -- https://howtomarketagame.com
-- [Do demos help earn wishlists? Steam Next Fest June 2024](https://howtomarketagame.com/2024/06/24/do-demos-help-earn-wishlists-steam-next-fest-june-2024/?utm_source=rss&utm_medium=rss&utm_campaign=do-demos-help-earn-wishlists-steam-next-fest-june-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 345  -  June 23rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-345/) -- https://www.jendrikillner.com/
-- [The double jump trick to Steam Next Fest](https://howtomarketagame.com/2024/06/18/the-double-jump-trick-to-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=the-double-jump-trick-to-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
 - [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
 - [Porting Takua Renderer to Windows on Arm](https://blog.yiningkarlli.com/2024/06/takua-on-arm64-windows.html) -- https://blog.yiningkarlli.com/
-- [What is Wishlist Velocity and is it a better indicator of success?](https://howtomarketagame.com/2024/06/04/what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 342  -  June 2nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-342/) -- https://www.jendrikillner.com/
-- [How Screenbound is Building in Public](https://howtomarketagame.com/2024/05/27/how-screenbound-is-building-in-public/?utm_source=rss&utm_medium=rss&utm_campaign=how-screenbound-is-building-in-public) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
 - [What the FTC got wrong in the Google antitrust investigation](https://danluu.com/ftc-google-antitrust/) -- https://danluu.com/atom/index.xml
-- [Do Steam Players Like Hard Games or Approachable Games?](https://howtomarketagame.com/2024/05/22/do-steam-players-like-hard-games-or-accessible-games/?utm_source=rss&utm_medium=rss&utm_campaign=do-steam-players-like-hard-games-or-accessible-games) -- https://howtomarketagame.com
 - [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 340  -  May 19th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-340/) -- https://www.jendrikillner.com/
-- [Success via a game inspired by YouTube Content](https://howtomarketagame.com/2024/05/15/success-by-making-a-game-using-youtube-trending-content/?utm_source=rss&utm_medium=rss&utm_campaign=success-by-making-a-game-using-youtube-trending-content) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
 - [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
