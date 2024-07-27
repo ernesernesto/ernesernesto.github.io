@@ -41,7 +41,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 338  -  May 5th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-338/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 337  -  April 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-337/) -- https://www.jendrikillner.com/
-- [A read-it-later service for RSS purists](https://tobias-franke.eu/log/2024/04/28/a-reader-service-for-rss-purists.html) -- https://tobias-franke.eu/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
