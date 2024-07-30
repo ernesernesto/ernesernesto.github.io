@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 350  -  July 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-350/) -- https://www.jendrikillner.com/
 - [When “Mostly Positive” games don’t sell](https://howtomarketagame.com/2024/07/23/when-mostly-positive-games-dont-sell/?utm_source=rss&utm_medium=rss&utm_campaign=when-mostly-positive-games-dont-sell) -- https://howtomarketagame.com
 - [More Blender VSE stuff for 4.2](https://aras-p.info/blog/2024/07/22/More-Blender-VSE-stuff-for-4.2/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 349  -  July 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-349/) -- https://www.jendrikillner.com/
