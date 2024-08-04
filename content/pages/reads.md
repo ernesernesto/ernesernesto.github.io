@@ -39,7 +39,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 340  -  May 19th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-340/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 339  -  May 12th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-339/) -- https://www.jendrikillner.com/
-- [Upcoming Sokol header API changes (May 2024)](https://floooh.github.io/2024/05/06/sokol-storage-buffers.html) -- https://floooh.github.io/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
