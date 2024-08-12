@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 352 -  August 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-352/) -- https://www.jendrikillner.com/
 - [Oodle, Kraken etc. misconceptions](https://fgiesen.wordpress.com/2024/08/08/oodle-kraken-etc-misconceptions/) -- https://fgiesen.wordpress.com
 - [EGSR 2024 Talks and Photos now available](https://www.realtimerendering.com/blog/egsr-2024-talks-and-photos-now-available/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 351 -  August 4th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-351/) -- https://www.jendrikillner.com/
