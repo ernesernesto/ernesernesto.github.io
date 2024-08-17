@@ -39,7 +39,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
 - [Crank the World: Playdate demo](https://aras-p.info/blog/2024/05/20/Crank-the-World-Playdate-demo/) -- https://aras-p.info/
 - [A Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/05/19/a-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
-- [Graphics Programming weekly  -  Issue 340  -  May 19th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-340/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
