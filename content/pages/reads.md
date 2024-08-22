@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Valve just took away a valuable visibility tool](https://howtomarketagame.com/2024/08/21/valve-just-took-away-a-valuable-visibility-tool/?utm_source=rss&utm_medium=rss&utm_campaign=valve-just-took-away-a-valuable-visibility-tool) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 353 -  August 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-353/) -- https://www.jendrikillner.com/
 - [Big in Japan](https://howtomarketagame.com/2024/08/12/big-in-japan/?utm_source=rss&utm_medium=rss&utm_campaign=big-in-japan) -- https://howtomarketagame.com
 - [Random thoughts about Unity](https://aras-p.info/blog/2024/08/11/Random-thoughts-about-Unity/) -- https://aras-p.info/
@@ -32,13 +33,14 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 345  -  June 23rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-345/) -- https://www.jendrikillner.com/
 - [The double jump trick to Steam Next Fest](https://howtomarketagame.com/2024/06/18/the-double-jump-trick-to-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=the-double-jump-trick-to-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
+- [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
 - [Porting Takua Renderer to Windows on Arm](https://blog.yiningkarlli.com/2024/06/takua-on-arm64-windows.html) -- https://blog.yiningkarlli.com/
 - [What is Wishlist Velocity and is it a better indicator of success?](https://howtomarketagame.com/2024/06/04/what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 342  -  June 2nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-342/) -- https://www.jendrikillner.com/
-- [How Screenbound is Building in Public](https://howtomarketagame.com/2024/05/27/how-screenbound-is-building-in-public/?utm_source=rss&utm_medium=rss&utm_campaign=how-screenbound-is-building-in-public) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
+- [What the FTC got wrong in the Google antitrust investigation](https://danluu.com/ftc-google-antitrust/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
