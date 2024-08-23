@@ -13,7 +13,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Big in Japan](https://howtomarketagame.com/2024/08/12/big-in-japan/?utm_source=rss&utm_medium=rss&utm_campaign=big-in-japan) -- https://howtomarketagame.com
 - [Random thoughts about Unity](https://aras-p.info/blog/2024/08/11/Random-thoughts-about-Unity/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 352 -  August 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-352/) -- https://www.jendrikillner.com/
-- [How good can you be at Codenames without knowing any words?](https://danluu.com/codenames/) -- https://danluu.com/atom/index.xml
 - [Oodle, Kraken etc. misconceptions](https://fgiesen.wordpress.com/2024/08/08/oodle-kraken-etc-misconceptions/) -- https://fgiesen.wordpress.com
 - [EGSR 2024 Talks and Photos now available](https://www.realtimerendering.com/blog/egsr-2024-talks-and-photos-now-available/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 351 -  August 4th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-351/) -- https://www.jendrikillner.com/
