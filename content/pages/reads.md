@@ -41,7 +41,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What is Wishlist Velocity and is it a better indicator of success?](https://howtomarketagame.com/2024/06/04/what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 342  -  June 2nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-342/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 341  -  May 26th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-341/) -- https://www.jendrikillner.com/
-- [What the FTC got wrong in the Google antitrust investigation](https://danluu.com/ftc-google-antitrust/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
