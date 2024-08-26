@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 354 -  August 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-354/) -- https://www.jendrikillner.com/
 - [Zig and Emulators](https://floooh.github.io/2024/08/24/zig-and-emulators.html) -- https://floooh.github.io/
 - [Seven Things for August 22, 2024](https://www.realtimerendering.com/blog/seven-things-for-august-22-2024/) -- https://www.realtimerendering.com/blog
 - [Valve just took away a valuable visibility tool](https://howtomarketagame.com/2024/08/21/valve-just-took-away-a-valuable-visibility-tool/?utm_source=rss&utm_medium=rss&utm_campaign=valve-just-took-away-a-valuable-visibility-tool) -- https://howtomarketagame.com
