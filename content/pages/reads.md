@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [How to cross promote under the new Steam Rules](https://howtomarketagame.com/2024/08/26/how-to-cross-promote-under-the-new-steam-rules/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-cross-promote-under-the-new-steam-rules) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 354 -  August 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-354/) -- https://www.jendrikillner.com/
 - [Zig and Emulators](https://floooh.github.io/2024/08/24/zig-and-emulators.html) -- https://floooh.github.io/
 - [Seven Things for August 22, 2024](https://www.realtimerendering.com/blog/seven-things-for-august-22-2024/) -- https://www.realtimerendering.com/blog
@@ -41,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
 - [Porting Takua Renderer to Windows on Arm](https://blog.yiningkarlli.com/2024/06/takua-on-arm64-windows.html) -- https://blog.yiningkarlli.com/
-- [What is Wishlist Velocity and is it a better indicator of success?](https://howtomarketagame.com/2024/06/04/what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-wishlist-velocity-and-is-it-a-better-indicator-of-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 342  -  June 2nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-342/) -- https://www.jendrikillner.com/
 
 ## Talks
