@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
 - [When is a BCn/ASTC endpoints-from-indices solve singular?](https://fgiesen.wordpress.com/2024/08/29/when-is-a-bcn-astc-endpoints-from-indices-solve-singular/) -- https://fgiesen.wordpress.com
 - [How to cross promote under the new Steam Rules](https://howtomarketagame.com/2024/08/26/how-to-cross-promote-under-the-new-steam-rules/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-cross-promote-under-the-new-steam-rules) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 354 -  August 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-354/) -- https://www.jendrikillner.com/
