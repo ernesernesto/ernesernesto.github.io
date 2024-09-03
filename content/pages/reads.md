@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The EA Success of Nova Drift](https://howtomarketagame.com/2024/09/03/the-ea-success-of-nova-drift/?utm_source=rss&utm_medium=rss&utm_campaign=the-ea-success-of-nova-drift) -- https://howtomarketagame.com
 - [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 355 -  September 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-355/) -- https://www.jendrikillner.com/
 - [When is a BCn/ASTC endpoints-from-indices solve singular?](https://fgiesen.wordpress.com/2024/08/29/when-is-a-bcn-astc-endpoints-from-indices-solve-singular/) -- https://fgiesen.wordpress.com
@@ -39,7 +40,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Steam Next Fest June 2024: Top demos and genre](https://howtomarketagame.com/2024/06/27/steam-next-fest-june-2024-top-demos-and-genre/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-june-2024-top-demos-and-genre) -- https://howtomarketagame.com
 - [Do demos help earn wishlists? Steam Next Fest June 2024](https://howtomarketagame.com/2024/06/24/do-demos-help-earn-wishlists-steam-next-fest-june-2024/?utm_source=rss&utm_medium=rss&utm_campaign=do-demos-help-earn-wishlists-steam-next-fest-june-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 345  -  June 23rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-345/) -- https://www.jendrikillner.com/
-- [The double jump trick to Steam Next Fest](https://howtomarketagame.com/2024/06/18/the-double-jump-trick-to-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=the-double-jump-trick-to-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
 - [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
