@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Looking for Missed Alarm Bugs in a Formal Verification Tool](https://blog.regehr.org/archives/2124) -- https://blog.regehr.org
 - [The EA Success of Nova Drift](https://howtomarketagame.com/2024/09/03/the-ea-success-of-nova-drift/?utm_source=rss&utm_medium=rss&utm_campaign=the-ea-success-of-nova-drift) -- https://howtomarketagame.com
 - [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 355 -  September 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-355/) -- https://www.jendrikillner.com/
@@ -44,7 +45,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
 - [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
-- [Porting Takua Renderer to Windows on Arm](https://blog.yiningkarlli.com/2024/06/takua-on-arm64-windows.html) -- https://blog.yiningkarlli.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
