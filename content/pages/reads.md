@@ -44,7 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 344  -  June 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-344/) -- https://www.jendrikillner.com/
 - [A discussion of discussions on AI bias](https://danluu.com/ai-bias/) -- https://danluu.com/atom/index.xml
 - [Future Engines](http://c0de517e.blogspot.com/2024/06/future-engines.html) -- http://c0de517e.blogspot.com/
-- [Graphics Programming weekly  -  Issue 343  -  June 9th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-343/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
