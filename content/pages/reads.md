@@ -7,10 +7,10 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Carpentopod: A walking table project](https://www.decarpentier.nl/carpentopod) -- https://www.decarpentier.nl
 - [Looking for Missed Alarm Bugs in a Formal Verification Tool](https://blog.regehr.org/archives/2124) -- https://blog.regehr.org
 - [The EA Success of Nova Drift](https://howtomarketagame.com/2024/09/03/the-ea-success-of-nova-drift/?utm_source=rss&utm_medium=rss&utm_campaign=the-ea-success-of-nova-drift) -- https://howtomarketagame.com
 - [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
-- [Carpentopod: A walking table project](https://www.decarpentier.nl/carpentopod) -- https://www.decarpentier.nl
 - [Graphics Programming weekly  -  Issue 355 -  September 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-355/) -- https://www.jendrikillner.com/
 - [When is a BCn/ASTC endpoints-from-indices solve singular?](https://fgiesen.wordpress.com/2024/08/29/when-is-a-bcn-astc-endpoints-from-indices-solve-singular/) -- https://fgiesen.wordpress.com
 - [How to cross promote under the new Steam Rules](https://howtomarketagame.com/2024/08/26/how-to-cross-promote-under-the-new-steam-rules/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-cross-promote-under-the-new-steam-rules) -- https://howtomarketagame.com
