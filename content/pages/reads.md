@@ -23,6 +23,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Valve just took away a valuable visibility tool](https://howtomarketagame.com/2024/08/21/valve-just-took-away-a-valuable-visibility-tool/?utm_source=rss&utm_medium=rss&utm_campaign=valve-just-took-away-a-valuable-visibility-tool) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 353 -  August 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-353/) -- https://www.jendrikillner.com/
 - [Big in Japan](https://howtomarketagame.com/2024/08/12/big-in-japan/?utm_source=rss&utm_medium=rss&utm_campaign=big-in-japan) -- https://howtomarketagame.com
+- [Random thoughts about Unity](https://aras-p.info/blog/2024/08/11/Random-thoughts-about-Unity/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 352 -  August 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-352/) -- https://www.jendrikillner.com/
 - [How good can you be at Codenames without knowing any words?](https://danluu.com/codenames/) -- https://danluu.com/atom/index.xml
 - [Oodle, Kraken etc. misconceptions](https://fgiesen.wordpress.com/2024/08/08/oodle-kraken-etc-misconceptions/) -- https://fgiesen.wordpress.com
@@ -31,7 +32,9 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What Steam’s big demo update means for your marketing strategy](https://howtomarketagame.com/2024/07/31/what-steams-big-demo-update-means-for-your-marketing-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=what-steams-big-demo-update-means-for-your-marketing-strategy) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 350  -  July 28th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-350/) -- https://www.jendrikillner.com/
 - [When “Mostly Positive” games don’t sell](https://howtomarketagame.com/2024/07/23/when-mostly-positive-games-dont-sell/?utm_source=rss&utm_medium=rss&utm_campaign=when-mostly-positive-games-dont-sell) -- https://howtomarketagame.com
+- [More Blender VSE stuff for 4.2](https://aras-p.info/blog/2024/07/22/More-Blender-VSE-stuff-for-4.2/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 349  -  July 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-349/) -- https://www.jendrikillner.com/
+- [Kyrgyzstan Trip 2024](https://aras-p.info/blog/2024/07/16/Kyrgyzstan-Trip-2024/) -- https://aras-p.info/
 - [What games are selling on Steam: The Q2 Report](https://howtomarketagame.com/2024/07/16/what-games-are-selling-q2-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-are-selling-q2-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 348  -  July 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-348/) -- https://www.jendrikillner.com/
 - [Should you launch your game immediately after you appear in Steam Next Fest?](https://howtomarketagame.com/2024/07/08/should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest) -- https://howtomarketagame.com
