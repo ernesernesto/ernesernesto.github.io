@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Vector math library codegen in Debug](https://aras-p.info/blog/2024/09/14/Vector-math-library-codegen-in-Debug/) -- https://aras-p.info/
 - [An introduction to workgraphs part 2: Performance](https://interplayoflight.wordpress.com/2024/09/09/an-introduction-to-workgraphs-part-2-performance/) -- https://interplayoflight.wordpress.com
 - [Success after a slow EA launch, the Terminus story](https://howtomarketagame.com/2024/09/09/success-after-a-slow-ea-launch-the-terminus-story/?utm_source=rss&utm_medium=rss&utm_campaign=success-after-a-slow-ea-launch-the-terminus-story) -- https://howtomarketagame.com
 - [Carpentopod: A walking table project](https://www.decarpentier.nl/carpentopod) -- https://www.decarpentier.nl
