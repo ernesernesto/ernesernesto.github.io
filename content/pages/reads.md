@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Launching during a big Store event](https://howtomarketagame.com/2024/09/16/launching-during-a-big-festival/?utm_source=rss&utm_medium=rss&utm_campaign=launching-during-a-big-festival) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 357 -  September 15th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-357/) -- https://www.jendrikillner.com/
 - [Vector math library codegen in Debug](https://aras-p.info/blog/2024/09/14/Vector-math-library-codegen-in-Debug/) -- https://aras-p.info/
 - [An introduction to workgraphs part 2: Performance](https://interplayoflight.wordpress.com/2024/09/09/an-introduction-to-workgraphs-part-2-performance/) -- https://interplayoflight.wordpress.com
@@ -44,7 +45,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
 - [A quick introduction to workgraphs](https://interplayoflight.wordpress.com/2024/06/29/a-quick-introduction-to-workgraphs/) -- https://interplayoflight.wordpress.com
 - [Simple, Lossless Video Editor](https://www.realtimerendering.com/blog/simple-lossless-video-editor/) -- https://www.realtimerendering.com/blog
-- [Steam Next Fest June 2024: Top demos and genre](https://howtomarketagame.com/2024/06/27/steam-next-fest-june-2024-top-demos-and-genre/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-june-2024-top-demos-and-genre) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 345  -  June 23rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-345/) -- https://www.jendrikillner.com/
 
 ## Talks
