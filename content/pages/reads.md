@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [You don’t need to be an extrovert to be good at marketing](https://howtomarketagame.com/2024/09/26/you-dont-need-to-be-an-extrovert-to-be-good-at-marketing/?utm_source=rss&utm_medium=rss&utm_campaign=you-dont-need-to-be-an-extrovert-to-be-good-at-marketing) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 358 -  September 22nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-358/) -- https://www.jendrikillner.com/
 - [Launching during a big Store event](https://howtomarketagame.com/2024/09/16/launching-during-a-big-festival/?utm_source=rss&utm_medium=rss&utm_campaign=launching-during-a-big-festival) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 357 -  September 15th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-357/) -- https://www.jendrikillner.com/
@@ -41,11 +42,9 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Kyrgyzstan Trip 2024](https://aras-p.info/blog/2024/07/16/Kyrgyzstan-Trip-2024/) -- https://aras-p.info/
 - [What games are selling on Steam: The Q2 Report](https://howtomarketagame.com/2024/07/16/what-games-are-selling-q2-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-are-selling-q2-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 348  -  July 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-348/) -- https://www.jendrikillner.com/
-- [Should you launch your game immediately after you appear in Steam Next Fest?](https://howtomarketagame.com/2024/07/08/should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-launch-your-game-immediately-after-you-appear-in-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 347  -  July 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-347/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
 - [A quick introduction to workgraphs](https://interplayoflight.wordpress.com/2024/06/29/a-quick-introduction-to-workgraphs/) -- https://interplayoflight.wordpress.com
-- [Simple, Lossless Video Editor](https://www.realtimerendering.com/blog/simple-lossless-video-editor/) -- https://www.realtimerendering.com/blog
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
