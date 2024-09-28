@@ -43,7 +43,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What games are selling on Steam: The Q2 Report](https://howtomarketagame.com/2024/07/16/what-games-are-selling-q2-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-games-are-selling-q2-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 348  -  July 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-348/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly  -  Issue 347  -  July 7th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-347/) -- https://www.jendrikillner.com/
-- [Graphics Programming weekly  -  Issue 346  -  June 30th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-346/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
