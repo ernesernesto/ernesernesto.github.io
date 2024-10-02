@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Life, death, and retirement](https://randomascii.wordpress.com/2024/10/01/life-death-and-retirement/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly  -  Issue 359 -  September 29th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-359/) -- https://www.jendrikillner.com/
 - [You don’t need to be an extrovert to be good at marketing](https://howtomarketagame.com/2024/09/26/you-dont-need-to-be-an-extrovert-to-be-good-at-marketing/?utm_source=rss&utm_medium=rss&utm_campaign=you-dont-need-to-be-an-extrovert-to-be-good-at-marketing) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 358 -  September 22nd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-358/) -- https://www.jendrikillner.com/
