@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [What Jonas Tyroller’s Games reveal about the Steam Algorithm](https://howtomarketagame.com/2024/10/07/what-jonas-tyrollers-games-reveal-about-the-steam-algorithm/?utm_source=rss&utm_medium=rss&utm_campaign=what-jonas-tyrollers-games-reveal-about-the-steam-algorithm) -- https://howtomarketagame.com
+- [Graphics Programming weekly  -  Issue 360 -  October 6th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-360/) -- https://www.jendrikillner.com/
 - [A Two Dimensional Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/10/04/a-two-dimensional-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Life, death, and retirement](https://randomascii.wordpress.com/2024/10/01/life-death-and-retirement/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly  -  Issue 359 -  September 29th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-359/) -- https://www.jendrikillner.com/
