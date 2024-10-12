@@ -45,7 +45,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [More Blender VSE stuff for 4.2](https://aras-p.info/blog/2024/07/22/More-Blender-VSE-stuff-for-4.2/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 349  -  July 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-349/) -- https://www.jendrikillner.com/
 - [Kyrgyzstan Trip 2024](https://aras-p.info/blog/2024/07/16/Kyrgyzstan-Trip-2024/) -- https://aras-p.info/
-- [Graphics Programming weekly  -  Issue 348  -  July 14th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-348/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
