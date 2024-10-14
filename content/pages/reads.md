@@ -10,7 +10,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 361 -  October 13th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-361/) -- https://www.jendrikillner.com/
 - [What Jonas Tyroller’s Games reveal about the Steam Algorithm](https://howtomarketagame.com/2024/10/07/what-jonas-tyrollers-games-reveal-about-the-steam-algorithm/?utm_source=rss&utm_medium=rss&utm_campaign=what-jonas-tyrollers-games-reveal-about-the-steam-algorithm) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 360 -  October 6th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-360/) -- https://www.jendrikillner.com/
-- [A Two Dimensional Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/10/04/a-two-dimensional-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Life, death, and retirement](https://randomascii.wordpress.com/2024/10/01/life-death-and-retirement/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly  -  Issue 359 -  September 29th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-359/) -- https://www.jendrikillner.com/
 - [You don’t need to be an extrovert to be good at marketing](https://howtomarketagame.com/2024/09/26/you-dont-need-to-be-an-extrovert-to-be-good-at-marketing/?utm_source=rss&utm_medium=rss&utm_campaign=you-dont-need-to-be-an-extrovert-to-be-good-at-marketing) -- https://howtomarketagame.com
@@ -24,7 +23,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 356 -  September 8th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-356/) -- https://www.jendrikillner.com/
 - [Looking for Missed Alarm Bugs in a Formal Verification Tool](https://blog.regehr.org/archives/2124) -- https://blog.regehr.org
 - [The EA Success of Nova Drift](https://howtomarketagame.com/2024/09/03/the-ea-success-of-nova-drift/?utm_source=rss&utm_medium=rss&utm_campaign=the-ea-success-of-nova-drift) -- https://howtomarketagame.com
-- [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 355 -  September 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-355/) -- https://www.jendrikillner.com/
 - [When is a BCn/ASTC endpoints-from-indices solve singular?](https://fgiesen.wordpress.com/2024/08/29/when-is-a-bcn-astc-endpoints-from-indices-solve-singular/) -- https://fgiesen.wordpress.com
 - [How to cross promote under the new Steam Rules](https://howtomarketagame.com/2024/08/26/how-to-cross-promote-under-the-new-steam-rules/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-cross-promote-under-the-new-steam-rules) -- https://howtomarketagame.com
