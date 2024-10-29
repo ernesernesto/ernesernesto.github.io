@@ -46,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Oodle, Kraken etc. misconceptions](https://fgiesen.wordpress.com/2024/08/08/oodle-kraken-etc-misconceptions/) -- https://fgiesen.wordpress.com
 - [EGSR 2024 Talks and Photos now available](https://www.realtimerendering.com/blog/egsr-2024-talks-and-photos-now-available/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 351 -  August 4th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-351/) -- https://www.jendrikillner.com/
-- [What Steam’s big demo update means for your marketing strategy](https://howtomarketagame.com/2024/07/31/what-steams-big-demo-update-means-for-your-marketing-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=what-steams-big-demo-update-means-for-your-marketing-strategy) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
