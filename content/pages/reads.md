@@ -9,7 +9,9 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [How was the October 2024 Steam Next Fest](https://howtomarketagame.com/2024/11/04/how-was-the-october-2024-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=how-was-the-october-2024-steam-next-fest) -- https://howtomarketagame.com
 - [BC7 optimal solid-color blocks](https://fgiesen.wordpress.com/2024/11/03/bc7-optimal-solid-color-blocks/) -- https://fgiesen.wordpress.com
+- [Upcoming Sokol header API changes (Nov 2024)](https://floooh.github.io/2024/11/04/sokol-fall-2024-update.html) -- https://floooh.github.io/
 - [Graphics Programming weekly  -  Issue 364 -  November 3rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-364/) -- https://www.jendrikillner.com/
+- [Steve Ballmer was an underrated CEO](https://danluu.com/ballmer/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly  -  Issue 363 -  October 27th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-363/) -- https://www.jendrikillner.com/
 - [Why those particular integer multiplies?](https://fgiesen.wordpress.com/2024/10/26/why-those-particular-integer-multiplies/) -- https://fgiesen.wordpress.com
 - [Inserting a 0 bit in the middle of a value](https://fgiesen.wordpress.com/2024/10/24/inserting-a-0-bit-in-the-middle-of-a-value/) -- https://fgiesen.wordpress.com
