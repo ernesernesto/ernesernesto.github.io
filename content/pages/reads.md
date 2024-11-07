@@ -49,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Random thoughts about Unity](https://aras-p.info/blog/2024/08/11/Random-thoughts-about-Unity/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 352 -  August 11th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-352/) -- https://www.jendrikillner.com/
 - [How good can you be at Codenames without knowing any words?](https://danluu.com/codenames/) -- https://danluu.com/atom/index.xml
-- [Oodle, Kraken etc. misconceptions](https://fgiesen.wordpress.com/2024/08/08/oodle-kraken-etc-misconceptions/) -- https://fgiesen.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
