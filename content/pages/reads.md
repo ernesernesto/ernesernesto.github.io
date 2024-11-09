@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Valve just took away a valuable visibility tool](https://howtomarketagame.com/2024/08/21/valve-just-took-away-a-valuable-visibility-tool/?utm_source=rss&utm_medium=rss&utm_campaign=valve-just-took-away-a-valuable-visibility-tool) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 353 -  August 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-353/) -- https://www.jendrikillner.com/
 - [Big in Japan](https://howtomarketagame.com/2024/08/12/big-in-japan/?utm_source=rss&utm_medium=rss&utm_campaign=big-in-japan) -- https://howtomarketagame.com
-- [Random thoughts about Unity](https://aras-p.info/blog/2024/08/11/Random-thoughts-about-Unity/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
