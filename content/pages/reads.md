@@ -46,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Seven Things for August 22, 2024](https://www.realtimerendering.com/blog/seven-things-for-august-22-2024/) -- https://www.realtimerendering.com/blog
 - [Valve just took away a valuable visibility tool](https://howtomarketagame.com/2024/08/21/valve-just-took-away-a-valuable-visibility-tool/?utm_source=rss&utm_medium=rss&utm_campaign=valve-just-took-away-a-valuable-visibility-tool) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 353 -  August 18th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-353/) -- https://www.jendrikillner.com/
-- [Big in Japan](https://howtomarketagame.com/2024/08/12/big-in-japan/?utm_source=rss&utm_medium=rss&utm_campaign=big-in-japan) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
