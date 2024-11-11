@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 365 -  November 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-365/) -- https://www.jendrikillner.com/
 - [Exact UNORM8 to float](https://fgiesen.wordpress.com/2024/11/06/exact-unorm8-to-float/) -- https://fgiesen.wordpress.com
 - [How was the October 2024 Steam Next Fest](https://howtomarketagame.com/2024/11/04/how-was-the-october-2024-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=how-was-the-october-2024-steam-next-fest) -- https://howtomarketagame.com
 - [BC7 optimal solid-color blocks](https://fgiesen.wordpress.com/2024/11/03/bc7-optimal-solid-color-blocks/) -- https://fgiesen.wordpress.com
