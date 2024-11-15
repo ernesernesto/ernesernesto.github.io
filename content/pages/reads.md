@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [MRSSE](https://fgiesen.wordpress.com/2024/11/14/mrsse/) -- https://fgiesen.wordpress.com
 - [How do you promote a game before Steam Next Fest?](https://howtomarketagame.com/2024/11/13/how-do-you-promote-a-game-before-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=how-do-you-promote-a-game-before-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 365 -  November 10th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-365/) -- https://www.jendrikillner.com/
 - [Exact UNORM8 to float](https://fgiesen.wordpress.com/2024/11/06/exact-unorm8-to-float/) -- https://fgiesen.wordpress.com
