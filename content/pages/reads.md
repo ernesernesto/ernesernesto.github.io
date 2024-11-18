@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [How We Harvest Shadows earned 220,000 wishlists in 3 months](https://howtomarketagame.com/2024/11/18/how-we-harvest-shadows-220000-wishlists-in-3-months/?utm_source=rss&utm_medium=rss&utm_campaign=how-we-harvest-shadows-220000-wishlists-in-3-months) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 366 -  November 17th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-366/) -- https://www.jendrikillner.com/
 - [MRSSE](https://fgiesen.wordpress.com/2024/11/14/mrsse/) -- https://fgiesen.wordpress.com
 - [How do you promote a game before Steam Next Fest?](https://howtomarketagame.com/2024/11/13/how-do-you-promote-a-game-before-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=how-do-you-promote-a-game-before-steam-next-fest) -- https://howtomarketagame.com
@@ -48,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 354 -  August 25th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-354/) -- https://www.jendrikillner.com/
 - [Zig and Emulators](https://floooh.github.io/2024/08/24/zig-and-emulators.html) -- https://floooh.github.io/
 - [Seven Things for August 22, 2024](https://www.realtimerendering.com/blog/seven-things-for-august-22-2024/) -- https://www.realtimerendering.com/blog
-- [Valve just took away a valuable visibility tool](https://howtomarketagame.com/2024/08/21/valve-just-took-away-a-valuable-visibility-tool/?utm_source=rss&utm_medium=rss&utm_campaign=valve-just-took-away-a-valuable-visibility-tool) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
