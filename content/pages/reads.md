@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly  -  Issue 367 -  November 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-367/) -- https://www.jendrikillner.com/
 - [Technically Art: Issue 140 (22.11.2024)](https://halisavakis.com/technically-art-issue-140-22-11-2024/) -- https://halisavakis.com
 - [A year in Blender VSE land](https://aras-p.info/blog/2024/11/21/A-year-in-Blender-VSE-land/) -- https://aras-p.info/
 - [How We Harvest Shadows earned 220,000 wishlists in 3 months](https://howtomarketagame.com/2024/11/18/how-we-harvest-shadows-220000-wishlists-in-3-months/?utm_source=rss&utm_medium=rss&utm_campaign=how-we-harvest-shadows-220000-wishlists-in-3-months) -- https://howtomarketagame.com
