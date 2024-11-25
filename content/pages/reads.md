@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
 - [Graphics Programming weekly  -  Issue 355 -  September 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-355/) -- https://www.jendrikillner.com/
 - [When is a BCn/ASTC endpoints-from-indices solve singular?](https://fgiesen.wordpress.com/2024/08/29/when-is-a-bcn-astc-endpoints-from-indices-solve-singular/) -- https://fgiesen.wordpress.com
-- [How to cross promote under the new Steam Rules](https://howtomarketagame.com/2024/08/26/how-to-cross-promote-under-the-new-steam-rules/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-cross-promote-under-the-new-steam-rules) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
