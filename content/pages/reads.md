@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Looking for Missed Alarm Bugs in a Formal Verification Tool](https://blog.regehr.org/archives/2124) -- https://blog.regehr.org
 - [The EA Success of Nova Drift](https://howtomarketagame.com/2024/09/03/the-ea-success-of-nova-drift/?utm_source=rss&utm_medium=rss&utm_campaign=the-ea-success-of-nova-drift) -- https://howtomarketagame.com
 - [Summing Blue Noise Octaves Like Perlin Noise](https://blog.demofox.org/2024/09/02/summing-blue-noise-octaves-like-perlin-noise/) -- https://blog.demofox.org
-- [Graphics Programming weekly  -  Issue 355 -  September 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-355/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
