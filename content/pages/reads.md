@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Fresh start](https://eev.ee/blog/2024/12/03/fresh-start/) -- https://eev.ee/
 - [The Great Filter Comes For Us All](https://blog.codinghorror.com/the-great-filter-comes-for-us-all/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly  -  Issue 368 -  December 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-368/) -- https://www.jendrikillner.com/
 - [Seven Things for November 25, 2024](https://www.realtimerendering.com/blog/seven-things-for-november-25-2024/) -- https://www.realtimerendering.com/blog
@@ -46,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Success after a slow EA launch, the Terminus story](https://howtomarketagame.com/2024/09/09/success-after-a-slow-ea-launch-the-terminus-story/?utm_source=rss&utm_medium=rss&utm_campaign=success-after-a-slow-ea-launch-the-terminus-story) -- https://howtomarketagame.com
 - [Carpentopod: A walking table project](https://www.decarpentier.nl/carpentopod) -- https://www.decarpentier.nl
 - [Graphics Programming weekly  -  Issue 356 -  September 8th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-356/) -- https://www.jendrikillner.com/
-- [Looking for Missed Alarm Bugs in a Formal Verification Tool](https://blog.regehr.org/archives/2124) -- https://blog.regehr.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
