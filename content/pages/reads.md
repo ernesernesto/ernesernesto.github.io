@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Transmission Terminated](http://c0de517e.blogspot.com/2024/12/transmission-terminated.html) -- http://c0de517e.blogspot.com/
 - [Fresh start](https://eev.ee/blog/2024/12/03/fresh-start/) -- https://eev.ee/
 - [The Great Filter Comes For Us All](https://blog.codinghorror.com/the-great-filter-comes-for-us-all/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly  -  Issue 368 -  December 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-368/) -- https://www.jendrikillner.com/
@@ -45,6 +46,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Vector math library codegen in Debug](https://aras-p.info/blog/2024/09/14/Vector-math-library-codegen-in-Debug/) -- https://aras-p.info/
 - [An introduction to workgraphs part 2: Performance](https://interplayoflight.wordpress.com/2024/09/09/an-introduction-to-workgraphs-part-2-performance/) -- https://interplayoflight.wordpress.com
 - [Success after a slow EA launch, the Terminus story](https://howtomarketagame.com/2024/09/09/success-after-a-slow-ea-launch-the-terminus-story/?utm_source=rss&utm_medium=rss&utm_campaign=success-after-a-slow-ea-launch-the-terminus-story) -- https://howtomarketagame.com
+- [Carpentopod: A walking table project](https://www.decarpentier.nl/carpentopod) -- https://www.decarpentier.nl
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
