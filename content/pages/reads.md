@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Verbosity of coding styles](https://aras-p.info/blog/2024/12/17/Verbosity-of-coding-styles/) -- https://aras-p.info/
+- [Graphics Programming weekly  -  Issue 370 -  December 15th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-370/) -- https://www.jendrikillner.com/
 - [LLLOOOT!](http://playtechs.blogspot.com/2024/12/lllooot.html) -- http://playtechs.blogspot.com/
 - [Transforming normals: adjugate transpose vs inverse transpose](http://www.forwardscattering.org/post/62) -- http://www.forwardscattering.org/
 - [Graphics Programming weekly  -  Issue 369 -  December 8th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-369/) -- https://www.jendrikillner.com/
