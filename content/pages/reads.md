@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [UNORM and SNORM to float, hardware edition](https://fgiesen.wordpress.com/2024/12/24/unorm-and-snorm-to-float-hardware-edition/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 371 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-371/) -- https://www.jendrikillner.com/
 - [Minami Lane: 6 months of development, $750K revenue](https://howtomarketagame.com/2024/12/18/minami-lane-6-months-of-development-750k-revenue/?utm_source=rss&utm_medium=rss&utm_campaign=minami-lane-6-months-of-development-750k-revenue) -- https://howtomarketagame.com
 - [Moana 2](https://blog.yiningkarlli.com/2024/12/moana-2.html) -- https://blog.yiningkarlli.com/
