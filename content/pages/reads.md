@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [A Two Dimensional Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/10/04/a-two-dimensional-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 - [Life, death, and retirement](https://randomascii.wordpress.com/2024/10/01/life-death-and-retirement/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly  -  Issue 359 -  September 29th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-359/) -- https://www.jendrikillner.com/
-- [You don’t need to be an extrovert to be good at marketing](https://howtomarketagame.com/2024/09/26/you-dont-need-to-be-an-extrovert-to-be-good-at-marketing/?utm_source=rss&utm_medium=rss&utm_campaign=you-dont-need-to-be-an-extrovert-to-be-good-at-marketing) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
