@@ -8,7 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Data formats: Why CSV and JSON aren't the best](https://anteru.net/blog/2024/data-formats-why-csv-and-json-aren-t-the-best) -- https://anteru.net
-- [Graphics Programming weekly  -  Issue 372 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-372/) -- https://www.jendrikillner.com/
+- [Graphics Programming weekly - Issue 372 - December 29, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-372/) -- https://www.jendrikillner.com/
 - [What are Crafty Buildy Strategy Simulation Games?](https://howtomarketagame.com/2024/12/27/what-are-crafty-buildy-strategy-simulation-games/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-crafty-buildy-strategy-simulation-games) -- https://howtomarketagame.com
 - [UNORM and SNORM to float, hardware edition](https://fgiesen.wordpress.com/2024/12/24/unorm-and-snorm-to-float-hardware-edition/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 371 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-371/) -- https://www.jendrikillner.com/
