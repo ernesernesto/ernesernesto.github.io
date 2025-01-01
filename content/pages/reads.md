@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [7 things I learned about Steam in 2024](https://howtomarketagame.com/2024/12/31/7-things-i-learned-about-steam-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=7-things-i-learned-about-steam-in-2024) -- https://howtomarketagame.com
 - [Data formats: Why CSV and JSON aren't the best](https://anteru.net/blog/2024/data-formats-why-csv-and-json-aren-t-the-best) -- https://anteru.net
 - [Graphics Programming weekly - Issue 372 - December 29, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-372/) -- https://www.jendrikillner.com/
 - [What are Crafty Buildy Strategy Simulation Games?](https://howtomarketagame.com/2024/12/27/what-are-crafty-buildy-strategy-simulation-games/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-crafty-buildy-strategy-simulation-games) -- https://howtomarketagame.com
