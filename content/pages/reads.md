@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 361 -  October 13th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-361/) -- https://www.jendrikillner.com/
 - [What Jonas Tyroller’s Games reveal about the Steam Algorithm](https://howtomarketagame.com/2024/10/07/what-jonas-tyrollers-games-reveal-about-the-steam-algorithm/?utm_source=rss&utm_medium=rss&utm_campaign=what-jonas-tyrollers-games-reveal-about-the-steam-algorithm) -- https://howtomarketagame.com
 - [Graphics Programming weekly  -  Issue 360 -  October 6th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-360/) -- https://www.jendrikillner.com/
-- [A Two Dimensional Low Discrepancy Shuffle Iterator (+Random Access & Inversion)](https://blog.demofox.org/2024/10/04/a-two-dimensional-low-discrepancy-shuffle-iterator-random-access-inversion/) -- https://blog.demofox.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
