@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Dice, (De)Convolution and Generating Functions](https://blog.demofox.org/2025/01/05/dice-deconvolution-and-generating-functions/) -- https://blog.demofox.org
+- [Graphics Programming weekly - Issue 373 - January 5th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-373/) -- https://www.jendrikillner.com/
 - [Public Domain Day, 2025](https://www.realtimerendering.com/blog/public-domain-day-2025/) -- https://www.realtimerendering.com/blog
 - [7 things I learned about Steam in 2024](https://howtomarketagame.com/2024/12/31/7-things-i-learned-about-steam-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=7-things-i-learned-about-steam-in-2024) -- https://howtomarketagame.com
 - [Data formats: Why CSV and JSON aren't the best](https://anteru.net/blog/2024/data-formats-why-csv-and-json-aren-t-the-best) -- https://anteru.net
