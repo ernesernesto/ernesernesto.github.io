@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Zero or sign extend](https://fgiesen.wordpress.com/2024/10/23/zero-or-sign-extend/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 362 -  October 20th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-362/) -- https://www.jendrikillner.com/
 - [Scaling Points In a Specific Direction](https://blog.demofox.org/2024/10/15/scaling-points-in-a-specific-direction/) -- https://blog.demofox.org
-- [Graphics Programming weekly  -  Issue 361 -  October 13th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-361/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
