@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 374 - January 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-374/) -- https://www.jendrikillner.com/
 - [Stay Gold, America](https://blog.codinghorror.com/stay-gold-america/) -- https://blog.codinghorror.com/
 - [Dice, (De)Convolution and Generating Functions](https://blog.demofox.org/2025/01/05/dice-deconvolution-and-generating-functions/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 373 - January 5th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-373/) -- https://www.jendrikillner.com/
