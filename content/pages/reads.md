@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Find me on bsky](https://randomascii.wordpress.com/2025/01/17/find-me-on-bsky/) -- https://randomascii.wordpress.com
+- [Technically Art: Issue 141 (17.1.2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/) -- https://halisavakis.com
 - [Doom in Blender VSE](https://aras-p.info/blog/2025/01/17/Doom-in-Blender-VSE/) -- https://aras-p.info/
 - [What the hell happened in 2024?](https://howtomarketagame.com/2025/01/15/what-the-hell-happened-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-the-hell-happened-in-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 374 - January 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-374/) -- https://www.jendrikillner.com/
