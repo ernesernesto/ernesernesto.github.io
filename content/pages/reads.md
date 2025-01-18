@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Eevee gained 4,219 experience points…](https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/) -- https://eev.ee/
 - [Find me on bsky](https://randomascii.wordpress.com/2025/01/17/find-me-on-bsky/) -- https://randomascii.wordpress.com
 - [Technically Art: Issue 141 (17.1.2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/) -- https://halisavakis.com
 - [Doom in Blender VSE](https://aras-p.info/blog/2025/01/17/Doom-in-Blender-VSE/) -- https://aras-p.info/
@@ -53,7 +54,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Inserting a 0 bit in the middle of a value](https://fgiesen.wordpress.com/2024/10/24/inserting-a-0-bit-in-the-middle-of-a-value/) -- https://fgiesen.wordpress.com
 - [Did too many games release in Q3 of 2024](https://howtomarketagame.com/2024/10/24/did-too-many-games-release-in-q3-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=did-too-many-games-release-in-q3-of-2024) -- https://howtomarketagame.com
 - [Zero or sign extend](https://fgiesen.wordpress.com/2024/10/23/zero-or-sign-extend/) -- https://fgiesen.wordpress.com
-- [Graphics Programming weekly  -  Issue 362 -  October 20th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-362/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
