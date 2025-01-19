@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The hidden cost of shader instructions](https://interplayoflight.wordpress.com/2025/01/19/the-hidden-cost-of-shader-instructions/) -- https://interplayoflight.wordpress.com
 - [Eevee gained 4,219 experience points…](https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/) -- https://eev.ee/
 - [Find me on bsky](https://randomascii.wordpress.com/2025/01/17/find-me-on-bsky/) -- https://randomascii.wordpress.com
 - [Technically Art: Issue 141 (17.1.2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/) -- https://halisavakis.com
