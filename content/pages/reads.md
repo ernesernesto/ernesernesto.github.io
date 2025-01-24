@@ -54,7 +54,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 364 -  November 3rd, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-364/) -- https://www.jendrikillner.com/
 - [Steve Ballmer was an underrated CEO](https://danluu.com/ballmer/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly  -  Issue 363 -  October 27th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-363/) -- https://www.jendrikillner.com/
-- [Why those particular integer multiplies?](https://fgiesen.wordpress.com/2024/10/26/why-those-particular-integer-multiplies/) -- https://fgiesen.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
