@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 376 - January 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-376/) -- https://www.jendrikillner.com/
 - [Friction force on a water stream flowing downhill](http://www.forwardscattering.org/post/63) -- http://www.forwardscattering.org/
 - [Steam Vs People Algorithms](https://howtomarketagame.com/2025/01/20/steam-vs-people-algorithms/?utm_source=rss&utm_medium=rss&utm_campaign=steam-vs-people-algorithms) -- https://howtomarketagame.com
 - [The hidden cost of shader instructions](https://interplayoflight.wordpress.com/2025/01/19/the-hidden-cost-of-shader-instructions/) -- https://interplayoflight.wordpress.com
