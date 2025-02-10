@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
 - [Are game names getting longer: How to quit your job and write a title for your Steam game in 2025: Naming SEO Tips FAQ Guide Profits Earnings Optimization](https://howtomarketagame.com/2025/02/03/are-game-names-getting-longer-how-to-quit-your-job-and-write-a-title-for-your-steam-game-in-2025-naming-seo-tips-faq-guide-profits-earnings-optimization/?utm_source=rss&utm_medium=rss&utm_campaign=are-game-names-getting-longer-how-to-quit-your-job-and-write-a-title-for-your-steam-game-in-2025-naming-seo-tips-faq-guide-profits-earnings-optimization) -- https://howtomarketagame.com
 - [Do wishlists get old?](https://howtomarketagame.com/2025/01/27/do-wishlists-get-old/?utm_source=rss&utm_medium=rss&utm_campaign=do-wishlists-get-old) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 376 - January 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-376/) -- https://www.jendrikillner.com/
