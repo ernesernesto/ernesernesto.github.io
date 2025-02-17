@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 379 - February 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-379/) -- https://www.jendrikillner.com/
 - [How likely are you to overcome a failed launch? That low? So you’re telling me there’s a chance!](https://howtomarketagame.com/2025/02/10/how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance/?utm_source=rss&utm_medium=rss&utm_campaign=how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance) -- https://howtomarketagame.com
 - [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 378 - February 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-378/) -- https://www.jendrikillner.com/
