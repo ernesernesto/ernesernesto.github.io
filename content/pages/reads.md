@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What is the post launch Discovery Queue](https://howtomarketagame.com/2025/02/19/what-is-the-post-launch-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-post-launch-discovery-queue) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 379 - February 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-379/) -- https://www.jendrikillner.com/
 - [How likely are you to overcome a failed launch? That low? So you’re telling me there’s a chance!](https://howtomarketagame.com/2025/02/10/how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance/?utm_source=rss&utm_medium=rss&utm_campaign=how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance) -- https://howtomarketagame.com
 - [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
@@ -47,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Seven Things for November 25, 2024](https://www.realtimerendering.com/blog/seven-things-for-november-25-2024/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 367 -  November 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-367/) -- https://www.jendrikillner.com/
 - [Technically Art: Issue 140 (22.11.2024)](https://halisavakis.com/technically-art-issue-140-22-11-2024/) -- https://halisavakis.com
-- [A year in Blender VSE land](https://aras-p.info/blog/2024/11/21/A-year-in-Blender-VSE-land/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
