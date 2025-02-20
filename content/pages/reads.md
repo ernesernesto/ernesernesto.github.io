@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 368 -  December 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-368/) -- https://www.jendrikillner.com/
 - [Seven Things for November 25, 2024](https://www.realtimerendering.com/blog/seven-things-for-november-25-2024/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly  -  Issue 367 -  November 24th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-367/) -- https://www.jendrikillner.com/
-- [Technically Art: Issue 140 (22.11.2024)](https://halisavakis.com/technically-art-issue-140-22-11-2024/) -- https://halisavakis.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
