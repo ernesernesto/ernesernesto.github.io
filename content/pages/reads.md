@@ -16,6 +16,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 377 - February 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-377/) -- https://www.jendrikillner.com/
 - [Do wishlists get old?](https://howtomarketagame.com/2025/01/27/do-wishlists-get-old/?utm_source=rss&utm_medium=rss&utm_campaign=do-wishlists-get-old) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 376 - January 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-376/) -- https://www.jendrikillner.com/
+- [Friction force on a water stream flowing downhill](http://www.forwardscattering.org/post/63) -- http://www.forwardscattering.org/
 - [Steam Vs People Algorithms](https://howtomarketagame.com/2025/01/20/steam-vs-people-algorithms/?utm_source=rss&utm_medium=rss&utm_campaign=steam-vs-people-algorithms) -- https://howtomarketagame.com
 - [The hidden cost of shader instructions](https://interplayoflight.wordpress.com/2025/01/19/the-hidden-cost-of-shader-instructions/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 375 - January 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-375/) -- https://www.jendrikillner.com/
@@ -40,6 +41,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Verbosity of coding styles](https://aras-p.info/blog/2024/12/17/Verbosity-of-coding-styles/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 370 -  December 15th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-370/) -- https://www.jendrikillner.com/
 - [LLLOOOT!](http://playtechs.blogspot.com/2024/12/lllooot.html) -- http://playtechs.blogspot.com/
+- [Transforming normals: adjugate transpose vs inverse transpose](http://www.forwardscattering.org/post/62) -- http://www.forwardscattering.org/
 - [Graphics Programming weekly  -  Issue 369 -  December 8th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-369/) -- https://www.jendrikillner.com/
 - [Transmission Terminated](http://c0de517e.blogspot.com/2024/12/transmission-terminated.html) -- http://c0de517e.blogspot.com/
 - [Fresh start](https://eev.ee/blog/2024/12/03/fresh-start/) -- https://eev.ee/
