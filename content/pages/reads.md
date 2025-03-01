@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Transmission Terminated](http://c0de517e.blogspot.com/2024/12/transmission-terminated.html) -- http://c0de517e.blogspot.com/
 - [Fresh start](https://eev.ee/blog/2024/12/03/fresh-start/) -- https://eev.ee/
 - [The Great Filter Comes For Us All](https://blog.codinghorror.com/the-great-filter-comes-for-us-all/) -- https://blog.codinghorror.com/
-- [Graphics Programming weekly  -  Issue 368 -  December 1st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-368/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
