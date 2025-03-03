@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
+- [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
 - [Every Daily Deal of 2024](https://howtomarketagame.com/2025/02/25/every-daily-deal-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=every-daily-deal-of-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 380 - February 23rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-380/) -- https://www.jendrikillner.com/
 - [What is the post launch Discovery Queue](https://howtomarketagame.com/2025/02/19/what-is-the-post-launch-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-post-launch-discovery-queue) -- https://howtomarketagame.com
