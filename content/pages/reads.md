@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Steam Next Fest Feb 2025](https://howtomarketagame.com/2025/03/04/steam-next-fest-feb-2025/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-feb-2025) -- https://howtomarketagame.com
 - [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
 - [Every Daily Deal of 2024](https://howtomarketagame.com/2025/02/25/every-daily-deal-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=every-daily-deal-of-2024) -- https://howtomarketagame.com
@@ -40,7 +41,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What are Crafty Buildy Strategy Simulation Games?](https://howtomarketagame.com/2024/12/27/what-are-crafty-buildy-strategy-simulation-games/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-crafty-buildy-strategy-simulation-games) -- https://howtomarketagame.com
 - [UNORM and SNORM to float, hardware edition](https://fgiesen.wordpress.com/2024/12/24/unorm-and-snorm-to-float-hardware-edition/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 371 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-371/) -- https://www.jendrikillner.com/
-- [Minami Lane: 6 months of development, $750K revenue](https://howtomarketagame.com/2024/12/18/minami-lane-6-months-of-development-750k-revenue/?utm_source=rss&utm_medium=rss&utm_campaign=minami-lane-6-months-of-development-750k-revenue) -- https://howtomarketagame.com
 - [Moana 2](https://blog.yiningkarlli.com/2024/12/moana-2.html) -- https://blog.yiningkarlli.com/
 - [Verbosity of coding styles](https://aras-p.info/blog/2024/12/17/Verbosity-of-coding-styles/) -- https://aras-p.info/
 - [Graphics Programming weekly  -  Issue 370 -  December 15th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-370/) -- https://www.jendrikillner.com/
