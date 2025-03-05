@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What Special Forces Can Teach Us About High-Impact Engineering Teams](https://codecapsule.com/2025/03/04/what-special-forces-can-teach-us-about-high-impact-engineering-teams/) -- https://codecapsule.com
 - [Steam Next Fest Feb 2025](https://howtomarketagame.com/2025/03/04/steam-next-fest-feb-2025/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-feb-2025) -- https://howtomarketagame.com
 - [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
