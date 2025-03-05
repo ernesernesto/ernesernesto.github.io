@@ -9,6 +9,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [What Special Forces Can Teach Us About High-Impact Engineering Teams](https://codecapsule.com/2025/03/04/what-special-forces-can-teach-us-about-high-impact-engineering-teams/) -- https://codecapsule.com
 - [Steam Next Fest Feb 2025](https://howtomarketagame.com/2025/03/04/steam-next-fest-feb-2025/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-feb-2025) -- https://howtomarketagame.com
+- [The sokol-gfx compute shader update](https://floooh.github.io/2025/03/03/sokol-gfx-compute-update.html) -- https://floooh.github.io/
 - [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
 - [Every Daily Deal of 2024](https://howtomarketagame.com/2025/02/25/every-daily-deal-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=every-daily-deal-of-2024) -- https://howtomarketagame.com
