@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [LLLOOOT!](http://playtechs.blogspot.com/2024/12/lllooot.html) -- http://playtechs.blogspot.com/
 - [Transforming normals: adjugate transpose vs inverse transpose](http://www.forwardscattering.org/post/62) -- http://www.forwardscattering.org/
 - [Graphics Programming weekly  -  Issue 369 -  December 8th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-369/) -- https://www.jendrikillner.com/
-- [Transmission Terminated](http://c0de517e.blogspot.com/2024/12/transmission-terminated.html) -- http://c0de517e.blogspot.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
