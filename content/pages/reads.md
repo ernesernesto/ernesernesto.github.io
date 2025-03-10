@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 382 - March 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-382/) -- https://www.jendrikillner.com/
 - [Let's Talk About The American Dream](https://blog.codinghorror.com/lets-talk-about-the-american-dream/) -- https://blog.codinghorror.com/
 - [What Special Forces Can Teach Us About High-Impact Engineering Teams](https://codecapsule.com/2025/03/04/what-special-forces-can-teach-us-about-high-impact-engineering-teams/) -- https://codecapsule.com
 - [Steam Next Fest Feb 2025](https://howtomarketagame.com/2025/03/04/steam-next-fest-feb-2025/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-feb-2025) -- https://howtomarketagame.com
