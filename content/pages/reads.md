@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly  -  Issue 371 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-371/) -- https://www.jendrikillner.com/
 - [Moana 2](https://blog.yiningkarlli.com/2024/12/moana-2.html) -- https://blog.yiningkarlli.com/
 - [Verbosity of coding styles](https://aras-p.info/blog/2024/12/17/Verbosity-of-coding-styles/) -- https://aras-p.info/
-- [Graphics Programming weekly  -  Issue 370 -  December 15th, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-370/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
