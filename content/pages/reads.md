@@ -14,12 +14,14 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What Special Forces Can Teach Us About High-Impact Engineering Teams](https://codecapsule.com/2025/03/04/what-special-forces-can-teach-us-about-high-impact-engineering-teams/) -- https://codecapsule.com
 - [Steam Next Fest Feb 2025](https://howtomarketagame.com/2025/03/04/steam-next-fest-feb-2025/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-feb-2025) -- https://howtomarketagame.com
 - [The sokol-gfx compute shader update](https://floooh.github.io/2025/03/03/sokol-gfx-compute-update.html) -- https://floooh.github.io/
+- [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
 - [Every Daily Deal of 2024](https://howtomarketagame.com/2025/02/25/every-daily-deal-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=every-daily-deal-of-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 380 - February 23rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-380/) -- https://www.jendrikillner.com/
 - [What is the post launch Discovery Queue](https://howtomarketagame.com/2025/02/19/what-is-the-post-launch-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-post-launch-discovery-queue) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 379 - February 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-379/) -- https://www.jendrikillner.com/
 - [How likely are you to overcome a failed launch? That low? So you’re telling me there’s a chance!](https://howtomarketagame.com/2025/02/10/how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance/?utm_source=rss&utm_medium=rss&utm_campaign=how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance) -- https://howtomarketagame.com
+- [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 378 - February 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-378/) -- https://www.jendrikillner.com/
 - [Are game names getting longer: How to quit your job and write a title for your Steam game in 2025: Naming SEO Tips FAQ Guide Profits Earnings Optimization](https://howtomarketagame.com/2025/02/03/are-game-names-getting-longer-how-to-quit-your-job-and-write-a-title-for-your-steam-game-in-2025-naming-seo-tips-faq-guide-profits-earnings-optimization/?utm_source=rss&utm_medium=rss&utm_campaign=are-game-names-getting-longer-how-to-quit-your-job-and-write-a-title-for-your-steam-game-in-2025-naming-seo-tips-faq-guide-profits-earnings-optimization) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 377 - February 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-377/) -- https://www.jendrikillner.com/
@@ -32,6 +34,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Eevee gained 4,219 experience points…](https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/) -- https://eev.ee/
 - [Find me on bsky](https://randomascii.wordpress.com/2025/01/17/find-me-on-bsky/) -- https://randomascii.wordpress.com
 - [Technically Art: Issue 141 (17.1.2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/) -- https://halisavakis.com
+- [Doom in Blender VSE](https://aras-p.info/blog/2025/01/17/Doom-in-Blender-VSE/) -- https://aras-p.info/
 - [What the hell happened in 2024?](https://howtomarketagame.com/2025/01/15/what-the-hell-happened-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=what-the-hell-happened-in-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 374 - January 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-374/) -- https://www.jendrikillner.com/
 - [Stay Gold, America](https://blog.codinghorror.com/stay-gold-america/) -- https://blog.codinghorror.com/
@@ -44,6 +47,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [UNORM and SNORM to float, hardware edition](https://fgiesen.wordpress.com/2024/12/24/unorm-and-snorm-to-float-hardware-edition/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 371 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-371/) -- https://www.jendrikillner.com/
 - [Moana 2](https://blog.yiningkarlli.com/2024/12/moana-2.html) -- https://blog.yiningkarlli.com/
+- [Verbosity of coding styles](https://aras-p.info/blog/2024/12/17/Verbosity-of-coding-styles/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
