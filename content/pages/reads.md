@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [GDC 2025](https://howtomarketagame.com/2025/03/17/gdc2025/?utm_source=rss&utm_medium=rss&utm_campaign=gdc2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 383 - March 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-383/) -- https://www.jendrikillner.com/
 - [When should I post my Steam coming-soon page?](https://howtomarketagame.com/2025/03/10/when-should-i-post-my-steam-coming-soon-page/?utm_source=rss&utm_medium=rss&utm_campaign=when-should-i-post-my-steam-coming-soon-page) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 382 - March 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-382/) -- https://www.jendrikillner.com/
@@ -41,12 +42,10 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Dice, (De)Convolution and Generating Functions](https://blog.demofox.org/2025/01/05/dice-deconvolution-and-generating-functions/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 373 - January 5th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-373/) -- https://www.jendrikillner.com/
 - [Public Domain Day, 2025](https://www.realtimerendering.com/blog/public-domain-day-2025/) -- https://www.realtimerendering.com/blog
-- [7 things I learned about Steam in 2024](https://howtomarketagame.com/2024/12/31/7-things-i-learned-about-steam-in-2024/?utm_source=rss&utm_medium=rss&utm_campaign=7-things-i-learned-about-steam-in-2024) -- https://howtomarketagame.com
 - [Data formats: Why CSV and JSON aren't the best](https://anteru.net/blog/2024/data-formats-why-csv-and-json-aren-t-the-best) -- https://anteru.net
 - [Graphics Programming weekly - Issue 372 - December 29, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-372/) -- https://www.jendrikillner.com/
 - [UNORM and SNORM to float, hardware edition](https://fgiesen.wordpress.com/2024/12/24/unorm-and-snorm-to-float-hardware-edition/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly  -  Issue 371 -  December 21st, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-371/) -- https://www.jendrikillner.com/
-- [Moana 2](https://blog.yiningkarlli.com/2024/12/moana-2.html) -- https://blog.yiningkarlli.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
