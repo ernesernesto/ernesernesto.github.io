@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The Road Not Taken is Guaranteed Minimum Income](https://blog.codinghorror.com/the-road-not-taken-is-guaranteed-minimum-income/) -- https://blog.codinghorror.com/
 - [GDC 2025](https://howtomarketagame.com/2025/03/17/gdc2025/?utm_source=rss&utm_medium=rss&utm_campaign=gdc2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 383 - March 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-383/) -- https://www.jendrikillner.com/
 - [When should I post my Steam coming-soon page?](https://howtomarketagame.com/2025/03/10/when-should-i-post-my-steam-coming-soon-page/?utm_source=rss&utm_medium=rss&utm_campaign=when-should-i-post-my-steam-coming-soon-page) -- https://howtomarketagame.com
