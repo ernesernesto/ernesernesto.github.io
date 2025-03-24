@@ -46,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Public Domain Day, 2025](https://www.realtimerendering.com/blog/public-domain-day-2025/) -- https://www.realtimerendering.com/blog
 - [Data formats: Why CSV and JSON aren't the best](https://anteru.net/blog/2024/data-formats-why-csv-and-json-aren-t-the-best) -- https://anteru.net
 - [Graphics Programming weekly - Issue 372 - December 29, 2024](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-372/) -- https://www.jendrikillner.com/
-- [UNORM and SNORM to float, hardware edition](https://fgiesen.wordpress.com/2024/12/24/unorm-and-snorm-to-float-hardware-edition/) -- https://fgiesen.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
