@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [What this blog is about](https://randomascii.wordpress.com/2025/03/25/what-this-blog-is-about/) -- https://randomascii.wordpress.com
 - [My Takeaways on Vibe Coding](https://codecapsule.com/2025/03/24/my-takeaways-on-vibe-coding/) -- https://codecapsule.com
 - [Seven Things for March 24, 2025](https://www.realtimerendering.com/blog/seven-things-for-march-24-2025/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 384 - March 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-384/) -- https://www.jendrikillner.com/
