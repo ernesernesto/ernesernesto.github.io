@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Dice, (De)Convolution and Generating Functions](https://blog.demofox.org/2025/01/05/dice-deconvolution-and-generating-functions/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 373 - January 5th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-373/) -- https://www.jendrikillner.com/
 - [Public Domain Day, 2025](https://www.realtimerendering.com/blog/public-domain-day-2025/) -- https://www.realtimerendering.com/blog
-- [Data formats: Why CSV and JSON aren't the best](https://anteru.net/blog/2024/data-formats-why-csv-and-json-aren-t-the-best) -- https://anteru.net
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
