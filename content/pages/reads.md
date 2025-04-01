@@ -9,6 +9,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
 - [GPU Zen 4 Call for Participation](https://www.realtimerendering.com/blog/gpu-zen-4-call-for-participation/) -- https://www.realtimerendering.com/blog
+- [Graphics Programming weekly - Issue 385 - March 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-385/) -- https://www.jendrikillner.com/
 - [Benchmarks: How Many Wishlists Can I get From Steam Next Fest](https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest) -- https://howtomarketagame.com
 - [What this blog is about](https://randomascii.wordpress.com/2025/03/25/what-this-blog-is-about/) -- https://randomascii.wordpress.com
 - [My Takeaways on Vibe Coding](https://codecapsule.com/2025/03/24/my-takeaways-on-vibe-coding/) -- https://codecapsule.com
