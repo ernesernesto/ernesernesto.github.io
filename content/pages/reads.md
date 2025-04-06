@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [Simulating Dice Rolls With Coin Flips](https://blog.demofox.org/2025/04/05/simulating-dice-rolls-with-coin-flips/) -- https://blog.demofox.org
 - [GPU Zen 4 Call for Participation](https://www.realtimerendering.com/blog/gpu-zen-4-call-for-participation/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 385 - March 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-385/) -- https://www.jendrikillner.com/
 - [Benchmarks: How Many Wishlists Can I get From Steam Next Fest](https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest) -- https://howtomarketagame.com
@@ -47,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Doom in Blender VSE](https://aras-p.info/blog/2025/01/17/Doom-in-Blender-VSE/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 374 - January 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-374/) -- https://www.jendrikillner.com/
 - [Stay Gold, America](https://blog.codinghorror.com/stay-gold-america/) -- https://blog.codinghorror.com/
-- [Dice, (De)Convolution and Generating Functions](https://blog.demofox.org/2025/01/05/dice-deconvolution-and-generating-functions/) -- https://blog.demofox.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
