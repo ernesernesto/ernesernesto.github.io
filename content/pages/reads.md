@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Technically Art: Issue 141 (17.1.2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/) -- https://halisavakis.com
 - [Doom in Blender VSE](https://aras-p.info/blog/2025/01/17/Doom-in-Blender-VSE/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 374 - January 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-374/) -- https://www.jendrikillner.com/
-- [Stay Gold, America](https://blog.codinghorror.com/stay-gold-america/) -- https://blog.codinghorror.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
