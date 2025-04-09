@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [Considering Democrats Blameless is a Medically Useless Diagnosis for the USA](https://blog.demofox.org/2025/04/09/considering-democrats-blameless-is-a-medically-useless-diagnosis-for-the-usa/) -- https://blog.demofox.org
 - [Solving the Prompt Management Problem](https://codecapsule.com/2025/04/09/solving-the-prompt-management-problem/) -- https://codecapsule.com
 - [Graphics Programming weekly - Issue 386 - April 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-386/) -- https://www.jendrikillner.com/
 - [Simulating Dice Rolls With Coin Flips](https://blog.demofox.org/2025/04/05/simulating-dice-rolls-with-coin-flips/) -- https://blog.demofox.org
