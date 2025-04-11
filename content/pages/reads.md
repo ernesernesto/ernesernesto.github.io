@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [The hit games of early 2025](https://howtomarketagame.com/2025/04/11/the-hit-games-of-early-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-hit-games-of-early-2025) -- https://howtomarketagame.com
 - [Considering Democrats Blameless is a Medically Useless Diagnosis for the USA](https://blog.demofox.org/2025/04/09/considering-democrats-blameless-is-a-medically-useless-diagnosis-for-the-usa/) -- https://blog.demofox.org
 - [Solving the Prompt Management Problem](https://codecapsule.com/2025/04/09/solving-the-prompt-management-problem/) -- https://codecapsule.com
 - [Graphics Programming weekly - Issue 386 - April 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-386/) -- https://www.jendrikillner.com/
@@ -42,7 +43,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Do wishlists get old?](https://howtomarketagame.com/2025/01/27/do-wishlists-get-old/?utm_source=rss&utm_medium=rss&utm_campaign=do-wishlists-get-old) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 376 - January 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-376/) -- https://www.jendrikillner.com/
 - [Friction force on a water stream flowing downhill](http://www.forwardscattering.org/post/63) -- http://www.forwardscattering.org/
-- [Steam Vs People Algorithms](https://howtomarketagame.com/2025/01/20/steam-vs-people-algorithms/?utm_source=rss&utm_medium=rss&utm_campaign=steam-vs-people-algorithms) -- https://howtomarketagame.com
 - [The hidden cost of shader instructions](https://interplayoflight.wordpress.com/2025/01/19/the-hidden-cost-of-shader-instructions/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 375 - January 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-375/) -- https://www.jendrikillner.com/
 - [Eevee gained 4,219 experience points…](https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/) -- https://eev.ee/
