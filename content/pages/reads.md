@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Eevee gained 4,219 experience points…](https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/) -- https://eev.ee/
 - [Find me on bsky](https://randomascii.wordpress.com/2025/01/17/find-me-on-bsky/) -- https://randomascii.wordpress.com
 - [Technically Art: Issue 141 (17.1.2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/) -- https://halisavakis.com
-- [Doom in Blender VSE](https://aras-p.info/blog/2025/01/17/Doom-in-Blender-VSE/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
