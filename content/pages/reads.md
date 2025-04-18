@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Friction force on a water stream flowing downhill](http://www.forwardscattering.org/post/63) -- http://www.forwardscattering.org/
 - [The hidden cost of shader instructions](https://interplayoflight.wordpress.com/2025/01/19/the-hidden-cost-of-shader-instructions/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 375 - January 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-375/) -- https://www.jendrikillner.com/
-- [Eevee gained 4,219 experience points…](https://eev.ee/blog/2025/01/17/eevee-gained-4219-experience-points/) -- https://eev.ee/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
