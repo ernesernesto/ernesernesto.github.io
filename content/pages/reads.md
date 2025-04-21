@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [The biggest gap in game success](https://howtomarketagame.com/2025/04/21/the-biggest-gap-in-game-success/?utm_source=rss&utm_medium=rss&utm_campaign=the-biggest-gap-in-game-success) -- https://howtomarketagame.com
 - [What I heard from Valve at GDC](https://howtomarketagame.com/2025/04/14/what-i-heard-from-valve-at-gdc/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-heard-from-valve-at-gdc) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 387 - April 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-387/) -- https://www.jendrikillner.com/
 - [Concurrency in Haskell: Fast, Simple, Correct](https://bitbashing.io/haskell-concurrency.html) -- https://bitbashing.io/
@@ -41,10 +42,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How likely are you to overcome a failed launch? That low? So you’re telling me there’s a chance!](https://howtomarketagame.com/2025/02/10/how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance/?utm_source=rss&utm_medium=rss&utm_campaign=how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance) -- https://howtomarketagame.com
 - [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 378 - February 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-378/) -- https://www.jendrikillner.com/
-- [Are game names getting longer: How to quit your job and write a title for your Steam game in 2025: Naming SEO Tips FAQ Guide Profits Earnings Optimization](https://howtomarketagame.com/2025/02/03/are-game-names-getting-longer-how-to-quit-your-job-and-write-a-title-for-your-steam-game-in-2025-naming-seo-tips-faq-guide-profits-earnings-optimization/?utm_source=rss&utm_medium=rss&utm_campaign=are-game-names-getting-longer-how-to-quit-your-job-and-write-a-title-for-your-steam-game-in-2025-naming-seo-tips-faq-guide-profits-earnings-optimization) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 377 - February 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-377/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 376 - January 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-376/) -- https://www.jendrikillner.com/
-- [Friction force on a water stream flowing downhill](http://www.forwardscattering.org/post/63) -- http://www.forwardscattering.org/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
