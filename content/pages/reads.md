@@ -8,7 +8,9 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [🔞 vignettes](https://eev.ee/blog/2025/04/21/vignettes/) -- https://eev.ee/
 - [The biggest gap in game success](https://howtomarketagame.com/2025/04/21/the-biggest-gap-in-game-success/?utm_source=rss&utm_medium=rss&utm_campaign=the-biggest-gap-in-game-success) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 388 - April 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-388/) -- https://www.jendrikillner.com/
 - [What I heard from Valve at GDC](https://howtomarketagame.com/2025/04/14/what-i-heard-from-valve-at-gdc/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-heard-from-valve-at-gdc) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 387 - April 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-387/) -- https://www.jendrikillner.com/
 - [Concurrency in Haskell: Fast, Simple, Correct](https://bitbashing.io/haskell-concurrency.html) -- https://bitbashing.io/
