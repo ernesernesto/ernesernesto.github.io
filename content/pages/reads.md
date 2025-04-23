@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [Scaniverse](https://www.realtimerendering.com/blog/scaniverse/) -- https://www.realtimerendering.com/blog
 - [Requirements-as-Code for AI-Augmented Software Engineers](https://codecapsule.com/2025/04/22/requirements-as-code-for-ai-augmented-software-engineers/) -- https://codecapsule.com
 - [🔞 vignettes](https://eev.ee/blog/2025/04/21/vignettes/) -- https://eev.ee/
 - [The biggest gap in game success](https://howtomarketagame.com/2025/04/21/the-biggest-gap-in-game-success/?utm_source=rss&utm_medium=rss&utm_campaign=the-biggest-gap-in-game-success) -- https://howtomarketagame.com
