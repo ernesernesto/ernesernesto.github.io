@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 378 - February 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-378/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 377 - February 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-377/) -- https://www.jendrikillner.com/
-- [Graphics Programming weekly - Issue 376 - January 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-376/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
