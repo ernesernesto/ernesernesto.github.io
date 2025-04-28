@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [Graphics Programming weekly - Issue 389 - April 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-389/) -- https://www.jendrikillner.com/
 - [Google Maps Doesn’t Know How Street Addresses Work](https://randomascii.wordpress.com/2025/04/24/google-maps-doesnt-know-how-street-addresses-work/) -- https://randomascii.wordpress.com
 - [Scaniverse](https://www.realtimerendering.com/blog/scaniverse/) -- https://www.realtimerendering.com/blog
 - [Requirements-as-Code for AI-Augmented Software Engineers](https://codecapsule.com/2025/04/22/requirements-as-code-for-ai-augmented-software-engineers/) -- https://codecapsule.com
