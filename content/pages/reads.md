@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [How an itch.io game became a million-dollar hit: The Roottrees are Dead](https://howtomarketagame.com/2025/04/28/how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead/?utm_source=rss&utm_medium=rss&utm_campaign=how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 389 - April 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-389/) -- https://www.jendrikillner.com/
 - [Google Maps Doesn’t Know How Street Addresses Work](https://randomascii.wordpress.com/2025/04/24/google-maps-doesnt-know-how-street-addresses-work/) -- https://randomascii.wordpress.com
 - [Scaniverse](https://www.realtimerendering.com/blog/scaniverse/) -- https://www.realtimerendering.com/blog
@@ -45,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 380 - February 23rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-380/) -- https://www.jendrikillner.com/
 - [What is the post launch Discovery Queue](https://howtomarketagame.com/2025/02/19/what-is-the-post-launch-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-post-launch-discovery-queue) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 379 - February 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-379/) -- https://www.jendrikillner.com/
-- [How likely are you to overcome a failed launch? That low? So you’re telling me there’s a chance!](https://howtomarketagame.com/2025/02/10/how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance/?utm_source=rss&utm_medium=rss&utm_campaign=how-likely-are-you-to-overcome-a-failed-launch-so-youre-telling-me-theres-a-chance) -- https://howtomarketagame.com
 - [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 378 - February 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-378/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 377 - February 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-377/) -- https://www.jendrikillner.com/
