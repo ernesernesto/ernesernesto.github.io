@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [Giving a Good Talk](https://www.realtimerendering.com/blog/giving-a-good-talk/) -- https://www.realtimerendering.com/blog
 - [How an itch.io game became a million-dollar hit: The Roottrees are Dead](https://howtomarketagame.com/2025/04/28/how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead/?utm_source=rss&utm_medium=rss&utm_campaign=how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 389 - April 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-389/) -- https://www.jendrikillner.com/
 - [Google Maps Doesn’t Know How Street Addresses Work](https://randomascii.wordpress.com/2025/04/24/google-maps-doesnt-know-how-street-addresses-work/) -- https://randomascii.wordpress.com
