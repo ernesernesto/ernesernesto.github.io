@@ -9,6 +9,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
 - [Meshlets and Mesh Shaders](https://interplayoflight.wordpress.com/2025/05/05/meshlets-and-mesh-shaders/) -- https://interplayoflight.wordpress.com
+- [Graphics Programming weekly - Issue 390 - May 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-390/) -- https://www.jendrikillner.com/
 - [Giving a Good Talk](https://www.realtimerendering.com/blog/giving-a-good-talk/) -- https://www.realtimerendering.com/blog
 - [How an itch.io game became a million-dollar hit: The Roottrees are Dead](https://howtomarketagame.com/2025/04/28/how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead/?utm_source=rss&utm_medium=rss&utm_campaign=how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 389 - April 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-389/) -- https://www.jendrikillner.com/
