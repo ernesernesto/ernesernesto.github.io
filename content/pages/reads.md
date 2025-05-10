@@ -53,7 +53,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What is the post launch Discovery Queue](https://howtomarketagame.com/2025/02/19/what-is-the-post-launch-discovery-queue/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-the-post-launch-discovery-queue) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 379 - February 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-379/) -- https://www.jendrikillner.com/
 - [Surface-Stable Fractal Dither on Playdate](https://aras-p.info/blog/2025/02/09/Surface-Stable-Fractal-Dither-on-Playdate/) -- https://aras-p.info/
-- [Graphics Programming weekly - Issue 378 - February 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-378/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
