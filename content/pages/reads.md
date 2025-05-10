@@ -10,6 +10,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
 - [Understanding The Math Behind ReSTIR GI](https://agraphicsguynotes.com/posts/understanding_the_math_behind_restir_gi/) -- https://agraphicsguynotes.com/posts/
 - [Blender FBX importer via ufbx](https://aras-p.info/blog/2025/05/08/Blender-FBX-importer-via-ufbx/) -- https://aras-p.info/
+- [New Unified Site Design](https://blog.yiningkarlli.com/2025/05/site-updates.html) -- https://blog.yiningkarlli.com/
 - [Meshlets and Mesh Shaders](https://interplayoflight.wordpress.com/2025/05/05/meshlets-and-mesh-shaders/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 390 - May 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-390/) -- https://www.jendrikillner.com/
 - [Upsampling via Multisampling](http://filmicworlds.com/blog/upsampling-via-multisampling/) -- http://filmicworlds.com/
