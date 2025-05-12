@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
+- [Graphics Programming weekly - Issue 391 - May 11th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-391/) -- https://www.jendrikillner.com/
 - [Photography Show at Disney Animation](https://blog.yiningkarlli.com/2025/05/wdas-photoshow.html) -- https://blog.yiningkarlli.com/
 - [Understanding The Math Behind ReSTIR GI](https://agraphicsguynotes.com/posts/understanding_the_math_behind_restir_gi/) -- https://agraphicsguynotes.com/posts/
 - [Blender FBX importer via ufbx](https://aras-p.info/blog/2025/05/08/Blender-FBX-importer-via-ufbx/) -- https://aras-p.info/
