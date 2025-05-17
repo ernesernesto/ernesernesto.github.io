@@ -56,7 +56,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
 - [Every Daily Deal of 2024](https://howtomarketagame.com/2025/02/25/every-daily-deal-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=every-daily-deal-of-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 380 - February 23rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-380/) -- https://www.jendrikillner.com/
-- [Graphics Programming weekly - Issue 379 - February 16th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-379/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
