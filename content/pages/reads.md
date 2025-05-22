@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Can itch.io success translate to Steam success?](https://howtomarketagame.com/2025/05/22/more-games-that-made-the-itch-io-to-steam-transition/?utm_source=rss&utm_medium=rss&utm_campaign=more-games-that-made-the-itch-io-to-steam-transition) -- https://howtomarketagame.com
 - [Oodle 2.9.14 and Intel 13th/14th gen CPUs](https://fgiesen.wordpress.com/2025/05/21/oodle-2-9-14-and-intel-13th-14th-gen-cpus/) -- https://fgiesen.wordpress.com
 - [The sokol-gfx 'compute milestone 2' update](https://floooh.github.io/2025/05/19/sokol-gfx-compute-ms2.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 392 - May 18th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-392/) -- https://www.jendrikillner.com/
@@ -57,7 +58,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The sokol-gfx compute shader update](https://floooh.github.io/2025/03/03/sokol-gfx-compute-update.html) -- https://floooh.github.io/
 - [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 381 - March 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-381/) -- https://www.jendrikillner.com/
-- [Every Daily Deal of 2024](https://howtomarketagame.com/2025/02/25/every-daily-deal-of-2024/?utm_source=rss&utm_medium=rss&utm_campaign=every-daily-deal-of-2024) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 380 - February 23rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-380/) -- https://www.jendrikillner.com/
 
 ## Talks
