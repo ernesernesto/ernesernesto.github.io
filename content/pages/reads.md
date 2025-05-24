@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Fast camera space to screen space direction transform](http://www.forwardscattering.org/post/64) -- http://www.forwardscattering.org/
 - [Can itch.io success translate to Steam success?](https://howtomarketagame.com/2025/05/22/more-games-that-made-the-itch-io-to-steam-transition/?utm_source=rss&utm_medium=rss&utm_campaign=more-games-that-made-the-itch-io-to-steam-transition) -- https://howtomarketagame.com
 - [Oodle 2.9.14 and Intel 13th/14th gen CPUs](https://fgiesen.wordpress.com/2025/05/21/oodle-2-9-14-and-intel-13th-14th-gen-cpus/) -- https://fgiesen.wordpress.com
 - [The sokol-gfx 'compute milestone 2' update](https://floooh.github.io/2025/05/19/sokol-gfx-compute-ms2.html) -- https://floooh.github.io/
