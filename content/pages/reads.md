@@ -34,7 +34,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 389 - April 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-389/) -- https://www.jendrikillner.com/
 - [Google Maps Doesn’t Know How Street Addresses Work](https://randomascii.wordpress.com/2025/04/24/google-maps-doesnt-know-how-street-addresses-work/) -- https://randomascii.wordpress.com
 - [Scaniverse](https://www.realtimerendering.com/blog/scaniverse/) -- https://www.realtimerendering.com/blog
-- [Requirements-as-Code for AI-Augmented Software Engineers](https://codecapsule.com/2025/04/22/requirements-as-code-for-ai-augmented-software-engineers/) -- https://codecapsule.com
 - [🔞 vignettes](https://eev.ee/blog/2025/04/21/vignettes/) -- https://eev.ee/
 - [The biggest gap in game success](https://howtomarketagame.com/2025/04/21/the-biggest-gap-in-game-success/?utm_source=rss&utm_medium=rss&utm_campaign=the-biggest-gap-in-game-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 388 - April 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-388/) -- https://www.jendrikillner.com/
@@ -43,14 +42,12 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Concurrency in Haskell: Fast, Simple, Correct](https://bitbashing.io/haskell-concurrency.html) -- https://bitbashing.io/
 - [The hit games of early 2025](https://howtomarketagame.com/2025/04/11/the-hit-games-of-early-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-hit-games-of-early-2025) -- https://howtomarketagame.com
 - [Considering Democrats Blameless is a Medically Useless Diagnosis for the USA](https://blog.demofox.org/2025/04/09/considering-democrats-blameless-is-a-medically-useless-diagnosis-for-the-usa/) -- https://blog.demofox.org
-- [Solving the Prompt Management Problem](https://codecapsule.com/2025/04/09/solving-the-prompt-management-problem/) -- https://codecapsule.com
 - [Graphics Programming weekly - Issue 386 - April 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-386/) -- https://www.jendrikillner.com/
 - [Simulating Dice Rolls With Coin Flips](https://blog.demofox.org/2025/04/05/simulating-dice-rolls-with-coin-flips/) -- https://blog.demofox.org
 - [GPU Zen 4 Call for Participation](https://www.realtimerendering.com/blog/gpu-zen-4-call-for-participation/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 385 - March 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-385/) -- https://www.jendrikillner.com/
 - [Benchmarks: How Many Wishlists Can I get From Steam Next Fest](https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest) -- https://howtomarketagame.com
 - [What this blog is about](https://randomascii.wordpress.com/2025/03/25/what-this-blog-is-about/) -- https://randomascii.wordpress.com
-- [My Takeaways on Vibe Coding](https://codecapsule.com/2025/03/24/my-takeaways-on-vibe-coding/) -- https://codecapsule.com
 - [Seven Things for March 24, 2025](https://www.realtimerendering.com/blog/seven-things-for-march-24-2025/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 384 - March 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-384/) -- https://www.jendrikillner.com/
 - [The Road Not Taken is Guaranteed Minimum Income](https://blog.codinghorror.com/the-road-not-taken-is-guaranteed-minimum-income/) -- https://blog.codinghorror.com/
@@ -59,10 +56,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [When should I post my Steam coming-soon page?](https://howtomarketagame.com/2025/03/10/when-should-i-post-my-steam-coming-soon-page/?utm_source=rss&utm_medium=rss&utm_campaign=when-should-i-post-my-steam-coming-soon-page) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 382 - March 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-382/) -- https://www.jendrikillner.com/
 - [Let's Talk About The American Dream](https://blog.codinghorror.com/lets-talk-about-the-american-dream/) -- https://blog.codinghorror.com/
-- [What Special Forces Can Teach Us About High-Impact Engineering Teams](https://codecapsule.com/2025/03/04/what-special-forces-can-teach-us-about-high-impact-engineering-teams/) -- https://codecapsule.com
 - [Steam Next Fest Feb 2025](https://howtomarketagame.com/2025/03/04/steam-next-fest-feb-2025/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-feb-2025) -- https://howtomarketagame.com
 - [The sokol-gfx compute shader update](https://floooh.github.io/2025/03/03/sokol-gfx-compute-update.html) -- https://floooh.github.io/
-- [US New Orleans Trip 2025](https://aras-p.info/blog/2025/03/02/US-New-Orleans-Trip-2025/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
