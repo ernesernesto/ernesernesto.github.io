@@ -59,7 +59,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [When should I post my Steam coming-soon page?](https://howtomarketagame.com/2025/03/10/when-should-i-post-my-steam-coming-soon-page/?utm_source=rss&utm_medium=rss&utm_campaign=when-should-i-post-my-steam-coming-soon-page) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 382 - March 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-382/) -- https://www.jendrikillner.com/
 - [Let's Talk About The American Dream](https://blog.codinghorror.com/lets-talk-about-the-american-dream/) -- https://blog.codinghorror.com/
-- [What Special Forces Can Teach Us About High-Impact Engineering Teams](https://codecapsule.com/2025/03/04/what-special-forces-can-teach-us-about-high-impact-engineering-teams/) -- https://codecapsule.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
