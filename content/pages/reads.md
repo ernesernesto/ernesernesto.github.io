@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 395 - June 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-395/) -- https://www.jendrikillner.com/
 - [Voronoi, Hashing and OSL](https://aras-p.info/blog/2025/06/13/Voronoi-Hashing-and-OSL/) -- https://aras-p.info/
 - [Consider the Horse Game](https://howtomarketagame.com/2025/06/10/consider-the-horse-game/?utm_source=rss&utm_medium=rss&utm_campaign=consider-the-horse-game) -- https://howtomarketagame.com
 - [Anise lives](https://eev.ee/blog/2025/06/10/anise-lives/) -- https://eev.ee/
