@@ -59,7 +59,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Benchmarks: How Many Wishlists Can I get From Steam Next Fest](https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest) -- https://howtomarketagame.com
 - [What this blog is about](https://randomascii.wordpress.com/2025/03/25/what-this-blog-is-about/) -- https://randomascii.wordpress.com
 - [My Takeaways on Vibe Coding](https://codecapsule.com/2025/03/24/my-takeaways-on-vibe-coding/) -- https://codecapsule.com
-- [Seven Things for March 24, 2025](https://www.realtimerendering.com/blog/seven-things-for-march-24-2025/) -- https://www.realtimerendering.com/blog
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
