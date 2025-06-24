@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 396 - June 22nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-396/) -- https://www.jendrikillner.com/
 - [“I saw the best minds of my generation destroyed by madness”](https://www.realtimerendering.com/blog/i-saw-the-best-minds-of-my-generation-destroyed-by-madness/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 395 - June 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-395/) -- https://www.jendrikillner.com/
 - [Voronoi, Hashing and OSL](https://aras-p.info/blog/2025/06/13/Voronoi-Hashing-and-OSL/) -- https://aras-p.info/
@@ -57,7 +58,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [GPU Zen 4 Call for Participation](https://www.realtimerendering.com/blog/gpu-zen-4-call-for-participation/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 385 - March 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-385/) -- https://www.jendrikillner.com/
 - [Benchmarks: How Many Wishlists Can I get From Steam Next Fest](https://howtomarketagame.com/2025/03/26/benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=benchmarks-how-many-wishlists-can-i-get-from-steam-next-fest) -- https://howtomarketagame.com
-- [What this blog is about](https://randomascii.wordpress.com/2025/03/25/what-this-blog-is-about/) -- https://randomascii.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
