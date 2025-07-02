@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Crafty Buildy Strategy Simulation Buyers Guide](https://howtomarketagame.com/2025/07/02/crafty-buildy-strategy-simulation-buyers-guide/?utm_source=rss&utm_medium=rss&utm_campaign=crafty-buildy-strategy-simulation-buyers-guide) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 397 - June 29th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-397/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 396 - June 22nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-396/) -- https://www.jendrikillner.com/
 - [“I saw the best minds of my generation destroyed by madness”](https://www.realtimerendering.com/blog/i-saw-the-best-minds-of-my-generation-destroyed-by-madness/) -- https://www.realtimerendering.com/blog
