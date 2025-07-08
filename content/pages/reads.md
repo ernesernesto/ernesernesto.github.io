@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Merchant 64: The importance of rapid release and sharing your work](https://howtomarketagame.com/2025/07/08/merchant-64/?utm_source=rss&utm_medium=rss&utm_campaign=merchant-64) -- https://howtomarketagame.com
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 398 - July 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-398/) -- https://www.jendrikillner.com/
 - [The rise of Whatever](https://eev.ee/blog/2025/07/03/the-rise-of-whatever/) -- https://eev.ee/
@@ -56,7 +57,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 387 - April 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-387/) -- https://www.jendrikillner.com/
 - [Concurrency in Haskell: Fast, Simple, Correct](https://bitbashing.io/haskell-concurrency.html) -- https://bitbashing.io/
 - [The hit games of early 2025](https://howtomarketagame.com/2025/04/11/the-hit-games-of-early-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-hit-games-of-early-2025) -- https://howtomarketagame.com
-- [Considering Democrats Blameless is a Medically Useless Diagnosis for the USA](https://blog.demofox.org/2025/04/09/considering-democrats-blameless-is-a-medically-useless-diagnosis-for-the-usa/) -- https://blog.demofox.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
