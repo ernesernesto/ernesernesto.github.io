@@ -57,7 +57,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Concurrency in Haskell: Fast, Simple, Correct](https://bitbashing.io/haskell-concurrency.html) -- https://bitbashing.io/
 - [The hit games of early 2025](https://howtomarketagame.com/2025/04/11/the-hit-games-of-early-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-hit-games-of-early-2025) -- https://howtomarketagame.com
 - [Considering Democrats Blameless is a Medically Useless Diagnosis for the USA](https://blog.demofox.org/2025/04/09/considering-democrats-blameless-is-a-medically-useless-diagnosis-for-the-usa/) -- https://blog.demofox.org
-- [Solving the Prompt Management Problem](https://codecapsule.com/2025/04/09/solving-the-prompt-management-problem/) -- https://codecapsule.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
