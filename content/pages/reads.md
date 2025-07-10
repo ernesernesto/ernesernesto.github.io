@@ -56,7 +56,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What I heard from Valve at GDC](https://howtomarketagame.com/2025/04/14/what-i-heard-from-valve-at-gdc/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-heard-from-valve-at-gdc) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 387 - April 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-387/) -- https://www.jendrikillner.com/
 - [Concurrency in Haskell: Fast, Simple, Correct](https://bitbashing.io/haskell-concurrency.html) -- https://bitbashing.io/
-- [The hit games of early 2025](https://howtomarketagame.com/2025/04/11/the-hit-games-of-early-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-hit-games-of-early-2025) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
