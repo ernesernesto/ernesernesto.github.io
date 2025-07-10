@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Lossless Float Image Compression](https://aras-p.info/blog/2025/07/08/Lossless-Float-Image-Compression/) -- https://aras-p.info/
 - [Merchant 64: The importance of rapid release and sharing your work](https://howtomarketagame.com/2025/07/08/merchant-64/?utm_source=rss&utm_medium=rss&utm_campaign=merchant-64) -- https://howtomarketagame.com
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 398 - July 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-398/) -- https://www.jendrikillner.com/
@@ -20,6 +21,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Consider the Horse Game](https://howtomarketagame.com/2025/06/10/consider-the-horse-game/?utm_source=rss&utm_medium=rss&utm_campaign=consider-the-horse-game) -- https://howtomarketagame.com
 - [Anise lives](https://eev.ee/blog/2025/06/10/anise-lives/) -- https://eev.ee/
 - [Graphics Programming weekly - Issue 394 - June 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-394/) -- https://www.jendrikillner.com/
+- [Next-gen challenges for mobile game rendering](https://www.tobias-franke.eu/publications/franke25dublinml/index.html) -- https://www.tobias-franke.eu/
 - [Fast acos approximation](http://www.forwardscattering.org/post/66) -- http://www.forwardscattering.org/
 - [Most people who buy your game won’t play it](https://howtomarketagame.com/2025/06/03/most-people-who-buy-your-game-wont-play-it/?utm_source=rss&utm_medium=rss&utm_campaign=most-people-who-buy-your-game-wont-play-it) -- https://howtomarketagame.com
 - [Some Fresnel curve approximations](http://www.forwardscattering.org/post/65) -- http://www.forwardscattering.org/
