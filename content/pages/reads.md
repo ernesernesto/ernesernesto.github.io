@@ -55,7 +55,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [🔞 vignettes](https://eev.ee/blog/2025/04/21/vignettes/) -- https://eev.ee/
 - [The biggest gap in game success](https://howtomarketagame.com/2025/04/21/the-biggest-gap-in-game-success/?utm_source=rss&utm_medium=rss&utm_campaign=the-biggest-gap-in-game-success) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 388 - April 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-388/) -- https://www.jendrikillner.com/
-- [What I heard from Valve at GDC](https://howtomarketagame.com/2025/04/14/what-i-heard-from-valve-at-gdc/?utm_source=rss&utm_medium=rss&utm_campaign=what-i-heard-from-valve-at-gdc) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
