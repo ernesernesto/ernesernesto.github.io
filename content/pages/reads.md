@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Can you market a game with zero following?](https://howtomarketagame.com/2025/07/15/can-you-market-a-game-with-zero-following/?utm_source=rss&utm_medium=rss&utm_campaign=can-you-market-a-game-with-zero-following) -- https://howtomarketagame.com
 - [Lossless Float Image Compression](https://aras-p.info/blog/2025/07/08/Lossless-Float-Image-Compression/) -- https://aras-p.info/
 - [Merchant 64: The importance of rapid release and sharing your work](https://howtomarketagame.com/2025/07/08/merchant-64/?utm_source=rss&utm_medium=rss&utm_campaign=merchant-64) -- https://howtomarketagame.com
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
