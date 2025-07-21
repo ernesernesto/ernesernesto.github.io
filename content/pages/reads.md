@@ -54,7 +54,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Google Maps Doesn’t Know How Street Addresses Work](https://randomascii.wordpress.com/2025/04/24/google-maps-doesnt-know-how-street-addresses-work/) -- https://randomascii.wordpress.com
 - [Scaniverse](https://www.realtimerendering.com/blog/scaniverse/) -- https://www.realtimerendering.com/blog
 - [Requirements-as-Code for AI-Augmented Software Engineers](https://codecapsule.com/2025/04/22/requirements-as-code-for-ai-augmented-software-engineers/) -- https://codecapsule.com
-- [🔞 vignettes](https://eev.ee/blog/2025/04/21/vignettes/) -- https://eev.ee/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
