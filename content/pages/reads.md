@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [I am thirty-eight years old](https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/) -- https://eev.ee/
+- [Graphics Programming weekly - Issue 400 - July 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-400/) -- https://www.jendrikillner.com/
 - [Can you market a game with zero following?](https://howtomarketagame.com/2025/07/15/can-you-market-a-game-with-zero-following/?utm_source=rss&utm_medium=rss&utm_campaign=can-you-market-a-game-with-zero-following) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 399 - July 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-399/) -- https://www.jendrikillner.com/
 - [Lossless Float Image Compression](https://aras-p.info/blog/2025/07/08/Lossless-Float-Image-Compression/) -- https://aras-p.info/
