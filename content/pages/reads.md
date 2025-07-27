@@ -51,7 +51,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 390 - May 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-390/) -- https://www.jendrikillner.com/
 - [Upsampling via Multisampling](http://filmicworlds.com/blog/upsampling-via-multisampling/) -- http://filmicworlds.com/
 - [Giving a Good Talk](https://www.realtimerendering.com/blog/giving-a-good-talk/) -- https://www.realtimerendering.com/blog
-- [How an itch.io game became a million-dollar hit: The Roottrees are Dead](https://howtomarketagame.com/2025/04/28/how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead/?utm_source=rss&utm_medium=rss&utm_campaign=how-an-itch-io-game-became-a-million-dollar-hit-the-roottrees-are-dead) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
