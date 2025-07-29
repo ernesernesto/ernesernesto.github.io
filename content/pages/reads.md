@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Don’t make your game free](https://howtomarketagame.com/2025/07/29/dont-make-your-game-free/?utm_source=rss&utm_medium=rss&utm_campaign=dont-make-your-game-free) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 401 - July 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-401/) -- https://www.jendrikillner.com/
 - [I am thirty-eight years old](https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/) -- https://eev.ee/
 - [Graphics Programming weekly - Issue 400 - July 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-400/) -- https://www.jendrikillner.com/
