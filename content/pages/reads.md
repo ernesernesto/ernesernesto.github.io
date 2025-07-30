@@ -7,33 +7,41 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Don’t make your game free](https://howtomarketagame.com/2025/07/29/dont-make-your-game-free/?utm_source=rss&utm_medium=rss&utm_campaign=dont-make-your-game-free) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 401 - July 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-401/) -- https://www.jendrikillner.com/
 - [I am thirty-eight years old](https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/) -- https://eev.ee/
 - [Graphics Programming weekly - Issue 400 - July 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-400/) -- https://www.jendrikillner.com/
+- [Can you market a game with zero following?](https://howtomarketagame.com/2025/07/15/can-you-market-a-game-with-zero-following/?utm_source=rss&utm_medium=rss&utm_campaign=can-you-market-a-game-with-zero-following) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 399 - July 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-399/) -- https://www.jendrikillner.com/
 - [Lossless Float Image Compression](https://aras-p.info/blog/2025/07/08/Lossless-Float-Image-Compression/) -- https://aras-p.info/
+- [Merchant 64: The importance of rapid release and sharing your work](https://howtomarketagame.com/2025/07/08/merchant-64/?utm_source=rss&utm_medium=rss&utm_campaign=merchant-64) -- https://howtomarketagame.com
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 398 - July 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-398/) -- https://www.jendrikillner.com/
 - [The rise of Whatever](https://eev.ee/blog/2025/07/03/the-rise-of-whatever/) -- https://eev.ee/
+- [Crafty Buildy Strategy Simulation Buyers Guide](https://howtomarketagame.com/2025/07/02/crafty-buildy-strategy-simulation-buyers-guide/?utm_source=rss&utm_medium=rss&utm_campaign=crafty-buildy-strategy-simulation-buyers-guide) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 397 - June 29th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-397/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 396 - June 22nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-396/) -- https://www.jendrikillner.com/
 - [“I saw the best minds of my generation destroyed by madness”](https://www.realtimerendering.com/blog/i-saw-the-best-minds-of-my-generation-destroyed-by-madness/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 395 - June 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-395/) -- https://www.jendrikillner.com/
 - [Voronoi, Hashing and OSL](https://aras-p.info/blog/2025/06/13/Voronoi-Hashing-and-OSL/) -- https://aras-p.info/
+- [Consider the Horse Game](https://howtomarketagame.com/2025/06/10/consider-the-horse-game/?utm_source=rss&utm_medium=rss&utm_campaign=consider-the-horse-game) -- https://howtomarketagame.com
 - [Anise lives](https://eev.ee/blog/2025/06/10/anise-lives/) -- https://eev.ee/
 - [Graphics Programming weekly - Issue 394 - June 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-394/) -- https://www.jendrikillner.com/
 - [Next-gen challenges for mobile game rendering](https://www.tobias-franke.eu/publications/franke25dublinml/index.html) -- https://www.tobias-franke.eu/
 - [Fast acos approximation](http://www.forwardscattering.org/post/66) -- http://www.forwardscattering.org/
+- [Most people who buy your game won’t play it](https://howtomarketagame.com/2025/06/03/most-people-who-buy-your-game-wont-play-it/?utm_source=rss&utm_medium=rss&utm_campaign=most-people-who-buy-your-game-wont-play-it) -- https://howtomarketagame.com
 - [Some Fresnel curve approximations](http://www.forwardscattering.org/post/65) -- http://www.forwardscattering.org/
 - [Thresholding Modern Blue Noise Textures](https://blog.demofox.org/2025/05/27/thresholding-modern-blue-noise-textures/) -- https://blog.demofox.org
 - [Async compute all the things](https://interplayoflight.wordpress.com/2025/05/27/async-compute-all-the-things/) -- https://interplayoflight.wordpress.com
 - [Acronis True Image Costs Performance When Not Used](https://randomascii.wordpress.com/2025/05/26/acronis-true-image-costs-performance-when-not-used/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly - Issue 393 - May 25th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-393/) -- https://www.jendrikillner.com/
 - [Fast camera space to screen space direction transform](http://www.forwardscattering.org/post/64) -- http://www.forwardscattering.org/
+- [Can itch.io success translate to Steam success?](https://howtomarketagame.com/2025/05/22/more-games-that-made-the-itch-io-to-steam-transition/?utm_source=rss&utm_medium=rss&utm_campaign=more-games-that-made-the-itch-io-to-steam-transition) -- https://howtomarketagame.com
 - [Oodle 2.9.14 and Intel 13th/14th gen CPUs](https://fgiesen.wordpress.com/2025/05/21/oodle-2-9-14-and-intel-13th-14th-gen-cpus/) -- https://fgiesen.wordpress.com
 - [The sokol-gfx 'compute milestone 2' update](https://floooh.github.io/2025/05/19/sokol-gfx-compute-ms2.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 392 - May 18th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-392/) -- https://www.jendrikillner.com/
 - [JCGT is moving along](https://www.realtimerendering.com/blog/jcgt-is-moving-along/) -- https://www.realtimerendering.com/blog
+- [Benchmark: Itch.io traffic](https://howtomarketagame.com/2025/05/12/benchmark-itch-io-traffic/?utm_source=rss&utm_medium=rss&utm_campaign=benchmark-itch-io-traffic) -- https://howtomarketagame.com
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 391 - May 11th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-391/) -- https://www.jendrikillner.com/
 - [Photography Show at Disney Animation](https://blog.yiningkarlli.com/2025/05/wdas-photoshow.html) -- https://blog.yiningkarlli.com/
@@ -44,7 +52,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Meshlets and Mesh Shaders](https://interplayoflight.wordpress.com/2025/05/05/meshlets-and-mesh-shaders/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 390 - May 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-390/) -- https://www.jendrikillner.com/
 - [Upsampling via Multisampling](http://filmicworlds.com/blog/upsampling-via-multisampling/) -- http://filmicworlds.com/
-- [Giving a Good Talk](https://www.realtimerendering.com/blog/giving-a-good-talk/) -- https://www.realtimerendering.com/blog
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
