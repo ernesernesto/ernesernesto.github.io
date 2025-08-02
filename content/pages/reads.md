@@ -51,7 +51,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [New Unified Site Design](https://blog.yiningkarlli.com/2025/05/site-updates.html) -- https://blog.yiningkarlli.com/
 - [Meshlets and Mesh Shaders](https://interplayoflight.wordpress.com/2025/05/05/meshlets-and-mesh-shaders/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 390 - May 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-390/) -- https://www.jendrikillner.com/
-- [Upsampling via Multisampling](http://filmicworlds.com/blog/upsampling-via-multisampling/) -- http://filmicworlds.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
