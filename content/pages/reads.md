@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Toroidally Progressive Stratified Sampling in 1D](https://blog.demofox.org/2025/08/03/toroidally-progressive-stratified-sampling-in-1d/) -- https://blog.demofox.org
 - [Don’t make your game free](https://howtomarketagame.com/2025/07/29/dont-make-your-game-free/?utm_source=rss&utm_medium=rss&utm_campaign=dont-make-your-game-free) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 401 - July 27th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-401/) -- https://www.jendrikillner.com/
 - [I am thirty-eight years old](https://eev.ee/blog/2025/07/21/i-am-thirty-eight-years-old/) -- https://eev.ee/
@@ -48,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Temporal Super Resolution via Multisampling](http://filmicworlds.com/blog/temporal-super-resolution-via-multisampling/) -- http://filmicworlds.com/
 - [Understanding The Math Behind ReSTIR GI](https://agraphicsguynotes.com/posts/understanding_the_math_behind_restir_gi/) -- https://agraphicsguynotes.com/posts/
 - [Blender FBX importer via ufbx](https://aras-p.info/blog/2025/05/08/Blender-FBX-importer-via-ufbx/) -- https://aras-p.info/
-- [New Unified Site Design](https://blog.yiningkarlli.com/2025/05/site-updates.html) -- https://blog.yiningkarlli.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
