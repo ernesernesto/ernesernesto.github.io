@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Photography Show at Disney Animation](https://blog.yiningkarlli.com/2025/05/wdas-photoshow.html) -- https://blog.yiningkarlli.com/
 - [Temporal Super Resolution via Multisampling](http://filmicworlds.com/blog/temporal-super-resolution-via-multisampling/) -- http://filmicworlds.com/
 - [Understanding The Math Behind ReSTIR GI](https://agraphicsguynotes.com/posts/understanding_the_math_behind_restir_gi/) -- https://agraphicsguynotes.com/posts/
-- [Blender FBX importer via ufbx](https://aras-p.info/blog/2025/05/08/Blender-FBX-importer-via-ufbx/) -- https://aras-p.info/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
