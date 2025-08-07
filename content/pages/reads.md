@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Advances in RTR Course 2025 page is up](https://www.realtimerendering.com/blog/advances-in-rtr-course-2025-page-is-up/) -- https://www.realtimerendering.com/blog
 - [2025 Q2 games that are selling](https://howtomarketagame.com/2025/08/04/2025-q2-games-that-are-selling/?utm_source=rss&utm_medium=rss&utm_campaign=2025-q2-games-that-are-selling) -- https://howtomarketagame.com
 - [Toroidally Progressive Stratified Sampling in 1D](https://blog.demofox.org/2025/08/03/toroidally-progressive-stratified-sampling-in-1d/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 402 - August 3rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-402/) -- https://www.jendrikillner.com/
@@ -49,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 391 - May 11th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-391/) -- https://www.jendrikillner.com/
 - [Photography Show at Disney Animation](https://blog.yiningkarlli.com/2025/05/wdas-photoshow.html) -- https://blog.yiningkarlli.com/
 - [Temporal Super Resolution via Multisampling](http://filmicworlds.com/blog/temporal-super-resolution-via-multisampling/) -- http://filmicworlds.com/
-- [Understanding The Math Behind ReSTIR GI](https://agraphicsguynotes.com/posts/understanding_the_math_behind_restir_gi/) -- https://agraphicsguynotes.com/posts/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
