@@ -49,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 391 - May 11th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-391/) -- https://www.jendrikillner.com/
 - [Photography Show at Disney Animation](https://blog.yiningkarlli.com/2025/05/wdas-photoshow.html) -- https://blog.yiningkarlli.com/
-- [Temporal Super Resolution via Multisampling](http://filmicworlds.com/blog/temporal-super-resolution-via-multisampling/) -- http://filmicworlds.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
