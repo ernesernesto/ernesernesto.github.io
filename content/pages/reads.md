@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [JCGT is moving along](https://www.realtimerendering.com/blog/jcgt-is-moving-along/) -- https://www.realtimerendering.com/blog
 - [Benchmark: Itch.io traffic](https://howtomarketagame.com/2025/05/12/benchmark-itch-io-traffic/?utm_source=rss&utm_medium=rss&utm_campaign=benchmark-itch-io-traffic) -- https://howtomarketagame.com
 - [Traditional and Neural Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis25tnoit/index.html) -- https://www.tobias-franke.eu/
-- [Graphics Programming weekly - Issue 391 - May 11th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-391/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
