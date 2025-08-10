@@ -46,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The sokol-gfx 'compute milestone 2' update](https://floooh.github.io/2025/05/19/sokol-gfx-compute-ms2.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 392 - May 18th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-392/) -- https://www.jendrikillner.com/
 - [JCGT is moving along](https://www.realtimerendering.com/blog/jcgt-is-moving-along/) -- https://www.realtimerendering.com/blog
-- [Benchmark: Itch.io traffic](https://howtomarketagame.com/2025/05/12/benchmark-itch-io-traffic/?utm_source=rss&utm_medium=rss&utm_campaign=benchmark-itch-io-traffic) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
