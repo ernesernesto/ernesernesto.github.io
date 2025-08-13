@@ -7,7 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
-- [SIGGRAPH 2025 Course Notes- Path Guiding Surfaces and Volumes in Disney's Hyperion Renderer- A Case Study](https://blog.yiningkarlli.com/2025/08/path-tracing-in-production.html) -- https://blog.yiningkarlli.com/
+- [SIGGRAPH 2025 Course Notes- Path Guiding Surfaces and Volumes in Disney's Hyperion Renderer- A Case Study](https://blog.yiningkarlli.com/2025/08/path-guiding-in-production.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 403 - August 10th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-403/) -- https://www.jendrikillner.com/
 - [SIGGRAPH 2025 Talk- A Texture Streaming Pipeline for Real-Time GPU Ray Tracing](https://blog.yiningkarlli.com/2025/08/texture-streaming-pipeline-for-real-time-gpu-ray-tracing.html) -- https://blog.yiningkarlli.com/
 - [Advances in RTR Course 2025 page is up](https://www.realtimerendering.com/blog/advances-in-rtr-course-2025-page-is-up/) -- https://www.realtimerendering.com/blog
