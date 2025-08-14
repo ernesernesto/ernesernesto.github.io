@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Oodle 2.9.14 and Intel 13th/14th gen CPUs](https://fgiesen.wordpress.com/2025/05/21/oodle-2-9-14-and-intel-13th-14th-gen-cpus/) -- https://fgiesen.wordpress.com
 - [The sokol-gfx 'compute milestone 2' update](https://floooh.github.io/2025/05/19/sokol-gfx-compute-ms2.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 392 - May 18th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-392/) -- https://www.jendrikillner.com/
-- [JCGT is moving along](https://www.realtimerendering.com/blog/jcgt-is-moving-along/) -- https://www.realtimerendering.com/blog
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
