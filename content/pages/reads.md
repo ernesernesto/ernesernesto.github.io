@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Derivatives, Gradients, Jacobians and Hessians – Oh My!](https://blog.demofox.org/2025/08/16/derivatives-gradients-jacobians-and-hessians-oh-my/) -- https://blog.demofox.org
+- [Graphics Programming weekly - Issue 404 - August 17th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-404/) -- https://www.jendrikillner.com/
 - [Gnomes: Tower Defense with 10-month dev time hits $367,484](https://howtomarketagame.com/2025/08/13/gnomes-tower-defense-with-10-month-dev-time-hits-367484/?utm_source=rss&utm_medium=rss&utm_campaign=gnomes-tower-defense-with-10-month-dev-time-hits-367484) -- https://howtomarketagame.com
 - [SIGGRAPH 2025 Course Notes- Path Guiding Surfaces and Volumes in Disney's Hyperion Renderer- A Case Study](https://blog.yiningkarlli.com/2025/08/path-guiding-in-production.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 403 - August 10th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-403/) -- https://www.jendrikillner.com/
