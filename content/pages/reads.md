@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Acronis True Image Costs Performance When Not Used](https://randomascii.wordpress.com/2025/05/26/acronis-true-image-costs-performance-when-not-used/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly - Issue 393 - May 25th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-393/) -- https://www.jendrikillner.com/
 - [Fast camera space to screen space direction transform](http://www.forwardscattering.org/post/64) -- http://www.forwardscattering.org/
-- [Can itch.io success translate to Steam success?](https://howtomarketagame.com/2025/05/22/more-games-that-made-the-itch-io-to-steam-transition/?utm_source=rss&utm_medium=rss&utm_campaign=more-games-that-made-the-itch-io-to-steam-transition) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
