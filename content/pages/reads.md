@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [This many points is surely out of scope!](https://aras-p.info/blog/2025/08/24/This-many-points-is-surely-out-of-scope/) -- https://aras-p.info/
+- [Graphics Programming weekly - Issue 405 - August 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-405/) -- https://www.jendrikillner.com/
 - [Arc Troopers: Adventures in Async Rust](https://bitbashing.io/async-arc.html) -- https://bitbashing.io/
 - [Derivatives, Gradients, Jacobians and Hessians – Oh My!](https://blog.demofox.org/2025/08/16/derivatives-gradients-jacobians-and-hessians-oh-my/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 404 - August 17th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-404/) -- https://www.jendrikillner.com/
