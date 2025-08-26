@@ -45,8 +45,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Fast acos approximation](http://www.forwardscattering.org/post/66) -- http://www.forwardscattering.org/
 - [Most people who buy your game won’t play it](https://howtomarketagame.com/2025/06/03/most-people-who-buy-your-game-wont-play-it/?utm_source=rss&utm_medium=rss&utm_campaign=most-people-who-buy-your-game-wont-play-it) -- https://howtomarketagame.com
 - [Some Fresnel curve approximations](http://www.forwardscattering.org/post/65) -- http://www.forwardscattering.org/
-- [Thresholding Modern Blue Noise Textures](https://blog.demofox.org/2025/05/27/thresholding-modern-blue-noise-textures/) -- https://blog.demofox.org
-- [Async compute all the things](https://interplayoflight.wordpress.com/2025/05/27/async-compute-all-the-things/) -- https://interplayoflight.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
