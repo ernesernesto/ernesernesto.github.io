@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 394 - June 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-394/) -- https://www.jendrikillner.com/
 - [Next-gen challenges for mobile game rendering](https://www.tobias-franke.eu/publications/franke25dublinml/index.html) -- https://www.tobias-franke.eu/
 - [Fast acos approximation](http://www.forwardscattering.org/post/66) -- http://www.forwardscattering.org/
-- [Most people who buy your game won’t play it](https://howtomarketagame.com/2025/06/03/most-people-who-buy-your-game-wont-play-it/?utm_source=rss&utm_medium=rss&utm_campaign=most-people-who-buy-your-game-wont-play-it) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
