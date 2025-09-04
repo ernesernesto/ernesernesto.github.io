@@ -7,10 +7,12 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [How much should we freak out about Silksong](https://howtomarketagame.com/2025/09/03/how-much-should-we-freak-out-about-silksong/?utm_source=rss&utm_medium=rss&utm_campaign=how-much-should-we-freak-out-about-silksong) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 406 - August 31st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-406/) -- https://www.jendrikillner.com/
 - [GPU utilisation and performance improvements](https://interplayoflight.wordpress.com/2025/08/29/gpu-utilisation-and-performance-improvements/) -- https://interplayoflight.wordpress.com
 - [The demo effect: From 7000 wishlists to 42,000](https://howtomarketagame.com/2025/08/26/the-demo-effect-from-7000-wishlists-to-42000/?utm_source=rss&utm_medium=rss&utm_campaign=the-demo-effect-from-7000-wishlists-to-42000) -- https://howtomarketagame.com
 - [Detecting reads from uninitialised heap memory in C++ programs at runtime](http://www.forwardscattering.org/post/71) -- http://www.forwardscattering.org/
+- [This many points is surely out of scope!](https://aras-p.info/blog/2025/08/24/This-many-points-is-surely-out-of-scope/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 405 - August 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-405/) -- https://www.jendrikillner.com/
 - [Arc Troopers: Adventures in Async Rust](https://bitbashing.io/async-arc.html) -- https://bitbashing.io/
 - [Derivatives, Gradients, Jacobians and Hessians – Oh My!](https://blog.demofox.org/2025/08/16/derivatives-gradients-jacobians-and-hessians-oh-my/) -- https://blog.demofox.org
@@ -30,6 +32,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 400 - July 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-400/) -- https://www.jendrikillner.com/
 - [Can you market a game with zero following?](https://howtomarketagame.com/2025/07/15/can-you-market-a-game-with-zero-following/?utm_source=rss&utm_medium=rss&utm_campaign=can-you-market-a-game-with-zero-following) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 399 - July 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-399/) -- https://www.jendrikillner.com/
+- [Lossless Float Image Compression](https://aras-p.info/blog/2025/07/08/Lossless-Float-Image-Compression/) -- https://aras-p.info/
 - [Merchant 64: The importance of rapid release and sharing your work](https://howtomarketagame.com/2025/07/08/merchant-64/?utm_source=rss&utm_medium=rss&utm_campaign=merchant-64) -- https://howtomarketagame.com
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 398 - July 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-398/) -- https://www.jendrikillner.com/
@@ -39,6 +42,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 396 - June 22nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-396/) -- https://www.jendrikillner.com/
 - [“I saw the best minds of my generation destroyed by madness”](https://www.realtimerendering.com/blog/i-saw-the-best-minds-of-my-generation-destroyed-by-madness/) -- https://www.realtimerendering.com/blog
 - [Graphics Programming weekly - Issue 395 - June 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-395/) -- https://www.jendrikillner.com/
+- [Voronoi, Hashing and OSL](https://aras-p.info/blog/2025/06/13/Voronoi-Hashing-and-OSL/) -- https://aras-p.info/
 - [Consider the Horse Game](https://howtomarketagame.com/2025/06/10/consider-the-horse-game/?utm_source=rss&utm_medium=rss&utm_campaign=consider-the-horse-game) -- https://howtomarketagame.com
 - [Anise lives](https://eev.ee/blog/2025/06/10/anise-lives/) -- https://eev.ee/
 - [Graphics Programming weekly - Issue 394 - June 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-394/) -- https://www.jendrikillner.com/
