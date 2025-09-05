@@ -101,12 +101,6 @@
         margin-bottom: 5px;
       }
 
-      .file-progress {
-        color: #aaaaaa;
-        font-size: 0.8em;
-        margin-top: 10px;
-      }
-
       .loading-spinner {
         width: 40px;
         height: 40px;
@@ -146,7 +140,6 @@
             <div class="progress-bar" id="progress-bar"></div>
           </div>
           <div class="loading-details" id="loading-details">0% Complete</div>
-          <div class="file-progress" id="file-progress">0 MB / 0 MB</div>
           <div class="loading-spinner"></div>
         </div>
       </div>
@@ -260,40 +253,6 @@
         setTimeout(setupCanvas, 100);
       });
 
-      // Loading Progress Management
-      let totalBytes = 0;
-      let loadedBytes = 0;
-      const fileInfo = {
-        'pocket-champs.data': { loaded: 0, total: 0 },
-        'pocket-champs.framework.js': { loaded: 0, total: 0 },
-        'pocket-champs.wasm': { loaded: 0, total: 0 }
-      };
-
-      function updateLoadingProgress() {
-        const progressBar = document.getElementById('progress-bar');
-        const loadingText = document.getElementById('loading-text');
-        const loadingDetails = document.getElementById('loading-details');
-        const fileProgress = document.getElementById('file-progress');
-
-        const percentage = totalBytes > 0 ? Math.round((loadedBytes / totalBytes) * 100) : 0;
-        
-        progressBar.style.width = percentage + '%';
-        loadingDetails.textContent = percentage + '% Complete';
-        
-        const loadedMB = (loadedBytes / (1024 * 1024)).toFixed(1);
-        const totalMB = (totalBytes / (1024 * 1024)).toFixed(1);
-        fileProgress.textContent = `${loadedMB} MB / ${totalMB} MB`;
-
-        // Update loading text based on progress
-        if (percentage === 0) {
-          loadingText.textContent = 'Preparing to load...';
-        } else if (percentage < 100) {
-          loadingText.textContent = 'Loading game files...';
-        } else {
-          loadingText.textContent = 'Starting game...';
-        }
-      }
-
       function hideLoadingScreen() {
         const loadingScreen = document.getElementById('loading-screen');
         loadingScreen.classList.add('hidden');
@@ -313,32 +272,27 @@
         productVersion: "1.0.0",
         matchWebGLToCanvasSize: true,
       }, (progress) => {
-        // Progress callback
-        const fileName = progress.url ? progress.url.split('/').pop() : 'unknown';
+        const progressBar = document.getElementById('progress-bar');
+        const loadingText = document.getElementById('loading-text');
+        const loadingDetails = document.getElementById('loading-details');
+
+        const percentage = Math.round(progress * 100);
         
-        if (fileInfo[fileName]) {
-          // Update individual file progress
-          const prevLoaded = fileInfo[fileName].loaded;
-          fileInfo[fileName].loaded = progress.loaded || 0;
-          fileInfo[fileName].total = progress.total || 0;
-          
-          // Update totals
-          loadedBytes += (fileInfo[fileName].loaded - prevLoaded);
-          
-          // Recalculate total bytes if we have new info
-          totalBytes = Object.values(fileInfo).reduce((sum, file) => sum + file.total, 0);
+        progressBar.style.width = percentage + '%';
+        loadingDetails.textContent = percentage + '% Complete';
+        
+        if (percentage === 0) {
+          loadingText.textContent = 'Preparing to load...';
+        } else if (percentage < 100) {
+          loadingText.textContent = 'Loading game files...';
         } else {
-          // Fallback for unknown files
-          loadedBytes = progress.loaded || 0;
-          totalBytes = progress.total || 1;
+          loadingText.textContent = 'Starting game...';
         }
-        
-        updateLoadingProgress();
-        
-        console.log(`Loading progress: ${fileName} - ${progress.loaded}/${progress.total} bytes`);
+
+        console.log(`Loading progress: ${progress}`);
       }).then((unityInstance) => {
         console.log("Unity instance loaded successfully");
-        // Small delay to show 100% completion
+
         setTimeout(hideLoadingScreen, 500);
       }).catch((message) => {
         console.error("Failed to load Unity instance:", message);
