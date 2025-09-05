@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
-    <title>Unity Web Player | Western Farm</title>
+    <title>Unity Web Player | Western Farm </title>
     <style>
       body {
         text-align: center;
@@ -34,12 +34,124 @@
         display: block;
         /* Canvas will be sized by JavaScript to maintain portrait aspect ratio */
       }
+
+      /* Loading Screen Styles */
+      #loading-screen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #231F20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        transition: opacity 0.5s ease-out;
+      }
+
+      #loading-screen.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .game-title {
+        color: #ffffff;
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 40px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      }
+
+      .loading-container {
+        width: 300px;
+        max-width: 80vw;
+      }
+
+      .progress-bar-container {
+        width: 100%;
+        height: 20px;
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        border: 2px solid rgba(255,255,255,0.2);
+      }
+
+      .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, #4CAF50, #8BC34A);
+        width: 0%;
+        transition: width 0.3s ease;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+      }
+
+      .loading-text {
+        color: #ffffff;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        min-height: 1.5em;
+      }
+
+      .loading-details {
+        color: #cccccc;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+      }
+
+      .file-progress {
+        color: #aaaaaa;
+        font-size: 0.8em;
+        margin-top: 10px;
+      }
+
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(255,255,255,0.1);
+        border-left: 4px solid #4CAF50;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @media (max-width: 768px) {
+        .game-title {
+          font-size: 2em;
+        }
+        
+        .loading-container {
+          width: 250px;
+        }
+      }
     </style>
   </head>
   <body>
     <div id="unity-container">
       <canvas id="unity-canvas" width=540 height=960 tabindex="-1"></canvas>
+      
+      <!-- Loading Screen -->
+      <div id="loading-screen">
+        <div class="game-title">Western Farm</div>
+        <div class="loading-container">
+          <div class="loading-text" id="loading-text">Preparing to load...</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <div class="loading-details" id="loading-details">0% Complete</div>
+          <div class="file-progress" id="file-progress">0 MB / 0 MB</div>
+          <div class="loading-spinner"></div>
+        </div>
+      </div>
     </div>
+    
     <script src="Build/western-farm.loader.js"></script>
     <script>
       window.dotplay = {};
@@ -148,6 +260,48 @@
         setTimeout(setupCanvas, 100);
       });
 
+      // Loading Progress Management
+      let totalBytes = 0;
+      let loadedBytes = 0;
+      const fileInfo = {
+        'western-farm.data': { loaded: 0, total: 0 },
+        'western-farm.framework.js': { loaded: 0, total: 0 },
+        'western-farm.wasm': { loaded: 0, total: 0 }
+      };
+
+      function updateLoadingProgress() {
+        const progressBar = document.getElementById('progress-bar');
+        const loadingText = document.getElementById('loading-text');
+        const loadingDetails = document.getElementById('loading-details');
+        const fileProgress = document.getElementById('file-progress');
+
+        const percentage = totalBytes > 0 ? Math.round((loadedBytes / totalBytes) * 100) : 0;
+        
+        progressBar.style.width = percentage + '%';
+        loadingDetails.textContent = percentage + '% Complete';
+        
+        const loadedMB = (loadedBytes / (1024 * 1024)).toFixed(1);
+        const totalMB = (totalBytes / (1024 * 1024)).toFixed(1);
+        fileProgress.textContent = `${loadedMB} MB / ${totalMB} MB`;
+
+        // Update loading text based on progress
+        if (percentage === 0) {
+          loadingText.textContent = 'Preparing to load...';
+        } else if (percentage < 100) {
+          loadingText.textContent = 'Loading game files...';
+        } else {
+          loadingText.textContent = 'Starting game...';
+        }
+      }
+
+      function hideLoadingScreen() {
+        const loadingScreen = document.getElementById('loading-screen');
+        loadingScreen.classList.add('hidden');
+        setTimeout(() => {
+          loadingScreen.style.display = 'none';
+        }, 500);
+      }
+
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
         dataUrl: "Build/western-farm.data",
@@ -158,10 +312,39 @@
         productName: "Western Farm",
         productVersion: "1.0.0",
         matchWebGLToCanvasSize: true,
+      }, (progress) => {
+        // Progress callback
+        const fileName = progress.url ? progress.url.split('/').pop() : 'unknown';
+        
+        if (fileInfo[fileName]) {
+          // Update individual file progress
+          const prevLoaded = fileInfo[fileName].loaded;
+          fileInfo[fileName].loaded = progress.loaded || 0;
+          fileInfo[fileName].total = progress.total || 0;
+          
+          // Update totals
+          loadedBytes += (fileInfo[fileName].loaded - prevLoaded);
+          
+          // Recalculate total bytes if we have new info
+          totalBytes = Object.values(fileInfo).reduce((sum, file) => sum + file.total, 0);
+        } else {
+          // Fallback for unknown files
+          loadedBytes = progress.loaded || 0;
+          totalBytes = progress.total || 1;
+        }
+        
+        updateLoadingProgress();
+        
+        console.log(`Loading progress: ${fileName} - ${progress.loaded}/${progress.total} bytes`);
       }).then((unityInstance) => {
         console.log("Unity instance loaded successfully");
+        // Small delay to show 100% completion
+        setTimeout(hideLoadingScreen, 500);
       }).catch((message) => {
         console.error("Failed to load Unity instance:", message);
+        const loadingText = document.getElementById('loading-text');
+        loadingText.textContent = 'Failed to load game. Please refresh and try again.';
+        loadingText.style.color = '#ff6b6b';
       });
     </script>
   </body>
