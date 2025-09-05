@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "523617432265",
+    "project_id": "pocketchamps",
+    "storage_bucket": "pocketchamps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523617432265:android:ce2e9e27bcd28556171318",
+        "android_client_info": {
+          "package_name": "com.pocketchamps.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523617432265-6bpul8500genqijt50psgcmbp0kpjbdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo1XbDQZYpgMmflJovJSrFBbW1qITbd4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523617432265-6bpul8500genqijt50psgcmbp0kpjbdn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "523617432265-415s99bjscfd2pkf9nrjmghon05vob9n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pocketchamps.game"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

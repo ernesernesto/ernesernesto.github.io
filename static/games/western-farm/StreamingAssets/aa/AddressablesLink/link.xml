@@ -1,0 +1,418 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Pinpin.ActorEM" preserve="all" />
+    <type fullname="Pinpin.AddCowToPaddockInteractable" preserve="all" />
+    <type fullname="Pinpin.AIFollowEntityEM" preserve="all" />
+    <type fullname="Pinpin.AIMovementEM" preserve="all" />
+    <type fullname="Pinpin.AnimalLeash" preserve="all" />
+    <type fullname="Pinpin.AnimalProductionGauge" preserve="all" />
+    <type fullname="Pinpin.AnimalVisualEM" preserve="all" />
+    <type fullname="Pinpin.AnimatedBillsPool" preserve="all" />
+    <type fullname="Pinpin.AnimatedCollectible" preserve="all" />
+    <type fullname="Pinpin.AnimatedVisual" preserve="all" />
+    <type fullname="Pinpin.AutoCameraTarget" preserve="all" />
+    <type fullname="Pinpin.BakeryConverter" preserve="all" />
+    <type fullname="Pinpin.BakeryVisual" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.BehaviourTree" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.BehaviourTreeRunnerEC" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.CheckDockInputHasCurrencyUnderThresholdNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.CheckDockInputIsFullNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.CheckInputHasCurrencyUnderThreshold" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.CheckInputIsFullNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.CheckPaddockInputHasCurrencyUnderThresholdNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.CheckPaddockInputIsFullNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.ClearVariableNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.DoTaskNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.FlattenVectorNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.ForceSuccessNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetDockInputTaskNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetDockInputTaskUnderThresholdNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetInputTaskForCurrencyNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetInputTaskForCurrencyUnderThresholdNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetPaddockInputTaskForCurrencyNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetPaddockInputTaskForCurrencyUnderThresholdNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetSpecificLowSellingPointTaskNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetTaskFromTypeAndEntityLayerNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetTaskFromTypeListNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GetTaskFromTypeNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GoToPositionNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.GoToTaskPoint" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.InvertNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.IsCurrencySmallerAmountInInputNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.IsEntityInventoryFullNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.PlayNoResourceAnimationNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.RandomVectorAroundTransformNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.RandomVectorNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.ReactiveSelectorNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.ReactiveSequenceNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.RepeatNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.RootNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.SelectorNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.SequenceNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.SetBoolNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.SetCurrencyTypeIfUnknownNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.SetCurrencyTypeNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.StoreWorkerSpawnPosNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.SubTreeNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.VariableExistsNode" preserve="all" />
+    <type fullname="Pinpin.BehaviourTree.WaitNode" preserve="all" />
+    <type fullname="Pinpin.Billboard" preserve="all" />
+    <type fullname="Pinpin.BridgeInteractable" preserve="all" />
+    <type fullname="Pinpin.CashierPointInteractable" preserve="all" />
+    <type fullname="Pinpin.CatchAnimalInteractable" preserve="all" />
+    <type fullname="Pinpin.CatchBehaviorEM" preserve="all" />
+    <type fullname="Pinpin.CharacterAnimationEM" preserve="all" />
+    <type fullname="Pinpin.CharacterMovementEM" preserve="all" />
+    <type fullname="Pinpin.ChasingRoamingAnimalEM" preserve="all" />
+    <type fullname="Pinpin.ChickenInPaddockEM" preserve="all" />
+    <type fullname="Pinpin.ChickenPaddockManager" preserve="all" />
+    <type fullname="Pinpin.ChickenSpawner" preserve="all" />
+    <type fullname="Pinpin.ChickenVisual" preserve="all" />
+    <type fullname="Pinpin.ColorChangerManager" preserve="all" />
+    <type fullname="Pinpin.ColorChangerPreset" preserve="all" />
+    <type fullname="Pinpin.ComingSoonInteractable" preserve="all" />
+    <type fullname="Pinpin.CornFieldManager" preserve="all" />
+    <type fullname="Pinpin.CounterDisplay" preserve="all" />
+    <type fullname="Pinpin.CounterDisplayBubble" preserve="all" />
+    <type fullname="Pinpin.CowInPaddockEM" preserve="all" />
+    <type fullname="Pinpin.CowPaddockManager" preserve="all" />
+    <type fullname="Pinpin.CowSpawner" preserve="all" />
+    <type fullname="Pinpin.CurrenciesUnlockerInteractable" preserve="all" />
+    <type fullname="Pinpin.CurrenciesUnlockerVisual" preserve="all" />
+    <type fullname="Pinpin.CurrencyConverterUI" preserve="all" />
+    <type fullname="Pinpin.CurrencyInteractionZone" preserve="all" />
+    <type fullname="Pinpin.CurrencyModel" preserve="all" />
+    <type fullname="Pinpin.CurrencySlotManager" preserve="all" />
+    <type fullname="Pinpin.CurrencyStockerInteractable" preserve="all" />
+    <type fullname="Pinpin.CurrencyUnlockerStructureBuild" preserve="all" />
+    <type fullname="Pinpin.CurrencyUnlockerStructureUpgrade" preserve="all" />
+    <type fullname="Pinpin.CustomerEM" preserve="all" />
+    <type fullname="Pinpin.CustomerLine" preserve="all" />
+    <type fullname="Pinpin.CustomerManager" preserve="all" />
+    <type fullname="Pinpin.CustomerMovementEM" preserve="all" />
+    <type fullname="Pinpin.CustomTutorialManagerMap001" preserve="all" />
+    <type fullname="Pinpin.CustomUpgrade" preserve="all" />
+    <type fullname="Pinpin.DialogueData" preserve="all" />
+    <type fullname="Pinpin.DistanceCheckNode" preserve="all" />
+    <type fullname="Pinpin.DockBoat" preserve="all" />
+    <type fullname="Pinpin.DockManager" preserve="all" />
+    <type fullname="Pinpin.DropRoamingAnimalInPaddockInteractable" preserve="all" />
+    <type fullname="Pinpin.DuckInPaddockEM" preserve="all" />
+    <type fullname="Pinpin.DuckPaddockManager" preserve="all" />
+    <type fullname="Pinpin.DuckSpawner" preserve="all" />
+    <type fullname="Pinpin.DuckVisual" preserve="all" />
+    <type fullname="Pinpin.EggToEggPackCurrencyConverter" preserve="all" />
+    <type fullname="Pinpin.EggToEggPackVisual" preserve="all" />
+    <type fullname="Pinpin.ElectricityStructure" preserve="all" />
+    <type fullname="Pinpin.ElectricityUIDisplay" preserve="all" />
+    <type fullname="Pinpin.EnterInteractionZone" preserve="all" />
+    <type fullname="Pinpin.Entity" preserve="all" />
+    <type fullname="Pinpin.EntityInventoryEM" preserve="all" />
+    <type fullname="Pinpin.FeedLobsterInteractable" preserve="all" />
+    <type fullname="Pinpin.Field" preserve="all" />
+    <type fullname="Pinpin.FieldInteractable" preserve="all" />
+    <type fullname="Pinpin.Fishermen" preserve="all" />
+    <type fullname="Pinpin.FishermenInteractable" preserve="all" />
+    <type fullname="Pinpin.FishermensManager" preserve="all" />
+    <type fullname="Pinpin.FishToGrilledFishCurrencyConverter" preserve="all" />
+    <type fullname="Pinpin.FishToGrilledFishVisual" preserve="all" />
+    <type fullname="Pinpin.ForwardMoverDefaultRotEM" preserve="all" />
+    <type fullname="Pinpin.ForwardMoverEM" preserve="all" />
+    <type fullname="Pinpin.FrenchMealConverter" preserve="all" />
+    <type fullname="Pinpin.FrenchMealConverterVisual" preserve="all" />
+    <type fullname="Pinpin.GetFieldTaskNode" preserve="all" />
+    <type fullname="Pinpin.GetSpecificSellingPointTaskNode" preserve="all" />
+    <type fullname="Pinpin.GraphicColorAnimation" preserve="all" />
+    <type fullname="Pinpin.HelperUnlocker" preserve="all" />
+    <type fullname="Pinpin.HelperUpgrade" preserve="all" />
+    <type fullname="Pinpin.HumanoidIkEM" preserve="all" />
+    <type fullname="Pinpin.Incubator" preserve="all" />
+    <type fullname="Pinpin.IncubatorAnimation" preserve="all" />
+    <type fullname="Pinpin.InstancedRenderer" preserve="all" />
+    <type fullname="Pinpin.InteractionCircularFill" preserve="all" />
+    <type fullname="Pinpin.InteractionWorldCanvas" preserve="all" />
+    <type fullname="Pinpin.InteractionZone" preserve="all" />
+    <type fullname="Pinpin.InteractionZoneStay" preserve="all" />
+    <type fullname="Pinpin.JapaneseMealConverter" preserve="all" />
+    <type fullname="Pinpin.JapaneseMealConverterVisual" preserve="all" />
+    <type fullname="Pinpin.JoystickMoverEC" preserve="all" />
+    <type fullname="Pinpin.LoadingElement" preserve="all" />
+    <type fullname="Pinpin.LobsterNet" preserve="all" />
+    <type fullname="Pinpin.LobsterNetManager" preserve="all" />
+    <type fullname="Pinpin.MainProgressionBranch" preserve="all" />
+    <type fullname="Pinpin.Map" preserve="all" />
+    <type fullname="Pinpin.Mission.MissionTarget" preserve="all" />
+    <type fullname="Pinpin.MoneyStackInteractable" preserve="all" />
+    <type fullname="Pinpin.MovementAnimationEC" preserve="all" />
+    <type fullname="Pinpin.MPImageColorChanger" preserve="all" />
+    <type fullname="Pinpin.NatureDestroyable" preserve="all" />
+    <type fullname="Pinpin.NatureInteractable" preserve="all" />
+    <type fullname="Pinpin.Orchard" preserve="all" />
+    <type fullname="Pinpin.PickupLobsterInteractable" preserve="all" />
+    <type fullname="Pinpin.PlantCutInteractable" preserve="all" />
+    <type fullname="Pinpin.PlantingPatch" preserve="all" />
+    <type fullname="Pinpin.PlayerActorEM" preserve="all" />
+    <type fullname="Pinpin.PlayerInventoryEM" preserve="all" />
+    <type fullname="Pinpin.PlayerStackEM" preserve="all" />
+    <type fullname="Pinpin.ProgressionManager" preserve="all" />
+    <type fullname="Pinpin.PutCurrencyInSlotInteractable" preserve="all" />
+    <type fullname="Pinpin.RenovationInteractable" preserve="all" />
+    <type fullname="Pinpin.RenovationInteractableVisual" preserve="all" />
+    <type fullname="Pinpin.ResizeConverterUIInteractable" preserve="all" />
+    <type fullname="Pinpin.ResizeUIInteractable" preserve="all" />
+    <type fullname="Pinpin.RockingChair" preserve="all" />
+    <type fullname="Pinpin.RunAwayFromPlayerNode" preserve="all" />
+    <type fullname="Pinpin.SeedGeneratorInteractable" preserve="all" />
+    <type fullname="Pinpin.SellingPoint" preserve="all" />
+    <type fullname="Pinpin.SellingPointInteractable" preserve="all" />
+    <type fullname="Pinpin.SellingPointIsAvailableNode" preserve="all" />
+    <type fullname="Pinpin.SetAnimationNode" preserve="all" />
+    <type fullname="Pinpin.SkinMeshBaker" preserve="all" />
+    <type fullname="Pinpin.SlotTransformPool" preserve="all" />
+    <type fullname="Pinpin.SoundInfo" preserve="all" />
+    <type fullname="Pinpin.Spreadsheet" preserve="all" />
+    <type fullname="Pinpin.StoryCharacter" preserve="all" />
+    <type fullname="Pinpin.StoryCharacterInteractable" preserve="all" />
+    <type fullname="Pinpin.SubProgressionBranch" preserve="all" />
+    <type fullname="Pinpin.TakeCurrencyFromSlotInteractable" preserve="all" />
+    <type fullname="Pinpin.TimeInteractionZone" preserve="all" />
+    <type fullname="Pinpin.Tool" preserve="all" />
+    <type fullname="Pinpin.ToolFactory" preserve="all" />
+    <type fullname="Pinpin.ToolFactoryUpgrade" preserve="all" />
+    <type fullname="Pinpin.ToolManagerEM" preserve="all" />
+    <type fullname="Pinpin.ToolUnlockerInteractable" preserve="all" />
+    <type fullname="Pinpin.ToolUpgrader" preserve="all" />
+    <type fullname="Pinpin.TrashInteractable" preserve="all" />
+    <type fullname="Pinpin.UI.AutoAnimateGraphicColor" preserve="all" />
+    <type fullname="Pinpin.UI.BlackVeilableCustomColor" preserve="all" />
+    <type fullname="Pinpin.UI.BlackVeilableGreyScaleImage" preserve="all" />
+    <type fullname="Pinpin.UI.BlackVeilableTMPFontAsset" preserve="all" />
+    <type fullname="Pinpin.UI.CompleteRTV" preserve="all" />
+    <type fullname="Pinpin.UI.CurrencyDisplay" preserve="all" />
+    <type fullname="Pinpin.UI.CurrencyDisplayHandler" preserve="all" />
+    <type fullname="Pinpin.UI.FlyingNumberManager" preserve="all" />
+    <type fullname="Pinpin.UI.IncubatorBubble" preserve="all" />
+    <type fullname="Pinpin.UI.LayoutMinSizeRTV" preserve="all" />
+    <type fullname="Pinpin.UI.LayoutPreferedSizeRTV" preserve="all" />
+    <type fullname="Pinpin.UI.MoveFadeRTV" preserve="all" />
+    <type fullname="Pinpin.UI.MultiCurrencyDisplay" preserve="all" />
+    <type fullname="Pinpin.UI.PinpinButton" preserve="all" />
+    <type fullname="Pinpin.UI.PinpinButtonBlackVeil" preserve="all" />
+    <type fullname="Pinpin.UI.PinpinButtonContent" preserve="all" />
+    <type fullname="Pinpin.UI.PinpinButtonWorldTouch" preserve="all" />
+    <type fullname="Pinpin.UI.RectTransformAnimation" preserve="all" />
+    <type fullname="Pinpin.UI.RequirementBubble" preserve="all" />
+    <type fullname="Pinpin.UI.ScaleRTV" preserve="all" />
+    <type fullname="Pinpin.UI.UIFlyingNumber" preserve="all" />
+    <type fullname="Pinpin.UI.UpgradeSpotTrigger" preserve="all" />
+    <type fullname="Pinpin.UI.WorldMessageDisplay" preserve="all" />
+    <type fullname="Pinpin.UpgradeBubble" preserve="all" />
+    <type fullname="Pinpin.WaterWheelInteractable" preserve="all" />
+    <type fullname="Pinpin.WheatFieldManager" preserve="all" />
+    <type fullname="Pinpin.WheatToFlourCurrencyConverter" preserve="all" />
+    <type fullname="Pinpin.WheatToFlourVisual" preserve="all" />
+    <type fullname="Pinpin.WorkerEM" preserve="all" />
+    <type fullname="Pinpin.WorkerMovementEM" preserve="all" />
+    <type fullname="Pinpin.WorkerStackEM" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.CasualGame.UIParticleSystem" preserve="all" />
+    <type fullname="Pinpin.AnimalCurrencyProductionSlots" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.AnimalEatSlots" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataAnimator" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataEntity" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataFloat" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataTransform" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataVariable" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataVector3" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.Datas" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.CameraTarget" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.CurrencyType" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.DialogueData/DialogueStep" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.EntityLayer" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Feedback" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.ForwardMoverEM/AlignMethod" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.ForwardMoverEM/SmoothMethod" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.GraphicColorAnimation/AnimationType" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.GraphicColorAnimation/TweenConfig" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.HumanoidIkEM/BodyPartsTransforms" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.InstancedRenderer/SerializedPropertyValue" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Mission.CharacterContext" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Mission.CurrencyContext" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Mission.GenericContext" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Mission.PlayerContext" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Mission.StructureContext" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.PositionHandler" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.ProgressionManager/CurrenciesUnlockerConfig" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.ProgressionManager/UnlockerConfigValue" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.SellingType" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.SlotManagerWithType" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.SoundInfo/RandomClip" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Spring" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.StructureUpgrade" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.StructureUpgrade/StructureInputSettings" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.StructureUpgrade/StructureOutputSettings" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.Tool/Type" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.UI.ARectTransformVisibility/TweenConfig" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.UI.CompleteRTV/RectTfmSnapInfo" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.UI.FlyingNumberManager/FlyingNumberConfig" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.UI.RectTransformAnimation/TweenConfig" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.UnlockableSavedInfos" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.UnlockableState" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.ZoomSettings" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.CustomerEM/BodypartWrapper" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataAInteractable" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataBehaviourTree" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataBool" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataCurrencyType" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataEntityLayer" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataInt" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.BehaviourTree.DataParticleSystem" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.DataTaskType" preserve="nothing" serialized="true" />
+    <type fullname="Pinpin.DataTaskTypeList" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Dreamteck.Splines, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Dreamteck.Splines.Node" preserve="all" />
+    <type fullname="Dreamteck.Splines.SplineComputer" preserve="all" />
+    <type fullname="Dreamteck.Splines.TubeGenerator" preserve="all" />
+    <type fullname="Dreamteck.Splines.ColorModifier" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.Node/Connection" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.OffsetModifier" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.RotationModifier" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.SizeModifier" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.Spline" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.SplineComputer/NodeLink" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.SplinePoint" preserve="nothing" serialized="true" />
+    <type fullname="Dreamteck.Splines.SplineSample" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MeshBakerCore, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MB3_MeshBaker" preserve="all" />
+    <type fullname="DigitalOpus.MB.Core.MB3_MeshCombinerSingle" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MPUIKit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MPUIKIT.MPImage" preserve="all" />
+    <type fullname="MPUIKIT.Circle" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.GradientEffect" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Hexagon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.NStarPolygon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Pentagon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Rectangle" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Triangle" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="ParticleImage, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AssetKits.ParticleImage.ParticleImage" preserve="all" />
+    <type fullname="AssetKits.ParticleImage.Burst" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.Module" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SeparatedMinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="AssetKits.ParticleImage.SpeedRange" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
+    <type fullname="UnityEngine.AI.NavMeshObstacle" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.ParentConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxCurve" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.ParticleSystem/MinMaxGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.PhysicsMaterial" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Pinpin.Serialization">
+    <type fullname="Pinpin.SerializableDictionary`2" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>

@@ -1,0 +1,65 @@
+{
+  "project_info": {
+    "project_number": "897627007519",
+    "project_id": "merge-inn",
+    "storage_bucket": "merge-inn.appspot.com",
+    "firebase_url": "https://merge-inn.firebaseio.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897627007519:android:d66a5b3a64c4a106b5032a",
+        "android_client_info": {
+          "package_name": "com.mergegame.merge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897627007519-2eppcltv1ghtotaae91d1iqhfrfog7ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mergegame.merge",
+            "certificate_hash": "df113137035d6ca5faea71743c028914aeb1ccfb"
+          }
+        },
+        {
+          "client_id": "897627007519-l79u8grl2q833ehgtgiqoq491nipesd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mergegame.merge",
+            "certificate_hash": "ee09553ccb6a1515f5a62a62c57e19d6039703b8"
+          }
+        },
+        {
+          "client_id": "897627007519-bhn1dni6at4ufms5i1acjujnngfj92t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOzPl8dPCDdRYp82OUng5CZTiKJuX3MHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897627007519-bhn1dni6at4ufms5i1acjujnngfj92t1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897627007519-vo3k1d3fs4ugfrtsvr2b6mo8v0jgq9a6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mergegame.merge",
+                "app_store_id": "1541160673"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8308748380805694~7982521860"
+    }
+  ],
+  "configuration_version": "1"
+}

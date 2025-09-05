@@ -1,8 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on ernesernesto io</title><link>http://ernesernesto.github.io/pages/</link><description>Recent content in Pages on ernesernesto io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://ernesernesto.github.io/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>Executes</title><link>http://ernesernesto.github.io/pages/executes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://ernesernesto.github.io/pages/executes/</guid><description>Some of the games that I&amp;rsquo;ve worked on listed below, for complete work history, see here
-Games Cash Inc, Fame and Fortune Idle clicker game, reached 50+ Million Downloads on iOS and Android with 4.7 ratings and 1.4 Million reviews. Google PlayStore Editors Choice Made with Unity. Download link Android, iOS
-Serenity&amp;rsquo;s Spa: Beauty Salon Time management game with wellness and spa theme, made with Unity. Download link Android, iOS</description></item><item><title>Info</title><link>http://ernesernesto.github.io/pages/info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://ernesernesto.github.io/pages/info/</guid><description>Hi! My name is Ernes Budiman and I&amp;rsquo;ve been a game developer since 2010. I started in the industry working on J2ME phones, early Android, and the discontinued Windows Phone.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on ernesernesto io</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on ernesernesto io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Executes</title>
+      <link>http://localhost:1313/pages/executes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/executes/</guid>
+      
+      <description>I&amp;rsquo;ve ported more than 50+ mobile games to Web, here are some games that I&amp;rsquo;ve ported, playable directly on your browser
+Coffee Golf
+Word Venture
+Western Farm
+Pocket Champs
+Jigsort Puzzles
+Merge Inn
+The rest of the games that I&amp;rsquo;ve worked on listed below, for complete work history, see here
+Games Cash Inc, Fame and Fortune Idle clicker game, reached 50+ Million Downloads on iOS and Android with 4.7 ratings and 1.</description>
+      
+    </item>
+    
+    <item>
+      <title>Info</title>
+      <link>http://localhost:1313/pages/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/info/</guid>
+      
+      <description>Hi! My name is Ernes Budiman and I&amp;rsquo;ve been a game developer since 2010. I started in the industry working on J2ME phones, early Android, and the discontinued Windows Phone.
 Currently working as a Studio Lead Developer at Alegrium working on mobile games for ios and android.
 I&amp;rsquo;ve worked, on some mobile game stuffs.
-Get in touch</description></item><item><title>Reads</title><link>http://ernesernesto.github.io/pages/reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://ernesernesto.github.io/pages/reads/</guid><description>This page list a collection of rss feeds from other dev and conference talks that I&amp;rsquo;ve gathered for a while
+Get in touch</description>
+      
+    </item>
+    
+    <item>
+      <title>Reads</title>
+      <link>http://localhost:1313/pages/reads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/reads/</guid>
+      
+      <description>This page list a collection of rss feeds from other dev and conference talks that I&amp;rsquo;ve gathered for a while
 Other Dev RSS&amp;rsquo;s Collection of good reads (a.k.a Dirt Cheap Poor Man&amp;rsquo;s RSS Feed), this list is updated automatically everyday with github workflows
-How much should we freak out about Silksong &amp;ndash; https://howtomarketagame.com Graphics Programming weekly - Issue 406 - August 31st, 2025 &amp;ndash; https://www.jendrikillner.com/ GPU utilisation and performance improvements &amp;ndash; https://interplayoflight.</description></item></channel></rss>
+How much should we freak out about Silksong &amp;ndash; https://howtomarketagame.com Graphics Programming weekly - Issue 406 - August 31st, 2025 &amp;ndash; https://www.jendrikillner.com/ GPU utilisation and performance improvements &amp;ndash; https://interplayoflight.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

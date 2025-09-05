@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530098001128",
+    "project_id": "vocabventure-687c9",
+    "storage_bucket": "vocabventure-687c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530098001128:android:216df425ecb261a155655d",
+        "android_client_info": {
+          "package_name": "com.hideseek.vocabventure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxNj-KZk9bEWlnODRnhZD9xA1TNlnfDZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

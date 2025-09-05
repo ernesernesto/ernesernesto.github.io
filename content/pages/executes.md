@@ -3,7 +3,22 @@ title = 'Executes'
 toc = false
 +++
 
-Some of the games that I've worked on listed below, for complete work history, see [here](https://drive.google.com/file/d/1ODyvAy7Hbshpp3kWC9cnYE0UBE5To3Jn/view?usp=sharing)
+I've ported more than 50+ mobile games to Web, here are some games that I've ported, playable directly on your browser
+
+[Coffee Golf](/games/coffee-golf/game.html)
+
+[Word Venture](/games/word-venture/game.html)
+
+[Western Farm](/games/western-farm/game.html)
+
+[Pocket Champs](/games/pocket-champs/game.html)
+
+[Jigsort Puzzles](/games/jigsort-puzzles/game.html)
+
+[Merge Inn](/games/merge-inn/game.html)
+
+
+The rest of the games that I've worked on listed below, for complete work history, see [here](https://drive.google.com/file/d/1ODyvAy7Hbshpp3kWC9cnYE0UBE5To3Jn/view?usp=sharing)
 
 # Games
 ## Cash Inc, Fame and Fortune
