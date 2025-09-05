@@ -263,10 +263,13 @@
       // Loading Progress Management
       let totalBytes = 0;
       let loadedBytes = 0;
+      let completedFiles = 0;
+      const totalFiles = 3;
+      
       const fileInfo = {
-        'coffee-golf.data': { loaded: 0, total: 0 },
-        'coffee-golf.framework.js': { loaded: 0, total: 0 },
-        'coffee-golf.wasm': { loaded: 0, total: 0 }
+        'coffee-golf.data': { loaded: 0, total: 0, completed: false },
+        'coffee-golf.framework.js': { loaded: 0, total: 0, completed: false },
+        'coffee-golf.wasm': { loaded: 0, total: 0, completed: false }
       };
 
       function updateLoadingProgress() {
@@ -275,14 +278,25 @@
         const loadingDetails = document.getElementById('loading-details');
         const fileProgress = document.getElementById('file-progress');
 
-        const percentage = totalBytes > 0 ? Math.round((loadedBytes / totalBytes) * 100) : 0;
+        let percentage;
+        if (totalBytes > 0) {
+          percentage = Math.round((loadedBytes / totalBytes) * 100);
+        } else {
+          // Fallback: use file count progress
+          percentage = Math.round((completedFiles / totalFiles) * 100);
+        }
         
         progressBar.style.width = percentage + '%';
         loadingDetails.textContent = percentage + '% Complete';
         
         const loadedMB = (loadedBytes / (1024 * 1024)).toFixed(1);
         const totalMB = (totalBytes / (1024 * 1024)).toFixed(1);
-        fileProgress.textContent = `${loadedMB} MB / ${totalMB} MB`;
+        
+        if (totalBytes > 0) {
+          fileProgress.textContent = `${loadedMB} MB / ${totalMB} MB`;
+        } else {
+          fileProgress.textContent = `${completedFiles} / ${totalFiles} files loaded`;
+        }
 
         // Update loading text based on progress
         if (percentage === 0) {
@@ -302,6 +316,87 @@
         }, 500);
       }
 
+      // Override fetch to track downloads
+      const originalFetch = window.fetch;
+      window.fetch = function(url, options) {
+        const fileName = url.split('/').pop();
+        
+        if (fileInfo[fileName]) {
+          console.log(`Starting download: ${fileName}`);
+          
+          return originalFetch(url, options).then(response => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const contentLength = response.headers.get('content-length');
+            if (contentLength) {
+              fileInfo[fileName].total = parseInt(contentLength, 10);
+              totalBytes = Object.values(fileInfo).reduce((sum, file) => sum + file.total, 0);
+              updateLoadingProgress();
+            }
+
+            const reader = response.body.getReader();
+            const stream = new ReadableStream({
+              start(controller) {
+                function pump() {
+                  return reader.read().then(({ done, value }) => {
+                    if (done) {
+                      fileInfo[fileName].completed = true;
+                      completedFiles = Object.values(fileInfo).filter(f => f.completed).length;
+                      console.log(`Completed: ${fileName}`);
+                      updateLoadingProgress();
+                      controller.close();
+                      return;
+                    }
+
+                    fileInfo[fileName].loaded += value.byteLength;
+                    loadedBytes = Object.values(fileInfo).reduce((sum, file) => sum + file.loaded, 0);
+                    updateLoadingProgress();
+
+                    controller.enqueue(value);
+                    return pump();
+                  });
+                }
+                return pump();
+              }
+            });
+
+            return new Response(stream, {
+              headers: response.headers,
+              status: response.status,
+              statusText: response.statusText
+            });
+          });
+        }
+        
+        return originalFetch(url, options);
+      };
+
+      // Simulate progress updates in case fetch override doesn't work
+      let simulatedProgress = 0;
+      const progressSimulation = setInterval(() => {
+        if (simulatedProgress < 95) {
+          simulatedProgress += Math.random() * 15;
+          if (simulatedProgress > 95) simulatedProgress = 95;
+          
+          // Only use simulation if no real progress
+          if (loadedBytes === 0) {
+            const progressBar = document.getElementById('progress-bar');
+            const loadingDetails = document.getElementById('loading-details');
+            const fileProgress = document.getElementById('file-progress');
+            
+            progressBar.style.width = simulatedProgress + '%';
+            loadingDetails.textContent = Math.round(simulatedProgress) + '% Complete';
+            fileProgress.textContent = 'Loading game files...';
+            
+            if (simulatedProgress > 30) {
+              document.getElementById('loading-text').textContent = 'Loading game files...';
+            }
+          }
+        }
+      }, 500);
+
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
         dataUrl: "Build/coffee-golf.data",
@@ -312,36 +407,23 @@
         productName: "Coffee Golf",
         productVersion: "1.0.0",
         matchWebGLToCanvasSize: true,
-      }, (progress) => {
-        // Progress callback
-        const fileName = progress.url ? progress.url.split('/').pop() : 'unknown';
-        
-        if (fileInfo[fileName]) {
-          // Update individual file progress
-          const prevLoaded = fileInfo[fileName].loaded;
-          fileInfo[fileName].loaded = progress.loaded || 0;
-          fileInfo[fileName].total = progress.total || 0;
-          
-          // Update totals
-          loadedBytes += (fileInfo[fileName].loaded - prevLoaded);
-          
-          // Recalculate total bytes if we have new info
-          totalBytes = Object.values(fileInfo).reduce((sum, file) => sum + file.total, 0);
-        } else {
-          // Fallback for unknown files
-          loadedBytes = progress.loaded || 0;
-          totalBytes = progress.total || 1;
-        }
-        
-        updateLoadingProgress();
-        
-        console.log(`Loading progress: ${fileName} - ${progress.loaded}/${progress.total} bytes`);
       }).then((unityInstance) => {
         console.log("Unity instance loaded successfully");
-        // Small delay to show 100% completion
-        setTimeout(hideLoadingScreen, 500);
+        clearInterval(progressSimulation);
+        
+        // Show 100% completion
+        const progressBar = document.getElementById('progress-bar');
+        const loadingDetails = document.getElementById('loading-details');
+        const loadingText = document.getElementById('loading-text');
+        
+        progressBar.style.width = '100%';
+        loadingDetails.textContent = '100% Complete';
+        loadingText.textContent = 'Starting game...';
+        
+        setTimeout(hideLoadingScreen, 1000);
       }).catch((message) => {
         console.error("Failed to load Unity instance:", message);
+        clearInterval(progressSimulation);
         const loadingText = document.getElementById('loading-text');
         loadingText.textContent = 'Failed to load game. Please refresh and try again.';
         loadingText.style.color = '#ff6b6b';
