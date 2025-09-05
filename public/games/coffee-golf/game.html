@@ -146,7 +146,7 @@
             <div class="progress-bar" id="progress-bar"></div>
           </div>
           <div class="loading-details" id="loading-details">0% Complete</div>
-          <div class="file-progress" id="file-progress">Starting download...</div>
+          <div class="file-progress" id="file-progress">0 MB / 0 MB</div>
           <div class="loading-spinner"></div>
         </div>
       </div>
@@ -260,110 +260,47 @@
         setTimeout(setupCanvas, 100);
       });
 
-      // Progress tracking
-      let currentProgress = 0;
-      let filesLoaded = 0;
-      let isLoading = true;
-      const totalFiles = 3;
-      
-      function updateProgress(progress, message) {
-        if (!isLoading) return;
+      // Loading Progress Management
+      let totalBytes = 0;
+      let loadedBytes = 0;
+      const fileInfo = {
+        'coffee-golf.data': { loaded: 0, total: 0 },
+        'coffee-golf.framework.js': { loaded: 0, total: 0 },
+        'coffee-golf.wasm': { loaded: 0, total: 0 }
+      };
+
+      function updateLoadingProgress() {
+        const progressBar = document.getElementById('progress-bar');
+        const loadingText = document.getElementById('loading-text');
+        const loadingDetails = document.getElementById('loading-details');
+        const fileProgress = document.getElementById('file-progress');
+
+        const percentage = totalBytes > 0 ? Math.round((loadedBytes / totalBytes) * 100) : 0;
         
-        currentProgress = Math.min(progress, 100);
+        progressBar.style.width = percentage + '%';
+        loadingDetails.textContent = percentage + '% Complete';
         
-        document.getElementById('progress-bar').style.width = currentProgress + '%';
-        document.getElementById('loading-details').textContent = currentProgress + '% Complete';
-        
-        if (message) {
-          document.getElementById('loading-text').textContent = message;
-        }
-        
-        if (currentProgress < 70) {
-          document.getElementById('file-progress').textContent = `Loading game files... (${filesLoaded}/${totalFiles})`;
-        } else if (currentProgress < 100) {
-          document.getElementById('file-progress').textContent = 'Processing and starting game...';
+        const loadedMB = (loadedBytes / (1024 * 1024)).toFixed(1);
+        const totalMB = (totalBytes / (1024 * 1024)).toFixed(1);
+        fileProgress.textContent = `${loadedMB} MB / ${totalMB} MB`;
+
+        // Update loading text based on progress
+        if (percentage === 0) {
+          loadingText.textContent = 'Preparing to load...';
+        } else if (percentage < 100) {
+          loadingText.textContent = 'Loading game files...';
         } else {
-          document.getElementById('file-progress').textContent = 'Ready to play!';
+          loadingText.textContent = 'Starting game...';
         }
       }
 
       function hideLoadingScreen() {
-        isLoading = false;
         const loadingScreen = document.getElementById('loading-screen');
         loadingScreen.classList.add('hidden');
         setTimeout(() => {
           loadingScreen.style.display = 'none';
         }, 500);
       }
-
-      // Track fetch requests
-      const originalFetch = window.fetch;
-      const trackedFiles = ['coffee-golf.data', 'coffee-golf.framework.js', 'coffee-golf.wasm'];
-      const loadedFiles = new Set();
-      
-      window.fetch = function(url, options) {
-        const fileName = url.split('/').pop();
-        
-        if (trackedFiles.includes(fileName) && !loadedFiles.has(fileName)) {
-          loadedFiles.add(fileName);
-          filesLoaded = loadedFiles.size;
-          
-          const progress = Math.min(60, (filesLoaded / totalFiles) * 60);
-          updateProgress(progress, 'Downloading game files...');
-          
-          console.log(`Loading: ${fileName} (${filesLoaded}/${totalFiles})`);
-        }
-        
-        return originalFetch(url, options);
-      };
-
-      // Start loading simulation
-      updateProgress(5, 'Preparing to load...');
-      
-      // Progress simulation for smoother experience
-      let simulationProgress = 0;
-      const progressInterval = setInterval(() => {
-        if (filesLoaded === 0 && simulationProgress < 30) {
-          simulationProgress += 2;
-          updateProgress(simulationProgress, 'Connecting to server...');
-        } else if (filesLoaded > 0 && filesLoaded < totalFiles) {
-          const baseProgress = (filesLoaded / totalFiles) * 60;
-          const extraProgress = Math.min(10, simulationProgress * 0.5);
-          updateProgress(baseProgress + extraProgress, 'Downloading game files...');
-          simulationProgress++;
-        } else if (filesLoaded === totalFiles) {
-          clearInterval(progressInterval);
-          
-          // Processing phase
-          let processingProgress = 60;
-          const processingInterval = setInterval(() => {
-            processingProgress += 2;
-            if (processingProgress >= 95) {
-              clearInterval(processingInterval);
-              updateProgress(95, 'Starting game...');
-            } else {
-              updateProgress(processingProgress, 'Processing game files...');
-            }
-          }, 100);
-        }
-      }, 200);
-
-      // Fallback for cached files
-      setTimeout(() => {
-        if (filesLoaded === 0) {
-          console.log('No files detected - assuming cached');
-          filesLoaded = totalFiles;
-          updateProgress(60, 'Loading from cache...');
-          clearInterval(progressInterval);
-          
-          setTimeout(() => {
-            updateProgress(85, 'Processing cached files...');
-            setTimeout(() => {
-              updateProgress(95, 'Starting game...');
-            }, 500);
-          }, 300);
-        }
-      }, 2000);
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
@@ -375,18 +312,39 @@
         productName: "Coffee Golf",
         productVersion: "1.0.0",
         matchWebGLToCanvasSize: true,
+      }, (progress) => {
+        // Progress callback
+        const fileName = progress.url ? progress.url.split('/').pop() : 'unknown';
+        
+        if (fileInfo[fileName]) {
+          // Update individual file progress
+          const prevLoaded = fileInfo[fileName].loaded;
+          fileInfo[fileName].loaded = progress.loaded || 0;
+          fileInfo[fileName].total = progress.total || 0;
+          
+          // Update totals
+          loadedBytes += (fileInfo[fileName].loaded - prevLoaded);
+          
+          // Recalculate total bytes if we have new info
+          totalBytes = Object.values(fileInfo).reduce((sum, file) => sum + file.total, 0);
+        } else {
+          // Fallback for unknown files
+          loadedBytes = progress.loaded || 0;
+          totalBytes = progress.total || 1;
+        }
+        
+        updateLoadingProgress();
+        
+        console.log(`Loading progress: ${fileName} - ${progress.loaded}/${progress.total} bytes`);
       }).then((unityInstance) => {
         console.log("Unity instance loaded successfully");
-        clearInterval(progressInterval);
-        
-        updateProgress(100, 'Starting game...');
-        setTimeout(hideLoadingScreen, 1000);
+        // Small delay to show 100% completion
+        setTimeout(hideLoadingScreen, 500);
       }).catch((message) => {
         console.error("Failed to load Unity instance:", message);
-        clearInterval(progressInterval);
-        
-        document.getElementById('loading-text').textContent = 'Failed to load game. Please refresh and try again.';
-        document.getElementById('loading-text').style.color = '#ff6b6b';
+        const loadingText = document.getElementById('loading-text');
+        loadingText.textContent = 'Failed to load game. Please refresh and try again.';
+        loadingText.style.color = '#ff6b6b';
       });
     </script>
   </body>
