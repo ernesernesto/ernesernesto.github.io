@@ -42,7 +42,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 397 - June 29th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-397/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 396 - June 22nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-396/) -- https://www.jendrikillner.com/
 - [“I saw the best minds of my generation destroyed by madness”](https://www.realtimerendering.com/blog/i-saw-the-best-minds-of-my-generation-destroyed-by-madness/) -- https://www.realtimerendering.com/blog
-- [Graphics Programming weekly - Issue 395 - June 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-395/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
