@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The performance impact of vertex shader exports](https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/) -- https://interplayoflight.wordpress.com
 - [10 Reasons why you shouldn’t delay contacting content creators](https://howtomarketagame.com/2025/09/16/10-reasons-why-you-shouldnt-hold-back-on-contacting-content-creators/?utm_source=rss&utm_medium=rss&utm_campaign=10-reasons-why-you-shouldnt-hold-back-on-contacting-content-creators) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 408 - September 14th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-408/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 407 - September 7th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-407/) -- https://www.jendrikillner.com/
