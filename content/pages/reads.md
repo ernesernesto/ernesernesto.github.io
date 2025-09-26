@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [A deep dive into the games of the spring showcases](https://howtomarketagame.com/2025/09/25/a-deep-dive-in-the-games-of-the-spring-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=a-deep-dive-in-the-games-of-the-spring-showcases) -- https://howtomarketagame.com
 - [What are game showcases?](https://howtomarketagame.com/2025/09/23/what-are-game-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-game-showcases) -- https://howtomarketagame.com
 - [The performance impact of vertex shader exports](https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 409 - September 21st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-409/) -- https://www.jendrikillner.com/
@@ -43,7 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 398 - July 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-398/) -- https://www.jendrikillner.com/
 - [The rise of Whatever](https://eev.ee/blog/2025/07/03/the-rise-of-whatever/) -- https://eev.ee/
-- [Crafty Buildy Strategy Simulation Buyers Guide](https://howtomarketagame.com/2025/07/02/crafty-buildy-strategy-simulation-buyers-guide/?utm_source=rss&utm_medium=rss&utm_campaign=crafty-buildy-strategy-simulation-buyers-guide) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 397 - June 29th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-397/) -- https://www.jendrikillner.com/
 
 ## Talks
