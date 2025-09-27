@@ -44,7 +44,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 398 - July 6th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-398/) -- https://www.jendrikillner.com/
 - [The rise of Whatever](https://eev.ee/blog/2025/07/03/the-rise-of-whatever/) -- https://eev.ee/
-- [Graphics Programming weekly - Issue 397 - June 29th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-397/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
