@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        const REDIRECT_URL = "https://github.com/ernesernesto";
+        document.write('<meta http-equiv="refresh" content="0; url=' + REDIRECT_URL + '">');
+    </script>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #000000;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            border-top: 4px solid #ffffff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <p>Redirecting you now...</p>
+        <p><small>If you're not redirected, <a href="#" id="manual-link">click here</a></small></p>
+    </div>
+    <script>
+        // Update manual link and redirect
+        document.getElementById('manual-link').href = REDIRECT_URL;
+        window.location.href = REDIRECT_URL;
+    </script>
+</body>
+</html>
