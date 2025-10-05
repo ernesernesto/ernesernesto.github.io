@@ -40,7 +40,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 400 - July 20th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-400/) -- https://www.jendrikillner.com/
 - [Can you market a game with zero following?](https://howtomarketagame.com/2025/07/15/can-you-market-a-game-with-zero-following/?utm_source=rss&utm_medium=rss&utm_campaign=can-you-market-a-game-with-zero-following) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 399 - July 13th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-399/) -- https://www.jendrikillner.com/
-- [Content creator](https://fgiesen.wordpress.com/2025/07/06/content-creator/) -- https://fgiesen.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
