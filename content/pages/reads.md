@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Using Information Entropy To Make Choices / Choose Experiments](https://blog.demofox.org/2025/10/05/using-information-entropy-to-make-choices-choose-experiments/) -- https://blog.demofox.org
 - [Ghost stories to scare indie developers](https://howtomarketagame.com/2025/09/30/ghost-stories-to-scare-indie-developers/?utm_source=rss&utm_medium=rss&utm_campaign=ghost-stories-to-scare-indie-developers) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 410 - September 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-410/) -- https://www.jendrikillner.com/
 - [A deep dive into the games of the spring showcases](https://howtomarketagame.com/2025/09/25/a-deep-dive-in-the-games-of-the-spring-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=a-deep-dive-in-the-games-of-the-spring-showcases) -- https://howtomarketagame.com
