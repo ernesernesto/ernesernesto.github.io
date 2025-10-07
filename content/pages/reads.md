@@ -32,6 +32,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [SIGGRAPH 2025 Course Notes- Path Guiding Surfaces and Volumes in Disney's Hyperion Renderer- A Case Study](https://blog.yiningkarlli.com/2025/08/path-guiding-in-production.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 403 - August 10th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-403/) -- https://www.jendrikillner.com/
 - [SIGGRAPH 2025 Talk- A Texture Streaming Pipeline for Real-Time GPU Ray Tracing](https://blog.yiningkarlli.com/2025/08/texture-streaming-pipeline-for-real-time-gpu-ray-tracing.html) -- https://blog.yiningkarlli.com/
+- [Advances in RTR Course 2025 page is up](https://www.realtimerendering.com/blog/advances-in-rtr-course-2025-page-is-up/) -- https://www.realtimerendering.com/blog
 - [2025 Q2 games that are selling](https://howtomarketagame.com/2025/08/04/2025-q2-games-that-are-selling/?utm_source=rss&utm_medium=rss&utm_campaign=2025-q2-games-that-are-selling) -- https://howtomarketagame.com
 - [Toroidally Progressive Stratified Sampling in 1D](https://blog.demofox.org/2025/08/03/toroidally-progressive-stratified-sampling-in-1d/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 402 - August 3rd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-402/) -- https://www.jendrikillner.com/
