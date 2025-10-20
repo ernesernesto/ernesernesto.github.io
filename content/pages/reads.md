@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 413 - October 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-413/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 412 - October 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-412/) -- https://www.jendrikillner.com/
 - [Finding a VS Code Memory Leak](https://randomascii.wordpress.com/2025/10/09/finding-a-vs-code-memory-leak/) -- https://randomascii.wordpress.com
 - [Using Information Entropy To Make Choices / Choose Experiments](https://blog.demofox.org/2025/10/05/using-information-entropy-to-make-choices-choose-experiments/) -- https://blog.demofox.org
