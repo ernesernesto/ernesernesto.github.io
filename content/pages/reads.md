@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Reflections on My Tech Career – Part 1](https://randomascii.wordpress.com/2025/10/22/reflections-on-my-tech-career-part-1/) -- https://randomascii.wordpress.com
 - [Steam Next Fest October 2025: Checking in on the games that broke through](https://howtomarketagame.com/2025/10/20/steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 413 - October 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-413/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 412 - October 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-412/) -- https://www.jendrikillner.com/
@@ -27,6 +28,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [GPU utilisation and performance improvements](https://interplayoflight.wordpress.com/2025/08/29/gpu-utilisation-and-performance-improvements/) -- https://interplayoflight.wordpress.com
 - [The demo effect: From 7000 wishlists to 42,000](https://howtomarketagame.com/2025/08/26/the-demo-effect-from-7000-wishlists-to-42000/?utm_source=rss&utm_medium=rss&utm_campaign=the-demo-effect-from-7000-wishlists-to-42000) -- https://howtomarketagame.com
 - [Detecting reads from uninitialised heap memory in C++ programs at runtime](http://www.forwardscattering.org/post/71) -- http://www.forwardscattering.org/
+- [This many points is surely out of scope!](https://aras-p.info/blog/2025/08/24/This-many-points-is-surely-out-of-scope/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 405 - August 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-405/) -- https://www.jendrikillner.com/
 - [Arc Troopers: Adventures in Async Rust](https://bitbashing.io/async-arc.html) -- https://bitbashing.io/
 - [Derivatives, Gradients, Jacobians and Hessians – Oh My!](https://blog.demofox.org/2025/08/16/derivatives-gradients-jacobians-and-hessians-oh-my/) -- https://blog.demofox.org
