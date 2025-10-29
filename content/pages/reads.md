@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 414 - October 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-414/) -- https://www.jendrikillner.com/
 - [Reflections on My Tech Career – Part 1](https://randomascii.wordpress.com/2025/10/22/reflections-on-my-tech-career-part-1/) -- https://randomascii.wordpress.com
 - [Steam Next Fest October 2025: Checking in on the games that broke through](https://howtomarketagame.com/2025/10/20/steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 413 - October 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-413/) -- https://www.jendrikillner.com/
