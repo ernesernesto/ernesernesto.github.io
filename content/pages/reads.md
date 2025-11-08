@@ -40,7 +40,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Gnomes: Tower Defense with 10-month dev time hits $367,484](https://howtomarketagame.com/2025/08/13/gnomes-tower-defense-with-10-month-dev-time-hits-367484/?utm_source=rss&utm_medium=rss&utm_campaign=gnomes-tower-defense-with-10-month-dev-time-hits-367484) -- https://howtomarketagame.com
 - [SIGGRAPH 2025 Course Notes- Path Guiding Surfaces and Volumes in Disney's Hyperion Renderer- A Case Study](https://blog.yiningkarlli.com/2025/08/path-guiding-in-production.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 403 - August 10th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-403/) -- https://www.jendrikillner.com/
-- [SIGGRAPH 2025 Talk- A Texture Streaming Pipeline for Real-Time GPU Ray Tracing](https://blog.yiningkarlli.com/2025/08/texture-streaming-pipeline-for-real-time-gpu-ray-tracing.html) -- https://blog.yiningkarlli.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
