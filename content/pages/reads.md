@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The RSS Librarian](https://www.tobias-franke.eu/log/2025/11/08/the-rss-librarian.html) -- https://www.tobias-franke.eu/
 - [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 415 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-415/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 414 - October 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-414/) -- https://www.jendrikillner.com/
@@ -31,7 +32,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [GPU utilisation and performance improvements](https://interplayoflight.wordpress.com/2025/08/29/gpu-utilisation-and-performance-improvements/) -- https://interplayoflight.wordpress.com
 - [The demo effect: From 7000 wishlists to 42,000](https://howtomarketagame.com/2025/08/26/the-demo-effect-from-7000-wishlists-to-42000/?utm_source=rss&utm_medium=rss&utm_campaign=the-demo-effect-from-7000-wishlists-to-42000) -- https://howtomarketagame.com
 - [Detecting reads from uninitialised heap memory in C++ programs at runtime](http://www.forwardscattering.org/post/71) -- http://www.forwardscattering.org/
-- [This many points is surely out of scope!](https://aras-p.info/blog/2025/08/24/This-many-points-is-surely-out-of-scope/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 405 - August 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-405/) -- https://www.jendrikillner.com/
 - [Arc Troopers: Adventures in Async Rust](https://bitbashing.io/async-arc.html) -- https://bitbashing.io/
 - [Derivatives, Gradients, Jacobians and Hessians – Oh My!](https://blog.demofox.org/2025/08/16/derivatives-gradients-jacobians-and-hessians-oh-my/) -- https://blog.demofox.org
