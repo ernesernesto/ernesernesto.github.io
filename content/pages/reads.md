@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Reflections on My Tech Career – Part 2](https://randomascii.wordpress.com/2025/11/10/reflections-on-my-tech-career-part-2/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly - Issue 416 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-416/) -- https://www.jendrikillner.com/
 - [The RSS Librarian](https://www.tobias-franke.eu/log/2025/11/08/the-rss-librarian.html) -- https://www.tobias-franke.eu/
 - [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
