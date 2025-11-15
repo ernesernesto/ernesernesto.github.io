@@ -43,7 +43,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Arc Troopers: Adventures in Async Rust](https://bitbashing.io/async-arc.html) -- https://bitbashing.io/
 - [Derivatives, Gradients, Jacobians and Hessians – Oh My!](https://blog.demofox.org/2025/08/16/derivatives-gradients-jacobians-and-hessians-oh-my/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 404 - August 17th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-404/) -- https://www.jendrikillner.com/
-- [The sokol-gfx resource view update.](https://floooh.github.io/2025/08/17/sokol-gfx-view-update.html) -- https://floooh.github.io/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
