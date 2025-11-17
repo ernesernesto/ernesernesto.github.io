@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
@@ -39,7 +40,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [GPU utilisation and performance improvements](https://interplayoflight.wordpress.com/2025/08/29/gpu-utilisation-and-performance-improvements/) -- https://interplayoflight.wordpress.com
 - [The demo effect: From 7000 wishlists to 42,000](https://howtomarketagame.com/2025/08/26/the-demo-effect-from-7000-wishlists-to-42000/?utm_source=rss&utm_medium=rss&utm_campaign=the-demo-effect-from-7000-wishlists-to-42000) -- https://howtomarketagame.com
 - [Detecting reads from uninitialised heap memory in C++ programs at runtime](http://www.forwardscattering.org/post/71) -- http://www.forwardscattering.org/
-- [This many points is surely out of scope!](https://aras-p.info/blog/2025/08/24/This-many-points-is-surely-out-of-scope/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 405 - August 24th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-405/) -- https://www.jendrikillner.com/
 
 ## Talks
