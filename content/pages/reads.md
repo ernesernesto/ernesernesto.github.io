@@ -7,12 +7,13 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
 - [Challenges of New Encoding Scenarios: Reflections on Measuring Perceived Quality](https://sonnati.wordpress.com/2025/11/14/challenges-of-new-encoding-scenarios-reflections-on-measuring-perceived-quality/) -- https://sonnati.wordpress.com
 - [The cycle of a hit genre](https://howtomarketagame.com/2025/11/12/the-cycle-of-a-hit-genre/?utm_source=rss&utm_medium=rss&utm_campaign=the-cycle-of-a-hit-genre) -- https://howtomarketagame.com
 - [Reflections on My Tech Career – Part 2](https://randomascii.wordpress.com/2025/11/10/reflections-on-my-tech-career-part-2/) -- https://randomascii.wordpress.com
-- [Graphics Programming weekly - Issue 416 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-416/) -- https://www.jendrikillner.com/
+- [Graphics Programming weekly - Issue 416 - November 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-416/) -- https://www.jendrikillner.com/
 - [The RSS Librarian](https://www.tobias-franke.eu/log/2025/11/08/the-rss-librarian.html) -- https://www.tobias-franke.eu/
 - [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 415 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-415/) -- https://www.jendrikillner.com/
