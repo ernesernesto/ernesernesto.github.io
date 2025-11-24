@@ -8,8 +8,6 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
@@ -41,8 +39,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How much should we freak out about Silksong](https://howtomarketagame.com/2025/09/03/how-much-should-we-freak-out-about-silksong/?utm_source=rss&utm_medium=rss&utm_campaign=how-much-should-we-freak-out-about-silksong) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 406 - August 31st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-406/) -- https://www.jendrikillner.com/
 - [GPU utilisation and performance improvements](https://interplayoflight.wordpress.com/2025/08/29/gpu-utilisation-and-performance-improvements/) -- https://interplayoflight.wordpress.com
-- [The demo effect: From 7000 wishlists to 42,000](https://howtomarketagame.com/2025/08/26/the-demo-effect-from-7000-wishlists-to-42000/?utm_source=rss&utm_medium=rss&utm_campaign=the-demo-effect-from-7000-wishlists-to-42000) -- https://howtomarketagame.com
-- [Detecting reads from uninitialised heap memory in C++ programs at runtime](http://www.forwardscattering.org/post/71) -- http://www.forwardscattering.org/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
