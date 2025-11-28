@@ -8,37 +8,26 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
-- [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
 - [Challenges of New Encoding Scenarios: Reflections on Measuring Perceived Quality](https://sonnati.wordpress.com/2025/11/14/challenges-of-new-encoding-scenarios-reflections-on-measuring-perceived-quality/) -- https://sonnati.wordpress.com
-- [The cycle of a hit genre](https://howtomarketagame.com/2025/11/12/the-cycle-of-a-hit-genre/?utm_source=rss&utm_medium=rss&utm_campaign=the-cycle-of-a-hit-genre) -- https://howtomarketagame.com
 - [Reflections on My Tech Career – Part 2](https://randomascii.wordpress.com/2025/11/10/reflections-on-my-tech-career-part-2/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly - Issue 416 - November 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-416/) -- https://www.jendrikillner.com/
 - [The RSS Librarian](https://www.tobias-franke.eu/log/2025/11/08/the-rss-librarian.html) -- https://www.tobias-franke.eu/
-- [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 415 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-415/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 414 - October 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-414/) -- https://www.jendrikillner.com/
 - [Reflections on My Tech Career – Part 1](https://randomascii.wordpress.com/2025/10/22/reflections-on-my-tech-career-part-1/) -- https://randomascii.wordpress.com
-- [Steam Next Fest October 2025: Checking in on the games that broke through](https://howtomarketagame.com/2025/10/20/steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 413 - October 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-413/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 412 - October 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-412/) -- https://www.jendrikillner.com/
 - [Finding a VS Code Memory Leak](https://randomascii.wordpress.com/2025/10/09/finding-a-vs-code-memory-leak/) -- https://randomascii.wordpress.com
 - [Using Information Entropy To Make Choices / Choose Experiments](https://blog.demofox.org/2025/10/05/using-information-entropy-to-make-choices-choose-experiments/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 411 - October 5th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-411/) -- https://www.jendrikillner.com/
-- [Ghost stories to scare indie developers](https://howtomarketagame.com/2025/09/30/ghost-stories-to-scare-indie-developers/?utm_source=rss&utm_medium=rss&utm_campaign=ghost-stories-to-scare-indie-developers) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 410 - September 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-410/) -- https://www.jendrikillner.com/
-- [A deep dive into the games of the spring showcases](https://howtomarketagame.com/2025/09/25/a-deep-dive-in-the-games-of-the-spring-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=a-deep-dive-in-the-games-of-the-spring-showcases) -- https://howtomarketagame.com
-- [What are game showcases?](https://howtomarketagame.com/2025/09/23/what-are-game-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-game-showcases) -- https://howtomarketagame.com
 - [The performance impact of vertex shader exports](https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 409 - September 21st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-409/) -- https://www.jendrikillner.com/
-- [10 Reasons why you shouldn’t delay contacting content creators](https://howtomarketagame.com/2025/09/16/10-reasons-why-you-shouldnt-hold-back-on-contacting-content-creators/?utm_source=rss&utm_medium=rss&utm_campaign=10-reasons-why-you-shouldnt-hold-back-on-contacting-content-creators) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 408 - September 14th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-408/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 407 - September 7th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-407/) -- https://www.jendrikillner.com/
-- [How much should we freak out about Silksong](https://howtomarketagame.com/2025/09/03/how-much-should-we-freak-out-about-silksong/?utm_source=rss&utm_medium=rss&utm_campaign=how-much-should-we-freak-out-about-silksong) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 406 - August 31st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-406/) -- https://www.jendrikillner.com/
 
 ## Talks
