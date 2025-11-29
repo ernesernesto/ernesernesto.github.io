@@ -8,8 +8,6 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
@@ -39,7 +37,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 408 - September 14th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-408/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 407 - September 7th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-407/) -- https://www.jendrikillner.com/
 - [How much should we freak out about Silksong](https://howtomarketagame.com/2025/09/03/how-much-should-we-freak-out-about-silksong/?utm_source=rss&utm_medium=rss&utm_campaign=how-much-should-we-freak-out-about-silksong) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 406 - August 31st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-406/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
