@@ -12,11 +12,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The experimental Sokol Vulkan backend](https://floooh.github.io/2025/12/01/sokol-vulkan-backend-1.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 418 - November 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-418/) -- https://www.jendrikillner.com/
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
-- [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
 - [Challenges of New Encoding Scenarios: Reflections on Measuring Perceived Quality](https://sonnati.wordpress.com/2025/11/14/challenges-of-new-encoding-scenarios-reflections-on-measuring-perceived-quality/) -- https://sonnati.wordpress.com
 - [The cycle of a hit genre](https://howtomarketagame.com/2025/11/12/the-cycle-of-a-hit-genre/?utm_source=rss&utm_medium=rss&utm_campaign=the-cycle-of-a-hit-genre) -- https://howtomarketagame.com
@@ -40,7 +37,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The performance impact of vertex shader exports](https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 409 - September 21st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-409/) -- https://www.jendrikillner.com/
 - [10 Reasons why you shouldn’t delay contacting content creators](https://howtomarketagame.com/2025/09/16/10-reasons-why-you-shouldnt-hold-back-on-contacting-content-creators/?utm_source=rss&utm_medium=rss&utm_campaign=10-reasons-why-you-shouldnt-hold-back-on-contacting-content-creators) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 408 - September 14th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-408/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
