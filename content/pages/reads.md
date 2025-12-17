@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Leftover research from 2025](https://howtomarketagame.com/2025/12/15/leftover-research-from-2025/?utm_source=rss&utm_medium=rss&utm_campaign=leftover-research-from-2025) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 420 - December 14h, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-420/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 419 - December 7th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-419/) -- https://www.jendrikillner.com/
 - [BALL x PIT: My game of the year 2025](https://howtomarketagame.com/2025/12/01/ball-x-pit-my-game-of-the-year-2025/?utm_source=rss&utm_medium=rss&utm_campaign=ball-x-pit-my-game-of-the-year-2025) -- https://howtomarketagame.com
 - [The experimental Sokol Vulkan backend](https://floooh.github.io/2025/12/01/sokol-vulkan-backend-1.html) -- https://floooh.github.io/
