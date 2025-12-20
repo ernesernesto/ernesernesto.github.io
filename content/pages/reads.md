@@ -14,6 +14,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The experimental Sokol Vulkan backend](https://floooh.github.io/2025/12/01/sokol-vulkan-backend-1.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 418 - November 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-418/) -- https://www.jendrikillner.com/
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
+- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
+- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
@@ -37,7 +39,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [A deep dive into the games of the spring showcases](https://howtomarketagame.com/2025/09/25/a-deep-dive-in-the-games-of-the-spring-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=a-deep-dive-in-the-games-of-the-spring-showcases) -- https://howtomarketagame.com
 - [What are game showcases?](https://howtomarketagame.com/2025/09/23/what-are-game-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-game-showcases) -- https://howtomarketagame.com
 - [The performance impact of vertex shader exports](https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/) -- https://interplayoflight.wordpress.com
-- [Graphics Programming weekly - Issue 409 - September 21st, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-409/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
