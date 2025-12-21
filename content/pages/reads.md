@@ -39,7 +39,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 410 - September 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-410/) -- https://www.jendrikillner.com/
 - [A deep dive into the games of the spring showcases](https://howtomarketagame.com/2025/09/25/a-deep-dive-in-the-games-of-the-spring-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=a-deep-dive-in-the-games-of-the-spring-showcases) -- https://howtomarketagame.com
 - [What are game showcases?](https://howtomarketagame.com/2025/09/23/what-are-game-showcases/?utm_source=rss&utm_medium=rss&utm_campaign=what-are-game-showcases) -- https://howtomarketagame.com
-- [The performance impact of vertex shader exports](https://interplayoflight.wordpress.com/2025/09/21/the-performance-impact-of-vertex-shader-exports/) -- https://interplayoflight.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
