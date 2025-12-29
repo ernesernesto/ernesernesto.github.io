@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [2026 Games of the year](https://howtomarketagame.com/2025/12/29/2026-games-of-the-year/?utm_source=rss&utm_medium=rss&utm_campaign=2026-games-of-the-year) -- https://howtomarketagame.com
 - [Update to chex_latex, and 429 errors](https://www.realtimerendering.com/blog/update-to-chex_latex-and-429-errors/) -- https://www.realtimerendering.com/blog
 - [I3D 2026 announced](https://www.realtimerendering.com/blog/i3d-2026-announced/) -- https://www.realtimerendering.com/blog
 - [Leftover research from 2025](https://howtomarketagame.com/2025/12/15/leftover-research-from-2025/?utm_source=rss&utm_medium=rss&utm_campaign=leftover-research-from-2025) -- https://howtomarketagame.com
@@ -37,7 +38,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Finding a VS Code Memory Leak](https://randomascii.wordpress.com/2025/10/09/finding-a-vs-code-memory-leak/) -- https://randomascii.wordpress.com
 - [Using Information Entropy To Make Choices / Choose Experiments](https://blog.demofox.org/2025/10/05/using-information-entropy-to-make-choices-choose-experiments/) -- https://blog.demofox.org
 - [Graphics Programming weekly - Issue 411 - October 5th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-411/) -- https://www.jendrikillner.com/
-- [Ghost stories to scare indie developers](https://howtomarketagame.com/2025/09/30/ghost-stories-to-scare-indie-developers/?utm_source=rss&utm_medium=rss&utm_campaign=ghost-stories-to-scare-indie-developers) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
