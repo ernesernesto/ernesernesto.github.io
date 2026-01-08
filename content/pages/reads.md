@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [How many games were released in 2025?](https://howtomarketagame.com/2026/01/08/how-many-games-were-released-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=how-many-games-were-released-in-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 422 - January 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-422/) -- https://www.jendrikillner.com/
 - [Public Domain Day 2026](https://www.realtimerendering.com/blog/public-domain-day-2026/) -- https://www.realtimerendering.com/blog
 - [2026 Games of the year](https://howtomarketagame.com/2025/12/29/2026-games-of-the-year/?utm_source=rss&utm_medium=rss&utm_campaign=2026-games-of-the-year) -- https://howtomarketagame.com
