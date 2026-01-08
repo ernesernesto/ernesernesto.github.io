@@ -1,174 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on ernesernesto io</title>
-    <link>https://ernesernesto.github.io/</link>
-    <description>Recent content in Home on ernesernesto io</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 29 Nov 2025 10:42:27 +0700</lastBuildDate><atom:link href="https://ernesernesto.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How I Spend 1000$ On Reddit Ads</title>
-      <link>https://ernesernesto.github.io/writes/howispend1000onredditads/</link>
-      <pubDate>Sat, 29 Nov 2025 10:42:27 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/howispend1000onredditads/</guid>
-      
-      <description>This post will document my experience of spending $1000 on Reddit ads. While I worked in the mobile games industry in the past, I never actually ran a marketing campaign, setting all the budget, ad groups, targeting, etc. All of that was done by our publisher, so my job was solely to make a great game.
-Currently while working on my own game, I got $1000 that I could spend from Gimersia (a government initiative from the EKRAF ministry).</description>
-      
-    </item>
-    
-    <item>
-      <title>One Year of Unity WebGL</title>
-      <link>https://ernesernesto.github.io/writes/oneyearwebgl/</link>
-      <pubDate>Wed, 04 Jun 2025 19:47:06 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/oneyearwebgl/</guid>
-      
-      <description>After spending an entire year deep in the trenches of porting Unity games to WebGL, I can confidently say that WebGL is, without question, the most challenging platform Unity supports. What started as an exciting opportunity to bring desktop games to web browsers quickly became a masterclass in patience, problem-solving, and creative workarounds.
-If you&amp;rsquo;re considering WebGL development or wondering why your seemingly simple Unity project breaks when you switch the build target to WebGL, this post is for you.</description>
-      
-    </item>
-    
-    <item>
-      <title>TLG Submission</title>
-      <link>https://ernesernesto.github.io/writes/tlgsubmission/</link>
-      <pubDate>Thu, 09 May 2024 10:05:31 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/tlgsubmission/</guid>
-      
-      <description>This blog post is a daily journal on setting up and finishing the test from Tavernlight Games
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on ernesernesto io</title><link>http://ernesernesto.github.io/</link><description>Recent content in Home on ernesernesto io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 29 Nov 2025 10:42:27 +0700</lastBuildDate><atom:link href="http://ernesernesto.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>How I Spend 1000$ On Reddit Ads</title><link>http://ernesernesto.github.io/writes/howispend1000onredditads/</link><pubDate>Sat, 29 Nov 2025 10:42:27 +0700</pubDate><guid>http://ernesernesto.github.io/writes/howispend1000onredditads/</guid><description>This post will document my experience of spending $1000 on Reddit ads. While I worked in the mobile games industry in the past, I never actually ran a marketing campaign, setting all the budget, ad groups, targeting, etc. All of that was done by our publisher, so my job was solely to make a great game.
+Currently while working on my own game, I got $1000 that I could spend from Gimersia (a government initiative from the EKRAF ministry).</description></item><item><title>One Year of Unity WebGL</title><link>http://ernesernesto.github.io/writes/oneyearwebgl/</link><pubDate>Wed, 04 Jun 2025 19:47:06 +0700</pubDate><guid>http://ernesernesto.github.io/writes/oneyearwebgl/</guid><description>After spending an entire year deep in the trenches of porting Unity games to WebGL, I can confidently say that WebGL is, without question, the most challenging platform Unity supports. What started as an exciting opportunity to bring desktop games to web browsers quickly became a masterclass in patience, problem-solving, and creative workarounds.
+If you&amp;rsquo;re considering WebGL development or wondering why your seemingly simple Unity project breaks when you switch the build target to WebGL, this post is for you.</description></item><item><title>TLG Submission</title><link>http://ernesernesto.github.io/writes/tlgsubmission/</link><pubDate>Thu, 09 May 2024 10:05:31 +0700</pubDate><guid>http://ernesernesto.github.io/writes/tlgsubmission/</guid><description>This blog post is a daily journal on setting up and finishing the test from Tavernlight Games
 The test are generally broken down to two parts, first is testing your lua &amp;amp; cpp knowledge (Q1-Q4), the second part is creating feature on the forgotten server game (Q5-Q7). The person at Tavernlight Games were kind enough to provide with two links TFS server, and OTC client to play the game.
-First Part Q1 - Q4 My knowledge on Lua leans more to practical scripting, I never investigate how it works under the hood, so before taking the task, I need to refresh up my Lua knowledge and also investigate Lua performance characteristics.</description>
-      
-    </item>
-    
-    <item>
-      <title>Approach To Programming</title>
-      <link>https://ernesernesto.github.io/writes/approachtoprogramming/</link>
-      <pubDate>Tue, 02 Apr 2024 10:25:12 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/approachtoprogramming/</guid>
-      
-      <description>In X, discussion about what programming method that used always have high interaction, probably because the way the current X works is by giving people payout to whomever has post with high engagements, so now it mostly just bait and trigger. Beside all that, discussion about tool, language, frameworks, what particular dogma approach often times usually sparks a big debate. I was asked from my peers/new person joining the industry on how my approach to programming is.</description>
-      
-    </item>
-    
-    <item>
-      <title>My Experience Leading A Team Of Developers</title>
-      <link>https://ernesernesto.github.io/writes/myexperienceleadingateamofdevelopers/</link>
-      <pubDate>Wed, 13 Mar 2024 16:37:12 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/myexperienceleadingateamofdevelopers/</guid>
-      
-      <description>I&amp;rsquo;ve been working on my last company for as long as 8 year, most of it are leading a team of programmers. Here is what I&amp;rsquo;ve did in the past for self reminder.
-Before we begin, my experience is somewhat unique, I&amp;rsquo;ve been a programmer for at least a couple of years before being a lead, prior to starting my career, I was also leading a small organization in the college, in which I tried a bunch of couple way of leadership style which leads to a lot of unsuccessful events and people leaving the org (This was a story in my teenage years and a story for another day too).</description>
-      
-    </item>
-    
-    <item>
-      <title>On Leaving Traces As A Programmer</title>
-      <link>https://ernesernesto.github.io/writes/onleavingtracesasaprogrammer/</link>
-      <pubDate>Thu, 22 Feb 2024 13:36:46 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/onleavingtracesasaprogrammer/</guid>
-      
-      <description>I&amp;rsquo;ve been listening to CityPop 80s music since 2017, a genre which sprung from another genre (Vaporwave) sampling mostly old 80s music from Japan, and lately I&amp;rsquo;ve been digging around what an artist made beside their main works. This stems because I got bored listening to the same songs over and over again, which is understandable since most of the artist from that era are not active anymore, taking a different career, or work in another band.</description>
-      
-    </item>
-    
-    <item>
-      <title>xcodebuild Provisioning Issue On Apple Silicon</title>
-      <link>https://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/</link>
-      <pubDate>Sun, 12 Nov 2023 15:29:18 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/</guid>
-      
-      <description>The company I worked on recently bought a new Mac Mini M2 to replace the old Mbp that is used as a jenkins driver to build all of our games on ios. At that time around 3-years ago, we don&amp;rsquo;t have a dedicated mac mini that is used for building ios / android game and pandemic has just started, so we figured out we need to have a dedicated machine in order to unblock our programmers that need to have a working build on a device.</description>
-      
-    </item>
-    
-    <item>
-      <title>Speeding Up Asset Bundle Load Time</title>
-      <link>https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/</link>
-      <pubDate>Wed, 18 Oct 2023 09:00:23 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/</guid>
-      
-      <description>TLDR Use Async API AssetBundle.LoadFromFileAsync Change AssetBundle BuildAssetBundleOptions into ChunkBasedCompression, optionally use DisableLoadAssetByFileName and DisableLoadAssetByFileNameWithExtension. Adjust Unity Quality Settings QualitySettings.asyncUploadTimeSlice and QualitySettings.asyncUploadBufferSize Checking how things done In out recent games, we have some issues when loading a lot of Unity Asset Bundles at runtime on the loading screen. It took a couple of seconds for all bundles to finish loading. A bit weird since it&amp;rsquo;s just 10~ish bundle with total contents of ~100mb, it should be done instantly with an iPhone 11 device (Hexa-core 2x2.</description>
-      
-    </item>
-    
-    <item>
-      <title>Building Simple Audio Visualization with Unity ECS Part III — ECS</title>
-      <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</link>
-      <pubDate>Mon, 06 Aug 2018 12:40:06 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</guid>
-      
-      <description>This is the last part from the three part series of creating a simple audio visualizer to learn ECS. The first part we talked about how to make things work with MonoBehavior way. The second part we change the MonoBehavior into a Jobified Unity Job System. Today we’re going to walk to our end goal, transforming our Audio Visualization into ECS form.
-The promise of the new ECS system is the performance gain.</description>
-      
-    </item>
-    
-    <item>
-      <title>Building Simple Audio Visualization with Unity ECS Part II — Job System</title>
-      <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecspartii/</link>
-      <pubDate>Mon, 30 Jul 2018 12:39:57 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecspartii/</guid>
-      
-      <description>This is the second part of our journey to learn ECS on unity. If you haven’t read the previous post I recommend you to take a while to read that in order to know how the audio visualizer work with the old MonoBehavior way.
+First Part Q1 - Q4 My knowledge on Lua leans more to practical scripting, I never investigate how it works under the hood, so before taking the task, I need to refresh up my Lua knowledge and also investigate Lua performance characteristics.</description></item><item><title>Approach To Programming</title><link>http://ernesernesto.github.io/writes/approachtoprogramming/</link><pubDate>Tue, 02 Apr 2024 10:25:12 +0700</pubDate><guid>http://ernesernesto.github.io/writes/approachtoprogramming/</guid><description>In X, discussion about what programming method that used always have high interaction, probably because the way the current X works is by giving people payout to whomever has post with high engagements, so now it mostly just bait and trigger. Beside all that, discussion about tool, language, frameworks, what particular dogma approach often times usually sparks a big debate. I was asked from my peers/new person joining the industry on how my approach to programming is.</description></item><item><title>My Experience Leading A Team Of Developers</title><link>http://ernesernesto.github.io/writes/myexperienceleadingateamofdevelopers/</link><pubDate>Wed, 13 Mar 2024 16:37:12 +0700</pubDate><guid>http://ernesernesto.github.io/writes/myexperienceleadingateamofdevelopers/</guid><description>I&amp;rsquo;ve been working on my last company for as long as 8 year, most of it are leading a team of programmers. Here is what I&amp;rsquo;ve did in the past for self reminder.
+Before we begin, my experience is somewhat unique, I&amp;rsquo;ve been a programmer for at least a couple of years before being a lead, prior to starting my career, I was also leading a small organization in the college, in which I tried a bunch of couple way of leadership style which leads to a lot of unsuccessful events and people leaving the org (This was a story in my teenage years and a story for another day too).</description></item><item><title>On Leaving Traces As A Programmer</title><link>http://ernesernesto.github.io/writes/onleavingtracesasaprogrammer/</link><pubDate>Thu, 22 Feb 2024 13:36:46 +0700</pubDate><guid>http://ernesernesto.github.io/writes/onleavingtracesasaprogrammer/</guid><description>I&amp;rsquo;ve been listening to CityPop 80s music since 2017, a genre which sprung from another genre (Vaporwave) sampling mostly old 80s music from Japan, and lately I&amp;rsquo;ve been digging around what an artist made beside their main works. This stems because I got bored listening to the same songs over and over again, which is understandable since most of the artist from that era are not active anymore, taking a different career, or work in another band.</description></item><item><title>xcodebuild Provisioning Issue On Apple Silicon</title><link>http://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/</link><pubDate>Sun, 12 Nov 2023 15:29:18 +0700</pubDate><guid>http://ernesernesto.github.io/writes/xcodebuildprovisioningissueonapplesilicon/</guid><description>The company I worked on recently bought a new Mac Mini M2 to replace the old Mbp that is used as a jenkins driver to build all of our games on ios. At that time around 3-years ago, we don&amp;rsquo;t have a dedicated mac mini that is used for building ios / android game and pandemic has just started, so we figured out we need to have a dedicated machine in order to unblock our programmers that need to have a working build on a device.</description></item><item><title>Speeding Up Asset Bundle Load Time</title><link>http://ernesernesto.github.io/writes/speedingupassetbundleloadtime/</link><pubDate>Wed, 18 Oct 2023 09:00:23 +0700</pubDate><guid>http://ernesernesto.github.io/writes/speedingupassetbundleloadtime/</guid><description>TLDR Use Async API AssetBundle.LoadFromFileAsync Change AssetBundle BuildAssetBundleOptions into ChunkBasedCompression, optionally use DisableLoadAssetByFileName and DisableLoadAssetByFileNameWithExtension. Adjust Unity Quality Settings QualitySettings.asyncUploadTimeSlice and QualitySettings.asyncUploadBufferSize Checking how things done In out recent games, we have some issues when loading a lot of Unity Asset Bundles at runtime on the loading screen. It took a couple of seconds for all bundles to finish loading. A bit weird since it&amp;rsquo;s just 10~ish bundle with total contents of ~100mb, it should be done instantly with an iPhone 11 device (Hexa-core 2x2.</description></item><item><title>Building Simple Audio Visualization with Unity ECS Part III — ECS</title><link>http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</link><pubDate>Mon, 06 Aug 2018 12:40:06 +0700</pubDate><guid>http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunitypartiii/</guid><description>This is the last part from the three part series of creating a simple audio visualizer to learn ECS. The first part we talked about how to make things work with MonoBehavior way. The second part we change the MonoBehavior into a Jobified Unity Job System. Today we’re going to walk to our end goal, transforming our Audio Visualization into ECS form.
+The promise of the new ECS system is the performance gain.</description></item><item><title>Building Simple Audio Visualization with Unity ECS Part II — Job System</title><link>http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecspartii/</link><pubDate>Mon, 30 Jul 2018 12:39:57 +0700</pubDate><guid>http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecspartii/</guid><description>This is the second part of our journey to learn ECS on unity. If you haven’t read the previous post I recommend you to take a while to read that in order to know how the audio visualizer work with the old MonoBehavior way.
 Today we’re going to take what’s written on the first part and change it into a Jobified Unity Job System.
-The Job System, as explained on the Unity pages, take advantages of multiple cores that our machine have.</description>
-      
-    </item>
-    
-    <item>
-      <title>Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior</title>
-      <link>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/</link>
-      <pubDate>Mon, 23 Jul 2018 12:25:50 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/</guid>
-      
-      <description>Currently, I’m learning to learn the new ECS and Job system introduced in Unity 2018. Usually the quickest way to learn a new concept quickly is by creating something that could give you an instant gratification, in this case we’re going to build a simple audio visualization.
-The new ECS and Job system now promise to give performance boost and a new way to approach problem, letting you focus on the actual problems you are solving which is the data and behavior of your game.</description>
-      
-    </item>
-    
-    <item>
-      <title>Debugging Memory Allocation</title>
-      <link>https://ernesernesto.github.io/writes/debuggingmemoryallocations/</link>
-      <pubDate>Mon, 16 Apr 2018 12:00:00 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/debuggingmemoryallocations/</guid>
-      
-      <description>Recently I was debugging some particular nasty bugs that happens on memory allocations, the intricate part is, it happens infrequently My app was crashing on a release build more frequently than in debug builds.
-I was doing some manual memory allocations, at the start of the app it will load a saved data from a file into that memory. The app was doing fine until I started to write something to the saved data, then on the next launch it will start to crash intermittently on release build.</description>
-      
-    </item>
-    
-    <item>
-      <title>Symbolicate ios Submission Crash Report</title>
-      <link>https://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</link>
-      <pubDate>Sat, 20 Jan 2018 10:00:00 +0700</pubDate>
-      
-      <guid>https://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</guid>
-      
-      <description>Often times we get crash from ios submission report that goes like this
-Thread 0 name: Dispatch queue: com.apple.main-thread Thread 0 Crashed: 0 cong2 0x0000000101e78060 0x100bbc000 + 19644512 1 cong2 0x0000000100bcfb84 0x100bbc000 + 80772 2 cong2 0x0000000100bcff28 0x100bbc000 + 81704 3 CoreFoundation 0x00000001854e113c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 20 (CFNotificationCenter.c:661) 4 CoreFoundation 0x00000001854e06dc _CFXRegistrationPost + 420 (CFNotificationCenter.c:163) 5 CoreFoundation 0x00000001854e0440 ___CFXNotificationPost_block_invoke + 60 (CFNotificationCenter.c:1060) 6 CoreFoundation 0x000000018555de24 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1408 (CFXNotificationRegistrar.m:163) 7 CoreFoundation 0x0000000185416d60 _CFXNotificationPost + 380 (CFNotificationCenter.</description>
-      
-    </item>
-    
-    <item>
-      <title>Executes</title>
-      <link>https://ernesernesto.github.io/pages/executes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ernesernesto.github.io/pages/executes/</guid>
-      
-      <description>I&amp;rsquo;ve ported more than 50+ mobile games to Web, here are some games that I&amp;rsquo;ve ported, playable directly on your browser
+The Job System, as explained on the Unity pages, take advantages of multiple cores that our machine have.</description></item><item><title>Building Simple Audio Visualization with Unity ECS Part I — MonoBehavior</title><link>http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/</link><pubDate>Mon, 23 Jul 2018 12:25:50 +0700</pubDate><guid>http://ernesernesto.github.io/writes/buildingsimpleaudiovisualizationunityecsparti/</guid><description>Currently, I’m learning to learn the new ECS and Job system introduced in Unity 2018. Usually the quickest way to learn a new concept quickly is by creating something that could give you an instant gratification, in this case we’re going to build a simple audio visualization.
+The new ECS and Job system now promise to give performance boost and a new way to approach problem, letting you focus on the actual problems you are solving which is the data and behavior of your game.</description></item><item><title>Debugging Memory Allocation</title><link>http://ernesernesto.github.io/writes/debuggingmemoryallocations/</link><pubDate>Mon, 16 Apr 2018 12:00:00 +0700</pubDate><guid>http://ernesernesto.github.io/writes/debuggingmemoryallocations/</guid><description>Recently I was debugging some particular nasty bugs that happens on memory allocations, the intricate part is, it happens infrequently My app was crashing on a release build more frequently than in debug builds.
+I was doing some manual memory allocations, at the start of the app it will load a saved data from a file into that memory. The app was doing fine until I started to write something to the saved data, then on the next launch it will start to crash intermittently on release build.</description></item><item><title>Symbolicate ios Submission Crash Report</title><link>http://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</link><pubDate>Sat, 20 Jan 2018 10:00:00 +0700</pubDate><guid>http://ernesernesto.github.io/writes/symbolicateiossubmissioncrash-report/</guid><description>Often times we get crash from ios submission report that goes like this
+Thread 0 name: Dispatch queue: com.apple.main-thread Thread 0 Crashed: 0 cong2 0x0000000101e78060 0x100bbc000 + 19644512 1 cong2 0x0000000100bcfb84 0x100bbc000 + 80772 2 cong2 0x0000000100bcff28 0x100bbc000 + 81704 3 CoreFoundation 0x00000001854e113c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 20 (CFNotificationCenter.c:661) 4 CoreFoundation 0x00000001854e06dc _CFXRegistrationPost + 420 (CFNotificationCenter.c:163) 5 CoreFoundation 0x00000001854e0440 ___CFXNotificationPost_block_invoke + 60 (CFNotificationCenter.c:1060) 6 CoreFoundation 0x000000018555de24 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1408 (CFXNotificationRegistrar.m:163) 7 CoreFoundation 0x0000000185416d60 _CFXNotificationPost + 380 (CFNotificationCenter.</description></item><item><title>Executes</title><link>http://ernesernesto.github.io/pages/executes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://ernesernesto.github.io/pages/executes/</guid><description>I&amp;rsquo;ve ported more than 50+ mobile games to Web, here are some games that I&amp;rsquo;ve ported, playable directly on your browser
 Coffee Golf
 Word Venture
 Western Farm
@@ -176,36 +17,9 @@ Pocket Champs
 Jigsort Puzzles
 Merge Inn
 The rest of the games that I&amp;rsquo;ve worked on listed below, for complete work history, see here
-Games Cash Inc, Fame and Fortune Idle clicker game, reached 50+ Million Downloads on iOS and Android with 4.7 ratings and 1.</description>
-      
-    </item>
-    
-    <item>
-      <title>Info</title>
-      <link>https://ernesernesto.github.io/pages/info/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ernesernesto.github.io/pages/info/</guid>
-      
-      <description>Hi! My name is Ernes Budiman and I&amp;rsquo;ve been a game developer since 2010. I started in the industry working on J2ME phones, early Android, and the discontinued Windows Phone.
+Games Cash Inc, Fame and Fortune Idle clicker game, reached 50+ Million Downloads on iOS and Android with 4.7 ratings and 1.</description></item><item><title>Info</title><link>http://ernesernesto.github.io/pages/info/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://ernesernesto.github.io/pages/info/</guid><description>Hi! My name is Ernes Budiman and I&amp;rsquo;ve been a game developer since 2010. I started in the industry working on J2ME phones, early Android, and the discontinued Windows Phone.
 Currently working as a Studio Lead Developer at Alegrium working on mobile games for ios and android.
 I&amp;rsquo;ve worked, on some mobile game stuffs.
-Get in touch</description>
-      
-    </item>
-    
-    <item>
-      <title>Reads</title>
-      <link>https://ernesernesto.github.io/pages/reads/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ernesernesto.github.io/pages/reads/</guid>
-      
-      <description>This page list a collection of rss feeds from other dev and conference talks that I&amp;rsquo;ve gathered for a while
+Get in touch</description></item><item><title>Reads</title><link>http://ernesernesto.github.io/pages/reads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://ernesernesto.github.io/pages/reads/</guid><description>This page list a collection of rss feeds from other dev and conference talks that I&amp;rsquo;ve gathered for a while
 Other Dev RSS&amp;rsquo;s Collection of good reads (a.k.a Dirt Cheap Poor Man&amp;rsquo;s RSS Feed), this list is updated automatically everyday with github workflows
-Graphics Programming weekly - Issue 422 - January 4th, 2025 &amp;ndash; https://www.jendrikillner.com/ 2026 Games of the year &amp;ndash; https://howtomarketagame.com Graphics Programming weekly - Issue 421 - December 28th, 2025 &amp;ndash; https://www.</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+Graphics Programming weekly - Issue 422 - January 4th, 2025 &amp;ndash; https://www.jendrikillner.com/ Public Domain Day 2026 &amp;ndash; https://www.realtimerendering.com/blog 2026 Games of the year &amp;ndash; https://howtomarketagame.com Graphics Programming weekly - Issue 421 - December 28th, 2025 &amp;ndash; https://www.</description></item></channel></rss>
