@@ -7,33 +7,23 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
-- [How many games were released in 2025?](https://howtomarketagame.com/2026/01/08/how-many-games-were-released-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=how-many-games-were-released-in-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 422 - January 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-422/) -- https://www.jendrikillner.com/
-- [2026 Games of the year](https://howtomarketagame.com/2025/12/29/2026-games-of-the-year/?utm_source=rss&utm_medium=rss&utm_campaign=2026-games-of-the-year) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 421 - December 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-421/) -- https://www.jendrikillner.com/
 - [Zootopia 2](https://blog.yiningkarlli.com/2025/12/zootopia-2.html) -- https://blog.yiningkarlli.com/
-- [Leftover research from 2025](https://howtomarketagame.com/2025/12/15/leftover-research-from-2025/?utm_source=rss&utm_medium=rss&utm_campaign=leftover-research-from-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 420 - December 14h, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-420/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 419 - December 7th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-419/) -- https://www.jendrikillner.com/
-- [BALL x PIT: My game of the year 2025](https://howtomarketagame.com/2025/12/01/ball-x-pit-my-game-of-the-year-2025/?utm_source=rss&utm_medium=rss&utm_campaign=ball-x-pit-my-game-of-the-year-2025) -- https://howtomarketagame.com
 - [The experimental Sokol Vulkan backend](https://floooh.github.io/2025/12/01/sokol-vulkan-backend-1.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 418 - November 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-418/) -- https://www.jendrikillner.com/
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
-- [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
 - [Challenges of New Encoding Scenarios: Reflections on Measuring Perceived Quality](https://sonnati.wordpress.com/2025/11/14/challenges-of-new-encoding-scenarios-reflections-on-measuring-perceived-quality/) -- https://sonnati.wordpress.com
-- [The cycle of a hit genre](https://howtomarketagame.com/2025/11/12/the-cycle-of-a-hit-genre/?utm_source=rss&utm_medium=rss&utm_campaign=the-cycle-of-a-hit-genre) -- https://howtomarketagame.com
 - [Reflections on My Tech Career – Part 2](https://randomascii.wordpress.com/2025/11/10/reflections-on-my-tech-career-part-2/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly - Issue 416 - November 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-416/) -- https://www.jendrikillner.com/
 - [The RSS Librarian](https://www.tobias-franke.eu/log/2025/11/08/the-rss-librarian.html) -- https://www.tobias-franke.eu/
-- [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 415 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-415/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 414 - October 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-414/) -- https://www.jendrikillner.com/
 - [Reflections on My Tech Career – Part 1](https://randomascii.wordpress.com/2025/10/22/reflections-on-my-tech-career-part-1/) -- https://randomascii.wordpress.com
-- [Steam Next Fest October 2025: Checking in on the games that broke through](https://howtomarketagame.com/2025/10/20/steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through/?utm_source=rss&utm_medium=rss&utm_campaign=steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 413 - October 19th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-413/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 412 - October 12th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-412/) -- https://www.jendrikillner.com/
 
