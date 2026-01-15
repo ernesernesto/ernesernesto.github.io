@@ -7,8 +7,9 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 423 - January 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-423/) -- https://www.jendrikillner.com/
 - [How many games were released in 2025?](https://howtomarketagame.com/2026/01/08/how-many-games-were-released-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=how-many-games-were-released-in-2025) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 422 - January 4th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-422/) -- https://www.jendrikillner.com/
+- [Graphics Programming weekly - Issue 422 - January 4th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-422/) -- https://www.jendrikillner.com/
 - [2026 Games of the year](https://howtomarketagame.com/2025/12/29/2026-games-of-the-year/?utm_source=rss&utm_medium=rss&utm_campaign=2026-games-of-the-year) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 421 - December 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-421/) -- https://www.jendrikillner.com/
 - [Zootopia 2](https://blog.yiningkarlli.com/2025/12/zootopia-2.html) -- https://blog.yiningkarlli.com/
@@ -19,8 +20,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The experimental Sokol Vulkan backend](https://floooh.github.io/2025/12/01/sokol-vulkan-backend-1.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 418 - November 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-418/) -- https://www.jendrikillner.com/
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
