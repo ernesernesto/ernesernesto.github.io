@@ -34,7 +34,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 415 - November 2nd, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-415/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 414 - October 26th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-414/) -- https://www.jendrikillner.com/
-- [Reflections on My Tech Career – Part 1](https://randomascii.wordpress.com/2025/10/22/reflections-on-my-tech-career-part-1/) -- https://randomascii.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
