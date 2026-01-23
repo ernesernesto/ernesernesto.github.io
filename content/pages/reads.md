@@ -11,8 +11,11 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 423 - January 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-423/) -- https://www.jendrikillner.com/
 - [How many games were released in 2025?](https://howtomarketagame.com/2026/01/08/how-many-games-were-released-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=how-many-games-were-released-in-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 422 - January 4th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-422/) -- https://www.jendrikillner.com/
+- [Public Domain Day 2026](https://www.realtimerendering.com/blog/public-domain-day-2026/) -- https://www.realtimerendering.com/blog
 - [2026 Games of the year](https://howtomarketagame.com/2025/12/29/2026-games-of-the-year/?utm_source=rss&utm_medium=rss&utm_campaign=2026-games-of-the-year) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 421 - December 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-421/) -- https://www.jendrikillner.com/
+- [Update to chex_latex, and 429 errors](https://www.realtimerendering.com/blog/update-to-chex_latex-and-429-errors/) -- https://www.realtimerendering.com/blog
+- [I3D 2026 announced](https://www.realtimerendering.com/blog/i3d-2026-announced/) -- https://www.realtimerendering.com/blog
 - [Zootopia 2](https://blog.yiningkarlli.com/2025/12/zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [Leftover research from 2025](https://howtomarketagame.com/2025/12/15/leftover-research-from-2025/?utm_source=rss&utm_medium=rss&utm_campaign=leftover-research-from-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 420 - December 14h, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-420/) -- https://www.jendrikillner.com/
@@ -23,6 +26,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
+- [275th Anniversary of the Edge is Today!](https://www.realtimerendering.com/blog/275th-anniversary-of-the-edge-is-today/) -- https://www.realtimerendering.com/blog
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
 - [Challenges of New Encoding Scenarios: Reflections on Measuring Perceived Quality](https://sonnati.wordpress.com/2025/11/14/challenges-of-new-encoding-scenarios-reflections-on-measuring-perceived-quality/) -- https://sonnati.wordpress.com
 - [The cycle of a hit genre](https://howtomarketagame.com/2025/11/12/the-cycle-of-a-hit-genre/?utm_source=rss&utm_medium=rss&utm_campaign=the-cycle-of-a-hit-genre) -- https://howtomarketagame.com
