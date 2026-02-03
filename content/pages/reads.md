@@ -26,8 +26,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [The experimental Sokol Vulkan backend](https://floooh.github.io/2025/12/01/sokol-vulkan-backend-1.html) -- https://floooh.github.io/
 - [Graphics Programming weekly - Issue 418 - November 30th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-418/) -- https://www.jendrikillner.com/
 - [Spatial hashing for raytraced ambient occlusion](https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/) -- https://interplayoflight.wordpress.com
-- [Two years of Blender VSE](https://aras-p.info/blog/2025/11/23/Two-years-of-Blender-VSE/) -- https://aras-p.info/
-- [OpenEXR vs tinyexr](https://aras-p.info/blog/2025/11/22/OpenEXR-vs-tinyexr/) -- https://aras-p.info/
 - [Review Guesser How To](https://howtomarketagame.com/2025/11/17/review-guesser-how-to/?utm_source=rss&utm_medium=rss&utm_campaign=review-guesser-how-to) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 417 - November 15th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-417/) -- https://www.jendrikillner.com/
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
@@ -36,7 +34,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Reflections on My Tech Career – Part 2](https://randomascii.wordpress.com/2025/11/10/reflections-on-my-tech-career-part-2/) -- https://randomascii.wordpress.com
 - [Graphics Programming weekly - Issue 416 - November 9th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-416/) -- https://www.jendrikillner.com/
 - [The RSS Librarian](https://www.tobias-franke.eu/log/2025/11/08/the-rss-librarian.html) -- https://www.tobias-franke.eu/
-- [The optimistic view that indie games are in a golden age right now](https://howtomarketagame.com/2025/11/04/the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now/?utm_source=rss&utm_medium=rss&utm_campaign=the-optimistic-case-that-indie-games-are-in-a-golden-age-right-now) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
