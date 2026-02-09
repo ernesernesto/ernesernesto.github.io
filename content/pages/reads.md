@@ -32,7 +32,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Engagement vs Churn in Video Streaming: How to Keep Viewers Hooked](https://sonnati.wordpress.com/2025/11/14/engagement-vs-churn-in-video-streaming-how-to-keep-viewers-hooked/) -- https://sonnati.wordpress.com
 - [Challenges of New Encoding Scenarios: Reflections on Measuring Perceived Quality](https://sonnati.wordpress.com/2025/11/14/challenges-of-new-encoding-scenarios-reflections-on-measuring-perceived-quality/) -- https://sonnati.wordpress.com
 - [The cycle of a hit genre](https://howtomarketagame.com/2025/11/12/the-cycle-of-a-hit-genre/?utm_source=rss&utm_medium=rss&utm_campaign=the-cycle-of-a-hit-genre) -- https://howtomarketagame.com
-- [Reflections on My Tech Career – Part 2](https://randomascii.wordpress.com/2025/11/10/reflections-on-my-tech-career-part-2/) -- https://randomascii.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
