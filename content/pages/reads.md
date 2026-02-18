@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The Counterintuitive Advantage of Launching During Steam’s Busiest Event](https://howtomarketagame.com/2026/02/18/the-counterintuitive-advantage-of-launching-during-steams-busiest-event/?utm_source=rss&utm_medium=rss&utm_campaign=the-counterintuitive-advantage-of-launching-during-steams-busiest-event) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 428 - February 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-428/) -- https://www.jendrikillner.com/
 - [Only 28 games recovered from a bad launch in 2024, what do they have in common?](https://howtomarketagame.com/2026/02/12/only-28-games-recovered-from-a-bad-launch-in-2024-what-do-they-have-in-common/?utm_source=rss&utm_medium=rss&utm_campaign=only-28-games-recovered-from-a-bad-launch-in-2024-what-do-they-have-in-common) -- https://howtomarketagame.com
 - [Adventures in Neural Rendering](https://interplayoflight.wordpress.com/2026/02/10/adventures-in-neural-rendering/) -- https://interplayoflight.wordpress.com
