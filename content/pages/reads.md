@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 430 - March 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-430/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 429 - February 22nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-429/) -- https://www.jendrikillner.com/
 - [Adventures in Neural Rendering part 2: Cooperative vectors](https://interplayoflight.wordpress.com/2026/02/21/adventures-in-neural-rendering-part-2-cooperative-vectors/) -- https://interplayoflight.wordpress.com
 - [The Counterintuitive Advantage of Launching During Steam’s Busiest Event](https://howtomarketagame.com/2026/02/18/the-counterintuitive-advantage-of-launching-during-steams-busiest-event/?utm_source=rss&utm_medium=rss&utm_campaign=the-counterintuitive-advantage-of-launching-during-steams-busiest-event) -- https://howtomarketagame.com
