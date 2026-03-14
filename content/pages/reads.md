@@ -33,7 +33,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 421 - December 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-421/) -- https://www.jendrikillner.com/
 - [Zootopia 2](https://blog.yiningkarlli.com/2025/12/zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [Leftover research from 2025](https://howtomarketagame.com/2025/12/15/leftover-research-from-2025/?utm_source=rss&utm_medium=rss&utm_campaign=leftover-research-from-2025) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 420 - December 14h, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-420/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
