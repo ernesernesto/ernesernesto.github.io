@@ -31,7 +31,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 422 - January 4th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-422/) -- https://www.jendrikillner.com/
 - [2026 Games of the year](https://howtomarketagame.com/2025/12/29/2026-games-of-the-year/?utm_source=rss&utm_medium=rss&utm_campaign=2026-games-of-the-year) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 421 - December 28th, 2025](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-421/) -- https://www.jendrikillner.com/
-- [Zootopia 2](https://blog.yiningkarlli.com/2025/12/zootopia-2.html) -- https://blog.yiningkarlli.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
