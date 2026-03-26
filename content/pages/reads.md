@@ -10,6 +10,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 433 - March 22nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-433/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 432 - March 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-432/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 431 - March 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-431/) -- https://www.jendrikillner.com/
+- [Rapidhash Unity port](https://aras-p.info/blog/2026/03/07/Rapidhash-Unity-port/) -- https://aras-p.info/
 - [Fog rendering](http://www.forwardscattering.org/post/72) -- http://www.forwardscattering.org/
 - [Benchmark: How much money can you make from DLC?](https://howtomarketagame.com/2026/03/03/benchmark-how-much-money-can-you-make-from-dlc/?utm_source=rss&utm_medium=rss&utm_campaign=benchmark-how-much-money-can-you-make-from-dlc) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 430 - March 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-430/) -- https://www.jendrikillner.com/
