@@ -30,7 +30,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What the hell happened in 2025?](https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=what-the-hell-happened-in-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 425 - January 25th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-425/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 424 - January 18th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-424/) -- https://www.jendrikillner.com/
-- [PC Gaming Has Changed Less Than You Think (12 examples)](https://howtomarketagame.com/2026/01/15/pc-gaming-has-changed-less-than-you-think-12-examples/?utm_source=rss&utm_medium=rss&utm_campaign=pc-gaming-has-changed-less-than-you-think-12-examples) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
