@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 435 - April 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-435/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 434 - March 29th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-434/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 433 - March 22nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-433/) -- https://www.jendrikillner.com/
