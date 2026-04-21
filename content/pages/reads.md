@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
 - [Syntonic Dentiforms redux](https://aras-p.info/blog/2026/04/13/Syntonic-Dentiforms-redux/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
