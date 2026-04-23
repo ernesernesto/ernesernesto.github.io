@@ -9,7 +9,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 437 - April 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/) -- https://www.jendrikillner.com/
-- [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 435 - April 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-435/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 434 - March 29th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-434/) -- https://www.jendrikillner.com/
@@ -17,19 +16,14 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 432 - March 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-432/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 431 - March 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-431/) -- https://www.jendrikillner.com/
 - [Fog rendering](http://www.forwardscattering.org/post/72) -- http://www.forwardscattering.org/
-- [Benchmark: How much money can you make from DLC?](https://howtomarketagame.com/2026/03/03/benchmark-how-much-money-can-you-make-from-dlc/?utm_source=rss&utm_medium=rss&utm_campaign=benchmark-how-much-money-can-you-make-from-dlc) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 430 - March 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-430/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 429 - February 22nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-429/) -- https://www.jendrikillner.com/
 - [Adventures in Neural Rendering part 2: Cooperative vectors](https://interplayoflight.wordpress.com/2026/02/21/adventures-in-neural-rendering-part-2-cooperative-vectors/) -- https://interplayoflight.wordpress.com
-- [The Counterintuitive Advantage of Launching During Steam’s Busiest Event](https://howtomarketagame.com/2026/02/18/the-counterintuitive-advantage-of-launching-during-steams-busiest-event/?utm_source=rss&utm_medium=rss&utm_campaign=the-counterintuitive-advantage-of-launching-during-steams-busiest-event) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 428 - February 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-428/) -- https://www.jendrikillner.com/
-- [Only 28 games recovered from a bad launch in 2024, what do they have in common?](https://howtomarketagame.com/2026/02/12/only-28-games-recovered-from-a-bad-launch-in-2024-what-do-they-have-in-common/?utm_source=rss&utm_medium=rss&utm_campaign=only-28-games-recovered-from-a-bad-launch-in-2024-what-do-they-have-in-common) -- https://howtomarketagame.com
 - [Adventures in Neural Rendering](https://interplayoflight.wordpress.com/2026/02/10/adventures-in-neural-rendering/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 427 - February 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-427/) -- https://www.jendrikillner.com/
 - [Launching The Rural Guaranteed Minimum Income Initiative](https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/) -- https://blog.codinghorror.com/
-- [Should you keep your demo up post launch?](https://howtomarketagame.com/2026/02/02/should-you-keep-your-demo-up-post-launch/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-keep-your-demo-up-post-launch) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 426 - February 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-426/) -- https://www.jendrikillner.com/
-- [What the hell happened in 2025?](https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=what-the-hell-happened-in-2025) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 425 - January 25th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-425/) -- https://www.jendrikillner.com/
 
 ## Talks
