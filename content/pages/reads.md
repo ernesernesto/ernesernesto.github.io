@@ -31,7 +31,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Launching The Rural Guaranteed Minimum Income Initiative](https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/) -- https://blog.codinghorror.com/
 - [Should you keep your demo up post launch?](https://howtomarketagame.com/2026/02/02/should-you-keep-your-demo-up-post-launch/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-keep-your-demo-up-post-launch) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 426 - February 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-426/) -- https://www.jendrikillner.com/
-- [What the hell happened in 2025?](https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/?utm_source=rss&utm_medium=rss&utm_campaign=what-the-hell-happened-in-2025) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
