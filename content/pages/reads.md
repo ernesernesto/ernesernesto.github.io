@@ -7,6 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Void Miner](https://howtomarketagame.com/2026/04/28/void-miner/?utm_source=rss&utm_medium=rss&utm_campaign=void-miner) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 438 - April 27h, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/) -- https://www.jendrikillner.com/
 - [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 437 - April 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/) -- https://www.jendrikillner.com/
 - [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
