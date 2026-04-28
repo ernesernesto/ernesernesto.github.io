@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Speeding Up Asset Bundle Load Time | ernesernesto io</title>
-<meta property="og:title" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
-<meta name="twitter:title" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
-<meta itemprop="name" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
-<meta name="application-name" content="Speeding Up Asset Bundle Load Time | ernesernesto io" />
+<title itemprop="name">Everything is a Thing: How I Built Match Morphosis in Pure C | ernesernesto io</title>
+<meta property="og:title" content="Everything is a Thing: How I Built Match Morphosis in Pure C | ernesernesto io" />
+<meta name="twitter:title" content="Everything is a Thing: How I Built Match Morphosis in Pure C | ernesernesto io" />
+<meta itemprop="name" content="Everything is a Thing: How I Built Match Morphosis in Pure C | ernesernesto io" />
+<meta name="application-name" content="Everything is a Thing: How I Built Match Morphosis in Pure C | ernesernesto io" />
 <meta property="og:site_name" content="ernesernesto.github.io" />
 
 <meta name="description" content="ernesernesto dev blog">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en-us" href="https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/" title="English" />
+  <link rel="alternate" hreflang="en-us" href="https://ernesernesto.github.io/writes/everythingisathing/" title="English" />
 
 
 
@@ -35,7 +35,7 @@
 
     
 
-    <link rel="canonical" href="https://ernesernesto.github.io/writes/speedingupassetbundleloadtime/">
+    <link rel="canonical" href="https://ernesernesto.github.io/writes/everythingisathing/">
     <link href="/style.min.9bd04d0fad85388343088ec85e9afd787ea003e72914d7f57df39c17ab2e7173.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -141,49 +141,108 @@ stroke-linejoin="round" class="feather feather-home">
     <main class="page-content" aria-label="Content">
         <article>
             <header class="header">
-                <h1 class="header-title">Speeding Up Asset Bundle Load Time</h1>
+                <h1 class="header-title">Everything is a Thing: How I Built Match Morphosis in Pure C</h1>
                 
                 
                 <div class="post-meta">
-                    <time datetime="2023-10-18T09:00:23&#43;07:00" itemprop="datePublished"> Oct 18, 2023 </time>
+                    <time datetime="2026-04-28T11:56:25&#43;07:00" itemprop="datePublished"> Apr 28, 2026 </time>
                 </div>
                 
             </header><div class="page-content">
-                <h2 id="tldr">TLDR</h2>
+                <p>I&rsquo;ve been building <a href="https://store.steampowered.com/app/4133530/Match_Morphosis_Demo/">Match Morphosis</a> solo in plain C. No engine, no framework, just C and a handful of carefully chosen libraries. This post is about two decisions that ended up shaping everything else in the codebase: the entity model and the memory model.</p>
+<p>Both of these came from the same instinct — keep things explicit, keep things visible, don&rsquo;t let the runtime surprise you. If you&rsquo;ve watched Anton Mikhailov talk on the <a href="https://www.youtube.com/@WookashPodcast">Wookash Podcast</a>, you&rsquo;ll recognize the general direction. Nothing entirely new, they just hashed it out well in those episodes. Worth watching.</p>
+<hr>
+<h2 id="everything-is-a-thing">Everything is a Thing</h2>
+<p>The first decision was how to represent game objects. In most codebases you end up with a zoo of types — enemies in one system, UI buttons in another, particles somewhere else, each with their own allocation and lifecycle logic. I wanted one model that covered everything.</p>
+<p>Every object you see in the game — tiles, armaments, enemies, buttons, particles, progress bars — is an instance of one type:</p>
+<pre><code>struct Thing
+{
+    union
+    {
+        ObjectHandle  o;
+        Piece         piece;
+        Armament      armament;
+        Player        player;
+        Enemy         enemy;
+        Particle      particle;
+        Button        button;
+        ProgressBar   progressBar;
+        // ...
+    };
+};
+</code></pre>
+<p>One type. One flat pool. The union means every <code>Thing</code> slot is the same size, so the pool is just a plain array — no variable-length allocation, no scatter.</p>
+<p>Every operation goes through a generational handle:</p>
+<pre><code>typedef struct ThingHandle
+{
+    i32 id;
+    i32 generation;
+} ThingHandle;
+</code></pre>
+<p>The <code>id</code> is a slot index into the pool. The <code>generation</code> is a counter that bumps every time that slot is reused. Together they let you hold a reference to something without it going dangling on you when that thing dies.</p>
+<p>The backing container keeps everything together:</p>
+<pre><code>struct {
+    Thing pool[THING_COUNT];
+    b32   used[THING_COUNT];
+    i32   generations[THING_COUNT];
+    i32   firstFree;
+    i32   nextFree[THING_COUNT];
+    i32   freeCount;
+} thingContainer;
+</code></pre>
+<p>Allocation pulls a slot from the free list and bumps that slot&rsquo;s generation:</p>
+<pre><code>static ThingHandle thingMake(void)
+{
+    ThingHandle result = {0};
+    i32 slot = game-&gt;thingContainer.firstFree;
+    if (game-&gt;thingContainer.firstFree)
+    {
+        game-&gt;thingContainer.used[slot] = true;
+        game-&gt;thingContainer.generations[slot] += 1;
+        game-&gt;thingContainer.freeCount--;
+        result.id         = slot;
+        result.generation = game-&gt;thingContainer.generations[slot];
+        swMemset(&amp;game-&gt;thingContainer.pool[slot], 0, sizeof(Thing));
+        game-&gt;thingContainer.firstFree = game-&gt;thingContainer.nextFree[slot];
+    }
+    else
+    {
+        LOG(&quot;Thing count larger than config pool&quot;);
+        result = game-&gt;zeroThing;
+    }
+    return result;
+}
+</code></pre>
+<p>Each concrete type has its own make function — <code>thingMakePiece()</code>, <code>thingMakeEnemy()</code> and so on — which call <code>thingMake()</code> underneath and then initialize their relevant union member. The caller gets a handle back, never a raw pointer.</p>
+<h3 id="handle-resolution-and-zerothing">Handle resolution and ZeroThing</h3>
+<p>When you dereference a handle, the generation stored in the handle is compared against <code>thingContainer.generations[id]</code>. If they match, you get the live object. If they don&rsquo;t match — meaning that slot was freed and reused for something else since you last touched it — you get <code>ZeroThing</code> back instead.</p>
+<p><code>ZeroThing</code> is slot 0 of the pool, treated as a permanent sentinel. It&rsquo;s always zeroed, it returns safe defaults for everything, and it never crashes. You can hold a stale handle to a dead enemy across as many frames as you want. Worst case is you&rsquo;re talking to a zero struct, not reading garbage memory or segfaulting.</p>
+<p>This eliminates a whole category of defensive null checks from gameplay code. You don&rsquo;t need to ask &ldquo;is this thing still alive?&rdquo; before every access. You just use it, and if it&rsquo;s gone, the answer comes back as nothing interesting.</p>
+<p>This pattern is unremarkable to write in C. No base classes, no vtable, no factory pattern. It&rsquo;s just a struct and an array.</p>
+<h3 id="future-plan-typed-handles">Future plan: typed handles</h3>
+<p>Right now everything uses <code>ThingHandle</code>. The next step is distinct handle types per kind — <code>PieceHandle</code>, <code>EnemyHandle</code>, <code>ButtonHandle</code> — so that passing the wrong one to a function is caught at compile time rather than turning into a runtime bug. bgfx does exactly this with its handle types. In C you get most of the way there for free: <code>typedef struct { i32 id; i32 generation; } PieceHandle;</code> is a distinct type that the compiler won&rsquo;t silently coerce, zero runtime cost.</p>
+<hr>
+<h2 id="one-virtualalloc-thats-it">One VirtualAlloc. That&rsquo;s it.</h2>
+<p>At startup the game calls <code>VirtualAlloc</code> once to reserve the full working set (~128MB — audio assets are the dominant cost, I haven&rsquo;t optimized that part yet). After that, there are no more allocation calls. Ever. <code>malloc</code> is never called.</p>
+<p>A buddy allocator subdivides that block. The buddy system gives fast, predictable coalescing without fragmentation problems, and because all allocations come from one contiguous reservation, every pointer in the system is stable — just an offset from a known base.</p>
+<p>The buddy allocator is also passed directly as the custom allocator into <strong>bgfx</strong> and <strong>miniaudio</strong>, so those libraries also draw from the same reservation rather than going to the heap behind your back. <code>thingContainer</code> lives in there too. Everything — rendering, audio, gameplay state — is in one flat address space with full visibility.</p>
+<h3 id="hot-reload">Hot reload</h3>
+<p>Because all game state lives at stable offsets inside one contiguous block, hot reloading gameplay code is straightforward: unload the DLL, load the new one, hand it the same base pointer. The new code finds all the state exactly where it left it. No serialization step. No &ldquo;save before reload&rdquo;. The memory layout is the save state.</p>
+<p>Compile times sit around 2 seconds, so the loop is: change code, hit reload, see the result immediately inside the running game. For comparison — how long does a Play build take in Unity? This is what makes iteration actually enjoyable rather than something you dread.</p>
+<p>One caveat worth mentioning: bgfx is compiled into the game DLL, so after a hot reload you need to re-set the bgfx context. This sounds annoying but it&rsquo;s a small addition to the bgfx source and it works cleanly.</p>
+<h3 id="numbers">Numbers</h3>
 <ul>
-<li>Use Async API <code>AssetBundle.LoadFromFileAsync</code></li>
-<li>Change AssetBundle <code>BuildAssetBundleOptions</code> into <code>ChunkBasedCompression</code>, optionally use <code>DisableLoadAssetByFileName</code> and <code>DisableLoadAssetByFileNameWithExtension</code>.</li>
-<li>Adjust Unity Quality Settings <code>QualitySettings.asyncUploadTimeSlice</code> and <code>QualitySettings.asyncUploadBufferSize</code></li>
+<li>~120MB total footprint (audio not yet optimized)</li>
+<li>250ms cold launch to playable</li>
+<li>No loading screen</li>
 </ul>
-<h2 id="checking-how-things-done">Checking how things done</h2>
-<p>In out recent games, we have some issues when loading a lot of Unity Asset Bundles at runtime on the loading screen. It took a couple of seconds for all bundles to finish loading. A bit weird since it&rsquo;s just 10~ish bundle with total contents of ~100mb, it should be done instantly with an iPhone 11 device (Hexa-core 2x2.65 GHz, 4GB Ram, NVME storage).</p>
-<p>Asset bundle loading code generally looks like this</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">AssetBundle</span> <span class="n">bundle</span> <span class="p">=</span> <span class="n">AssetBundle</span><span class="p">.</span><span class="n">LoadFromFile</span><span class="p">(</span><span class="n">path</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span><span class="p">(</span><span class="n">bundle</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// Do things related to bundle contents</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>At first I tried changing it into the async version of Loading API</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">AssetBundleCreateRequest</span> <span class="n">request</span> <span class="p">=</span> <span class="n">AssetBundle</span><span class="p">.</span><span class="n">LoadFromFileAsync</span><span class="p">(</span><span class="n">path</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="k">yield</span> <span class="k">return</span> <span class="n">request</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">AssetBundle</span> <span class="n">bundle</span> <span class="p">=</span> <span class="n">request</span><span class="p">.</span><span class="n">assetBundle</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span><span class="p">(</span><span class="n">bundle</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// Do things related to bundle contents</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>But from my timings, there are nothing that significantly changed timing wise for loading time.</p>
-<p>After digging deeper into Unity docs, there are some flags that might be useful to increase the asset bundle load time, related to how the asset bundles s being <a href="https://docs.unity3d.com/ScriptReference/BuildAssetBundleOptions.html">build</a>. I&rsquo;ve been using <code>BuildAssetBundleOptions.None</code> and according to docs it build with LZMA compression and requires entire bundle to be decompressed before being used, making load times slower. Changing the build options into <code>ChunkBasedCompression</code> LZ4 results in larger bundle files, but the loading speed is twice faster!. This options is the best tradeoff for speed and size of asset bundles.</p>
-<h2 id="jobs-done">Jobs done</h2>
-<p>Now at this point, we could pat our back and say that the jobs done, but is there anything else that could be improved?</p>
-<p>Looking at the build options again, there are some options that could potentially help reducing the load time more, <code>DisableLoadAssetByFileName</code> and <code>DisableLoadAssetByFileNameWithExtension</code>.</p>
-<p>Whenever an asset bundles is build, there are three ways to look up asset, full asset path, asset file name, and asset file name with extension, for example &ldquo;Assets/Prefabs/Player.prefab&rdquo;, &ldquo;Player&rdquo;, and &ldquo;Player.prefab&rdquo;. Those options will disable the asset name lookup table, saving runtime memory and loading performance.</p>
-<p>Since all call that goes to load the assets through the asset bundle is using</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">Sprite</span> <span class="n">sprite</span> <span class="p">=</span> <span class="n">bundle</span><span class="p">.</span><span class="n">LoadAsset</span><span class="p">&lt;</span><span class="n">Sprite</span><span class="p">&gt;(</span><span class="s">&#34;Player.prefab&#34;</span><span class="p">);</span>
-</span></span></code></pre></div><p>I can only use DisableLoadAssetByFileName, using DisableLoadAssetByFileNameWithExtension means I must go into each load asset call and fix the loading code into using the full path, which means a lot more work to do. Will take this in mind for the next game, but need to justify whether the effort and results beats the easiness of the API.</p>
-<h2 id="but-wait-theres-more">But wait there&rsquo;s more!</h2>
-<p>Before we can change a few more knobs and buttons on unity to speed up things, we need to understand how Unity package things and load those data at runtime, those things are explained in detail <a href="https://blog.unity.com/engine-platform/understanding-the-async-upload-pipeline">here</a>, but basically, you need to change the buffer size and time slice of when unity does the texture/mesh upload to GPU, if you have a lot of textures and meshes on the asset bundles, this will surely help out. You need to tweak <code>QualitySettings.asyncUploadTimeSlice</code> and <code>QualitySettings.asyncUploadBufferSize</code>, both are in Unity Quality Settings window. The former will adjust the time spent when uploading texture/mesh data on each frme, while the later would adjust the temporary ring buffer size used to upload those data. Generally for larger textures you need larger buffer, tweak and test those values in order to maximize your game loading time.</p>
+<hr>
+<h2 id="why-plain-c">Why plain C</h2>
+<p>The question I get most is why C and not C++. The honest answer is that C forces you to be explicit about everything. There are no hidden allocations, no constructors firing at surprising times, no implicit copies. When something happens, you wrote the code that made it happen. That visibility is worth a lot when you&rsquo;re trying to reason about performance and memory.</p>
+<p>I remember something along these lines being written up by OurMachinery in the past — the &ldquo;one big allocation&rdquo; approach to game memory — but I can&rsquo;t track down the exact post. The ideas aren&rsquo;t new. Anton Mikhailov covers similar ground well in his recent Wookash Podcast appearances if you want to hear it argued from first principles.</p>
+<p>Aniway, doing it in C actually was way more enjoyable and fun rather than using Modern C++ or C#, one thing I missed with using C is probably destructors or a way to do a clean defer. Sometimes when I used stb_ds dynamic arrays I forget to free it, so a defer / destructor would really help in this part, but nothing that a quick grep would quickly solve if I&rsquo;m missing some cleanup.</p>
+<hr>
+<p>The demo is live on Steam, feel free to try it and leave feedback, I read every comment.</p>
 
             </div>
         </article></main>
