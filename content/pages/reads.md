@@ -29,7 +29,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Adventures in Neural Rendering](https://interplayoflight.wordpress.com/2026/02/10/adventures-in-neural-rendering/) -- https://interplayoflight.wordpress.com
 - [Graphics Programming weekly - Issue 427 - February 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-427/) -- https://www.jendrikillner.com/
 - [Launching The Rural Guaranteed Minimum Income Initiative](https://blog.codinghorror.com/launching-the-rural-guaranteed-minimum-income-initiative/) -- https://blog.codinghorror.com/
-- [Should you keep your demo up post launch?](https://howtomarketagame.com/2026/02/02/should-you-keep-your-demo-up-post-launch/?utm_source=rss&utm_medium=rss&utm_campaign=should-you-keep-your-demo-up-post-launch) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
