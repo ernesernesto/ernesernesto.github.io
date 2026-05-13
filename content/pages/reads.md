@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 440 - May 10th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/) -- https://www.jendrikillner.com/
 - [2026 Tips for making your tweets go viral](https://howtomarketagame.com/2026/05/07/2026-tips-for-making-your-tweets-go-viral/?utm_source=rss&utm_medium=rss&utm_campaign=2026-tips-for-making-your-tweets-go-viral) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 439 - May 4th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-439/) -- https://www.jendrikillner.com/
 - [Void Miner](https://howtomarketagame.com/2026/04/28/void-miner/?utm_source=rss&utm_medium=rss&utm_campaign=void-miner) -- https://howtomarketagame.com
