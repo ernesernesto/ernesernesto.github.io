@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [2026 State of Bullet Heavens: How Vital Shell Succeeded](https://howtomarketagame.com/2026/05/19/2026-state-of-bullet-heavens-how-vital-shell-succeeded/?utm_source=rss&utm_medium=rss&utm_campaign=2026-state-of-bullet-heavens-how-vital-shell-succeeded) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 441 - May 17th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-441/) -- https://www.jendrikillner.com/
 - [Triangle Tessellation with Clamped Parallelograms](https://filmicworlds.com/blog/compute-tessellation-with-clamped-parallelograms/) -- https://filmicworlds.com/
 - [2026 Q1 Games](https://howtomarketagame.com/2026/05/14/2026-q1-games/?utm_source=rss&utm_medium=rss&utm_campaign=2026-q1-games) -- https://howtomarketagame.com
