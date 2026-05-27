@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Tools](https://howtomarketagame.com/2026/05/27/tools/?utm_source=rss&utm_medium=rss&utm_campaign=tools) -- https://howtomarketagame.com
 - [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
 - [My Professional Motivations, Qualifications, and Role Preferences](https://blog.demofox.org/2026/05/19/my-professional-motivations-and-qualifications/) -- https://blog.demofox.org
 - [2026 State of Bullet Heavens: How Vital Shell Succeeded](https://howtomarketagame.com/2026/05/19/2026-state-of-bullet-heavens-how-vital-shell-succeeded/?utm_source=rss&utm_medium=rss&utm_campaign=2026-state-of-bullet-heavens-how-vital-shell-succeeded) -- https://howtomarketagame.com
