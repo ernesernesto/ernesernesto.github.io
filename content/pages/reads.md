@@ -7,7 +7,9 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Simple batch decoding of unary codes](https://fgiesen.wordpress.com/2026/05/30/simple-batch-decoding-of-unary-codes/) -- https://fgiesen.wordpress.com
 - [Why does ASTC use ISE when almost nothing else does?](https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/) -- https://fgiesen.wordpress.com
+- [Agent OPML](https://www.tobias-franke.eu/log/2026/05/30/agent-opml.html) -- https://www.tobias-franke.eu/
 - [Tools](https://howtomarketagame.com/2026/05/27/tools/?utm_source=rss&utm_medium=rss&utm_campaign=tools) -- https://howtomarketagame.com
 - [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
 - [My Professional Motivations, Qualifications, and Role Preferences](https://blog.demofox.org/2026/05/19/my-professional-motivations-and-qualifications/) -- https://blog.demofox.org
