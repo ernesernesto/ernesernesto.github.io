@@ -33,7 +33,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 433 - March 22nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-433/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 432 - March 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-432/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 431 - March 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-431/) -- https://www.jendrikillner.com/
-- [Fog rendering](http://www.forwardscattering.org/post/72) -- http://www.forwardscattering.org/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
