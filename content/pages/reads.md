@@ -7,11 +7,12 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
 - [Simple batch decoding of unary codes](https://fgiesen.wordpress.com/2026/05/30/simple-batch-decoding-of-unary-codes/) -- https://fgiesen.wordpress.com
 - [Why does ASTC use ISE when almost nothing else does?](https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/) -- https://fgiesen.wordpress.com
-- [Agent OPML](https://www.tobias-franke.eu/log/2026/05/30/agent-opml.html) -- https://www.tobias-franke.eu/
 - [Tools](https://howtomarketagame.com/2026/05/27/tools/?utm_source=rss&utm_medium=rss&utm_campaign=tools) -- https://howtomarketagame.com
+- [New Reading and Display Features](https://blog.yiningkarlli.com/2026/05/new-reading-and-display-features.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 442 - May 24th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-442/) -- https://www.jendrikillner.com/
 - [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
 - [My Professional Motivations, Qualifications, and Role Preferences](https://blog.demofox.org/2026/05/19/my-professional-motivations-and-qualifications/) -- https://blog.demofox.org
@@ -28,7 +29,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 437 - April 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/) -- https://www.jendrikillner.com/
 - [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
-- [Syntonic Dentiforms redux](https://aras-p.info/blog/2026/04/13/Syntonic-Dentiforms-redux/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 435 - April 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-435/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 434 - March 29th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-434/) -- https://www.jendrikillner.com/
