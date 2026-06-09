@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Twenty Years of Curiosity, Codecs and Community](https://sonnati.wordpress.com/2026/06/09/twenty-years-of-curiosity-codecs-and-community/) -- https://sonnati.wordpress.com
 - [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
 - [Simple batch decoding of unary codes](https://fgiesen.wordpress.com/2026/05/30/simple-batch-decoding-of-unary-codes/) -- https://fgiesen.wordpress.com
