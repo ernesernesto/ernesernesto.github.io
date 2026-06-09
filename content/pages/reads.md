@@ -29,6 +29,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 437 - April 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/) -- https://www.jendrikillner.com/
 - [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
+- [Syntonic Dentiforms redux](https://aras-p.info/blog/2026/04/13/Syntonic-Dentiforms-redux/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 435 - April 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-435/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 434 - March 29th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-434/) -- https://www.jendrikillner.com/
