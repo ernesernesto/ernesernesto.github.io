@@ -12,18 +12,24 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
 - [Simple batch decoding of unary codes](https://fgiesen.wordpress.com/2026/05/30/simple-batch-decoding-of-unary-codes/) -- https://fgiesen.wordpress.com
 - [Why does ASTC use ISE when almost nothing else does?](https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/) -- https://fgiesen.wordpress.com
+- [Tools](https://howtomarketagame.com/2026/05/27/tools/?utm_source=rss&utm_medium=rss&utm_campaign=tools) -- https://howtomarketagame.com
 - [New Reading and Display Features](https://blog.yiningkarlli.com/2026/05/new-reading-and-display-features.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 442 - May 24th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-442/) -- https://www.jendrikillner.com/
 - [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
 - [My Professional Motivations, Qualifications, and Role Preferences](https://blog.demofox.org/2026/05/19/my-professional-motivations-and-qualifications/) -- https://blog.demofox.org
+- [2026 State of Bullet Heavens: How Vital Shell Succeeded](https://howtomarketagame.com/2026/05/19/2026-state-of-bullet-heavens-how-vital-shell-succeeded/?utm_source=rss&utm_medium=rss&utm_campaign=2026-state-of-bullet-heavens-how-vital-shell-succeeded) -- https://howtomarketagame.com
 - [New essay: Second Quantisation - a Quantisation Too Far](http://www.forwardscattering.org/post/73) -- http://www.forwardscattering.org/
 - [Graphics Programming weekly - Issue 441 - May 17th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-441/) -- https://www.jendrikillner.com/
 - [Triangle Tessellation with Clamped Parallelograms](https://filmicworlds.com/blog/compute-tessellation-with-clamped-parallelograms/) -- https://filmicworlds.com/
+- [2026 Q1 Games](https://howtomarketagame.com/2026/05/14/2026-q1-games/?utm_source=rss&utm_medium=rss&utm_campaign=2026-q1-games) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 440 - May 10th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/) -- https://www.jendrikillner.com/
+- [2026 Tips for making your tweets go viral](https://howtomarketagame.com/2026/05/07/2026-tips-for-making-your-tweets-go-viral/?utm_source=rss&utm_medium=rss&utm_campaign=2026-tips-for-making-your-tweets-go-viral) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 439 - May 4th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-439/) -- https://www.jendrikillner.com/
+- [Void Miner](https://howtomarketagame.com/2026/04/28/void-miner/?utm_source=rss&utm_medium=rss&utm_campaign=void-miner) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 438 - April 27h, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-438/) -- https://www.jendrikillner.com/
 - [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 437 - April 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/) -- https://www.jendrikillner.com/
+- [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
 - [Syntonic Dentiforms redux](https://aras-p.info/blog/2026/04/13/Syntonic-Dentiforms-redux/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 435 - April 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-435/) -- https://www.jendrikillner.com/
