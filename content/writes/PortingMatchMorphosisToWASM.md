@@ -102,6 +102,8 @@ Genuinely happy with how it turned out, I spent a weekend on this port and hones
 
 The Emscripten toolchain is solid. Most of the pain came from things that worked by accident on Windows that the web holds you accountable for. Once you know what to look for, fixing them is pretty straightforward.
 
-Game is live [here if you want to check it out](https://zhongda8.itch.io/matchmorphosis)
+Game is live https://zhongda8.itch.io/matchmorphosis
+
+And you can wishlist it https://store.steampowered.com/app/4131100/Match_Morphosis
 
 Thanks for reading! 
