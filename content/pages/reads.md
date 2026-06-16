@@ -7,13 +7,13 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [June 2026 Steam Next Fest Has Started](https://howtomarketagame.com/2026/06/16/june-2026-steam-next-fest-start/?utm_source=rss&utm_medium=rss&utm_campaign=june-2026-steam-next-fest-start) -- https://howtomarketagame.com
 - [Unity vs floating point](https://aras-p.info/blog/2026/06/11/Unity-vs-floating-point/) -- https://aras-p.info/
 - [Twenty Years of Curiosity, Codecs and Community](https://sonnati.wordpress.com/2026/06/09/twenty-years-of-curiosity-codecs-and-community/) -- https://sonnati.wordpress.com
 - [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
 - [Simple batch decoding of unary codes](https://fgiesen.wordpress.com/2026/05/30/simple-batch-decoding-of-unary-codes/) -- https://fgiesen.wordpress.com
 - [Why does ASTC use ISE when almost nothing else does?](https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/) -- https://fgiesen.wordpress.com
-- [Tools](https://howtomarketagame.com/2026/05/27/tools/?utm_source=rss&utm_medium=rss&utm_campaign=tools) -- https://howtomarketagame.com
 - [New Reading and Display Features](https://blog.yiningkarlli.com/2026/05/new-reading-and-display-features.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 442 - May 24th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-442/) -- https://www.jendrikillner.com/
 - [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
