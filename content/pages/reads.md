@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [June 2026 Steam Next Fest Has Started](https://howtomarketagame.com/2026/06/16/june-2026-steam-next-fest-start/?utm_source=rss&utm_medium=rss&utm_campaign=june-2026-steam-next-fest-start) -- https://howtomarketagame.com
+- [Unity vs floating point](https://aras-p.info/blog/2026/06/11/Unity-vs-floating-point/) -- https://aras-p.info/
 - [Twenty Years of Curiosity, Codecs and Community](https://sonnati.wordpress.com/2026/06/09/twenty-years-of-curiosity-codecs-and-community/) -- https://sonnati.wordpress.com
 - [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
@@ -30,6 +31,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 437 - April 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-437/) -- https://www.jendrikillner.com/
 - [Making sense of the February 2026 Steam Next Fest ](https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=making-sense-of-the-february-2026-steam-next-fest) -- https://howtomarketagame.com
+- [Syntonic Dentiforms redux](https://aras-p.info/blog/2026/04/13/Syntonic-Dentiforms-redux/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 436 - April 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-436/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 435 - April 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-435/) -- https://www.jendrikillner.com/
 - [Graphics Programming weekly - Issue 434 - March 29th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-434/) -- https://www.jendrikillner.com/
