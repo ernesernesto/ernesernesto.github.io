@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [PivCo-Huffman “merge” operations](https://fgiesen.wordpress.com/2026/06/21/pivco-huffman-merge-operations/) -- https://fgiesen.wordpress.com
 - [Simulating Airband AM Radios](https://bitbashing.io/am-radio.html) -- https://bitbashing.io/
 - [June 2026 Steam Next Fest Has Started](https://howtomarketagame.com/2026/06/16/june-2026-steam-next-fest-start/?utm_source=rss&utm_medium=rss&utm_campaign=june-2026-steam-next-fest-start) -- https://howtomarketagame.com
 - [Unity vs floating point](https://aras-p.info/blog/2026/06/11/Unity-vs-floating-point/) -- https://aras-p.info/
