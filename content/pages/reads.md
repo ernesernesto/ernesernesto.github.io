@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Nobody plays demos and that is ok](https://howtomarketagame.com/2026/06/30/nobody-plays-demos-and-that-is-ok/?utm_source=rss&utm_medium=rss&utm_campaign=nobody-plays-demos-and-that-is-ok) -- https://howtomarketagame.com
 - [Joys of cancelling a TBB task group](https://aras-p.info/blog/2026/06/28/Joys-of-cancelling-a-TBB-task-group/) -- https://aras-p.info/
 - [How the Steam Personal Calendar affects your launch](https://howtomarketagame.com/2026/06/25/how-the-steam-personal-calendar-affects-your-launch/?utm_source=rss&utm_medium=rss&utm_campaign=how-the-steam-personal-calendar-affects-your-launch) -- https://howtomarketagame.com
 - [Adaptive Catmull-Clark Subdivision with Compute Tessellation](https://filmicworlds.com/blog/adaptive-catmull-clark-subdivision-with-compute-tessellation/) -- https://filmicworlds.com/
