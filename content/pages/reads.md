@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [You cannot over-expose your game](https://howtomarketagame.com/2026/07/09/you-cannot-over-expose-your-game/?utm_source=rss&utm_medium=rss&utm_campaign=you-cannot-over-expose-your-game) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 445 - July 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-445/) -- https://www.jendrikillner.com/
 - [Intuitive Quantum Electrodynamics](http://www.forwardscattering.org/post/75) -- http://www.forwardscattering.org/
 - [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) -- https://blog.demofox.org
