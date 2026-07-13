@@ -10,10 +10,10 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [You cannot over-expose your game](https://howtomarketagame.com/2026/07/09/you-cannot-over-expose-your-game/?utm_source=rss&utm_medium=rss&utm_campaign=you-cannot-over-expose-your-game) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 445 - July 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-445/) -- https://www.jendrikillner.com/
 - [Intuitive Quantum Electrodynamics](http://www.forwardscattering.org/post/75) -- http://www.forwardscattering.org/
+- [Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island](https://danluu.com/ai-coding/) -- https://danluu.com/atom/index.xml
 - [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) -- https://blog.demofox.org
 - [Film Grain Synthesis: The Most Disruptive Yet Underrated Encoding Technique](https://sonnati.wordpress.com/2026/06/30/film-grain-synthesis-the-most-disruptive-yet-underrated-encoding-technique/) -- https://sonnati.wordpress.com
 - [Most people will play your demo and not wishlist it and that is ok](https://howtomarketagame.com/2026/06/30/nobody-plays-demos-and-that-is-ok/?utm_source=rss&utm_medium=rss&utm_campaign=nobody-plays-demos-and-that-is-ok) -- https://howtomarketagame.com
-- [Joys of cancelling a TBB task group](https://aras-p.info/blog/2026/06/28/Joys-of-cancelling-a-TBB-task-group/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 444 - June 28th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-444/) -- https://www.jendrikillner.com/
 - [How the Steam Personal Calendar affects your launch](https://howtomarketagame.com/2026/06/25/how-the-steam-personal-calendar-affects-your-launch/?utm_source=rss&utm_medium=rss&utm_campaign=how-the-steam-personal-calendar-affects-your-launch) -- https://howtomarketagame.com
 - [Adaptive Catmull-Clark Subdivision with Compute Tessellation](https://filmicworlds.com/blog/adaptive-catmull-clark-subdivision-with-compute-tessellation/) -- https://filmicworlds.com/
@@ -21,7 +21,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [PivCo-Huffman “merge” operations](https://fgiesen.wordpress.com/2026/06/21/pivco-huffman-merge-operations/) -- https://fgiesen.wordpress.com
 - [Simulating Airband AM Radios](https://bitbashing.io/am-radio.html) -- https://bitbashing.io/
 - [June 2026 Steam Next Fest Has Started](https://howtomarketagame.com/2026/06/16/june-2026-steam-next-fest-start/?utm_source=rss&utm_medium=rss&utm_campaign=june-2026-steam-next-fest-start) -- https://howtomarketagame.com
-- [Unity vs floating point](https://aras-p.info/blog/2026/06/11/Unity-vs-floating-point/) -- https://aras-p.info/
 - [Twenty Years of Curiosity, Codecs and Community](https://sonnati.wordpress.com/2026/06/09/twenty-years-of-curiosity-codecs-and-community/) -- https://sonnati.wordpress.com
 - [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
