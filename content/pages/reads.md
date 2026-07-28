@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
+- [Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 447 - July 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-447/) -- https://www.jendrikillner.com/
 - [Games that used momentum for Steam Next Fest Success](https://howtomarketagame.com/2026/07/14/games-that-used-momentum-for-steam-next-fest-success/?utm_source=rss&utm_medium=rss&utm_campaign=games-that-used-momentum-for-steam-next-fest-success) -- https://howtomarketagame.com
 - [Did AI Slop ruin Steam Next Fest June 2026?](https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/?utm_source=rss&utm_medium=rss&utm_campaign=did-ai-slop-ruin-steam-next-fest-june-2026) -- https://howtomarketagame.com
