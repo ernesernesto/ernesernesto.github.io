@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 448 - July 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-448/) -- https://www.jendrikillner.com/
 - [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
 - [SIGGRAPH 2026 Talk- Path Guiding in Disney's "Zootopia 2"](https://blog.yiningkarlli.com/2026/07/path-guiding-on-zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [SIGGRAPH 2026 Talk- A Hybrid BVH Structure for Interactive GPU Ray Tracing](https://blog.yiningkarlli.com/2026/07/hybrid-bvh.html) -- https://blog.yiningkarlli.com/
