@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [ryg_rans is not a library](https://fgiesen.wordpress.com/2026/08/03/ryg_rans-is-not-a-library/) -- https://fgiesen.wordpress.com
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 448 - July 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-448/) -- https://www.jendrikillner.com/
 - [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
