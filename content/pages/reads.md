@@ -49,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 441 - May 17th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-441/) -- https://www.jendrikillner.com/
 - [Triangle Tessellation with Clamped Parallelograms](https://filmicworlds.com/blog/compute-tessellation-with-clamped-parallelograms/) -- https://filmicworlds.com/
 - [2026 Q1 Games](https://howtomarketagame.com/2026/05/14/2026-q1-games/?utm_source=rss&utm_medium=rss&utm_campaign=2026-q1-games) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 440 - May 10th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-440/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
