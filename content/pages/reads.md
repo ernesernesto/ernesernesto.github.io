@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The state of virtual 3rd-party festivals 2026](https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-state-of-virtual-3rd-party-festivals-2026) -- https://howtomarketagame.com
 - [ryg_rans is not a library](https://fgiesen.wordpress.com/2026/08/03/ryg_rans-is-not-a-library/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 449 - August 2nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-449/) -- https://www.jendrikillner.com/
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
