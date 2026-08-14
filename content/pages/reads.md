@@ -9,6 +9,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
 - [The state of virtual 3rd-party festivals 2026](https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-state-of-virtual-3rd-party-festivals-2026) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 450 - August 9th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-450/) -- https://www.jendrikillner.com/
+- [What's the best programming language for coding agents?](https://danluu.com/pl-tokens/) -- https://danluu.com/atom/index.xml
 - [ryg_rans is not a library](https://fgiesen.wordpress.com/2026/08/03/ryg_rans-is-not-a-library/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 449 - August 2nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-449/) -- https://www.jendrikillner.com/
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
