@@ -47,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
 - [My Professional Motivations, Qualifications, and Role Preferences](https://blog.demofox.org/2026/05/19/my-professional-motivations-and-qualifications/) -- https://blog.demofox.org
 - [2026 State of Bullet Heavens: How Vital Shell Succeeded](https://howtomarketagame.com/2026/05/19/2026-state-of-bullet-heavens-how-vital-shell-succeeded/?utm_source=rss&utm_medium=rss&utm_campaign=2026-state-of-bullet-heavens-how-vital-shell-succeeded) -- https://howtomarketagame.com
-- [New essay: Second Quantisation - a Quantisation Too Far](http://www.forwardscattering.org/post/73) -- http://www.forwardscattering.org/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
