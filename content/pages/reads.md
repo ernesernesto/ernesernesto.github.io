@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [More Blender VSE tidbits](https://aras-p.info/blog/2026/08/18/More-Blender-VSE-tidbits/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 451 - August 16th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-451/) -- https://www.jendrikillner.com/
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
@@ -48,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Why does ASTC use ISE when almost nothing else does?](https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/) -- https://fgiesen.wordpress.com
 - [New Reading and Display Features](https://blog.yiningkarlli.com/2026/05/new-reading-and-display-features.html) -- https://blog.yiningkarlli.com/
 - [Graphics Programming weekly - Issue 442 - May 24th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-442/) -- https://www.jendrikillner.com/
-- [Adaptive Compute Tessellation](https://filmicworlds.com/blog/adaptive-compute-tessellation/) -- https://filmicworlds.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
