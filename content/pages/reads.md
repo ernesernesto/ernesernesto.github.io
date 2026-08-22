@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Part 3: The Week Of The Golden Age: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/?utm_source=rss&utm_medium=rss&utm_campaign=part-3-the-week-of-the-golden-age-how-many-dudes) -- https://howtomarketagame.com
 - [Part 2: The Week of the Golden Age](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=part-2-the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 451 - August 16th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-451/) -- https://www.jendrikillner.com/
@@ -39,7 +40,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Every Choice Changes Everything: The Show](https://blog.codinghorror.com/every-choice-changes-everything-the-show/) -- https://blog.codinghorror.com/
 - [PivCo-Huffman “merge” operations](https://fgiesen.wordpress.com/2026/06/21/pivco-huffman-merge-operations/) -- https://fgiesen.wordpress.com
 - [Simulating Airband AM Radios](https://bitbashing.io/am-radio.html) -- https://bitbashing.io/
-- [June 2026 Steam Next Fest Has Started](https://howtomarketagame.com/2026/06/16/june-2026-steam-next-fest-start/?utm_source=rss&utm_medium=rss&utm_campaign=june-2026-steam-next-fest-start) -- https://howtomarketagame.com
 - [Twenty Years of Curiosity, Codecs and Community](https://sonnati.wordpress.com/2026/06/09/twenty-years-of-curiosity-codecs-and-community/) -- https://sonnati.wordpress.com
 - [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 - [Graphics Programming weekly - Issue 443 - May 31st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-443/) -- https://www.jendrikillner.com/
