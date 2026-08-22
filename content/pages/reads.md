@@ -46,7 +46,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Simple batch decoding of unary codes](https://fgiesen.wordpress.com/2026/05/30/simple-batch-decoding-of-unary-codes/) -- https://fgiesen.wordpress.com
 - [Why does ASTC use ISE when almost nothing else does?](https://fgiesen.wordpress.com/2026/05/29/why-does-astc-use-ise-when-almost-nothing-else-does/) -- https://fgiesen.wordpress.com
 - [New Reading and Display Features](https://blog.yiningkarlli.com/2026/05/new-reading-and-display-features.html) -- https://blog.yiningkarlli.com/
-- [Graphics Programming weekly - Issue 442 - May 24th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-442/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
