@@ -14,6 +14,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [There's no reason for software to be slow anymore](https://danluu.com/perf-opt/) -- https://danluu.com/atom/index.xml
 - [Part 2: The Week of the Golden Age](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=part-2-the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-of-the-golden-age) -- https://howtomarketagame.com
+- [More Blender VSE tidbits](https://aras-p.info/blog/2026/08/18/More-Blender-VSE-tidbits/) -- https://aras-p.info/
 - [The benchmarkpocalypse](https://danluu.com/benchpocalypse/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 451 - August 16th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-451/) -- https://www.jendrikillner.com/
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
@@ -25,9 +26,9 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 448 - July 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-448/) -- https://www.jendrikillner.com/
 - [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
+- [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [SIGGRAPH 2026 Talk- Path Guiding in Disney's "Zootopia 2"](https://blog.yiningkarlli.com/2026/07/path-guiding-on-zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [SIGGRAPH 2026 Talk- A Hybrid BVH Structure for Interactive GPU Ray Tracing](https://blog.yiningkarlli.com/2026/07/hybrid-bvh.html) -- https://blog.yiningkarlli.com/
-- [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 447 - July 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-447/) -- https://www.jendrikillner.com/
 - [Games that used momentum for Steam Next Fest Success](https://howtomarketagame.com/2026/07/14/games-that-used-momentum-for-steam-next-fest-success/?utm_source=rss&utm_medium=rss&utm_campaign=games-that-used-momentum-for-steam-next-fest-success) -- https://howtomarketagame.com
 - [Did AI Slop ruin Steam Next Fest June 2026?](https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/?utm_source=rss&utm_medium=rss&utm_campaign=did-ai-slop-ruin-steam-next-fest-june-2026) -- https://howtomarketagame.com
@@ -39,12 +40,14 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) -- https://blog.demofox.org
 - [Film Grain Synthesis: The Most Disruptive Yet Underrated Encoding Technique](https://sonnati.wordpress.com/2026/06/30/film-grain-synthesis-the-most-disruptive-yet-underrated-encoding-technique/) -- https://sonnati.wordpress.com
 - [Most people will play your demo and not wishlist it and that is ok](https://howtomarketagame.com/2026/06/30/nobody-plays-demos-and-that-is-ok/?utm_source=rss&utm_medium=rss&utm_campaign=nobody-plays-demos-and-that-is-ok) -- https://howtomarketagame.com
+- [Joys of cancelling a TBB task group](https://aras-p.info/blog/2026/06/28/Joys-of-cancelling-a-TBB-task-group/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 444 - June 28th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-444/) -- https://www.jendrikillner.com/
 - [How the Steam Personal Calendar affects your launch](https://howtomarketagame.com/2026/06/25/how-the-steam-personal-calendar-affects-your-launch/?utm_source=rss&utm_medium=rss&utm_campaign=how-the-steam-personal-calendar-affects-your-launch) -- https://howtomarketagame.com
 - [Adaptive Catmull-Clark Subdivision with Compute Tessellation](https://filmicworlds.com/blog/adaptive-catmull-clark-subdivision-with-compute-tessellation/) -- https://filmicworlds.com/
 - [Every Choice Changes Everything: The Show](https://blog.codinghorror.com/every-choice-changes-everything-the-show/) -- https://blog.codinghorror.com/
 - [PivCo-Huffman “merge” operations](https://fgiesen.wordpress.com/2026/06/21/pivco-huffman-merge-operations/) -- https://fgiesen.wordpress.com
 - [Simulating Airband AM Radios](https://bitbashing.io/am-radio.html) -- https://bitbashing.io/
+- [Unity vs floating point](https://aras-p.info/blog/2026/06/11/Unity-vs-floating-point/) -- https://aras-p.info/
 - [Twenty Years of Curiosity, Codecs and Community](https://sonnati.wordpress.com/2026/06/09/twenty-years-of-curiosity-codecs-and-community/) -- https://sonnati.wordpress.com
 - [Procedural UV Derivatives Evaluation in SORT Renderer](https://agraphicsguynotes.com/posts/procedural_uv_derivatives_evaluation_in_sort_renderer/) -- https://agraphicsguynotes.com/posts/
 
