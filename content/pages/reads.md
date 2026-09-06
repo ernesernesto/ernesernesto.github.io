@@ -8,8 +8,10 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
+- [How accurate have Ed Zitron's AI skeptic predictions been?](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
 - [You Can't "Vibe Code" Love](https://blog.codinghorror.com/you-cant-vibe-code-love/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 453 - August 30th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-453/) -- https://www.jendrikillner.com/
+- [Bug blindness](https://danluu.com/bug-blind/) -- https://danluu.com/atom/index.xml
 - [Memory ordering in CPUs](https://fgiesen.wordpress.com/2026/08/25/memory-ordering-in-cpus/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 452 - August 23rd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-452/) -- https://www.jendrikillner.com/
 - [Part 3: The Week Of The Golden Age: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/?utm_source=rss&utm_medium=rss&utm_campaign=part-3-the-week-of-the-golden-age-how-many-dudes) -- https://howtomarketagame.com
