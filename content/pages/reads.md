@@ -9,10 +9,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
-- [How accurate have Ed Zitron's AI skeptic predictions been?](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
 - [You Can't "Vibe Code" Love](https://blog.codinghorror.com/you-cant-vibe-code-love/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 453 - August 30th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-453/) -- https://www.jendrikillner.com/
-- [Bug blindness](https://danluu.com/bug-blind/) -- https://danluu.com/atom/index.xml
 - [Memory ordering in CPUs](https://fgiesen.wordpress.com/2026/08/25/memory-ordering-in-cpus/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 452 - August 23rd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-452/) -- https://www.jendrikillner.com/
 - [Part 3: The Week Of The Golden Age: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/?utm_source=rss&utm_medium=rss&utm_campaign=part-3-the-week-of-the-golden-age-how-many-dudes) -- https://howtomarketagame.com
@@ -31,9 +29,9 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 448 - July 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-448/) -- https://www.jendrikillner.com/
 - [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
+- [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [SIGGRAPH 2026 Talk- Path Guiding in Disney's "Zootopia 2"](https://blog.yiningkarlli.com/2026/07/path-guiding-on-zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [SIGGRAPH 2026 Talk- A Hybrid BVH Structure for Interactive GPU Ray Tracing](https://blog.yiningkarlli.com/2026/07/hybrid-bvh.html) -- https://blog.yiningkarlli.com/
-- [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 447 - July 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-447/) -- https://www.jendrikillner.com/
 - [Games that used momentum for Steam Next Fest Success](https://howtomarketagame.com/2026/07/14/games-that-used-momentum-for-steam-next-fest-success/?utm_source=rss&utm_medium=rss&utm_campaign=games-that-used-momentum-for-steam-next-fest-success) -- https://howtomarketagame.com
 - [Did AI Slop ruin Steam Next Fest June 2026?](https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/?utm_source=rss&utm_medium=rss&utm_campaign=did-ai-slop-ruin-steam-next-fest-june-2026) -- https://howtomarketagame.com
