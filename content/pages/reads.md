@@ -9,14 +9,17 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
+- [How accurate have Ed Zitron's AI skeptic predictions been?](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
 - [You Can't "Vibe Code" Love](https://blog.codinghorror.com/you-cant-vibe-code-love/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 453 - August 30th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-453/) -- https://www.jendrikillner.com/
+- [Bug blindness](https://danluu.com/bug-blind/) -- https://danluu.com/atom/index.xml
 - [Memory ordering in CPUs](https://fgiesen.wordpress.com/2026/08/25/memory-ordering-in-cpus/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 452 - August 23rd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-452/) -- https://www.jendrikillner.com/
 - [Part 3: The Week Of The Golden Age: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/?utm_source=rss&utm_medium=rss&utm_campaign=part-3-the-week-of-the-golden-age-how-many-dudes) -- https://howtomarketagame.com
 - [There's no reason for software to be slow anymore](https://danluu.com/perf-opt/) -- https://danluu.com/atom/index.xml
 - [Part 2: The Week of the Golden Age](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=part-2-the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-of-the-golden-age) -- https://howtomarketagame.com
+- [More Blender VSE tidbits](https://aras-p.info/blog/2026/08/18/More-Blender-VSE-tidbits/) -- https://aras-p.info/
 - [The benchmarkpocalypse](https://danluu.com/benchpocalypse/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 451 - August 16th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-451/) -- https://www.jendrikillner.com/
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
@@ -42,6 +45,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) -- https://blog.demofox.org
 - [Film Grain Synthesis: The Most Disruptive Yet Underrated Encoding Technique](https://sonnati.wordpress.com/2026/06/30/film-grain-synthesis-the-most-disruptive-yet-underrated-encoding-technique/) -- https://sonnati.wordpress.com
 - [Most people will play your demo and not wishlist it and that is ok](https://howtomarketagame.com/2026/06/30/nobody-plays-demos-and-that-is-ok/?utm_source=rss&utm_medium=rss&utm_campaign=nobody-plays-demos-and-that-is-ok) -- https://howtomarketagame.com
+- [Joys of cancelling a TBB task group](https://aras-p.info/blog/2026/06/28/Joys-of-cancelling-a-TBB-task-group/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 444 - June 28th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-444/) -- https://www.jendrikillner.com/
 - [Adaptive Catmull-Clark Subdivision with Compute Tessellation](https://filmicworlds.com/blog/adaptive-catmull-clark-subdivision-with-compute-tessellation/) -- https://filmicworlds.com/
 - [Every Choice Changes Everything: The Show](https://blog.codinghorror.com/every-choice-changes-everything-the-show/) -- https://blog.codinghorror.com/
