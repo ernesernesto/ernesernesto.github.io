@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 444 - June 28th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-444/) -- https://www.jendrikillner.com/
 - [Adaptive Catmull-Clark Subdivision with Compute Tessellation](https://filmicworlds.com/blog/adaptive-catmull-clark-subdivision-with-compute-tessellation/) -- https://filmicworlds.com/
 - [Every Choice Changes Everything: The Show](https://blog.codinghorror.com/every-choice-changes-everything-the-show/) -- https://blog.codinghorror.com/
-- [PivCo-Huffman “merge” operations](https://fgiesen.wordpress.com/2026/06/21/pivco-huffman-merge-operations/) -- https://fgiesen.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
