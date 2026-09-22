@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
 - [Signed, Tob](https://www.tobias-franke.eu/log/2026/09/15/signed-tob.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 455 - September 13th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-455/) -- https://www.jendrikillner.com/
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
