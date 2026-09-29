@@ -9,13 +9,15 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
+- [There's no point at which turning your brain off will work](https://danluu.com/brain-off/) -- https://danluu.com/atom/index.xml
 - [Signed, Tob](https://www.tobias-franke.eu/log/2026/09/15/signed-tob.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 455 - September 13th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-455/) -- https://www.jendrikillner.com/
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
+- [How well do agents use test and verification techniques?](https://danluu.com/agentic-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 454 - September 6th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-454/) -- https://www.jendrikillner.com/
 - [The RSS Librarian - Version Two](https://www.tobias-franke.eu/log/2026/09/06/rss-librarian-version-two.html) -- https://www.tobias-franke.eu/
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
-- [How accurate have Ed Zitron's AI skeptic predictions been?](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
+- [Ed Zitron's AI prediction track record](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
 - [You Can't "Vibe Code" Love](https://blog.codinghorror.com/you-cant-vibe-code-love/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 453 - August 30th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-453/) -- https://www.jendrikillner.com/
 - [Bug blindness](https://danluu.com/bug-blind/) -- https://danluu.com/atom/index.xml
@@ -37,9 +39,9 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 448 - July 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-448/) -- https://www.jendrikillner.com/
 - [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
-- [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [SIGGRAPH 2026 Talk- Path Guiding in Disney's "Zootopia 2"](https://blog.yiningkarlli.com/2026/07/path-guiding-on-zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [SIGGRAPH 2026 Talk- A Hybrid BVH Structure for Interactive GPU Ray Tracing](https://blog.yiningkarlli.com/2026/07/hybrid-bvh.html) -- https://blog.yiningkarlli.com/
+- [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 447 - July 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-447/) -- https://www.jendrikillner.com/
 - [Games that used momentum for Steam Next Fest Success](https://howtomarketagame.com/2026/07/14/games-that-used-momentum-for-steam-next-fest-success/?utm_source=rss&utm_medium=rss&utm_campaign=games-that-used-momentum-for-steam-next-fest-success) -- https://howtomarketagame.com
 - [Did AI Slop ruin Steam Next Fest June 2026?](https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/?utm_source=rss&utm_medium=rss&utm_campaign=did-ai-slop-ruin-steam-next-fest-june-2026) -- https://howtomarketagame.com
@@ -48,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 445 - July 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-445/) -- https://www.jendrikillner.com/
 - [Intuitive Quantum Electrodynamics](http://www.forwardscattering.org/post/75) -- http://www.forwardscattering.org/
 - [Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island](https://danluu.com/ai-coding/) -- https://danluu.com/atom/index.xml
-- [What To Learn To Be A Real Time Graphics Programmer](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) -- https://blog.demofox.org
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
