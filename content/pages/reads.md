@@ -51,7 +51,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [You cannot over-expose your game](https://howtomarketagame.com/2026/07/09/you-cannot-over-expose-your-game/?utm_source=rss&utm_medium=rss&utm_campaign=you-cannot-over-expose-your-game) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 445 - July 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-445/) -- https://www.jendrikillner.com/
 - [Intuitive Quantum Electrodynamics](http://www.forwardscattering.org/post/75) -- http://www.forwardscattering.org/
-- [Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island](https://danluu.com/ai-coding/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
