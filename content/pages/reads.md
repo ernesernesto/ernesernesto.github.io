@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
