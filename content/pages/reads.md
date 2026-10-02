@@ -7,19 +7,16 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
-- [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
-- [There's no point at which turning your brain off will work](https://danluu.com/brain-off/) -- https://danluu.com/atom/index.xml
 - [Signed, Tob](https://www.tobias-franke.eu/log/2026/09/15/signed-tob.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 455 - September 13th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-455/) -- https://www.jendrikillner.com/
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
-- [How well do agents use test and verification techniques?](https://danluu.com/agentic-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 454 - September 6th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-454/) -- https://www.jendrikillner.com/
 - [The RSS Librarian - Version Two](https://www.tobias-franke.eu/log/2026/09/06/rss-librarian-version-two.html) -- https://www.tobias-franke.eu/
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
-- [Ed Zitron's AI prediction track record](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
+- [How accurate have Ed Zitron's AI skeptic predictions been?](https://danluu.com/zitron/) -- https://danluu.com/atom/index.xml
 - [You Can't "Vibe Code" Love](https://blog.codinghorror.com/you-cant-vibe-code-love/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 453 - August 30th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-453/) -- https://www.jendrikillner.com/
 - [Bug blindness](https://danluu.com/bug-blind/) -- https://danluu.com/atom/index.xml
@@ -29,7 +26,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [There's no reason for software to be slow anymore](https://danluu.com/perf-opt/) -- https://danluu.com/atom/index.xml
 - [Part 2: The Week of the Golden Age](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=part-2-the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-of-the-golden-age) -- https://howtomarketagame.com
-- [More Blender VSE tidbits](https://aras-p.info/blog/2026/08/18/More-Blender-VSE-tidbits/) -- https://aras-p.info/
 - [The benchmarkpocalypse](https://danluu.com/benchpocalypse/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 451 - August 16th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-451/) -- https://www.jendrikillner.com/
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
@@ -51,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 446 - July 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-446/) -- https://www.jendrikillner.com/
 - [You cannot over-expose your game](https://howtomarketagame.com/2026/07/09/you-cannot-over-expose-your-game/?utm_source=rss&utm_medium=rss&utm_campaign=you-cannot-over-expose-your-game) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 445 - July 5th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-445/) -- https://www.jendrikillner.com/
-- [Intuitive Quantum Electrodynamics](http://www.forwardscattering.org/post/75) -- http://www.forwardscattering.org/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
