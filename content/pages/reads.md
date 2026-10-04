@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [A Spatio-Temporal Acceleration Framework for Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis26stafoit/index.html) -- https://www.tobias-franke.eu/
+- [What I Have Learned Building an AI Software Factory](https://codecapsule.com/2026/10/04/what-i-have-learned-building-an-ai-software-factory/) -- https://codecapsule.com
 - [The Double Headed Stack Allocator](https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/) -- https://blog.demofox.org
 - [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
