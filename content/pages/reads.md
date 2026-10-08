@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Why The AI Determinism Argument Annoys Me](https://blog.demofox.org/2026/10/07/why-the-ai-determinism-argument-annoys-me/) -- https://blog.demofox.org
 - [A Spatio-Temporal Acceleration Framework for Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis26stafoit/index.html) -- https://www.tobias-franke.eu/
 - [Unroll a loop, make shader 10x faster](https://aras-p.info/blog/2026/10/05/Unroll-a-loop-make-shader-10x-faster/) -- https://aras-p.info/
 - [What I Learned Building an AI Software Factory](https://codecapsule.com/2026/10/04/what-i-learned-building-an-ai-software-factory/) -- https://codecapsule.com
