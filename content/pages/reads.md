@@ -53,7 +53,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 447 - July 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-447/) -- https://www.jendrikillner.com/
 - [Games that used momentum for Steam Next Fest Success](https://howtomarketagame.com/2026/07/14/games-that-used-momentum-for-steam-next-fest-success/?utm_source=rss&utm_medium=rss&utm_campaign=games-that-used-momentum-for-steam-next-fest-success) -- https://howtomarketagame.com
 - [Did AI Slop ruin Steam Next Fest June 2026?](https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/?utm_source=rss&utm_medium=rss&utm_campaign=did-ai-slop-ruin-steam-next-fest-june-2026) -- https://howtomarketagame.com
-- [Graphics Programming weekly - Issue 446 - July 12th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-446/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
