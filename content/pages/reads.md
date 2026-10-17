@@ -53,7 +53,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [SIGGRAPH 2026 Talk- Path Guiding in Disney's "Zootopia 2"](https://blog.yiningkarlli.com/2026/07/path-guiding-on-zootopia-2.html) -- https://blog.yiningkarlli.com/
 - [SIGGRAPH 2026 Talk- A Hybrid BVH Structure for Interactive GPU Ray Tracing](https://blog.yiningkarlli.com/2026/07/hybrid-bvh.html) -- https://blog.yiningkarlli.com/
 - [Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires](https://danluu.com/exercise-7/) -- https://danluu.com/atom/index.xml
-- [Graphics Programming weekly - Issue 447 - July 19th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-447/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
