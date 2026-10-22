@@ -45,7 +45,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 449 - August 2nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-449/) -- https://www.jendrikillner.com/
 - [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 448 - July 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-448/) -- https://www.jendrikillner.com/
-- [From Per-Title Encoding to Perception-Aware Streaming: A Technical Manifesto.](https://sonnati.wordpress.com/2026/07/24/from-per-title-encoding-to-perception-aware-streaming-a-technical-manifesto/) -- https://sonnati.wordpress.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
