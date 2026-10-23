@@ -8,6 +8,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
 - [How sloppy is the October 2026 Steam Next Fest](https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=how-sloppy-is-the-october-2026-steam-next-fest) -- https://howtomarketagame.com
+- [Graphics Programming weekly - Issue 459 - October 18th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-459/) -- https://www.jendrikillner.com/
 - [Binary Serialization in df_game_data](https://blog.demofox.org/2026/10/15/binary-serialization-in-df_game_data/) -- https://blog.demofox.org
 - [Wishlist inflation is real, but you still need them](https://howtomarketagame.com/2026/10/13/wishlist-inflation-is-real-but-they-are-still-important/?utm_source=rss&utm_medium=rss&utm_campaign=wishlist-inflation-is-real-but-they-are-still-important) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 458 - October 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-458/) -- https://www.jendrikillner.com/
