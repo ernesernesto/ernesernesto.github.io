@@ -48,7 +48,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [How does programming language affect token efficiency and correctness?](https://danluu.com/pl-tokens/) -- https://danluu.com/atom/index.xml
 - [ryg_rans is not a library](https://fgiesen.wordpress.com/2026/08/03/ryg_rans-is-not-a-library/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 449 - August 2nd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-449/) -- https://www.jendrikillner.com/
-- [Is Friendslop saturated?](https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/?utm_source=rss&utm_medium=rss&utm_campaign=is-friendslop-saturated) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
