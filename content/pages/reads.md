@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Suffering as a Feature](https://blog.codinghorror.com/suffering-as-a-feature/) -- https://blog.codinghorror.com/
 - [Why The Concept of Data Poisoning Annoys Me](https://blog.demofox.org/2026/10/24/why-the-concept-of-data-poisoning-annoys-me/) -- https://blog.demofox.org
 - [How sloppy is the October 2026 Steam Next Fest](https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/?utm_source=rss&utm_medium=rss&utm_campaign=how-sloppy-is-the-october-2026-steam-next-fest) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 459 - October 18th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-459/) -- https://www.jendrikillner.com/
