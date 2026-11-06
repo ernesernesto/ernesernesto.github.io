@@ -7,7 +7,8 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
-- [Test and verification technique effectiveness with GPT-6 Astra](https://danluu.com/astra-testing/) -- https://danluu.com/atom/index.xml
+- [Compact C++ Maths APIs without copy-paste](https://donw.io/post/compact-cpp-maths-api/) -- https://donw.io/
+- [Graphics Programming weekly - Issue 461 - November 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-461/) -- https://www.jendrikillner.com/
 - [Building a Fiber-Based Job System from Scratch](https://agraphicsguynotes.com/posts/building_a_fiber_based_job_system_from_scratch/) -- https://agraphicsguynotes.com/posts/
 - [AI Cloners Are Here. Are Indie Devs Cooked?](https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/?utm_source=rss&utm_medium=rss&utm_campaign=ai-cloners-are-here-are-indie-devs-cooked) -- https://howtomarketagame.com
 - [Suffering as a Feature](https://blog.codinghorror.com/suffering-as-a-feature/) -- https://blog.codinghorror.com/
