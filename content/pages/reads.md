@@ -22,10 +22,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 458 - October 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-458/) -- https://www.jendrikillner.com/
 - [Why The AI Determinism Argument Annoys Me](https://blog.demofox.org/2026/10/07/why-the-ai-determinism-argument-annoys-me/) -- https://blog.demofox.org
 - [A Spatio-Temporal Acceleration Framework for Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis26stafoit/index.html) -- https://www.tobias-franke.eu/
-- [Unroll a loop, make shader 10x faster](https://aras-p.info/blog/2026/10/05/Unroll-a-loop-make-shader-10x-faster/) -- https://aras-p.info/
 - [What I Learned Building an AI Software Factory](https://codecapsule.com/2026/10/04/what-i-learned-building-an-ai-software-factory/) -- https://codecapsule.com
 - [The Double Headed Stack Allocator](https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/) -- https://blog.demofox.org
-- [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
@@ -47,14 +45,12 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [There's no reason for software to be slow anymore](https://danluu.com/no-slow/) -- https://danluu.com/atom/index.xml
 - [Part 2: The Week of the Golden Age](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=part-2-the-week-of-the-golden-age) -- https://howtomarketagame.com
 - [The week of the golden age](https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-of-the-golden-age) -- https://howtomarketagame.com
-- [More Blender VSE tidbits](https://aras-p.info/blog/2026/08/18/More-Blender-VSE-tidbits/) -- https://aras-p.info/
 - [The benchmarkpocalypse](https://danluu.com/benchpocalypse/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 451 - August 16th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-451/) -- https://www.jendrikillner.com/
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
 - [The state of virtual 3rd-party festivals 2026](https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-state-of-virtual-3rd-party-festivals-2026) -- https://howtomarketagame.com
 - [Pre-baked MathML in Jekyll](https://www.tobias-franke.eu/log/2026/08/10/math-jekyll-rss.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 450 - August 9th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-450/) -- https://www.jendrikillner.com/
-- [How does programming language affect token efficiency and correctness?](https://danluu.com/pl-tokens/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
