@@ -50,7 +50,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Using a a single linearly interpolated sample to evaluate a weighted sum of two texels](http://www.forwardscattering.org/post/76) -- http://www.forwardscattering.org/
 - [The state of virtual 3rd-party festivals 2026](https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-state-of-virtual-3rd-party-festivals-2026) -- https://howtomarketagame.com
 - [Pre-baked MathML in Jekyll](https://www.tobias-franke.eu/log/2026/08/10/math-jekyll-rss.html) -- https://www.tobias-franke.eu/
-- [Graphics Programming weekly - Issue 450 - August 9th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-450/) -- https://www.jendrikillner.com/
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
