@@ -12,7 +12,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 462 - November 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-462/) -- https://www.jendrikillner.com/
 - [Rise of the Product Engineer](https://codecapsule.com/2026/11/07/rise-of-the-product-engineer/) -- https://codecapsule.com
 - [Compact C++ Maths APIs without copy-paste](https://donw.io/post/compact-cpp-maths-api/) -- https://donw.io/
-- [Test and verification technique effectiveness with GPT-6 Astra](https://danluu.com/astra-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 461 - November 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-461/) -- https://www.jendrikillner.com/
 - [Building a Fiber-Based Job System from Scratch](https://agraphicsguynotes.com/posts/building_a_fiber_based_job_system_from_scratch/) -- https://agraphicsguynotes.com/posts/
 - [AI Cloners Are Here. Are Indie Devs Cooked?](https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/?utm_source=rss&utm_medium=rss&utm_campaign=ai-cloners-are-here-are-indie-devs-cooked) -- https://howtomarketagame.com
@@ -91,12 +90,6 @@ Curation of talks that I've collected for years which I found useful and worth t
 - [Jamie Gilbertson & David Petry - Designing and Implementing an Engaging PvP Multiplayer Experience](https://www.youtube.com/watch?v=P_T_Hl9H3l4)
 - [Combat Design of 'God of War: Ragnarök' - Rob Meyer](https://www.youtube.com/watch?v=6iTBqcBv5QA)
 - [Designing 'MARVEL SNAP'- Ben Brode](https://www.gdcvault.com/play/1029024/Designing-MARVEL-SNAP)
-- [1. Overall Game Design - The Compass - A Course on Puzzle Game Design](https://www.youtube.com/watch?v=85mAmP4k1Co)
-- [2. Puzzle Design - The Compass - A Course on Puzzle Game Design](www.youtube.com/watch?v=85mAmP4k1Co)
-- [3. Structuring and Presentation - The Compass - A Course on Puzzle Game Design](www.youtube.com/watch?v=85mAmP4k1Co)
-- [Elyot Grant - 30 Puzzle Design Lessons, Extended Director's Cut (Part 1 of 3)](https://www.youtube.com/watch?v=oCHciE9CYfA)
-- [Elyot Grant - 30 Puzzle Design Lessons, Extended Director's Cut (Part 2 of 3)](https://www.youtube.com/watch?v=iUi2vMZajco)
-- [Elyot Grant - 30 Puzzle Design Lessons, Extended Director's Cut (Part 3 of 3)](https://www.youtube.com/watch?v=zsbfkMuaUxs)
 
 ### Narrative
 - [Creating Strong Video Game Characters](https://www.youtube.com/watch?v=4mgK2hL33Vw)
