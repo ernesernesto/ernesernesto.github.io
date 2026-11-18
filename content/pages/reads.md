@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 463 - November 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-463/) -- https://www.jendrikillner.com/
 - [Hopfield & BAM – Neural Networks You Can Train and Use on Pen and Paper with Integers](https://blog.demofox.org/2026/11/12/hopfield-bam-neural-networks-you-can-train-and-use-on-pen-and-paper-with-integers/) -- https://blog.demofox.org
 - [How Clone-Proof Is Your Game? 4 Signs to Check](https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/?utm_source=rss&utm_medium=rss&utm_campaign=how-clone-proof-is-your-game-4-signs-to-check) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 462 - November 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-462/) -- https://www.jendrikillner.com/
@@ -27,10 +28,8 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 458 - October 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-458/) -- https://www.jendrikillner.com/
 - [Why The AI Determinism Argument Annoys Me](https://blog.demofox.org/2026/10/07/why-the-ai-determinism-argument-annoys-me/) -- https://blog.demofox.org
 - [A Spatio-Temporal Acceleration Framework for Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis26stafoit/index.html) -- https://www.tobias-franke.eu/
-- [Unroll a loop, make shader 10x faster](https://aras-p.info/blog/2026/10/05/Unroll-a-loop-make-shader-10x-faster/) -- https://aras-p.info/
 - [What I Learned Building an AI Software Factory](https://codecapsule.com/2026/10/04/what-i-learned-building-an-ai-software-factory/) -- https://codecapsule.com
 - [The Double Headed Stack Allocator](https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/) -- https://blog.demofox.org
-- [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
@@ -50,7 +49,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 452 - August 23rd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-452/) -- https://www.jendrikillner.com/
 - [Part 3: The Week Of The Golden Age: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/?utm_source=rss&utm_medium=rss&utm_campaign=part-3-the-week-of-the-golden-age-how-many-dudes) -- https://howtomarketagame.com
 - [There's no reason for software to be slow anymore](https://danluu.com/no-slow/) -- https://danluu.com/atom/index.xml
-- [Part 2: The Week of the Golden Age](https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/?utm_source=rss&utm_medium=rss&utm_campaign=part-2-the-week-of-the-golden-age) -- https://howtomarketagame.com
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
