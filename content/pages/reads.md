@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [3 New Tools: The Steam Queue, A Steam Page Checker, and how to make A Steam Page](https://howtomarketagame.com/2026/11/19/3-new-steam-tools/?utm_source=rss&utm_medium=rss&utm_campaign=3-new-steam-tools) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 463 - November 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-463/) -- https://www.jendrikillner.com/
 - [Hopfield & BAM – Neural Networks You Can Train and Use on Pen and Paper with Integers](https://blog.demofox.org/2026/11/12/hopfield-bam-neural-networks-you-can-train-and-use-on-pen-and-paper-with-integers/) -- https://blog.demofox.org
 - [How Clone-Proof Is Your Game? 4 Signs to Check](https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/?utm_source=rss&utm_medium=rss&utm_campaign=how-clone-proof-is-your-game-4-signs-to-check) -- https://howtomarketagame.com
