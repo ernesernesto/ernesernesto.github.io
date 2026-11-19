@@ -13,7 +13,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 462 - November 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-462/) -- https://www.jendrikillner.com/
 - [Rise of the Product Engineer](https://codecapsule.com/2026/11/07/rise-of-the-product-engineer/) -- https://codecapsule.com
 - [Compact C++ Maths APIs without copy-paste](https://donw.io/post/compact-cpp-maths-api/) -- https://donw.io/
-- [Test and verification technique effectiveness with GPT-6 Astra](https://danluu.com/astra-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 461 - November 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-461/) -- https://www.jendrikillner.com/
 - [Building a Fiber-Based Job System from Scratch](https://agraphicsguynotes.com/posts/building_a_fiber_based_job_system_from_scratch/) -- https://agraphicsguynotes.com/posts/
 - [AI Cloners Are Here. Are Indie Devs Cooked?](https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/?utm_source=rss&utm_medium=rss&utm_campaign=ai-cloners-are-here-are-indie-devs-cooked) -- https://howtomarketagame.com
@@ -48,7 +47,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Memory ordering in CPUs](https://fgiesen.wordpress.com/2026/08/25/memory-ordering-in-cpus/) -- https://fgiesen.wordpress.com
 - [Graphics Programming weekly - Issue 452 - August 23rd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-452/) -- https://www.jendrikillner.com/
 - [Part 3: The Week Of The Golden Age: How Many Dudes?](https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/?utm_source=rss&utm_medium=rss&utm_campaign=part-3-the-week-of-the-golden-age-how-many-dudes) -- https://howtomarketagame.com
-- [There's no reason for software to be slow anymore](https://danluu.com/no-slow/) -- https://danluu.com/atom/index.xml
 
 ## Talks
 Curation of talks that I've collected for years which I found useful and worth to watch in no particular order. 
