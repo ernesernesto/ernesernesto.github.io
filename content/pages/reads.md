@@ -30,8 +30,10 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 458 - October 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-458/) -- https://www.jendrikillner.com/
 - [Why The AI Determinism Argument Annoys Me](https://blog.demofox.org/2026/10/07/why-the-ai-determinism-argument-annoys-me/) -- https://blog.demofox.org
 - [A Spatio-Temporal Acceleration Framework for Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis26stafoit/index.html) -- https://www.tobias-franke.eu/
+- [Unroll a loop, make shader 10x faster](https://aras-p.info/blog/2026/10/05/Unroll-a-loop-make-shader-10x-faster/) -- https://aras-p.info/
 - [What I Learned Building an AI Software Factory](https://codecapsule.com/2026/10/04/what-i-learned-building-an-ai-software-factory/) -- https://codecapsule.com
 - [The Double Headed Stack Allocator](https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/) -- https://blog.demofox.org
+- [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
