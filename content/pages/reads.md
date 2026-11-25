@@ -7,6 +7,7 @@ This page list a collection of [rss feeds from other dev]({{< relref "reads.md#o
 ## Other Dev RSS's
 Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is updated automatically everyday with github workflows
 
+- [Graphics Programming weekly - Issue 464 - November 23rd, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-464/) -- https://www.jendrikillner.com/
 - [Showing Git changes in Visual Studio with a CMake solution.](http://www.forwardscattering.org/post/77) -- http://www.forwardscattering.org/
 - [3 New Tools: The Steam Queue, A Steam Page Checker, and how to make A Steam Page](https://howtomarketagame.com/2026/11/19/3-new-steam-tools/?utm_source=rss&utm_medium=rss&utm_campaign=3-new-steam-tools) -- https://howtomarketagame.com
 - [Graphics Programming weekly - Issue 463 - November 15th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-463/) -- https://www.jendrikillner.com/
@@ -15,7 +16,6 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 462 - November 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-462/) -- https://www.jendrikillner.com/
 - [Rise of the Product Engineer](https://codecapsule.com/2026/11/07/rise-of-the-product-engineer/) -- https://codecapsule.com
 - [Compact C++ Maths APIs without copy-paste](https://donw.io/post/compact-cpp-maths-api/) -- https://donw.io/
-- [Test/verification technique effectiveness with Astra](https://danluu.com/astra-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 461 - November 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-461/) -- https://www.jendrikillner.com/
 - [Building a Fiber-Based Job System from Scratch](https://agraphicsguynotes.com/posts/building_a_fiber_based_job_system_from_scratch/) -- https://agraphicsguynotes.com/posts/
 - [AI Cloners Are Here. Are Indie Devs Cooked?](https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/?utm_source=rss&utm_medium=rss&utm_campaign=ai-cloners-are-here-are-indie-devs-cooked) -- https://howtomarketagame.com
@@ -30,8 +30,10 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 458 - October 11th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-458/) -- https://www.jendrikillner.com/
 - [Why The AI Determinism Argument Annoys Me](https://blog.demofox.org/2026/10/07/why-the-ai-determinism-argument-annoys-me/) -- https://blog.demofox.org
 - [A Spatio-Temporal Acceleration Framework for Order-Independent Transparency](https://www.tobias-franke.eu/publications/tsopouridis26stafoit/index.html) -- https://www.tobias-franke.eu/
+- [Unroll a loop, make shader 10x faster](https://aras-p.info/blog/2026/10/05/Unroll-a-loop-make-shader-10x-faster/) -- https://aras-p.info/
 - [What I Learned Building an AI Software Factory](https://codecapsule.com/2026/10/04/what-i-learned-building-an-ai-software-factory/) -- https://codecapsule.com
 - [The Double Headed Stack Allocator](https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/) -- https://blog.demofox.org
+- [Fast blur with animated radius](https://aras-p.info/blog/2026/10/01/Fast-blur-with-animated-radius/) -- https://aras-p.info/
 - [Graphics Programming weekly - Issue 457 - September 27th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-457/) -- https://www.jendrikillner.com/
 - [If we do not stop to help each other, what do we become?](https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/) -- https://blog.codinghorror.com/
 - [Graphics Programming weekly - Issue 456 - September 20th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-456/) -- https://www.jendrikillner.com/
@@ -39,7 +41,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Signed, Tob](https://www.tobias-franke.eu/log/2026/09/15/signed-tob.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 455 - September 13th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-455/) -- https://www.jendrikillner.com/
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
-- [How well do agents use test/verification techniques?](https://danluu.com/agentic-testing/) -- https://danluu.com/atom/index.xml
+- [How well do agents use test and verification techniques?](https://danluu.com/agentic-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 454 - September 6th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-454/) -- https://www.jendrikillner.com/
 - [The RSS Librarian - Version Two](https://www.tobias-franke.eu/log/2026/09/06/rss-librarian-version-two.html) -- https://www.tobias-franke.eu/
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
