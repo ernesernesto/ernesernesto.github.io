@@ -15,6 +15,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Graphics Programming weekly - Issue 462 - November 8th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-462/) -- https://www.jendrikillner.com/
 - [Rise of the Product Engineer](https://codecapsule.com/2026/11/07/rise-of-the-product-engineer/) -- https://codecapsule.com
 - [Compact C++ Maths APIs without copy-paste](https://donw.io/post/compact-cpp-maths-api/) -- https://donw.io/
+- [Test/verification technique effectiveness with Astra](https://danluu.com/astra-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 461 - November 1st, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-461/) -- https://www.jendrikillner.com/
 - [Building a Fiber-Based Job System from Scratch](https://agraphicsguynotes.com/posts/building_a_fiber_based_job_system_from_scratch/) -- https://agraphicsguynotes.com/posts/
 - [AI Cloners Are Here. Are Indie Devs Cooked?](https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/?utm_source=rss&utm_medium=rss&utm_campaign=ai-cloners-are-here-are-indie-devs-cooked) -- https://howtomarketagame.com
@@ -38,7 +39,7 @@ Collection of good reads (a.k.a Dirt Cheap Poor Man's RSS Feed), this list is up
 - [Signed, Tob](https://www.tobias-franke.eu/log/2026/09/15/signed-tob.html) -- https://www.tobias-franke.eu/
 - [Graphics Programming weekly - Issue 455 - September 13th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-455/) -- https://www.jendrikillner.com/
 - [You probably shouldn’t launch a horror game in October](https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=horror-games-dont-need-to-launch-in-october) -- https://howtomarketagame.com
-- [How well do agents use test and verification techniques?](https://danluu.com/agentic-testing/) -- https://danluu.com/atom/index.xml
+- [How well do agents use test/verification techniques?](https://danluu.com/agentic-testing/) -- https://danluu.com/atom/index.xml
 - [Graphics Programming weekly - Issue 454 - September 6th, 2026](https://www.jendrikillner.com/post/graphics-programming-weekly-issue-454/) -- https://www.jendrikillner.com/
 - [The RSS Librarian - Version Two](https://www.tobias-franke.eu/log/2026/09/06/rss-librarian-version-two.html) -- https://www.tobias-franke.eu/
 - [What I worry about with AI](https://codecapsule.com/2026/09/03/what-i-worry-about-with-ai/) -- https://codecapsule.com
